@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="Catalog.xsl"?>
+
+<Catalog>
+<Songs/>
+<Courses>
+<Course Path='Courses/Samples/AllChallenge.crs' >
+<MainTitle>All Challenge</MainTitle>
+<SubTitle/>
+<HasMods>0</HasMods>
+</Course>
+<Course Path='Courses/Samples/AllMusicRandom.crs' >
+<MainTitle>All Music Random</MainTitle>
+<SubTitle/>
+<HasMods>0</HasMods>
+</Course>
+<Course Path='Courses/Samples/EndOfTheRoad.crs' >
+<MainTitle>End of the Road</MainTitle>
+<SubTitle/>
+<HasMods>1</HasMods>
+</Course>
+<Course Path='Courses/Samples/PlayersBest1-4.crs' >
+<MainTitle>Players Best  1-4</MainTitle>
+<SubTitle/>
+<HasMods>0</HasMods>
+</Course>
+<Course Path='Courses/Samples/PlayersBest13-16.crs' >
+<MainTitle>Players Best 13-16</MainTitle>
+<SubTitle/>
+<HasMods>0</HasMods>
+</Course>
+<Course Path='Courses/Samples/PlayersBest5-8.crs' >
+<MainTitle>Players Best  5-8</MainTitle>
+<SubTitle/>
+<HasMods>0</HasMods>
+</Course>
+<Course Path='Courses/Samples/PlayersBest9-12.crs' >
+<MainTitle>Players Best  9-12</MainTitle>
+<SubTitle/>
+<HasMods>0</HasMods>
+</Course>
+<Course Path='Courses/Samples/PlayersWorst.crs' >
+<MainTitle>Players Worst</MainTitle>
+<SubTitle/>
+<HasMods>0</HasMods>
+</Course>
+<Course Path='Courses/Samples/Random Caprice.crs' >
+<MainTitle>Random Caprice</MainTitle>
+<SubTitle/>
+<HasMods>0</HasMods>
+</Course>
+<Course Path='Courses/Samples/StaminaTester.crs' >
+<MainTitle>Stamina Tester Random</MainTitle>
+<SubTitle/>
+<HasMods>0</HasMods>
+</Course>
+<Course Path='Courses/Samples/Tortoise and the Hare.crs' >
+<MainTitle>Tortoise and the Hare</MainTitle>
+<SubTitle/>
+<HasMods>1</HasMods>
+</Course>
+<Course Path='Courses/Samples/Tournamix 4 Sample.crs' >
+<MainTitle>ワーーーーイ!</MainTitle>
+<SubTitle/>
+<HasMods>0</HasMods>
+</Course>
+<Course Path='Courses/Samples/TrickyRandom.crs' >
+<MainTitle>Tricky Random</MainTitle>
+<SubTitle/>
+<HasMods>1</HasMods>
+</Course>
+</Courses>
+<Types>
+<Difficulty DisplayAs='BEGINNER' >Beginner</Difficulty>
+<Difficulty DisplayAs='LIGHT' >Easy</Difficulty>
+<Difficulty DisplayAs='STANDARD' >Medium</Difficulty>
+<Difficulty DisplayAs='HEAVY' >Hard</Difficulty>
+<Difficulty DisplayAs='CHALLENGE' >Challenge</Difficulty>
+<CourseDifficulty DisplayAs='EASY' >Easy</CourseDifficulty>
+<CourseDifficulty DisplayAs='REGULAR' >Regular</CourseDifficulty>
+<CourseDifficulty DisplayAs='DIFFICULT' >Difficult</CourseDifficulty>
+<StepsType DisplayAs='single' >dance-single</StepsType>
+<StepsType DisplayAs='double' >dance-double</StepsType>
+<StepsType DisplayAs='couple' >dance-couple</StepsType>
+<StepsType DisplayAs='dance-solo' >dance-solo</StepsType>
+<PlayMode DisplayAs='Regular' >Regular</PlayMode>
+<PlayMode DisplayAs='Nonstop' >Nonstop</PlayMode>
+<PlayMode DisplayAs='Oni' >Oni</PlayMode>
+<PlayMode DisplayAs='Endless' >Endless</PlayMode>
+<PlayMode DisplayAs='Battle' >Battle</PlayMode>
+<PlayMode DisplayAs='Rave' >Rave</PlayMode>
+<Style Game='dance' Style='single' DisplayAs='Single' />
+<Style Game='dance' Style='versus' DisplayAs='Versus' />
+<Style Game='dance' Style='double' DisplayAs='Double' />
+<Style Game='dance' Style='couple' DisplayAs='Couple' />
+<Style Game='dance' Style='solo' DisplayAs='Solo' />
+<Meter DisplayAs='1' >Meter1</Meter>
+<Meter DisplayAs='2' >Meter2</Meter>
+<Meter DisplayAs='3' >Meter3</Meter>
+<Meter DisplayAs='4' >Meter4</Meter>
+<Meter DisplayAs='5' >Meter5</Meter>
+<Meter DisplayAs='6' >Meter6</Meter>
+<Meter DisplayAs='7' >Meter7</Meter>
+<Meter DisplayAs='8' >Meter8</Meter>
+<Meter DisplayAs='9' >Meter9</Meter>
+<Meter DisplayAs='10' >Meter10</Meter>
+<Meter DisplayAs='11' >Meter11</Meter>
+<Meter DisplayAs='12' >Meter12</Meter>
+<Meter DisplayAs='13' >Meter13</Meter>
+<Grade DisplayAs='AAAA' >Tier01</Grade>
+<Grade DisplayAs='AAA' >Tier02</Grade>
+<Grade DisplayAs='AA' >Tier03</Grade>
+<Grade DisplayAs='A' >Tier04</Grade>
+<Grade DisplayAs='B' >Tier05</Grade>
+<Grade DisplayAs='C' >Tier06</Grade>
+<Grade DisplayAs='D' >Tier07</Grade>
+<TapNoteScore DisplayAs='None' >None</TapNoteScore>
+<TapNoteScore DisplayAs='Hit Mine' >HitMine</TapNoteScore>
+<TapNoteScore DisplayAs='Miss' >Miss</TapNoteScore>
+<TapNoteScore DisplayAs='Boo' >Boo</TapNoteScore>
+<TapNoteScore DisplayAs='Good' >Good</TapNoteScore>
+<TapNoteScore DisplayAs='Great' >Great</TapNoteScore>
+<TapNoteScore DisplayAs='Perfect' >Perfect</TapNoteScore>
+<TapNoteScore DisplayAs='Marvelous' >Marvelous</TapNoteScore>
+<HoldNoteScore DisplayAs='None' >None</HoldNoteScore>
+<HoldNoteScore DisplayAs='NG' >NG</HoldNoteScore>
+<HoldNoteScore DisplayAs='OK' >OK</HoldNoteScore>
+<RadarValue DisplayAs='Stream' >Stream</RadarValue>
+<RadarValue DisplayAs='Voltage' >Voltage</RadarValue>
+<RadarValue DisplayAs='Air' >Air</RadarValue>
+<RadarValue DisplayAs='Freeze' >Freeze</RadarValue>
+<RadarValue DisplayAs='Chaos' >Chaos</RadarValue>
+<RadarValue DisplayAs='Taps' >Taps</RadarValue>
+<RadarValue DisplayAs='Jumps' >Jumps</RadarValue>
+<RadarValue DisplayAs='Holds' >Holds</RadarValue>
+<RadarValue DisplayAs='Mines' >Mines</RadarValue>
+<RadarValue DisplayAs='Hands' >Hands</RadarValue>
+<Modifier DisplayAs='0.3x' >0.3x</Modifier>
+<Modifier DisplayAs='0.4x' >0.4x</Modifier>
+<Modifier DisplayAs='0.5x' >0.5x</Modifier>
+<Modifier DisplayAs='0.6x' >0.6x</Modifier>
+<Modifier DisplayAs='0.7x' >0.7x</Modifier>
+<Modifier DisplayAs='0.8x' >0.8x</Modifier>
+<Modifier DisplayAs='0.9x' >0.9x</Modifier>
+<Modifier DisplayAs='1' >1</Modifier>
+<Modifier DisplayAs='1.0x' >1.0x</Modifier>
+<Modifier DisplayAs='1.1x' >1.1x</Modifier>
+<Modifier DisplayAs='1.2x' >1.2x</Modifier>
+<Modifier DisplayAs='1.3x' >1.3x</Modifier>
+<Modifier DisplayAs='1.4x' >1.4x</Modifier>
+<Modifier DisplayAs='1.5x' >1.5x</Modifier>
+<Modifier DisplayAs='1.6x' >1.6x</Modifier>
+<Modifier DisplayAs='1.7x' >1.7x</Modifier>
+<Modifier DisplayAs='1.8x' >1.8x</Modifier>
+<Modifier DisplayAs='1.9x' >1.9x</Modifier>
+<Modifier DisplayAs='10' >10</Modifier>
+<Modifier DisplayAs='2' >2</Modifier>
+<Modifier DisplayAs='2.0x' >2.0x</Modifier>
+<Modifier DisplayAs='3' >3</Modifier>
+<Modifier DisplayAs='4' >4</Modifier>
+<Modifier DisplayAs='5' >5</Modifier>
+<Modifier DisplayAs='6' >6</Modifier>
+<Modifier DisplayAs='7' >7</Modifier>
+<Modifier DisplayAs='8' >8</Modifier>
+<Modifier DisplayAs='9' >9</Modifier>
+<Modifier DisplayAs='ADD' >Add</Modifier>
+<Modifier DisplayAs='ALTERNATE' >Alternate</Modifier>
+<Modifier DisplayAs='Appearance Options' >AppearanceOptions</Modifier>
+<Modifier DisplayAs='Background Options' >BackgroundOptions</Modifier>
+<Modifier DisplayAs='BAR' >Bar</Modifier>
+<Modifier DisplayAs='BATTERY' >Battery</Modifier>
+<Modifier DisplayAs='BIG' >Big</Modifier>
+<Modifier DisplayAs='BLIND' >Blind</Modifier>
+<Modifier DisplayAs='BLINK' >Blink</Modifier>
+<Modifier DisplayAs='Bookkeeping' >Bookkeeping</Modifier>
+<Modifier DisplayAs='BOOMERANG' >Boomerang</Modifier>
+<Modifier DisplayAs='BOOST' >Boost</Modifier>
+<Modifier DisplayAs='BRAKE' >Brake</Modifier>
+<Modifier DisplayAs='C200' >C200</Modifier>
+<Modifier DisplayAs='C400' >C400</Modifier>
+<Modifier DisplayAs='C750' >C750</Modifier>
+<Modifier DisplayAs='Center Image' >CenterImage</Modifier>
+<Modifier DisplayAs='CENTERED' >Centered</Modifier>
+<Modifier DisplayAs='Clear Bookkeeping Data' >ClearBookkeepingData</Modifier>
+<Modifier DisplayAs='Clear Machine Stats and High Scores' >ClearMachineStats</Modifier>
+<Modifier DisplayAs='Coin Options' >CoinOptions</Modifier>
+<Modifier DisplayAs='CROSS' >Cross</Modifier>
+<Modifier DisplayAs='DARK' >Dark</Modifier>
+<Modifier DisplayAs='DIFFICULT' >DifficultCourses</Modifier>
+<Modifier DisplayAs='DISTANT' >Distant</Modifier>
+<Modifier DisplayAs='DIZZY' >Dizzy</Modifier>
+<Modifier DisplayAs='DON&apos;T SAVE' >Don&apos;tSave</Modifier>
+<Modifier DisplayAs='Download Machine Stats and High Scores' >DownloadMachineStats</Modifier>
+<Modifier DisplayAs='DRUNK' >Drunk</Modifier>
+<Modifier DisplayAs='ECHO' >Echo</Modifier>
+<Modifier DisplayAs='END OF SONG' >EndOfSong</Modifier>
+<Modifier DisplayAs='EXIT' >Exit</Modifier>
+<Modifier DisplayAs='EXPAND' >Expand</Modifier>
+<Modifier DisplayAs='FLAT' >Flat</Modifier>
+<Modifier DisplayAs='FLIP' >Flip</Modifier>
+<Modifier DisplayAs='Gameplay Options' >GameplayOptions</Modifier>
+<Modifier DisplayAs='Graphic Options' >GraphicOptions</Modifier>
+<Modifier DisplayAs='HALLWAY' >Hallway</Modifier>
+<Modifier DisplayAs='HIDDEN' >Hidden</Modifier>
+<Modifier DisplayAs='IMMEDIATE' >Immediate</Modifier>
+<Modifier DisplayAs='INCOMING' >Incoming</Modifier>
+<Modifier DisplayAs='Input Options' >InputOptions</Modifier>
+<Modifier DisplayAs='Config Key/Joy Mappings' >KeyJoyMappings</Modifier>
+<Modifier DisplayAs='LEFT' >Left</Modifier>
+<Modifier DisplayAs='LITTLE' >Little</Modifier>
+<Modifier DisplayAs='Machine Options' >MachineOptions</Modifier>
+<Modifier DisplayAs='MINI' >Mini</Modifier>
+<Modifier DisplayAs='MIRROR' >Mirror</Modifier>
+<Modifier DisplayAs='N/A' >N/A</Modifier>
+<Modifier DisplayAs='Network Options' >NetworkOptions</Modifier>
+<Modifier DisplayAs='NO HANDS' >NoHands</Modifier>
+<Modifier DisplayAs='NO JUMPS' >NoJumps</Modifier>
+<Modifier DisplayAs='NO RECOVER' >NoRecover</Modifier>
+<Modifier DisplayAs='NORMAL' >Normal</Modifier>
+<Modifier DisplayAs='OFF' >Off</Modifier>
+<Modifier DisplayAs='ON' >On</Modifier>
+<Modifier DisplayAs='Other Options' >OtherOptions</Modifier>
+<Modifier DisplayAs='OVERHEAD' >Overhead</Modifier>
+<Modifier DisplayAs='PLANTED' >Planted</Modifier>
+<Modifier DisplayAs='Profile Options' >ProfileOptions</Modifier>
+<Modifier DisplayAs='QUICK' >Quick</Modifier>
+<Modifier DisplayAs='R.VANISH' >R.Vanish</Modifier>
+<Modifier DisplayAs='REGULAR' >RegularCourses</Modifier>
+<Modifier DisplayAs='Reload Songs/Courses' >ReloadSongs</Modifier>
+<Modifier DisplayAs='REMOVE' >Remove</Modifier>
+<Modifier DisplayAs='Reset To Factory Defaults' >ResetToDefaults</Modifier>
+<Modifier DisplayAs='REVERSE' >Reverse</Modifier>
+<Modifier DisplayAs='RIGHT' >Right</Modifier>
+<Modifier DisplayAs='Set Machine Time' >SetMachineTime</Modifier>
+<Modifier DisplayAs='SHUFFLE' >Shuffle</Modifier>
+<Modifier DisplayAs='SKIPPY' >Skippy</Modifier>
+<Modifier DisplayAs='Sound Options' >SoundOptions</Modifier>
+<Modifier DisplayAs='SPACE' >Space</Modifier>
+<Modifier DisplayAs='SPLIT' >Split</Modifier>
+<Modifier DisplayAs='STANDARD' >Standard</Modifier>
+<Modifier DisplayAs='STEALTH' >Stealth</Modifier>
+<Modifier DisplayAs='STOMP' >Stomp</Modifier>
+<Modifier DisplayAs='SUDDEN' >Sudden</Modifier>
+<Modifier DisplayAs='SUDDEN DEATH' >SuddenDeath</Modifier>
+<Modifier DisplayAs='S.SHUFFLE' >SuperShuffle</Modifier>
+<Modifier DisplayAs='Test Input' >TestInput</Modifier>
+<Modifier DisplayAs='Test Lights' >TestLights</Modifier>
+<Modifier DisplayAs='TIPSY' >Tipsy</Modifier>
+<Modifier DisplayAs='TORNADO' >Tornado</Modifier>
+<Modifier DisplayAs='TWISTER' >Twister</Modifier>
+<Modifier DisplayAs='VISIBLE' >Visible</Modifier>
+<Modifier DisplayAs='WAVE' >Wave</Modifier>
+<Modifier DisplayAs='WIDE' >Wide</Modifier>
+<Modifier DisplayAs='X0.25' >x0.25</Modifier>
+<Modifier DisplayAs='X0.50' >x0.50</Modifier>
+<Modifier DisplayAs='X0.75' >x0.75</Modifier>
+<Modifier DisplayAs='X1' >x1</Modifier>
+<Modifier DisplayAs='X1.5' >x1.5</Modifier>
+<Modifier DisplayAs='X2' >x2</Modifier>
+<Modifier DisplayAs='X3' >x3</Modifier>
+<Modifier DisplayAs='X4' >x4</Modifier>
+<Modifier DisplayAs='X5' >x5</Modifier>
+<Modifier DisplayAs='X8' >x8</Modifier>
+</Types>
+<InternetRankingHomeUrl/>
+<InternetRankingUploadUrl/>
+<InternetRankingViewGuidUrl/>
+<ProductTitle>StepMania</ProductTitle>
+<FooterText>generated by StepMania</FooterText>
+<FooterLink>http://www.stepmania.com</FooterLink>
+</Catalog>
