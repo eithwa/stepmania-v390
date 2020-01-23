@@ -17,6 +17,7 @@
 #include "NetworkSyncManager.h"
 #include "StepsUtil.h"
 #include "RageUtil.h"
+#include "RageLog.h"
 
 #define CHATINPUT_WIDTH				THEME->GetMetricF("ScreenNetSelectMusic","ChatInputBoxWidth")
 #define CHATINPUT_HEIGHT			THEME->GetMetricF("ScreenNetSelectMusic","ChatInputBoxHeight")
@@ -383,7 +384,10 @@ void ScreenNetSelectMusic::HandleScreenMessage( const ScreenMessage SM )
 			unsigned i;
 			unsigned j;
 			bool find_song_flag = false;
+
 			for(j=0; j < m_vGroups.size(); j++){
+				if(find_song_flag)
+					break;
 				m_iGroupNum = j;
 				UpdateSongsList();
 				for ( i = 0; i < m_vSongs.size(); ++i)
@@ -396,10 +400,10 @@ void ScreenNetSelectMusic::HandleScreenMessage( const ScreenMessage SM )
 						break;
 					}
 				}
-				if(find_song_flag)
-					break;
 			}
 			bool haveSong = j != m_vGroups.size();
+			if(haveSong)
+				UpdateGroupsListPos();
 			//==========================
 			switch (NSMAN->m_iSelectMode)
 			{
@@ -468,7 +472,7 @@ void ScreenNetSelectMusic::MenuLeft( PlayerNumber pn, const InputEventType type 
 				//=================
 				vector <Steps *> sort;
 				sort.assign(MultiSteps.begin(), MultiSteps.end());
-				for ( i=0; i<(int)sort.size(); ++i )
+				for ( i=(int)sort.size()-1; i>0; --i )
 				{
 					for(int j=0; j<i; ++j)
 					{
@@ -537,7 +541,7 @@ void ScreenNetSelectMusic::MenuRight( PlayerNumber pn, const InputEventType type
 				//=================
 				vector <Steps *> sort;
 				sort.assign(MultiSteps.begin(), MultiSteps.end());
-				for ( i=0; i<(int)sort.size(); ++i )
+				for ( i=(int)sort.size()-1; i>0; --i )
 				{
 					for(int j=0; j<i; ++j)
 					{

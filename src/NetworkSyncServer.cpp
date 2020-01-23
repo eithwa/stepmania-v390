@@ -30,6 +30,7 @@ StepManiaLanServer::StepManiaLanServer()
 {
 	stop = true;
 	SecondSameSelect = false;
+	ChangeHost = false;
 	AssignPlayerIDs();
 }
 
@@ -715,7 +716,8 @@ void StepManiaLanServer::SelectSong(PacketFunctions& Packet, unsigned int client
 			//The following code forces the host to select the same song twice in order to play it.
 			if ((strcmp(CurrentSongInfo.title, LastSongInfo.title) == 0) &&
 				(strcmp(CurrentSongInfo.artist, LastSongInfo.artist) == 0) &&
-				(strcmp(CurrentSongInfo.subtitle, LastSongInfo.subtitle) == 0))
+				(strcmp(CurrentSongInfo.subtitle, LastSongInfo.subtitle) == 0)&&
+				!ChangeHost)
 					SecondSameSelect = true;
 
 			if (!SecondSameSelect)
@@ -727,6 +729,7 @@ void StepManiaLanServer::SelectSong(PacketFunctions& Packet, unsigned int client
 				message += CurrentSongInfo.title + " " + CurrentSongInfo.subtitle;
 				message += "\"?";
 				ServerChat(message);
+				ChangeHost=false;
 			}
 
 		}
@@ -952,6 +955,7 @@ void StepManiaLanServer::Host(CString &name, PacketFunctions& Packet, unsigned i
 				ServerChat(message);
 				ClientSort(x);
 				rehosted = true;
+				ChangeHost = true;
 			}
 		}
 	}

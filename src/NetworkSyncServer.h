@@ -92,7 +92,7 @@ private:
 	GameInfo LastSongInfo;
 	bool SecondSameSelect;
 	vector<CString> bannedIPs;
-
+	bool ChangeHost;
 	void Hello(PacketFunctions& Packet, const unsigned int clientNum);
 	void UpdateClients();
 	void NewClientCheck();
