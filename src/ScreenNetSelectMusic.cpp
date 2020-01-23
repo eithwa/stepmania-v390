@@ -462,9 +462,30 @@ void ScreenNetSelectMusic::MenuLeft( PlayerNumber pn, const InputEventType type 
 			vector <Steps *> MultiSteps;
 			MultiSteps = GAMESTATE->m_pCurSong->GetAllSteps( st );
 			if (MultiSteps.size() == 0)
-				m_DC[pn] = NUM_DIFFICULTIES;
+				m_DC[pn] = NUM_DIFFICULTIES;//no lv?
 			else
 			{
+				//=================
+				vector <Steps *> sort;
+				sort.assign(MultiSteps.begin(), MultiSteps.end());
+				for ( i=0; i<(int)sort.size(); ++i )
+				{
+					for(int j=0; j<i; ++j)
+					{
+						if(sort[j]->GetDifficulty() > sort[j+1]->GetDifficulty())
+						{
+							Steps *tmp = sort[j];
+							sort[j] = sort[j+1];
+							sort[j+1] = tmp;
+						}
+					}
+				}
+				MultiSteps.assign(sort.begin(), sort.end());
+				// for (int i = array.Length - 1; i > 0; --i)
+				// 	for (int j = 0; j < i; ++j)
+				// 		if (array[j] > array[j + 1])
+				// 			Swap(array, j, j + 1);
+				//=================
 				for ( i=0; i<(int)MultiSteps.size(); ++i )
 					if ( MultiSteps[i]->GetDifficulty() >= m_DC[pn] )
 						break;
@@ -513,6 +534,27 @@ void ScreenNetSelectMusic::MenuRight( PlayerNumber pn, const InputEventType type
 				m_DC[pn] = NUM_DIFFICULTIES;
 			else
 			{
+				//=================
+				vector <Steps *> sort;
+				sort.assign(MultiSteps.begin(), MultiSteps.end());
+				for ( i=0; i<(int)sort.size(); ++i )
+				{
+					for(int j=0; j<i; ++j)
+					{
+						if(sort[j]->GetDifficulty() > sort[j+1]->GetDifficulty())
+						{
+							Steps *tmp = sort[j];
+							sort[j] = sort[j+1];
+							sort[j+1] = tmp;
+						}
+					}
+				}
+				MultiSteps.assign(sort.begin(), sort.end());
+				// for (int i = array.Length - 1; i > 0; --i)
+				// 	for (int j = 0; j < i; ++j)
+				// 		if (array[j] > array[j + 1])
+				// 			Swap(array, j, j + 1);
+				//=================
 				for ( i=0; i<(int)MultiSteps.size(); ++i )
 					if ( MultiSteps[i]->GetDifficulty() >= m_DC[pn] )
 						break;
