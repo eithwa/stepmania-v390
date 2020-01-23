@@ -10,11 +10,12 @@
 	strmiids.lib  
 	Winmm.lib  
 	strmbase.lib  
-	d3dx8.lib  
-![img depend](img/6.png)
-![img include](img/3.png)
-![img lib](img/4.png)
-![img wchar](img/5.png)
+	d3dx8.lib 
+	
+![depend](img/6.png)  
+![include](img/3.png)  
+![lib](img/4.png)  
+![wchar](img/5.png)  
 
 # Function modification
 + Resolved player rename errors
