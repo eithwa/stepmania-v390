@@ -12,10 +12,10 @@
 	strmbase.lib  
 	d3dx8.lib 
 	
-![depend](img/6.png)  
-![include](img/3.png)  
-![lib](img/4.png)  
-![wchar](img/5.png)  
+![depend](img/6.PNG)  
+![include](img/3.PNG)  
+![lib](img/4.PNG)  
+![wchar](img/5.PNG)  
 
 # Function modification
 + Resolved player rename errors
