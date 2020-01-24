@@ -30,7 +30,7 @@
 ![lib](img/4.PNG)  
 ![wchar](img/5.PNG)  
 
-# Problem
+# Compile Problem
 + error LNK2005: _jpeg_read_scanlines already defined in D3dx8.lib(
 jdapistd.obj)[link](https://sourceforge.net/p/stepmania/mailman/message/11726793/)
   - difficulty d3dx8.lib[link](https://realmike.org/blog/projects/directx-8-borland-libs-download-page/)
