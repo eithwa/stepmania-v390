@@ -1,7 +1,7 @@
 # Function modification 功能
 + Resolved player rename errors
 + Solve the problem that cs6 connection mode cannot display the name
-+ Solve the problem of skipping the song bag in connection mode
++ Solve the problem of song group jummping to [ALL SONGS] in connection mode
 + Solve the difficulty of ordering songs in connected mode
 + Add homeowner replacement usage: /host player_name
 
