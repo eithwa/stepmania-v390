@@ -109,6 +109,8 @@ public:
 		edit_bg_change,
 		play_preview_music,
 		preferences,
+		edit_bpm,
+		edit_stop,
 		exit,
 		NUM_MAIN_MENU_CHOICES
 	};
