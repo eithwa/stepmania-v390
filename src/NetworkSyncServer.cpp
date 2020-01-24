@@ -901,8 +901,12 @@ CString StepManiaLanServer::ListPlayers()
 	for (unsigned int x = 0; x < Client.size(); ++x)
 		if (Client[x]->inNetMusicSelect)
 			for (int y = 0; y < 2; ++y)
-				if (Client[x]->Player[y].name.length() > 0)
+				if (Client[x]->Player[y].name.length() > 0){
+					if(x==0){
+						list += "[Host] ";
+					}
 					list += Client[x]->Player[y].name + "\n";
+				}
 	return list;
 }
 
