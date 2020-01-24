@@ -1,8 +1,8 @@
 # Function modification 功能
 + Resolved player rename errors
 + Solve the problem that cs6 connection mode cannot display the name
-+ Solve the problem of skipping the song bag in connection mode
-+ Solve the difficulty of ordering songs in connected mode
++ Solve the problem of song group jummping to [ALL SONGS] in connection mode
++ Solve the difficulty of ordering songs in connection mode
 + Add homeowner replacement usage: /host player_name
 
 + 解決玩家重新命名錯誤
@@ -15,7 +15,7 @@
 + windows10
 + Visual Studio 2005
 + [dxsdk + Microsoft Platform SDK + Microsoft SDKs](https://drive.google.com/open?id=17gCXiIvhJP_w4druciA0DQPqaPKpw6cX)
-	- 其他相依性
+	- 其他相依性  
 	gdi32.lib  
 	Ws2_32.lib  
 	user32.lib  
@@ -30,7 +30,7 @@
 ![lib](img/4.PNG)  
 ![wchar](img/5.PNG)  
 
-# Problem
+# Compile Problem
 + error LNK2005: _jpeg_read_scanlines already defined in D3dx8.lib(
 jdapistd.obj)[link](https://sourceforge.net/p/stepmania/mailman/message/11726793/)
   - difficulty d3dx8.lib[link](https://realmike.org/blog/projects/directx-8-borland-libs-download-page/)
