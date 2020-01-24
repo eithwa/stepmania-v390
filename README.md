@@ -15,7 +15,7 @@
 + windows10
 + Visual Studio 2005
 + [dxsdk + Microsoft Platform SDK + Microsoft SDKs](https://drive.google.com/open?id=17gCXiIvhJP_w4druciA0DQPqaPKpw6cX)
-	- 其他相依性
+	- 其他相依性  
 	gdi32.lib  
 	Ws2_32.lib  
 	user32.lib  
