@@ -23,7 +23,6 @@
 #include "SongUtil.h"
 #include "StepsUtil.h"
 #include "Foreach.h"
-#include "ScreenTextEntry.h"
 
 
 const float RECORD_HOLD_SECONDS = 0.3f;
@@ -86,10 +85,8 @@ const ScreenMessage SM_BackFromInsertAttack			= (ScreenMessage)(SM_User+9);
 const ScreenMessage SM_BackFromInsertAttackModifiers= (ScreenMessage)(SM_User+10);
 const ScreenMessage SM_BackFromPrefs				= (ScreenMessage)(SM_User+11);
 const ScreenMessage SM_BackFromCourseModeMenu		= (ScreenMessage)(SM_User+12);
-const ScreenMessage SM_DoReloadFromDisk			= (ScreenMessage)(SM_User+13);
-const ScreenMessage SM_DoUpdateTextInfo			= (ScreenMessage)(SM_User+14);
-const ScreenMessage SM_BackFromBPMChange		= (ScreenMessage)(SM_User+15);
-const ScreenMessage SM_BackFromStopChange		= (ScreenMessage)(SM_User+16);
+const ScreenMessage SM_DoReloadFromDisk				= (ScreenMessage)(SM_User+13);
+const ScreenMessage SM_DoUpdateTextInfo				= (ScreenMessage)(SM_User+14);
 
 const CString HELP_TEXT = 
 	"Up/Down:\n     change beat\n"
@@ -149,9 +146,7 @@ static const MenuRow g_MainMenuItems[] =
 	{ "Add/Edit BG Change",			true, 0, { NULL } },
 	{ "Play preview music",			true, 0, { NULL } },
 	{ "Preferences",				true, 0, { NULL } },
-	{ "Edit BPM Change",				true, 0, { NULL } },
-	{ "Edit Stop",				true, 0, { NULL } },
-	{ "Exit (discards changes since last save)",	true, 0, { NULL } },
+	{ "Exit (discards changes since last save)",true, 0, { NULL } },
 	{ NULL, true, 0, { NULL } }
 };
 static Menu g_MainMenu( "Main Menu", g_MainMenuItems );
@@ -185,7 +180,7 @@ static Menu g_AreaMenu( "Area Menu", g_AreaMenuItems );
 static const MenuRow g_EditNotesStatisticsItems[] =
 {
 	{ "Difficulty",					true,  0, { "BEGINNER","EASY","MEDIUM","HARD","CHALLENGE","EDIT" } },
-	{ "Meter",						true,  0, { "1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20" } },
+	{ "Meter",						true,  0, { "1","2","3","4","5","6","7","8","9","10","11","12","13","14","15" } },
 	{ "Description",				true,  0, { NULL } },
 	{ "Predicted Meter",			false, 0, { NULL } },
 	{ "Tap Steps",					false, 0, { NULL } },
@@ -556,13 +551,12 @@ void ScreenEdit::UpdateTextInfo()
 	{
 	case NOTE_TYPE_4TH:		sNoteType = "4th notes";	break;
 	case NOTE_TYPE_8TH:		sNoteType = "8th notes";	break;
-	case NOTE_TYPE_12TH:		sNoteType = "12th notes";	break;
-	case NOTE_TYPE_16TH:		sNoteType = "16th notes";	break;
-	case NOTE_TYPE_24TH:		sNoteType = "24th notes";	break;
-	case NOTE_TYPE_32ND:		sNoteType = "32nd notes";	break;
-	case NOTE_TYPE_48TH:		sNoteType = "48th notes";	break;
-	case NOTE_TYPE_64TH:		sNoteType = "64th notes";	break;
-	case NOTE_TYPE_192ND:		sNoteType = "192nd notes";	break;
+	case NOTE_TYPE_12TH:	sNoteType = "12th notes";	break;
+	case NOTE_TYPE_16TH:	sNoteType = "16th notes";	break;
+	case NOTE_TYPE_24TH:	sNoteType = "24th notes";	break;
+	case NOTE_TYPE_32ND:	sNoteType = "32nd notes";	break;
+	case NOTE_TYPE_48TH:	sNoteType = "48th notes";	break;
+	case NOTE_TYPE_64TH:	sNoteType = "64th notes";	break;
 	default:  ASSERT(0);
 	}
 
@@ -574,11 +568,11 @@ void ScreenEdit::UpdateTextInfo()
 	 * more precision here, add it.  I doubt there's a need for precise preview output,
 	 * though (it'd be nearly inaudible at the millisecond level, and it's approximate
 	 * anyway). */
-	sText += ssprintf( "Current Beat:\n     %.6f\n",		GAMESTATE->m_fSongBeat );
-	sText += ssprintf( "Current Second:\n     %.6f\n",		m_pSong->GetElapsedTimeFromBeat(GAMESTATE->m_fSongBeat) );
+	sText += ssprintf( "Current Beat:\n     %.2f\n",		GAMESTATE->m_fSongBeat );
+	sText += ssprintf( "Current Second:\n     %.2f\n",		m_pSong->GetElapsedTimeFromBeat(GAMESTATE->m_fSongBeat) );
 	sText += ssprintf( "Snap to:\n     %s\n",				sNoteType.c_str() );
-	sText += ssprintf( "Selection begin:\n     %s\n",		m_NoteFieldEdit.m_fBeginMarker==-1 ? "not set" : ssprintf("%.3f",m_NoteFieldEdit.m_fBeginMarker).c_str() );
-	sText += ssprintf( "Selection end:\n     %s\n",			m_NoteFieldEdit.m_fEndMarker==-1 ? "not set" : ssprintf("%.3f",m_NoteFieldEdit.m_fEndMarker).c_str() );
+	sText += ssprintf( "Selection begin:\n     %s\n",		m_NoteFieldEdit.m_fBeginMarker==-1 ? "not set" : ssprintf("%.2f",m_NoteFieldEdit.m_fBeginMarker).c_str() );
+	sText += ssprintf( "Selection end:\n     %s\n",			m_NoteFieldEdit.m_fEndMarker==-1 ? "not set" : ssprintf("%.2f",m_NoteFieldEdit.m_fEndMarker).c_str() );
 	sText += ssprintf( "Difficulty:\n     %s\n",			DifficultyToString( m_pSteps->GetDifficulty() ).c_str() );
 	sText += ssprintf( "Description:\n     %s\n",			GAMESTATE->m_pCurSteps[PLAYER_1] ? GAMESTATE->m_pCurSteps[PLAYER_1]->GetDescription().c_str() : "no description" );
 	sText += ssprintf( "Main title:\n     %s\n",			m_pSong->m_sMainTitle.c_str() );
@@ -767,39 +761,17 @@ void ScreenEdit::InputEdit( const DeviceInput& DeviceI, const InputEventType typ
 
 				if( DeviceI.button == KEY_UP )
 				{
-					if( fScrollSpeed >= 1 )
-						fNewScrollSpeed -= 0.5;
-					else if( fScrollSpeed == 0.5)
-						fNewScrollSpeed = 0.25;
+					if( fScrollSpeed == 4 )
+						fNewScrollSpeed = 2;
+					else if( fScrollSpeed == 2 )
+						fNewScrollSpeed = 1;
 				}
 				else if( DeviceI.button == KEY_DOWN )
 				{
-					if( fScrollSpeed == 0.25 )
-						fNewScrollSpeed = 0.5;
-					else if( fScrollSpeed <= 7.5)
-						fNewScrollSpeed += 0.5;
-				}
-
-				if( DeviceI.button == KEY_PGUP )
-				{
-					if( fScrollSpeed >= 4.5 )
+					if( fScrollSpeed == 2 )
 						fNewScrollSpeed = 4;
-					else if ( fScrollSpeed >= 2.5 )
+					else if( fScrollSpeed == 1 )
 						fNewScrollSpeed = 2;
-					else if ( fScrollSpeed >= 1.5 )
-						fNewScrollSpeed = 1;
-				}
-
-				if( DeviceI.button == KEY_PGDN )
-				{
-					if( fScrollSpeed <= 0.5 )
-						fNewScrollSpeed = 1;
-					else if( fScrollSpeed <= 1.5 )
-						fNewScrollSpeed = 2;
-					else if( fScrollSpeed <= 3.5 )
-						fNewScrollSpeed = 4;
-					else if ( (fScrollSpeed <= 7.5) && (fScrollSpeed <= 8.5) ) // After 8.5x is custom speed, don't change. 
-						fNewScrollSpeed = 8;
 				}
 
 				if( fNewScrollSpeed != fScrollSpeed )
@@ -1029,7 +1001,7 @@ void ScreenEdit::InputEdit( const DeviceInput& DeviceI, const InputEventType typ
 			}
 			if( INPUTFILTER->IsBeingPressed( DeviceInput(DEVICE_KEYBOARD, KEY_RALT)) ||
 				INPUTFILTER->IsBeingPressed( DeviceInput(DEVICE_KEYBOARD, KEY_LALT)) )
-				fDeltaBPM /= 4; // .005; Was originally set to: fDeltaBPM /= 2; /* .010 */
+				fDeltaBPM /= 2; /* .010 */
 			else switch( type )
 			{
 			case IET_SLOW_REPEAT:	fDeltaBPM *= 10;	break;
@@ -1055,7 +1027,7 @@ void ScreenEdit::InputEdit( const DeviceInput& DeviceI, const InputEventType typ
 			// MD 11/02/03 - requested: fine adjust for stops as well
 			if( INPUTFILTER->IsBeingPressed( DeviceInput(DEVICE_KEYBOARD, KEY_RALT)) ||
 				INPUTFILTER->IsBeingPressed( DeviceInput(DEVICE_KEYBOARD, KEY_LALT)) )
-				fStopDelta /= 20; // .001; Was originally set to: fStopDelta /= 20; /* .001 */
+				fStopDelta /= 4; /* .005 */
 			else switch( type )
 			{
 			case IET_SLOW_REPEAT:	fStopDelta *= 10;	break;
@@ -1072,13 +1044,13 @@ void ScreenEdit::InputEdit( const DeviceInput& DeviceI, const InputEventType typ
 			if( i == m_pSong->m_Timing.m_StopSegments.size() )	// there is no BPMSegment at the current beat
 			{
 				// create a new StopSegment
-				if( fStopDelta != 0)
+				if( fStopDelta > 0 )
 					m_pSong->AddStopSegment( StopSegment(GAMESTATE->m_fSongBeat, fStopDelta) );
 			}
 			else	// StopSegment being modified is m_Timing.m_StopSegments[i]
 			{
 				m_pSong->m_Timing.m_StopSegments[i].m_fStopSeconds += fStopDelta;
-				if( (m_pSong->m_Timing.m_StopSegments[i].m_fStopSeconds >= -0.001) && (m_pSong->m_Timing.m_StopSegments[i].m_fStopSeconds <= 0.001) )
+				if( m_pSong->m_Timing.m_StopSegments[i].m_fStopSeconds <= 0 )
 					m_pSong->m_Timing.m_StopSegments.erase( m_pSong->m_Timing.m_StopSegments.begin()+i,
 													  m_pSong->m_Timing.m_StopSegments.begin()+i+1);
 			}
@@ -1121,10 +1093,7 @@ void ScreenEdit::InputEdit( const DeviceInput& DeviceI, const InputEventType typ
 			case KEY_RBRACKET:		fDelta = +0.02f;	break;
 			default:	ASSERT(0);						return;
 			}
-			if( INPUTFILTER->IsBeingPressed( DeviceInput(DEVICE_KEYBOARD, KEY_RALT)) ||
-				INPUTFILTER->IsBeingPressed( DeviceInput(DEVICE_KEYBOARD, KEY_LALT)) )
-				fDelta /= 2; /* 1ms */
-			else switch( type )
+			switch( type )
 			{
 			case IET_SLOW_REPEAT:	fDelta *= 10;	break;
 			case IET_FAST_REPEAT:	fDelta *= 40;	break;
@@ -1138,33 +1107,6 @@ void ScreenEdit::InputEdit( const DeviceInput& DeviceI, const InputEventType typ
 			} else {
 				m_pSong->m_fMusicSampleStartSeconds += fDelta;
 				m_pSong->m_fMusicSampleStartSeconds = max(m_pSong->m_fMusicSampleStartSeconds,0);
-			}
-		}
-		break;
-	case KEY_Cn:
-		{
-			if( INPUTFILTER->IsBeingPressed( DeviceInput(DEVICE_KEYBOARD, KEY_RALT)) ||
-				INPUTFILTER->IsBeingPressed( DeviceInput(DEVICE_KEYBOARD, KEY_LALT)) &&
-				(m_pSong->m_Timing.m_StopSegments.size() != 0 ) )
-			{
-				unsigned i;
-				for( i=0; i<m_pSong->m_Timing.m_StopSegments.size(); i++ )
-				{ 
-					if( m_pSong->m_Timing.m_StopSegments[i].m_fStartBeat == GAMESTATE->m_fSongBeat )
-					{
-						float fStopDelta = m_pSong->m_Timing.m_StopSegments[i].m_fStopSeconds;
-						m_pSong->m_Timing.m_StopSegments[i].m_fStopSeconds = (-fStopDelta);
-					}
-				}
-			}
-			else if( INPUTFILTER->IsBeingPressed( DeviceInput(DEVICE_KEYBOARD, KEY_RCTRL)) ||
-					 INPUTFILTER->IsBeingPressed( DeviceInput(DEVICE_KEYBOARD, KEY_LCTRL)) )
-			{			
-				float fBPM = m_pSong->GetBPMAtBeat( GAMESTATE->m_fSongBeat );
-				m_pSong->SetBPMAtBeat( GAMESTATE->m_fSongBeat, (-fBPM) );
-			} else {
-			float fMBPM = m_pSong->GetBPMAtBeat( GAMESTATE->m_fSongBeat );
-			m_pSong->SetBPMAtBeat( GAMESTATE->m_fSongBeat, (fMBPM+0.000001f) ); // make a BPMsegment label
 			}
 		}
 		break;
@@ -1532,44 +1474,6 @@ void ScreenEdit::HandleScreenMessage( const ScreenMessage SM )
 		/* Snap the trailing beat, in case we lose focus while tweening. */
 		m_fTrailingBeat = GAMESTATE->m_fSongBeat;
 		break;
-	case SM_BackFromBPMChange:
-		{
-			float fBPM = atof( ScreenTextEntry::s_sLastAnswer.c_str() );
-			if ( fBPM <= 0 )
-				break;
-			m_pSong->SetBPMAtBeat( GAMESTATE->m_fSongBeat, fBPM );
-		}
-		break;
-	case SM_BackFromStopChange:
-		{
-			unsigned i;
-			bool sentinel = false;		//Tricky, we can't break out of this loop safely
-			for( i=0; (i<m_pSong->m_Timing.m_StopSegments.size()) && (!sentinel); i++ )
-			{
-				if( m_pSong->m_Timing.m_StopSegments[i].m_fStartBeat == GAMESTATE->m_fSongBeat )
-					sentinel = true;
-			}
-
-			if ( sentinel )
-				i--;
-
-			float fStop = atof( ScreenTextEntry::s_sLastAnswer.c_str() );
-
-			if( i == m_pSong->m_Timing.m_StopSegments.size() )	// there is no BPMSegment at the current beat
-			{
-				if ( fStop > 0 )
-					m_pSong->AddStopSegment( StopSegment(GAMESTATE->m_fSongBeat, fStop ) );
-			}
-			else	// StopSegment being modified is m_Timing.m_StopSegments[i]
-			{
-				m_pSong->m_Timing.m_StopSegments[i].m_fStopSeconds = fStop;
-				if( m_pSong->m_Timing.m_StopSegments[i].m_fStopSeconds <= 0 )
-					m_pSong->m_Timing.m_StopSegments.erase( m_pSong->m_Timing.m_StopSegments.begin()+i,
-													  m_pSong->m_Timing.m_StopSegments.begin()+i+1);
-			}
-
-		}
-		break;
 	}
 }
 
@@ -1727,23 +1631,10 @@ void ScreenEdit::HandleMainMenuChoice( MainMenuChoice c, int* iAnswers )
 				SCREENMAN->MiniMenu( &g_EditSongInfo, SM_BackFromEditSongInfo );
 			}
 			break;
-		case edit_bpm:
-			SCREENMAN->TextEntry( SM_BackFromBPMChange, "Enter new BPM value.", ssprintf( "%.3f", m_pSong->GetBPMAtBeat( GAMESTATE->m_fSongBeat ) ) );
-			break;
-		case edit_stop:
-			{
-				unsigned i;
-				for( i=0; i<m_pSong->m_Timing.m_StopSegments.size(); i++ )
-				{
-					if( m_pSong->m_Timing.m_StopSegments[i].m_fStartBeat == GAMESTATE->m_fSongBeat )
-						break;
-				}
-				if ( i == m_pSong->m_Timing.m_StopSegments.size() )
-					SCREENMAN->TextEntry( SM_BackFromStopChange, "Enter new Stop value.", "0.00" );
-				else
-					SCREENMAN->TextEntry( SM_BackFromStopChange, "Enter new Stop value.", ssprintf( "%.3f", m_pSong->m_Timing.m_StopSegments[i].m_fStopSeconds ) );
-				break;
-			}
+//		case edit_bpm:
+//			break;
+//		case edit_stop:
+//			break;
 		case edit_bg_change:
 			{
 				//

@@ -4,14 +4,12 @@
 + Solve the problem of song group jummping to [ALL SONGS] in connection mode
 + Solve the difficulty of ordering songs in connection mode
 + Add homeowner replacement usage: /host player_name
-+ Add ddrtime's editor(but missing the last version) [link](https://forum.gamer.com.tw/C.php?bsn=16862&snA=1184)
 
 + 解決玩家重新命名錯誤
 + 解決cs6連線模式無法顯示名稱問題
 + 解決連線模式歌包跳動問題
 + 解決連線模式歌曲難度排序問題
 + 加入更換房主功能 用法: /host 玩家名稱
-+ 加入小時的我流版編輯器(非最終版,已遺失)[link](https://forum.gamer.com.tw/C.php?bsn=16862&snA=1184)
 
 # StepMania 3.9 compile
 + windows10
