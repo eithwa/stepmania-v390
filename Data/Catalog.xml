@@ -9,11 +9,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.827000</Stream>
+<Stream>0.826761</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.239000</Air>
+<Air>0.238864</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.754000</Chaos>
+<Chaos>0.754127</Chaos>
 <Taps>603</Taps>
 <Jumps>35</Jumps>
 <Holds>210</Holds>
@@ -26,8 +26,8 @@
 <RadarValues>
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.990000</Air>
-<Freeze>0.949000</Freeze>
+<Air>0.989579</Air>
+<Freeze>0.948631</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>1049</Taps>
 <Jumps>145</Jumps>
@@ -58,10 +58,10 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>2</Meter>
 <RadarValues>
-<Stream>0.216000</Stream>
-<Voltage>0.404000</Voltage>
+<Stream>0.215791</Stream>
+<Voltage>0.403649</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.294000</Freeze>
+<Freeze>0.293715</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>145</Taps>
 <Jumps>0</Jumps>
@@ -73,11 +73,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.475000</Stream>
-<Voltage>0.479000</Voltage>
-<Air>0.285000</Air>
-<Freeze>0.218000</Freeze>
-<Chaos>0.038000</Chaos>
+<Stream>0.474740</Stream>
+<Voltage>0.479333</Voltage>
+<Air>0.285323</Air>
+<Freeze>0.218189</Freeze>
+<Chaos>0.037763</Chaos>
 <Taps>336</Taps>
 <Jumps>34</Jumps>
 <Holds>26</Holds>
@@ -88,11 +88,11 @@
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>8</Meter>
 <RadarValues>
-<Stream>0.830000</Stream>
+<Stream>0.829596</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.940000</Air>
-<Freeze>0.906000</Freeze>
-<Chaos>0.382000</Chaos>
+<Air>0.939889</Air>
+<Freeze>0.906322</Freeze>
+<Chaos>0.381830</Chaos>
 <Taps>458</Taps>
 <Jumps>112</Jumps>
 <Holds>108</Holds>
@@ -107,11 +107,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.421000</Stream>
-<Voltage>0.460000</Voltage>
+<Stream>0.421067</Stream>
+<Voltage>0.460218</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.587000</Freeze>
-<Chaos>0.177000</Chaos>
+<Freeze>0.587277</Freeze>
+<Chaos>0.177291</Chaos>
 <Taps>213</Taps>
 <Jumps>0</Jumps>
 <Holds>53</Holds>
@@ -122,11 +122,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.676000</Stream>
-<Voltage>0.863000</Voltage>
-<Air>0.111000</Air>
-<Freeze>0.632000</Freeze>
-<Chaos>0.870000</Chaos>
+<Stream>0.675923</Stream>
+<Voltage>0.862910</Voltage>
+<Air>0.110807</Air>
+<Freeze>0.631600</Freeze>
+<Chaos>0.869835</Chaos>
 <Taps>360</Taps>
 <Jumps>10</Jumps>
 <Holds>57</Holds>
@@ -140,7 +140,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.964000</Freeze>
+<Freeze>0.964021</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>495</Taps>
 <Jumps>254</Jumps>
@@ -156,11 +156,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.383000</Stream>
-<Voltage>0.460000</Voltage>
+<Stream>0.383287</Stream>
+<Voltage>0.460398</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.405000</Freeze>
-<Chaos>0.012000</Chaos>
+<Freeze>0.404833</Freeze>
+<Chaos>0.011907</Chaos>
 <Taps>287</Taps>
 <Jumps>0</Jumps>
 <Holds>51</Holds>
@@ -171,11 +171,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>7</Meter>
 <RadarValues>
-<Stream>0.823000</Stream>
+<Stream>0.823273</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.619000</Air>
-<Freeze>0.611000</Freeze>
-<Chaos>0.091000</Chaos>
+<Air>0.619156</Air>
+<Freeze>0.611218</Freeze>
+<Chaos>0.091286</Chaos>
 <Taps>571</Taps>
 <Jumps>78</Jumps>
 <Holds>77</Holds>
@@ -189,8 +189,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.849000</Freeze>
-<Chaos>0.111000</Chaos>
+<Freeze>0.849355</Freeze>
+<Chaos>0.111131</Chaos>
 <Taps>613</Taps>
 <Jumps>238</Jumps>
 <Holds>107</Holds>
@@ -205,11 +205,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.369000</Stream>
-<Voltage>0.580000</Voltage>
+<Stream>0.369271</Stream>
+<Voltage>0.579663</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.679000</Freeze>
-<Chaos>0.063000</Chaos>
+<Freeze>0.679458</Freeze>
+<Chaos>0.062776</Chaos>
 <Taps>258</Taps>
 <Jumps>0</Jumps>
 <Holds>92</Holds>
@@ -220,11 +220,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.641000</Stream>
-<Voltage>0.635000</Voltage>
-<Air>0.126000</Air>
-<Freeze>0.643000</Freeze>
-<Chaos>0.343000</Chaos>
+<Stream>0.641476</Stream>
+<Voltage>0.634869</Voltage>
+<Air>0.125552</Air>
+<Freeze>0.642531</Freeze>
+<Chaos>0.343422</Chaos>
 <Taps>504</Taps>
 <Jumps>17</Jumps>
 <Holds>87</Holds>
@@ -237,8 +237,8 @@
 <RadarValues>
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.908000</Air>
-<Freeze>0.871000</Freeze>
+<Air>0.908406</Air>
+<Freeze>0.871479</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>774</Taps>
 <Jumps>123</Jumps>
@@ -254,11 +254,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.695000</Stream>
-<Voltage>0.715000</Voltage>
-<Air>0.680000</Air>
-<Freeze>0.198000</Freeze>
-<Chaos>0.352000</Chaos>
+<Stream>0.695479</Stream>
+<Voltage>0.715054</Voltage>
+<Air>0.680315</Air>
+<Freeze>0.197822</Freeze>
+<Chaos>0.352220</Chaos>
 <Taps>827</Taps>
 <Jumps>141</Jumps>
 <Holds>41</Holds>
@@ -269,11 +269,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>8</Meter>
 <RadarValues>
-<Stream>0.955000</Stream>
-<Voltage>0.990000</Voltage>
+<Stream>0.955336</Stream>
+<Voltage>0.990075</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.217000</Freeze>
-<Chaos>0.729000</Chaos>
+<Freeze>0.217122</Freeze>
+<Chaos>0.728564</Chaos>
 <Taps>1014</Taps>
 <Jumps>327</Jumps>
 <Holds>45</Holds>
@@ -287,7 +287,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.265000</Freeze>
+<Freeze>0.265371</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>1182</Taps>
 <Jumps>654</Jumps>
@@ -303,11 +303,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.455000</Stream>
-<Voltage>0.480000</Voltage>
+<Stream>0.455294</Stream>
+<Voltage>0.480357</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.286000</Freeze>
-<Chaos>0.235000</Chaos>
+<Freeze>0.286018</Freeze>
+<Chaos>0.234943</Chaos>
 <Taps>426</Taps>
 <Jumps>0</Jumps>
 <Holds>42</Holds>
@@ -318,10 +318,10 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>9</Meter>
 <RadarValues>
-<Stream>0.887000</Stream>
-<Voltage>0.961000</Voltage>
-<Air>0.688000</Air>
-<Freeze>0.511000</Freeze>
+<Stream>0.887239</Stream>
+<Voltage>0.960713</Voltage>
+<Air>0.687805</Air>
+<Freeze>0.510746</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>736</Taps>
 <Jumps>101</Jumps>
@@ -336,7 +336,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.729000</Freeze>
+<Freeze>0.728664</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>760</Taps>
 <Jumps>344</Jumps>
@@ -352,11 +352,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.356000</Stream>
-<Voltage>0.740000</Voltage>
+<Stream>0.356292</Stream>
+<Voltage>0.740396</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.491000</Freeze>
-<Chaos>0.052000</Chaos>
+<Freeze>0.491364</Freeze>
+<Chaos>0.052114</Chaos>
 <Taps>269</Taps>
 <Jumps>0</Jumps>
 <Holds>66</Holds>
@@ -367,11 +367,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>7</Meter>
 <RadarValues>
-<Stream>0.836000</Stream>
+<Stream>0.835957</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.670000</Air>
-<Freeze>0.744000</Freeze>
-<Chaos>0.168000</Chaos>
+<Air>0.670042</Air>
+<Freeze>0.744491</Freeze>
+<Chaos>0.167510</Chaos>
 <Taps>596</Taps>
 <Jumps>90</Jumps>
 <Holds>100</Holds>
@@ -386,7 +386,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.261000</Chaos>
+<Chaos>0.260572</Chaos>
 <Taps>678</Taps>
 <Jumps>251</Jumps>
 <Holds>135</Holds>
@@ -404,8 +404,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.950000</Freeze>
-<Chaos>0.927000</Chaos>
+<Freeze>0.950382</Freeze>
+<Chaos>0.926858</Chaos>
 <Taps>577</Taps>
 <Jumps>149</Jumps>
 <Holds>101</Holds>
@@ -419,7 +419,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.988000</Freeze>
+<Freeze>0.988021</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>684</Taps>
 <Jumps>341</Jumps>
@@ -435,11 +435,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.490000</Stream>
-<Voltage>0.617000</Voltage>
-<Air>0.074000</Air>
-<Freeze>0.729000</Freeze>
-<Chaos>0.110000</Chaos>
+<Stream>0.490163</Stream>
+<Voltage>0.616773</Voltage>
+<Air>0.073572</Air>
+<Freeze>0.729034</Freeze>
+<Chaos>0.110358</Chaos>
 <Taps>393</Taps>
 <Jumps>11</Jumps>
 <Holds>109</Holds>
@@ -450,11 +450,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>8</Meter>
 <RadarValues>
-<Stream>0.909000</Stream>
+<Stream>0.908664</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.475000</Air>
-<Freeze>0.528000</Freeze>
-<Chaos>0.896000</Chaos>
+<Air>0.474875</Air>
+<Freeze>0.528382</Freeze>
+<Chaos>0.896243</Chaos>
 <Taps>801</Taps>
 <Jumps>71</Jumps>
 <Holds>79</Holds>
@@ -468,7 +468,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.535000</Freeze>
+<Freeze>0.535071</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>935</Taps>
 <Jumps>290</Jumps>
@@ -484,11 +484,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.403000</Stream>
-<Voltage>0.451000</Voltage>
+<Stream>0.402864</Stream>
+<Voltage>0.451178</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.742000</Freeze>
-<Chaos>0.043000</Chaos>
+<Freeze>0.741765</Freeze>
+<Chaos>0.043437</Chaos>
 <Taps>311</Taps>
 <Jumps>0</Jumps>
 <Holds>111</Holds>
@@ -501,8 +501,8 @@
 <RadarValues>
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.528000</Air>
-<Freeze>0.822000</Freeze>
+<Air>0.527923</Air>
+<Freeze>0.821956</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>931</Taps>
 <Jumps>79</Jumps>
@@ -533,10 +533,10 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.415000</Stream>
-<Voltage>0.419000</Voltage>
+<Stream>0.415453</Stream>
+<Voltage>0.419461</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.636000</Freeze>
+<Freeze>0.636376</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>332</Taps>
 <Jumps>0</Jumps>
@@ -548,11 +548,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>7</Meter>
 <RadarValues>
-<Stream>0.779000</Stream>
-<Voltage>0.786000</Voltage>
-<Air>0.780000</Air>
-<Freeze>0.821000</Freeze>
-<Chaos>0.202000</Chaos>
+<Stream>0.779096</Stream>
+<Voltage>0.786489</Voltage>
+<Air>0.780074</Air>
+<Freeze>0.821130</Freeze>
+<Chaos>0.201861</Chaos>
 <Taps>563</Taps>
 <Jumps>114</Jumps>
 <Holds>120</Holds>
@@ -567,7 +567,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.698000</Chaos>
+<Chaos>0.697961</Chaos>
 <Taps>762</Taps>
 <Jumps>454</Jumps>
 <Holds>150</Holds>
@@ -582,10 +582,10 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>2</Meter>
 <RadarValues>
-<Stream>0.252000</Stream>
-<Voltage>0.273000</Voltage>
+<Stream>0.251540</Stream>
+<Voltage>0.273424</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.122000</Freeze>
+<Freeze>0.121756</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>175</Taps>
 <Jumps>0</Jumps>
@@ -597,10 +597,10 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.452000</Stream>
-<Voltage>0.608000</Voltage>
-<Air>0.234000</Air>
-<Freeze>0.665000</Freeze>
+<Stream>0.452236</Stream>
+<Voltage>0.607609</Voltage>
+<Air>0.234146</Air>
+<Freeze>0.664975</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>242</Taps>
 <Jumps>25</Jumps>
@@ -615,8 +615,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.684000</Freeze>
-<Chaos>0.155000</Chaos>
+<Freeze>0.683706</Freeze>
+<Chaos>0.154536</Chaos>
 <Taps>492</Taps>
 <Jumps>204</Jumps>
 <Holds>73</Holds>
@@ -631,10 +631,10 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>2</Meter>
 <RadarValues>
-<Stream>0.285000</Stream>
-<Voltage>0.396000</Voltage>
+<Stream>0.285371</Stream>
+<Voltage>0.395760</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.247000</Freeze>
+<Freeze>0.247014</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>326</Taps>
 <Jumps>0</Jumps>
@@ -646,11 +646,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>7</Meter>
 <RadarValues>
-<Stream>0.760000</Stream>
+<Stream>0.760221</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.510000</Air>
-<Freeze>0.419000</Freeze>
-<Chaos>0.110000</Chaos>
+<Air>0.510138</Air>
+<Freeze>0.418850</Freeze>
+<Chaos>0.110082</Chaos>
 <Taps>818</Taps>
 <Jumps>95</Jumps>
 <Holds>78</Holds>
@@ -664,8 +664,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.596000</Freeze>
-<Chaos>0.268000</Chaos>
+<Freeze>0.596056</Freeze>
+<Chaos>0.268494</Chaos>
 <Taps>954</Taps>
 <Jumps>456</Jumps>
 <Holds>111</Holds>
@@ -680,10 +680,10 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>2</Meter>
 <RadarValues>
-<Stream>0.197000</Stream>
-<Voltage>0.280000</Voltage>
+<Stream>0.196540</Stream>
+<Voltage>0.280289</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.205000</Freeze>
+<Freeze>0.205340</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>171</Taps>
 <Jumps>0</Jumps>
@@ -695,11 +695,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.491000</Stream>
-<Voltage>0.601000</Voltage>
-<Air>0.137000</Air>
-<Freeze>0.739000</Freeze>
-<Chaos>0.027000</Chaos>
+<Stream>0.490861</Stream>
+<Voltage>0.600620</Voltage>
+<Air>0.136893</Air>
+<Freeze>0.739225</Freeze>
+<Chaos>0.027379</Chaos>
 <Taps>374</Taps>
 <Jumps>20</Jumps>
 <Holds>108</Holds>
@@ -710,11 +710,11 @@
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>9</Meter>
 <RadarValues>
-<Stream>0.899000</Stream>
+<Stream>0.898608</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.684000</Freeze>
-<Chaos>0.633000</Chaos>
+<Freeze>0.684467</Freeze>
+<Chaos>0.633132</Chaos>
 <Taps>614</Taps>
 <Jumps>167</Jumps>
 <Holds>100</Holds>
@@ -729,10 +729,10 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.519000</Stream>
-<Voltage>0.517000</Voltage>
-<Air>0.094000</Air>
-<Freeze>0.590000</Freeze>
+<Stream>0.519393</Stream>
+<Voltage>0.516724</Voltage>
+<Air>0.093705</Air>
+<Freeze>0.590341</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>315</Taps>
 <Jumps>10</Jumps>
@@ -744,11 +744,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.833000</Stream>
-<Voltage>0.851000</Voltage>
-<Air>0.750000</Air>
-<Freeze>0.618000</Freeze>
-<Chaos>0.178000</Chaos>
+<Stream>0.832635</Stream>
+<Voltage>0.851075</Voltage>
+<Air>0.749639</Air>
+<Freeze>0.618452</Freeze>
+<Chaos>0.178039</Chaos>
 <Taps>476</Taps>
 <Jumps>80</Jumps>
 <Holds>66</Holds>
@@ -762,8 +762,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.675000</Freeze>
-<Chaos>0.225000</Chaos>
+<Freeze>0.674675</Freeze>
+<Chaos>0.224892</Chaos>
 <Taps>527</Taps>
 <Jumps>342</Jumps>
 <Holds>72</Holds>
@@ -778,11 +778,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.372000</Stream>
-<Voltage>0.401000</Voltage>
+<Stream>0.372317</Stream>
+<Voltage>0.400892</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.504000</Freeze>
-<Chaos>0.203000</Chaos>
+<Freeze>0.504429</Freeze>
+<Chaos>0.202536</Chaos>
 <Taps>275</Taps>
 <Jumps>0</Jumps>
 <Holds>66</Holds>
@@ -793,11 +793,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.701000</Stream>
-<Voltage>0.641000</Voltage>
-<Air>0.336000</Air>
-<Freeze>0.619000</Freeze>
-<Chaos>0.455000</Chaos>
+<Stream>0.700960</Stream>
+<Voltage>0.641427</Voltage>
+<Air>0.336286</Air>
+<Freeze>0.619072</Freeze>
+<Chaos>0.454750</Chaos>
 <Taps>517</Taps>
 <Jumps>44</Jumps>
 <Holds>81</Holds>
@@ -811,7 +811,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.611000</Freeze>
+<Freeze>0.611429</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>818</Taps>
 <Jumps>409</Jumps>
@@ -827,10 +827,10 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.318000</Stream>
-<Voltage>0.437000</Voltage>
+<Stream>0.317683</Stream>
+<Voltage>0.436744</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.404000</Freeze>
+<Freeze>0.403680</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>257</Taps>
 <Jumps>0</Jumps>
@@ -842,11 +842,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>8</Meter>
 <RadarValues>
-<Stream>0.839000</Stream>
-<Voltage>0.954000</Voltage>
-<Air>0.602000</Air>
-<Freeze>0.616000</Freeze>
-<Chaos>0.152000</Chaos>
+<Stream>0.838723</Stream>
+<Voltage>0.953959</Voltage>
+<Air>0.601979</Air>
+<Freeze>0.616143</Freeze>
+<Chaos>0.152265</Chaos>
 <Taps>657</Taps>
 <Jumps>85</Jumps>
 <Holds>87</Holds>
@@ -860,8 +860,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.963000</Freeze>
-<Chaos>0.241000</Chaos>
+<Freeze>0.963166</Freeze>
+<Chaos>0.240791</Chaos>
 <Taps>762</Taps>
 <Jumps>311</Jumps>
 <Holds>136</Holds>
@@ -876,10 +876,10 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.301000</Stream>
-<Voltage>0.391000</Voltage>
+<Stream>0.300508</Stream>
+<Voltage>0.390592</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.236000</Freeze>
+<Freeze>0.236042</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>269</Taps>
 <Jumps>0</Jumps>
@@ -891,11 +891,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>7</Meter>
 <RadarValues>
-<Stream>0.665000</Stream>
-<Voltage>0.651000</Voltage>
-<Air>0.548000</Air>
-<Freeze>0.208000</Freeze>
-<Chaos>0.302000</Chaos>
+<Stream>0.665480</Stream>
+<Voltage>0.650987</Voltage>
+<Air>0.548451</Air>
+<Freeze>0.208273</Freeze>
+<Chaos>0.301995</Chaos>
 <Taps>562</Taps>
 <Jumps>79</Jumps>
 <Holds>30</Holds>
@@ -909,8 +909,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.271000</Freeze>
-<Chaos>0.694000</Chaos>
+<Freeze>0.270754</Freeze>
+<Chaos>0.694242</Chaos>
 <Taps>771</Taps>
 <Jumps>427</Jumps>
 <Holds>39</Holds>
@@ -925,11 +925,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.530000</Stream>
-<Voltage>0.616000</Voltage>
+<Stream>0.529867</Stream>
+<Voltage>0.616308</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.652000</Freeze>
-<Chaos>0.046000</Chaos>
+<Freeze>0.651593</Freeze>
+<Chaos>0.045566</Chaos>
 <Taps>671</Taps>
 <Jumps>0</Jumps>
 <Holds>143</Holds>
@@ -943,8 +943,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.961000</Freeze>
-<Chaos>0.620000</Chaos>
+<Freeze>0.961442</Freeze>
+<Chaos>0.619697</Chaos>
 <Taps>1212</Taps>
 <Jumps>313</Jumps>
 <Holds>211</Holds>
@@ -959,7 +959,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.809000</Chaos>
+<Chaos>0.808796</Chaos>
 <Taps>1337</Taps>
 <Jumps>680</Jumps>
 <Holds>261</Holds>
@@ -974,11 +974,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.285000</Stream>
-<Voltage>0.418000</Voltage>
+<Stream>0.284584</Stream>
+<Voltage>0.417845</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.355000</Freeze>
-<Chaos>0.026000</Chaos>
+<Freeze>0.354912</Freeze>
+<Chaos>0.025760</Chaos>
 <Taps>286</Taps>
 <Jumps>0</Jumps>
 <Holds>62</Holds>
@@ -989,11 +989,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.598000</Stream>
-<Voltage>0.713000</Voltage>
-<Air>0.675000</Air>
-<Freeze>0.366000</Freeze>
-<Chaos>0.114000</Chaos>
+<Stream>0.597790</Stream>
+<Voltage>0.712794</Voltage>
+<Air>0.675478</Air>
+<Freeze>0.366361</Freeze>
+<Chaos>0.114488</Chaos>
 <Taps>549</Taps>
 <Jumps>118</Jumps>
 <Holds>64</Holds>
@@ -1007,8 +1007,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.538000</Freeze>
-<Chaos>0.412000</Chaos>
+<Freeze>0.538093</Freeze>
+<Chaos>0.412156</Chaos>
 <Taps>786</Taps>
 <Jumps>380</Jumps>
 <Holds>94</Holds>
@@ -1023,11 +1023,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.348000</Stream>
-<Voltage>0.366000</Voltage>
+<Stream>0.348132</Stream>
+<Voltage>0.366126</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.188000</Freeze>
-<Chaos>0.090000</Chaos>
+<Freeze>0.188058</Freeze>
+<Chaos>0.090111</Chaos>
 <Taps>287</Taps>
 <Jumps>0</Jumps>
 <Holds>24</Holds>
@@ -1038,11 +1038,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>7</Meter>
 <RadarValues>
-<Stream>0.809000</Stream>
-<Voltage>0.811000</Voltage>
-<Air>0.909000</Air>
-<Freeze>0.204000</Freeze>
-<Chaos>0.572000</Chaos>
+<Stream>0.809322</Stream>
+<Voltage>0.810708</Voltage>
+<Air>0.908948</Air>
+<Freeze>0.203730</Freeze>
+<Chaos>0.572011</Chaos>
 <Taps>581</Taps>
 <Jumps>116</Jumps>
 <Holds>26</Holds>
@@ -1056,7 +1056,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.259000</Freeze>
+<Freeze>0.258580</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>795</Taps>
 <Jumps>375</Jumps>
@@ -1072,10 +1072,10 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.390000</Stream>
-<Voltage>0.459000</Voltage>
+<Stream>0.389520</Stream>
+<Voltage>0.458883</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.480000</Freeze>
+<Freeze>0.479828</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>295</Taps>
 <Jumps>0</Jumps>
@@ -1087,11 +1087,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>8</Meter>
 <RadarValues>
-<Stream>0.939000</Stream>
-<Voltage>0.964000</Voltage>
-<Air>0.777000</Air>
-<Freeze>0.807000</Freeze>
-<Chaos>0.019000</Chaos>
+<Stream>0.938984</Stream>
+<Voltage>0.963655</Voltage>
+<Air>0.776865</Air>
+<Freeze>0.807330</Freeze>
+<Chaos>0.019041</Chaos>
 <Taps>655</Taps>
 <Jumps>102</Jumps>
 <Holds>106</Holds>
@@ -1106,7 +1106,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.053000</Chaos>
+<Chaos>0.053314</Chaos>
 <Taps>709</Taps>
 <Jumps>339</Jumps>
 <Holds>145</Holds>
@@ -1121,11 +1121,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.345000</Stream>
-<Voltage>0.488000</Voltage>
+<Stream>0.345123</Stream>
+<Voltage>0.488032</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.232000</Freeze>
-<Chaos>0.393000</Chaos>
+<Freeze>0.231658</Freeze>
+<Chaos>0.392991</Chaos>
 <Taps>264</Taps>
 <Jumps>0</Jumps>
 <Holds>28</Holds>
@@ -1136,10 +1136,10 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>7</Meter>
 <RadarValues>
-<Stream>0.806000</Stream>
-<Voltage>0.956000</Voltage>
-<Air>0.281000</Air>
-<Freeze>0.199000</Freeze>
+<Stream>0.806074</Stream>
+<Voltage>0.956105</Voltage>
+<Air>0.281299</Air>
+<Freeze>0.198564</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>624</Taps>
 <Jumps>34</Jumps>
@@ -1154,7 +1154,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.794000</Freeze>
+<Freeze>0.794255</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>617</Taps>
 <Jumps>223</Jumps>
@@ -1170,11 +1170,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.511000</Stream>
-<Voltage>0.692000</Voltage>
-<Air>0.052000</Air>
+<Stream>0.510604</Stream>
+<Voltage>0.692453</Voltage>
+<Air>0.051676</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.086000</Chaos>
+<Chaos>0.086126</Chaos>
 <Taps>271</Taps>
 <Jumps>6</Jumps>
 <Holds>138</Holds>
@@ -1185,11 +1185,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>7</Meter>
 <RadarValues>
-<Stream>0.912000</Stream>
-<Voltage>0.984000</Voltage>
-<Air>0.896000</Air>
+<Stream>0.911705</Stream>
+<Voltage>0.984025</Voltage>
+<Air>0.895710</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.543000</Chaos>
+<Chaos>0.542594</Chaos>
 <Taps>503</Taps>
 <Jumps>104</Jumps>
 <Holds>134</Holds>
@@ -1219,10 +1219,10 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.626000</Stream>
-<Voltage>0.810000</Voltage>
-<Air>0.020000</Air>
-<Freeze>0.374000</Freeze>
+<Stream>0.626144</Stream>
+<Voltage>0.809787</Voltage>
+<Air>0.020044</Air>
+<Freeze>0.374159</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>597</Taps>
 <Jumps>3</Jumps>
@@ -1237,8 +1237,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.508000</Freeze>
-<Chaos>0.010000</Chaos>
+<Freeze>0.507787</Freeze>
+<Chaos>0.010022</Chaos>
 <Taps>847</Taps>
 <Jumps>250</Jumps>
 <Holds>76</Holds>
@@ -1252,8 +1252,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.561000</Freeze>
-<Chaos>0.010000</Chaos>
+<Freeze>0.561238</Freeze>
+<Chaos>0.010022</Chaos>
 <Taps>949</Taps>
 <Jumps>582</Jumps>
 <Holds>84</Holds>
@@ -1268,11 +1268,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.680000</Stream>
-<Voltage>0.753000</Voltage>
-<Air>0.253000</Air>
-<Freeze>0.724000</Freeze>
-<Chaos>0.307000</Chaos>
+<Stream>0.679655</Stream>
+<Voltage>0.752982</Voltage>
+<Air>0.252555</Air>
+<Freeze>0.723535</Freeze>
+<Chaos>0.307161</Chaos>
 <Taps>554</Taps>
 <Jumps>37</Jumps>
 <Holds>106</Holds>
@@ -1285,8 +1285,8 @@
 <RadarValues>
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.976000</Air>
-<Freeze>0.990000</Freeze>
+<Air>0.976089</Air>
+<Freeze>0.989741</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>801</Taps>
 <Jumps>143</Jumps>
@@ -1317,11 +1317,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.632000</Stream>
-<Voltage>0.498000</Voltage>
-<Air>0.016000</Air>
-<Freeze>0.136000</Freeze>
-<Chaos>0.016000</Chaos>
+<Stream>0.632096</Stream>
+<Voltage>0.497888</Voltage>
+<Air>0.016031</Air>
+<Freeze>0.136267</Freeze>
+<Chaos>0.016031</Chaos>
 <Taps>533</Taps>
 <Jumps>2</Jumps>
 <Holds>17</Holds>
@@ -1333,9 +1333,9 @@
 <Meter>9</Meter>
 <RadarValues>
 <Stream>1.000000</Stream>
-<Voltage>0.885000</Voltage>
-<Air>0.729000</Air>
-<Freeze>0.176000</Freeze>
+<Voltage>0.885135</Voltage>
+<Air>0.729430</Air>
+<Freeze>0.176346</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>882</Taps>
 <Jumps>91</Jumps>
@@ -1350,7 +1350,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.257000</Freeze>
+<Freeze>0.256503</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>884</Taps>
 <Jumps>707</Jumps>
@@ -1366,11 +1366,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.497000</Stream>
-<Voltage>0.507000</Voltage>
+<Stream>0.497176</Stream>
+<Voltage>0.506728</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.502000</Freeze>
-<Chaos>0.115000</Chaos>
+<Freeze>0.502022</Freeze>
+<Chaos>0.115329</Chaos>
 <Taps>439</Taps>
 <Jumps>0</Jumps>
 <Holds>74</Holds>
@@ -1381,11 +1381,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>9</Meter>
 <RadarValues>
-<Stream>0.972000</Stream>
-<Voltage>0.908000</Voltage>
-<Air>0.895000</Air>
-<Freeze>0.604000</Freeze>
-<Chaos>0.801000</Chaos>
+<Stream>0.972061</Stream>
+<Voltage>0.908218</Voltage>
+<Air>0.895498</Air>
+<Freeze>0.603783</Freeze>
+<Chaos>0.800521</Chaos>
 <Taps>782</Taps>
 <Jumps>132</Jumps>
 <Holds>89</Holds>
@@ -1399,7 +1399,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.787000</Freeze>
+<Freeze>0.786953</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>935</Taps>
 <Jumps>375</Jumps>
@@ -1415,10 +1415,10 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.538000</Stream>
-<Voltage>0.745000</Voltage>
-<Air>0.252000</Air>
-<Freeze>0.176000</Freeze>
+<Stream>0.537578</Stream>
+<Voltage>0.745357</Voltage>
+<Air>0.251887</Air>
+<Freeze>0.175558</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>437</Taps>
 <Jumps>33</Jumps>
@@ -1433,7 +1433,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.389000</Freeze>
+<Freeze>0.389280</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>992</Taps>
 <Jumps>185</Jumps>
@@ -1448,7 +1448,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.511000</Freeze>
+<Freeze>0.511407</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>1114</Taps>
 <Jumps>370</Jumps>
@@ -1464,11 +1464,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.507000</Stream>
-<Voltage>0.479000</Voltage>
+<Stream>0.507125</Stream>
+<Voltage>0.478934</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.619000</Freeze>
-<Chaos>0.310000</Chaos>
+<Freeze>0.619051</Freeze>
+<Chaos>0.309526</Chaos>
 <Taps>303</Taps>
 <Jumps>0</Jumps>
 <Holds>64</Holds>
@@ -1480,9 +1480,9 @@
 <Meter>8</Meter>
 <RadarValues>
 <Stream>1.000000</Stream>
-<Voltage>0.958000</Voltage>
-<Air>0.281000</Air>
-<Freeze>0.813000</Freeze>
+<Voltage>0.957867</Voltage>
+<Air>0.280508</Air>
+<Freeze>0.812505</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>638</Taps>
 <Jumps>29</Jumps>
@@ -1497,7 +1497,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.929000</Freeze>
+<Freeze>0.928577</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>829</Taps>
 <Jumps>323</Jumps>
@@ -1513,11 +1513,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.566000</Stream>
-<Voltage>0.639000</Voltage>
-<Air>0.007000</Air>
-<Freeze>0.621000</Freeze>
-<Chaos>0.007000</Chaos>
+<Stream>0.566003</Stream>
+<Voltage>0.639486</Voltage>
+<Air>0.006681</Air>
+<Freeze>0.621363</Freeze>
+<Chaos>0.006681</Chaos>
 <Taps>499</Taps>
 <Jumps>1</Jumps>
 <Holds>93</Holds>
@@ -1531,8 +1531,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.889000</Freeze>
-<Chaos>0.067000</Chaos>
+<Freeze>0.888616</Freeze>
+<Chaos>0.066813</Chaos>
 <Taps>809</Taps>
 <Jumps>161</Jumps>
 <Holds>133</Holds>
@@ -1547,7 +1547,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.077000</Chaos>
+<Chaos>0.076835</Chaos>
 <Taps>979</Taps>
 <Jumps>457</Jumps>
 <Holds>181</Holds>
@@ -1562,11 +1562,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.678000</Stream>
+<Stream>0.678101</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.034000</Air>
+<Air>0.033665</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.040000</Chaos>
+<Chaos>0.040398</Chaos>
 <Taps>474</Taps>
 <Jumps>5</Jumps>
 <Holds>226</Holds>
@@ -1579,9 +1579,9 @@
 <RadarValues>
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.633000</Air>
+<Air>0.632894</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.098000</Chaos>
+<Chaos>0.097627</Chaos>
 <Taps>833</Taps>
 <Jumps>94</Jumps>
 <Holds>192</Holds>
@@ -1596,7 +1596,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.377000</Chaos>
+<Chaos>0.377043</Chaos>
 <Taps>942</Taps>
 <Jumps>349</Jumps>
 <Holds>216</Holds>
@@ -1611,11 +1611,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.474000</Stream>
-<Voltage>0.696000</Voltage>
+<Stream>0.474435</Stream>
+<Voltage>0.696247</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.711000</Freeze>
-<Chaos>0.482000</Chaos>
+<Freeze>0.710583</Freeze>
+<Chaos>0.482449</Chaos>
 <Taps>349</Taps>
 <Jumps>0</Jumps>
 <Holds>95</Holds>
@@ -1626,10 +1626,10 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>8</Meter>
 <RadarValues>
-<Stream>0.923000</Stream>
+<Stream>0.923224</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.890000</Air>
-<Freeze>0.748000</Freeze>
+<Air>0.890099</Air>
+<Freeze>0.747982</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>645</Taps>
 <Jumps>119</Jumps>
@@ -1660,10 +1660,10 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>2</Meter>
 <RadarValues>
-<Stream>0.268000</Stream>
-<Voltage>0.365000</Voltage>
+<Stream>0.268419</Stream>
+<Voltage>0.364604</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.303000</Freeze>
+<Freeze>0.302600</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>224</Taps>
 <Jumps>0</Jumps>
@@ -1675,11 +1675,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.532000</Stream>
-<Voltage>0.573000</Voltage>
-<Air>0.176000</Air>
-<Freeze>0.591000</Freeze>
-<Chaos>0.042000</Chaos>
+<Stream>0.531811</Stream>
+<Voltage>0.572949</Voltage>
+<Air>0.175930</Air>
+<Freeze>0.591125</Freeze>
+<Chaos>0.042223</Chaos>
 <Taps>420</Taps>
 <Jumps>25</Jumps>
 <Holds>84</Holds>
@@ -1690,11 +1690,11 @@
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>8</Meter>
 <RadarValues>
-<Stream>0.919000</Stream>
-<Voltage>0.912000</Voltage>
+<Stream>0.918857</Stream>
+<Voltage>0.911510</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.598000</Freeze>
-<Chaos>0.348000</Chaos>
+<Freeze>0.598162</Freeze>
+<Chaos>0.348341</Chaos>
 <Taps>642</Taps>
 <Jumps>181</Jumps>
 <Holds>85</Holds>
@@ -1709,11 +1709,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.511000</Stream>
-<Voltage>0.727000</Voltage>
-<Air>0.009000</Air>
-<Freeze>0.972000</Freeze>
-<Chaos>0.022000</Chaos>
+<Stream>0.510549</Stream>
+<Voltage>0.726660</Voltage>
+<Air>0.008674</Air>
+<Freeze>0.971531</Freeze>
+<Chaos>0.021686</Chaos>
 <Taps>299</Taps>
 <Jumps>1</Jumps>
 <Holds>112</Holds>
@@ -1724,11 +1724,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>7</Meter>
 <RadarValues>
-<Stream>0.980000</Stream>
+<Stream>0.980205</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.247000</Chaos>
+<Chaos>0.247220</Chaos>
 <Taps>526</Taps>
 <Jumps>123</Jumps>
 <Holds>142</Holds>
@@ -1742,7 +1742,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.798000</Freeze>
+<Freeze>0.798043</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>823</Taps>
 <Jumps>268</Jumps>
@@ -1758,10 +1758,10 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.231000</Stream>
-<Voltage>0.330000</Voltage>
-<Air>0.008000</Air>
-<Freeze>0.133000</Freeze>
+<Stream>0.231050</Stream>
+<Voltage>0.330209</Voltage>
+<Air>0.007813</Air>
+<Freeze>0.132826</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>189</Taps>
 <Jumps>1</Jumps>
@@ -1773,11 +1773,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.536000</Stream>
-<Voltage>0.660000</Voltage>
-<Air>0.188000</Air>
-<Freeze>0.141000</Freeze>
-<Chaos>0.055000</Chaos>
+<Stream>0.535769</Stream>
+<Voltage>0.660419</Voltage>
+<Air>0.187519</Air>
+<Freeze>0.140639</Freeze>
+<Chaos>0.054693</Chaos>
 <Taps>438</Taps>
 <Jumps>24</Jumps>
 <Holds>18</Holds>
@@ -1788,11 +1788,11 @@
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>8</Meter>
 <RadarValues>
-<Stream>0.962000</Stream>
+<Stream>0.962151</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.180000</Freeze>
-<Chaos>0.059000</Chaos>
+<Freeze>0.179706</Freeze>
+<Chaos>0.058600</Chaos>
 <Taps>554</Taps>
 <Jumps>264</Jumps>
 <Holds>23</Holds>
@@ -1807,11 +1807,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.566000</Stream>
-<Voltage>0.929000</Voltage>
-<Air>0.222000</Air>
-<Freeze>0.767000</Freeze>
-<Chaos>0.291000</Chaos>
+<Stream>0.566176</Stream>
+<Voltage>0.929200</Voltage>
+<Air>0.221719</Air>
+<Freeze>0.766779</Freeze>
+<Chaos>0.291007</Chaos>
 <Taps>322</Taps>
 <Jumps>24</Jumps>
 <Holds>83</Holds>
@@ -1825,7 +1825,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.850000</Freeze>
+<Freeze>0.849924</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>661</Taps>
 <Jumps>112</Jumps>
@@ -1859,8 +1859,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.577000</Freeze>
-<Chaos>0.273000</Chaos>
+<Freeze>0.577267</Freeze>
+<Chaos>0.272818</Chaos>
 <Taps>774</Taps>
 <Jumps>378</Jumps>
 <Holds>73</Holds>
@@ -1874,8 +1874,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.712000</Freeze>
-<Chaos>0.237000</Chaos>
+<Freeze>0.711699</Freeze>
+<Chaos>0.237233</Chaos>
 <Taps>778</Taps>
 <Jumps>277</Jumps>
 <Holds>90</Holds>
@@ -1908,7 +1908,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.717000</Freeze>
+<Freeze>0.717445</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>544</Taps>
 <Jumps>244</Jumps>
@@ -1927,8 +1927,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.849000</Freeze>
-<Chaos>0.552000</Chaos>
+<Freeze>0.848865</Freeze>
+<Chaos>0.552138</Chaos>
 <Taps>907</Taps>
 <Jumps>523</Jumps>
 <Holds>113</Holds>
@@ -1942,8 +1942,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.383000</Freeze>
-<Chaos>0.342000</Chaos>
+<Freeze>0.383116</Freeze>
+<Chaos>0.341799</Chaos>
 <Taps>825</Taps>
 <Jumps>441</Jumps>
 <Holds>51</Holds>
@@ -1961,8 +1961,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.875000</Freeze>
-<Chaos>0.138000</Chaos>
+<Freeze>0.874622</Freeze>
+<Chaos>0.137891</Chaos>
 <Taps>752</Taps>
 <Jumps>344</Jumps>
 <Holds>111</Holds>
@@ -1976,8 +1976,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.922000</Freeze>
-<Chaos>0.158000</Chaos>
+<Freeze>0.921899</Freeze>
+<Chaos>0.157590</Chaos>
 <Taps>636</Taps>
 <Jumps>249</Jumps>
 <Holds>117</Holds>
@@ -1996,7 +1996,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.415000</Chaos>
+<Chaos>0.415129</Chaos>
 <Taps>538</Taps>
 <Jumps>252</Jumps>
 <Holds>158</Holds>
@@ -2007,11 +2007,11 @@
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>22</Meter>
 <RadarValues>
-<Stream>0.949000</Stream>
+<Stream>0.948867</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.135000</Chaos>
+<Chaos>0.134533</Chaos>
 <Taps>458</Taps>
 <Jumps>186</Jumps>
 <Holds>192</Holds>
@@ -2029,7 +2029,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.452000</Freeze>
+<Freeze>0.452144</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>775</Taps>
 <Jumps>288</Jumps>
@@ -2044,7 +2044,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.563000</Freeze>
+<Freeze>0.563197</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>904</Taps>
 <Jumps>190</Jumps>
@@ -2078,8 +2078,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.041000</Freeze>
-<Chaos>0.858000</Chaos>
+<Freeze>0.040593</Freeze>
+<Chaos>0.857529</Chaos>
 <Taps>782</Taps>
 <Jumps>203</Jumps>
 <Holds>4</Holds>
@@ -2112,7 +2112,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.335000</Freeze>
+<Freeze>0.335211</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>608</Taps>
 <Jumps>156</Jumps>
@@ -2131,8 +2131,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.996000</Freeze>
-<Chaos>0.385000</Chaos>
+<Freeze>0.995516</Freeze>
+<Chaos>0.384821</Chaos>
 <Taps>1310</Taps>
 <Jumps>527</Jumps>
 <Holds>238</Holds>
@@ -2146,8 +2146,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.310000</Freeze>
-<Chaos>0.362000</Chaos>
+<Freeze>0.309530</Freeze>
+<Chaos>0.361816</Chaos>
 <Taps>1310</Taps>
 <Jumps>502</Jumps>
 <Holds>74</Holds>
@@ -2165,8 +2165,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.222000</Freeze>
-<Chaos>0.962000</Chaos>
+<Freeze>0.222092</Freeze>
+<Chaos>0.962400</Chaos>
 <Taps>908</Taps>
 <Jumps>312</Jumps>
 <Holds>30</Holds>
@@ -2180,8 +2180,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.089000</Freeze>
-<Chaos>0.907000</Chaos>
+<Freeze>0.088837</Freeze>
+<Chaos>0.906877</Chaos>
 <Taps>914</Taps>
 <Jumps>276</Jumps>
 <Holds>12</Holds>
@@ -2196,11 +2196,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>8</Meter>
 <RadarValues>
-<Stream>0.667000</Stream>
-<Voltage>0.653000</Voltage>
-<Air>0.367000</Air>
-<Freeze>0.311000</Freeze>
-<Chaos>0.895000</Chaos>
+<Stream>0.667341</Stream>
+<Voltage>0.653407</Voltage>
+<Air>0.367038</Air>
+<Freeze>0.311426</Freeze>
+<Chaos>0.895350</Chaos>
 <Taps>359</Taps>
 <Jumps>33</Jumps>
 <Holds>28</Holds>
@@ -2211,11 +2211,11 @@
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>11</Meter>
 <RadarValues>
-<Stream>0.723000</Stream>
-<Voltage>0.777000</Voltage>
-<Air>0.979000</Air>
-<Freeze>0.111000</Freeze>
-<Chaos>0.784000</Chaos>
+<Stream>0.722953</Stream>
+<Voltage>0.777152</Voltage>
+<Air>0.978767</Air>
+<Freeze>0.111224</Freeze>
+<Chaos>0.784126</Chaos>
 <Taps>348</Taps>
 <Jumps>88</Jumps>
 <Holds>10</Holds>
@@ -2233,7 +2233,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.377000</Freeze>
+<Freeze>0.377410</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>688</Taps>
 <Jumps>312</Jumps>
@@ -2249,11 +2249,11 @@
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.712000</Stream>
+<Stream>0.712329</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.935000</Air>
-<Freeze>0.515000</Freeze>
-<Chaos>0.333000</Chaos>
+<Air>0.934932</Air>
+<Freeze>0.514575</Freeze>
+<Chaos>0.333386</Chaos>
 <Taps>470</Taps>
 <Jumps>129</Jumps>
 <Holds>71</Holds>
@@ -2268,11 +2268,11 @@
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>7</Meter>
 <RadarValues>
-<Stream>0.858000</Stream>
+<Stream>0.857871</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.067000</Freeze>
-<Chaos>0.148000</Chaos>
+<Freeze>0.066641</Freeze>
+<Chaos>0.148091</Chaos>
 <Taps>552</Taps>
 <Jumps>196</Jumps>
 <Holds>9</Holds>
@@ -2287,11 +2287,11 @@
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>9</Meter>
 <RadarValues>
-<Stream>0.812000</Stream>
-<Voltage>0.937000</Voltage>
+<Stream>0.811515</Stream>
+<Voltage>0.937262</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.350000</Freeze>
-<Chaos>0.175000</Chaos>
+<Freeze>0.349810</Freeze>
+<Chaos>0.174905</Chaos>
 <Taps>488</Taps>
 <Jumps>188</Jumps>
 <Holds>46</Holds>
@@ -2306,11 +2306,11 @@
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.681000</Stream>
-<Voltage>0.616000</Voltage>
-<Air>0.563000</Air>
-<Freeze>0.633000</Freeze>
-<Chaos>0.407000</Chaos>
+<Stream>0.680968</Stream>
+<Voltage>0.616431</Voltage>
+<Air>0.563346</Air>
+<Freeze>0.632681</Freeze>
+<Chaos>0.407343</Chaos>
 <Taps>411</Taps>
 <Jumps>65</Jumps>
 <Holds>73</Holds>
@@ -2325,11 +2325,11 @@
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.807000</Stream>
+<Stream>0.806507</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.291000</Freeze>
-<Chaos>0.199000</Chaos>
+<Freeze>0.291498</Freeze>
+<Chaos>0.199290</Chaos>
 <Taps>663</Taps>
 <Jumps>234</Jumps>
 <Holds>49</Holds>
@@ -2348,7 +2348,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>0.000000</Freeze>
-<Chaos>0.233000</Chaos>
+<Chaos>0.233191</Chaos>
 <Taps>596</Taps>
 <Jumps>377</Jumps>
 <Holds>0</Holds>
@@ -2366,8 +2366,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.949000</Freeze>
-<Chaos>0.344000</Chaos>
+<Freeze>0.949098</Freeze>
+<Chaos>0.343639</Chaos>
 <Taps>356</Taps>
 <Jumps>185</Jumps>
 <Holds>87</Holds>
@@ -2378,11 +2378,11 @@
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>7</Meter>
 <RadarValues>
-<Stream>0.951000</Stream>
+<Stream>0.950656</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.382000</Freeze>
-<Chaos>0.469000</Chaos>
+<Freeze>0.381821</Freeze>
+<Chaos>0.469094</Chaos>
 <Taps>408</Taps>
 <Jumps>155</Jumps>
 <Holds>35</Holds>
@@ -2401,7 +2401,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.119000</Chaos>
+<Chaos>0.119233</Chaos>
 <Taps>443</Taps>
 <Jumps>135</Jumps>
 <Holds>101</Holds>
@@ -2415,8 +2415,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.193000</Freeze>
-<Chaos>0.079000</Chaos>
+<Freeze>0.193044</Freeze>
+<Chaos>0.079489</Chaos>
 <Taps>425</Taps>
 <Jumps>170</Jumps>
 <Holds>17</Holds>
@@ -2430,8 +2430,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.295000</Freeze>
-<Chaos>0.233000</Chaos>
+<Freeze>0.295243</Freeze>
+<Chaos>0.232788</Chaos>
 <Taps>477</Taps>
 <Jumps>141</Jumps>
 <Holds>26</Holds>
@@ -2445,8 +2445,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.636000</Freeze>
-<Chaos>0.097000</Chaos>
+<Freeze>0.635908</Freeze>
+<Chaos>0.096522</Chaos>
 <Taps>467</Taps>
 <Jumps>209</Jumps>
 <Holds>56</Holds>
@@ -2464,8 +2464,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.534000</Freeze>
-<Chaos>0.135000</Chaos>
+<Freeze>0.534032</Freeze>
+<Chaos>0.134649</Chaos>
 <Taps>1035</Taps>
 <Jumps>402</Jumps>
 <Holds>117</Holds>
@@ -2484,7 +2484,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.550000</Chaos>
+<Chaos>0.550373</Chaos>
 <Taps>577</Taps>
 <Jumps>285</Jumps>
 <Holds>94</Holds>
@@ -2499,11 +2499,11 @@
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>7</Meter>
 <RadarValues>
-<Stream>0.934000</Stream>
+<Stream>0.933697</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.268000</Freeze>
-<Chaos>0.284000</Chaos>
+<Freeze>0.268304</Freeze>
+<Chaos>0.284402</Chaos>
 <Taps>378</Taps>
 <Jumps>161</Jumps>
 <Holds>25</Holds>
@@ -2518,11 +2518,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.563000</Stream>
-<Voltage>0.734000</Voltage>
-<Air>0.483000</Air>
-<Freeze>0.666000</Freeze>
-<Chaos>0.203000</Chaos>
+<Stream>0.562529</Stream>
+<Voltage>0.734201</Voltage>
+<Air>0.482637</Air>
+<Freeze>0.666498</Freeze>
+<Chaos>0.203014</Chaos>
 <Taps>362</Taps>
 <Jumps>63</Jumps>
 <Holds>87</Holds>
@@ -2533,11 +2533,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.784000</Stream>
-<Voltage>0.868000</Voltage>
-<Air>0.942000</Air>
-<Freeze>0.651000</Freeze>
-<Chaos>0.372000</Chaos>
+<Stream>0.783600</Stream>
+<Voltage>0.867692</Voltage>
+<Air>0.942290</Air>
+<Freeze>0.651176</Freeze>
+<Chaos>0.371554</Chaos>
 <Taps>493</Taps>
 <Jumps>123</Jumps>
 <Holds>85</Holds>
@@ -2551,8 +2551,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.245000</Freeze>
-<Chaos>0.931000</Chaos>
+<Freeze>0.245149</Freeze>
+<Chaos>0.930799</Chaos>
 <Taps>799</Taps>
 <Jumps>301</Jumps>
 <Holds>32</Holds>
@@ -2570,7 +2570,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.161000</Freeze>
+<Freeze>0.160677</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>976</Taps>
 <Jumps>315</Jumps>
@@ -2590,7 +2590,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.919000</Chaos>
+<Chaos>0.919463</Chaos>
 <Taps>1025</Taps>
 <Jumps>472</Jumps>
 <Holds>197</Holds>
@@ -2608,7 +2608,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.112000</Freeze>
+<Freeze>0.112223</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>1358</Taps>
 <Jumps>617</Jumps>
@@ -2624,10 +2624,10 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.392000</Stream>
-<Voltage>0.655000</Voltage>
-<Air>0.164000</Air>
-<Freeze>0.296000</Freeze>
+<Stream>0.392137</Stream>
+<Voltage>0.655389</Voltage>
+<Air>0.163762</Air>
+<Freeze>0.296331</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>293</Taps>
 <Jumps>21</Jumps>
@@ -2642,8 +2642,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.413000</Freeze>
-<Chaos>0.121000</Chaos>
+<Freeze>0.413304</Freeze>
+<Chaos>0.120872</Chaos>
 <Taps>632</Taps>
 <Jumps>232</Jumps>
 <Holds>53</Holds>
@@ -2657,8 +2657,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.741000</Freeze>
-<Chaos>0.893000</Chaos>
+<Freeze>0.740827</Freeze>
+<Chaos>0.892892</Chaos>
 <Taps>912</Taps>
 <Jumps>360</Jumps>
 <Holds>95</Holds>
@@ -2676,8 +2676,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.067000</Freeze>
-<Chaos>0.477000</Chaos>
+<Freeze>0.066589</Freeze>
+<Chaos>0.477223</Chaos>
 <Taps>719</Taps>
 <Jumps>256</Jumps>
 <Holds>9</Holds>
@@ -2695,7 +2695,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.205000</Freeze>
+<Freeze>0.204841</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>739</Taps>
 <Jumps>135</Jumps>
@@ -2710,7 +2710,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.276000</Freeze>
+<Freeze>0.275747</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>1007</Taps>
 <Jumps>365</Jumps>
@@ -2725,7 +2725,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.268000</Freeze>
+<Freeze>0.267868</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>1018</Taps>
 <Jumps>384</Jumps>
@@ -2744,8 +2744,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.580000</Freeze>
-<Chaos>0.256000</Chaos>
+<Freeze>0.579852</Freeze>
+<Chaos>0.256473</Chaos>
 <Taps>489</Taps>
 <Jumps>217</Jumps>
 <Holds>52</Holds>
@@ -2763,7 +2763,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.329000</Freeze>
+<Freeze>0.328631</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>775</Taps>
 <Jumps>336</Jumps>
@@ -2782,7 +2782,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.217000</Freeze>
+<Freeze>0.217279</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>951</Taps>
 <Jumps>211</Jumps>
@@ -2801,7 +2801,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.246000</Freeze>
+<Freeze>0.245753</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>4033</Taps>
 <Jumps>881</Jumps>
@@ -2820,7 +2820,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.441000</Freeze>
+<Freeze>0.440633</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>2017</Taps>
 <Jumps>494</Jumps>
@@ -2836,11 +2836,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.396000</Stream>
-<Voltage>0.408000</Voltage>
-<Air>0.020000</Air>
-<Freeze>0.161000</Freeze>
-<Chaos>0.025000</Chaos>
+<Stream>0.396474</Stream>
+<Voltage>0.408254</Voltage>
+<Air>0.020111</Air>
+<Freeze>0.160888</Freeze>
+<Chaos>0.025139</Chaos>
 <Taps>258</Taps>
 <Jumps>2</Jumps>
 <Holds>16</Holds>
@@ -2851,11 +2851,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.582000</Stream>
-<Voltage>0.612000</Voltage>
-<Air>0.513000</Air>
-<Freeze>0.261000</Freeze>
-<Chaos>0.161000</Chaos>
+<Stream>0.581783</Stream>
+<Voltage>0.612380</Voltage>
+<Air>0.512831</Air>
+<Freeze>0.261443</Freeze>
+<Chaos>0.160888</Chaos>
 <Taps>328</Taps>
 <Jumps>51</Jumps>
 <Holds>26</Holds>
@@ -2866,11 +2866,11 @@
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>9</Meter>
 <RadarValues>
-<Stream>1.000000</Stream>
+<Stream>0.999805</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.965000</Freeze>
-<Chaos>0.186000</Chaos>
+<Freeze>0.965329</Freeze>
+<Chaos>0.186027</Chaos>
 <Taps>382</Taps>
 <Jumps>157</Jumps>
 <Holds>96</Holds>
@@ -2888,8 +2888,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.630000</Freeze>
-<Chaos>0.287000</Chaos>
+<Freeze>0.630381</Freeze>
+<Chaos>0.286537</Chaos>
 <Taps>346</Taps>
 <Jumps>171</Jumps>
 <Holds>44</Holds>
@@ -2904,11 +2904,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>7</Meter>
 <RadarValues>
-<Stream>0.846000</Stream>
+<Stream>0.845662</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.418000</Freeze>
-<Chaos>0.606000</Chaos>
+<Freeze>0.417957</Freeze>
+<Chaos>0.605611</Chaos>
 <Taps>514</Taps>
 <Jumps>119</Jumps>
 <Holds>49</Holds>
@@ -2922,8 +2922,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.426000</Freeze>
-<Chaos>0.964000</Chaos>
+<Freeze>0.426487</Freeze>
+<Chaos>0.963860</Chaos>
 <Taps>709</Taps>
 <Jumps>264</Jumps>
 <Holds>50</Holds>
@@ -2937,7 +2937,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.563000</Freeze>
+<Freeze>0.562962</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>906</Taps>
 <Jumps>348</Jumps>
@@ -2956,7 +2956,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.324000</Freeze>
+<Freeze>0.324489</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>1112</Taps>
 <Jumps>252</Jumps>
@@ -2976,7 +2976,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.266000</Chaos>
+<Chaos>0.266058</Chaos>
 <Taps>619</Taps>
 <Jumps>323</Jumps>
 <Holds>150</Holds>
@@ -2990,8 +2990,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.895000</Freeze>
-<Chaos>0.270000</Chaos>
+<Freeze>0.894572</Freeze>
+<Chaos>0.269914</Chaos>
 <Taps>653</Taps>
 <Jumps>317</Jumps>
 <Holds>116</Holds>
@@ -3009,8 +3009,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.608000</Freeze>
-<Chaos>0.110000</Chaos>
+<Freeze>0.608078</Freeze>
+<Chaos>0.110279</Chaos>
 <Taps>2239</Taps>
 <Jumps>1121</Jumps>
 <Holds>295</Holds>
@@ -3024,8 +3024,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.841000</Freeze>
-<Chaos>0.244000</Chaos>
+<Freeze>0.841003</Freeze>
+<Chaos>0.244262</Chaos>
 <Taps>2854</Taps>
 <Jumps>1168</Jumps>
 <Holds>408</Holds>
@@ -3044,7 +3044,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.999000</Chaos>
+<Chaos>0.998571</Chaos>
 <Taps>741</Taps>
 <Jumps>225</Jumps>
 <Holds>282</Holds>
@@ -3058,7 +3058,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.370000</Freeze>
+<Freeze>0.370160</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>893</Taps>
 <Jumps>342</Jumps>
@@ -3078,7 +3078,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.438000</Chaos>
+<Chaos>0.438321</Chaos>
 <Taps>656</Taps>
 <Jumps>347</Jumps>
 <Holds>218</Holds>
@@ -3092,8 +3092,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.569000</Freeze>
-<Chaos>0.464000</Chaos>
+<Freeze>0.569163</Freeze>
+<Chaos>0.464489</Chaos>
 <Taps>678</Taps>
 <Jumps>387</Jumps>
 <Holds>87</Holds>
@@ -3111,8 +3111,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.664000</Freeze>
-<Chaos>0.462000</Chaos>
+<Freeze>0.664242</Freeze>
+<Chaos>0.461592</Chaos>
 <Taps>608</Taps>
 <Jumps>300</Jumps>
 <Holds>59</Holds>
@@ -3126,8 +3126,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.619000</Freeze>
-<Chaos>0.467000</Chaos>
+<Freeze>0.619209</Freeze>
+<Chaos>0.467221</Chaos>
 <Taps>598</Taps>
 <Jumps>224</Jumps>
 <Holds>55</Holds>
@@ -3145,8 +3145,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.833000</Freeze>
-<Chaos>0.350000</Chaos>
+<Freeze>0.833111</Freeze>
+<Chaos>0.349907</Chaos>
 <Taps>535</Taps>
 <Jumps>234</Jumps>
 <Holds>75</Holds>
@@ -3160,8 +3160,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.567000</Freeze>
-<Chaos>0.372000</Chaos>
+<Freeze>0.566516</Freeze>
+<Chaos>0.372123</Chaos>
 <Taps>507</Taps>
 <Jumps>210</Jumps>
 <Holds>51</Holds>
@@ -3179,8 +3179,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.921000</Freeze>
-<Chaos>0.311000</Chaos>
+<Freeze>0.920994</Freeze>
+<Chaos>0.310697</Chaos>
 <Taps>480</Taps>
 <Jumps>255</Jumps>
 <Holds>83</Holds>
@@ -3195,7 +3195,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.338000</Chaos>
+<Chaos>0.338438</Chaos>
 <Taps>506</Taps>
 <Jumps>235</Jumps>
 <Holds>124</Holds>
@@ -3213,8 +3213,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.410000</Freeze>
-<Chaos>0.178000</Chaos>
+<Freeze>0.409661</Freeze>
+<Chaos>0.177520</Chaos>
 <Taps>541</Taps>
 <Jumps>238</Jumps>
 <Holds>45</Holds>
@@ -3228,8 +3228,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.974000</Freeze>
-<Chaos>0.105000</Chaos>
+<Freeze>0.974082</Freeze>
+<Chaos>0.104691</Chaos>
 <Taps>491</Taps>
 <Jumps>194</Jumps>
 <Holds>107</Holds>
@@ -3247,8 +3247,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.580000</Freeze>
-<Chaos>0.988000</Chaos>
+<Freeze>0.579843</Freeze>
+<Chaos>0.988183</Chaos>
 <Taps>871</Taps>
 <Jumps>342</Jumps>
 <Holds>71</Holds>
@@ -3262,8 +3262,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.637000</Freeze>
-<Chaos>0.755000</Chaos>
+<Freeze>0.637010</Freeze>
+<Chaos>0.755429</Chaos>
 <Taps>782</Taps>
 <Jumps>244</Jumps>
 <Holds>78</Holds>
@@ -3282,7 +3282,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.389000</Chaos>
+<Chaos>0.388582</Chaos>
 <Taps>546</Taps>
 <Jumps>235</Jumps>
 <Holds>95</Holds>
@@ -3296,8 +3296,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.910000</Freeze>
-<Chaos>0.361000</Chaos>
+<Freeze>0.910393</Freeze>
+<Chaos>0.360826</Chaos>
 <Taps>518</Taps>
 <Jumps>239</Jumps>
 <Holds>82</Holds>
@@ -3316,7 +3316,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.189000</Chaos>
+<Chaos>0.189175</Chaos>
 <Taps>449</Taps>
 <Jumps>172</Jumps>
 <Holds>161</Holds>
@@ -3330,8 +3330,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.825000</Freeze>
-<Chaos>0.170000</Chaos>
+<Freeze>0.824610</Freeze>
+<Chaos>0.169773</Chaos>
 <Taps>460</Taps>
 <Jumps>178</Jumps>
 <Holds>85</Holds>
@@ -3345,8 +3345,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.796000</Freeze>
-<Chaos>0.238000</Chaos>
+<Freeze>0.795506</Freeze>
+<Chaos>0.237682</Chaos>
 <Taps>493</Taps>
 <Jumps>262</Jumps>
 <Holds>82</Holds>
@@ -3361,10 +3361,10 @@
 <Steps StepsType='dance-single' Difficulty='Beginner' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.989000</Stream>
-<Voltage>0.885000</Voltage>
-<Air>0.999000</Air>
-<Freeze>0.344000</Freeze>
+<Stream>0.989135</Stream>
+<Voltage>0.885466</Voltage>
+<Air>0.998646</Air>
+<Freeze>0.343978</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>491</Taps>
 <Jumps>90</Jumps>
@@ -3379,7 +3379,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.455000</Freeze>
+<Freeze>0.454939</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>501</Taps>
 <Jumps>129</Jumps>
@@ -3394,8 +3394,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.499000</Freeze>
-<Chaos>0.888000</Chaos>
+<Freeze>0.499323</Freeze>
+<Chaos>0.887686</Chaos>
 <Taps>432</Taps>
 <Jumps>164</Jumps>
 <Holds>45</Holds>
@@ -3406,10 +3406,10 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.867000</Stream>
-<Voltage>0.822000</Voltage>
-<Air>0.788000</Air>
-<Freeze>0.055000</Freeze>
+<Stream>0.867079</Stream>
+<Voltage>0.822219</Voltage>
+<Air>0.787821</Air>
+<Freeze>0.055480</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>466</Taps>
 <Jumps>71</Jumps>
@@ -3421,10 +3421,10 @@
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>2</Meter>
 <RadarValues>
-<Stream>0.953000</Stream>
+<Stream>0.952677</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.810000</Air>
-<Freeze>0.322000</Freeze>
+<Air>0.810013</Air>
+<Freeze>0.321786</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>495</Taps>
 <Jumps>73</Jumps>
@@ -3443,8 +3443,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.033000</Freeze>
-<Chaos>0.730000</Chaos>
+<Freeze>0.032788</Freeze>
+<Chaos>0.729532</Chaos>
 <Taps>1172</Taps>
 <Jumps>307</Jumps>
 <Holds>4</Holds>
@@ -3459,7 +3459,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.807000</Chaos>
+<Chaos>0.807404</Chaos>
 <Taps>1222</Taps>
 <Jumps>583</Jumps>
 <Holds>250</Holds>
@@ -3474,11 +3474,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.405000</Stream>
-<Voltage>0.534000</Voltage>
-<Air>0.113000</Air>
-<Freeze>0.234000</Freeze>
-<Chaos>0.137000</Chaos>
+<Stream>0.405221</Stream>
+<Voltage>0.534075</Voltage>
+<Air>0.113139</Air>
+<Freeze>0.234359</Freeze>
+<Chaos>0.137383</Chaos>
 <Taps>308</Taps>
 <Jumps>14</Jumps>
 <Holds>29</Holds>
@@ -3489,11 +3489,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>7</Meter>
 <RadarValues>
-<Stream>0.995000</Stream>
+<Stream>0.995158</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.259000</Freeze>
-<Chaos>0.679000</Chaos>
+<Freeze>0.258603</Freeze>
+<Chaos>0.678832</Chaos>
 <Taps>636</Taps>
 <Jumps>192</Jumps>
 <Holds>32</Holds>
@@ -3507,7 +3507,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.380000</Freeze>
+<Freeze>0.379823</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>874</Taps>
 <Jumps>337</Jumps>
@@ -3523,11 +3523,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.602000</Stream>
-<Voltage>0.671000</Voltage>
-<Air>0.478000</Air>
-<Freeze>0.353000</Freeze>
-<Chaos>0.310000</Chaos>
+<Stream>0.601530</Stream>
+<Voltage>0.670616</Voltage>
+<Air>0.478311</Air>
+<Freeze>0.352853</Freeze>
+<Chaos>0.309726</Chaos>
 <Taps>431</Taps>
 <Jumps>61</Jumps>
 <Holds>45</Holds>
@@ -3541,8 +3541,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.494000</Freeze>
-<Chaos>0.925000</Chaos>
+<Freeze>0.493994</Freeze>
+<Chaos>0.925258</Chaos>
 <Taps>712</Taps>
 <Jumps>216</Jumps>
 <Holds>63</Holds>
@@ -3556,7 +3556,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.557000</Freeze>
+<Freeze>0.556723</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>875</Taps>
 <Jumps>414</Jumps>
@@ -3572,11 +3572,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.524000</Stream>
-<Voltage>0.740000</Voltage>
-<Air>0.326000</Air>
-<Freeze>0.517000</Freeze>
-<Chaos>0.200000</Chaos>
+<Stream>0.524017</Stream>
+<Voltage>0.739625</Voltage>
+<Air>0.326192</Air>
+<Freeze>0.516984</Freeze>
+<Chaos>0.200023</Chaos>
 <Taps>456</Taps>
 <Jumps>53</Jumps>
 <Holds>84</Holds>
@@ -3590,8 +3590,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.394000</Freeze>
-<Chaos>0.849000</Chaos>
+<Freeze>0.393892</Freeze>
+<Chaos>0.849330</Chaos>
 <Taps>838</Taps>
 <Jumps>272</Jumps>
 <Holds>64</Holds>
@@ -3605,7 +3605,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.191000</Freeze>
+<Freeze>0.190792</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>1173</Taps>
 <Jumps>372</Jumps>
@@ -3621,11 +3621,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.595000</Stream>
-<Voltage>0.764000</Voltage>
-<Air>0.924000</Air>
-<Freeze>0.413000</Freeze>
-<Chaos>0.351000</Chaos>
+<Stream>0.595199</Stream>
+<Voltage>0.764182</Voltage>
+<Air>0.924031</Air>
+<Freeze>0.412514</Freeze>
+<Chaos>0.350637</Chaos>
 <Taps>342</Taps>
 <Jumps>112</Jumps>
 <Holds>50</Holds>
@@ -3639,7 +3639,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.454000</Freeze>
+<Freeze>0.453765</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>749</Taps>
 <Jumps>138</Jumps>
@@ -3654,7 +3654,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.503000</Freeze>
+<Freeze>0.503267</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>953</Taps>
 <Jumps>328</Jumps>
@@ -3670,11 +3670,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.624000</Stream>
+<Stream>0.623952</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.436000</Air>
-<Freeze>0.038000</Freeze>
-<Chaos>0.481000</Chaos>
+<Air>0.436015</Air>
+<Freeze>0.037587</Freeze>
+<Chaos>0.481120</Chaos>
 <Taps>517</Taps>
 <Jumps>58</Jumps>
 <Holds>5</Holds>
@@ -3688,8 +3688,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.376000</Freeze>
-<Chaos>0.756000</Chaos>
+<Freeze>0.375875</Freeze>
+<Chaos>0.755508</Chaos>
 <Taps>701</Taps>
 <Jumps>186</Jumps>
 <Holds>50</Holds>
@@ -3703,7 +3703,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.398000</Freeze>
+<Freeze>0.398427</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>886</Taps>
 <Jumps>396</Jumps>
@@ -3719,11 +3719,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.879000</Stream>
+<Stream>0.879075</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.928000</Air>
-<Freeze>0.800000</Freeze>
-<Chaos>0.080000</Chaos>
+<Air>0.928230</Air>
+<Freeze>0.800198</Freeze>
+<Chaos>0.080020</Chaos>
 <Taps>550</Taps>
 <Jumps>116</Jumps>
 <Holds>100</Holds>
@@ -3736,8 +3736,8 @@
 <RadarValues>
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.792000</Air>
-<Freeze>0.144000</Freeze>
+<Air>0.792196</Air>
+<Freeze>0.144036</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>891</Taps>
 <Jumps>99</Jumps>
@@ -3752,7 +3752,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.152000</Freeze>
+<Freeze>0.152038</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>955</Taps>
 <Jumps>305</Jumps>
@@ -3768,11 +3768,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.484000</Stream>
-<Voltage>0.581000</Voltage>
-<Air>0.128000</Air>
-<Freeze>0.203000</Freeze>
-<Chaos>0.079000</Chaos>
+<Stream>0.483800</Stream>
+<Voltage>0.580828</Voltage>
+<Air>0.127654</Air>
+<Freeze>0.202745</Freeze>
+<Chaos>0.078845</Chaos>
 <Taps>407</Taps>
 <Jumps>17</Jumps>
 <Holds>27</Holds>
@@ -3783,11 +3783,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>8</Meter>
 <RadarValues>
-<Stream>0.958000</Stream>
+<Stream>0.957945</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.195000</Freeze>
-<Chaos>0.529000</Chaos>
+<Freeze>0.195236</Freeze>
+<Chaos>0.529391</Chaos>
 <Taps>715</Taps>
 <Jumps>152</Jumps>
 <Holds>26</Holds>
@@ -3801,8 +3801,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.225000</Freeze>
-<Chaos>0.830000</Chaos>
+<Freeze>0.225273</Freeze>
+<Chaos>0.829754</Chaos>
 <Taps>839</Taps>
 <Jumps>372</Jumps>
 <Holds>30</Holds>
@@ -3817,11 +3817,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.557000</Stream>
-<Voltage>0.690000</Voltage>
-<Air>0.357000</Air>
-<Freeze>0.421000</Freeze>
-<Chaos>0.206000</Chaos>
+<Stream>0.556707</Stream>
+<Voltage>0.689704</Voltage>
+<Air>0.357154</Air>
+<Freeze>0.420648</Freeze>
+<Chaos>0.206356</Chaos>
 <Taps>393</Taps>
 <Jumps>45</Jumps>
 <Holds>53</Holds>
@@ -3835,7 +3835,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.421000</Freeze>
+<Freeze>0.420648</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>789</Taps>
 <Jumps>149</Jumps>
@@ -3850,7 +3850,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.349000</Freeze>
+<Freeze>0.349217</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>1050</Taps>
 <Jumps>289</Jumps>
@@ -3866,9 +3866,9 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.564000</Stream>
-<Voltage>0.786000</Voltage>
-<Air>0.181000</Air>
+<Stream>0.564434</Stream>
+<Voltage>0.785980</Voltage>
+<Air>0.181467</Air>
 <Freeze>1.000000</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>311</Taps>
@@ -3885,7 +3885,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.045000</Chaos>
+<Chaos>0.045367</Chaos>
 <Taps>550</Taps>
 <Jumps>189</Jumps>
 <Holds>129</Holds>
@@ -3900,7 +3900,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.124000</Chaos>
+<Chaos>0.123728</Chaos>
 <Taps>594</Taps>
 <Jumps>314</Jumps>
 <Holds>126</Holds>
@@ -3915,11 +3915,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.556000</Stream>
-<Voltage>0.637000</Voltage>
-<Air>0.378000</Air>
-<Freeze>0.489000</Freeze>
-<Chaos>0.044000</Chaos>
+<Stream>0.555772</Stream>
+<Voltage>0.636567</Voltage>
+<Air>0.377925</Air>
+<Freeze>0.489079</Freeze>
+<Chaos>0.044462</Chaos>
 <Taps>272</Taps>
 <Jumps>34</Jumps>
 <Holds>44</Holds>
@@ -3930,11 +3930,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.973000</Stream>
-<Voltage>0.936000</Voltage>
+<Stream>0.973394</Stream>
+<Voltage>0.936128</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.378000</Freeze>
-<Chaos>0.189000</Chaos>
+<Freeze>0.377925</Freeze>
+<Chaos>0.188962</Chaos>
 <Taps>415</Taps>
 <Jumps>159</Jumps>
 <Holds>34</Holds>
@@ -3948,8 +3948,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.378000</Freeze>
-<Chaos>0.372000</Chaos>
+<Freeze>0.377925</Freeze>
+<Chaos>0.372367</Chaos>
 <Taps>523</Taps>
 <Jumps>230</Jumps>
 <Holds>34</Holds>
@@ -3968,7 +3968,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.234000</Chaos>
+<Chaos>0.234035</Chaos>
 <Taps>593</Taps>
 <Jumps>340</Jumps>
 <Holds>97</Holds>
@@ -3979,9 +3979,9 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.783000</Stream>
-<Voltage>0.918000</Voltage>
-<Air>0.847000</Air>
+<Stream>0.783302</Stream>
+<Voltage>0.917893</Voltage>
+<Air>0.846985</Air>
 <Freeze>1.000000</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>323</Taps>
@@ -3998,7 +3998,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.117000</Chaos>
+<Chaos>0.117018</Chaos>
 <Taps>517</Taps>
 <Jumps>179</Jumps>
 <Holds>102</Holds>
@@ -4013,7 +4013,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.212000</Chaos>
+<Chaos>0.211746</Chaos>
 <Taps>554</Taps>
 <Jumps>261</Jumps>
 <Holds>97</Holds>
@@ -4028,11 +4028,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.882000</Stream>
-<Voltage>0.924000</Voltage>
-<Air>0.691000</Air>
-<Freeze>0.337000</Freeze>
-<Chaos>0.272000</Chaos>
+<Stream>0.881842</Stream>
+<Voltage>0.924045</Voltage>
+<Air>0.690673</Air>
+<Freeze>0.336703</Freeze>
+<Chaos>0.271953</Chaos>
 <Taps>596</Taps>
 <Jumps>80</Jumps>
 <Holds>39</Holds>
@@ -4046,7 +4046,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.276000</Freeze>
+<Freeze>0.276269</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>832</Taps>
 <Jumps>178</Jumps>
@@ -4061,7 +4061,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.017000</Freeze>
+<Freeze>0.017267</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>1015</Taps>
 <Jumps>382</Jumps>
@@ -4080,8 +4080,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.861000</Freeze>
-<Chaos>0.472000</Chaos>
+<Freeze>0.861290</Freeze>
+<Chaos>0.472455</Chaos>
 <Taps>796</Taps>
 <Jumps>733</Jumps>
 <Holds>103</Holds>
@@ -4092,11 +4092,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.950000</Stream>
+<Stream>0.949689</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.853000</Air>
-<Freeze>0.301000</Freeze>
-<Chaos>0.067000</Chaos>
+<Air>0.852928</Air>
+<Freeze>0.301034</Freeze>
+<Chaos>0.066896</Chaos>
 <Taps>656</Taps>
 <Jumps>102</Jumps>
 <Holds>36</Holds>
@@ -4110,8 +4110,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.284000</Freeze>
-<Chaos>0.439000</Chaos>
+<Freeze>0.284309</Freeze>
+<Chaos>0.439007</Chaos>
 <Taps>753</Taps>
 <Jumps>355</Jumps>
 <Holds>34</Holds>
@@ -4125,8 +4125,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.284000</Freeze>
-<Chaos>0.498000</Chaos>
+<Freeze>0.284309</Freeze>
+<Chaos>0.497542</Chaos>
 <Taps>825</Taps>
 <Jumps>558</Jumps>
 <Holds>34</Holds>
@@ -4141,11 +4141,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.464000</Stream>
-<Voltage>0.495000</Voltage>
-<Air>0.102000</Air>
-<Freeze>0.520000</Freeze>
-<Chaos>0.135000</Chaos>
+<Stream>0.463614</Stream>
+<Voltage>0.495201</Voltage>
+<Air>0.101893</Air>
+<Freeze>0.519655</Freeze>
+<Chaos>0.135008</Chaos>
 <Taps>515</Taps>
 <Jumps>20</Jumps>
 <Holds>102</Holds>
@@ -4156,11 +4156,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>9</Meter>
 <RadarValues>
-<Stream>0.934000</Stream>
+<Stream>0.933778</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.943000</Freeze>
-<Chaos>0.642000</Chaos>
+<Freeze>0.942512</Freeze>
+<Chaos>0.641927</Chaos>
 <Taps>822</Taps>
 <Jumps>265</Jumps>
 <Holds>185</Holds>
@@ -4193,7 +4193,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.079000</Freeze>
+<Freeze>0.079010</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>1101</Taps>
 <Jumps>576</Jumps>
@@ -4205,11 +4205,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.747000</Stream>
-<Voltage>0.958000</Voltage>
-<Air>0.774000</Air>
-<Freeze>0.040000</Freeze>
-<Chaos>0.229000</Chaos>
+<Stream>0.747210</Stream>
+<Voltage>0.957998</Voltage>
+<Air>0.774300</Air>
+<Freeze>0.039505</Freeze>
+<Chaos>0.229129</Chaos>
 <Taps>559</Taps>
 <Jumps>98</Jumps>
 <Holds>5</Holds>
@@ -4223,8 +4223,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.040000</Freeze>
-<Chaos>0.873000</Chaos>
+<Freeze>0.039505</Freeze>
+<Chaos>0.873062</Chaos>
 <Taps>868</Taps>
 <Jumps>274</Jumps>
 <Holds>5</Holds>
@@ -4238,7 +4238,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.126000</Freeze>
+<Freeze>0.126416</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>1063</Taps>
 <Jumps>461</Jumps>
@@ -4254,11 +4254,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.832000</Stream>
+<Stream>0.831975</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.812000</Air>
-<Freeze>0.961000</Freeze>
-<Chaos>0.033000</Chaos>
+<Air>0.811856</Air>
+<Freeze>0.960973</Freeze>
+<Chaos>0.033137</Chaos>
 <Taps>488</Taps>
 <Jumps>98</Jumps>
 <Holds>116</Holds>
@@ -4273,7 +4273,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.191000</Chaos>
+<Chaos>0.190538</Chaos>
 <Taps>639</Taps>
 <Jumps>257</Jumps>
 <Holds>123</Holds>
@@ -4287,8 +4287,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.886000</Freeze>
-<Chaos>0.456000</Chaos>
+<Freeze>0.886415</Freeze>
+<Chaos>0.455634</Chaos>
 <Taps>723</Taps>
 <Jumps>331</Jumps>
 <Holds>107</Holds>
@@ -4303,11 +4303,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.498000</Stream>
-<Voltage>0.550000</Voltage>
-<Air>0.093000</Air>
-<Freeze>0.753000</Freeze>
-<Chaos>0.005000</Chaos>
+<Stream>0.498366</Stream>
+<Voltage>0.550120</Voltage>
+<Air>0.092891</Air>
+<Freeze>0.753447</Freeze>
+<Chaos>0.005161</Chaos>
 <Taps>255</Taps>
 <Jumps>9</Jumps>
 <Holds>73</Holds>
@@ -4322,7 +4322,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.181000</Chaos>
+<Chaos>0.180621</Chaos>
 <Taps>493</Taps>
 <Jumps>212</Jumps>
 <Holds>102</Holds>
@@ -4336,8 +4336,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.970000</Freeze>
-<Chaos>0.681000</Chaos>
+<Freeze>0.970192</Freeze>
+<Chaos>0.681199</Chaos>
 <Taps>602</Taps>
 <Jumps>303</Jumps>
 <Holds>94</Holds>
@@ -4352,11 +4352,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.371000</Stream>
-<Voltage>0.360000</Voltage>
-<Air>0.058000</Air>
-<Freeze>0.116000</Freeze>
-<Chaos>0.052000</Chaos>
+<Stream>0.370761</Stream>
+<Voltage>0.359899</Voltage>
+<Air>0.057931</Air>
+<Freeze>0.115863</Freeze>
+<Chaos>0.052138</Chaos>
 <Taps>209</Taps>
 <Jumps>5</Jumps>
 <Holds>10</Holds>
@@ -4367,11 +4367,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.834000</Stream>
-<Voltage>0.771000</Voltage>
+<Stream>0.834212</Stream>
+<Voltage>0.771212</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.116000</Freeze>
-<Chaos>0.319000</Chaos>
+<Freeze>0.115863</Freeze>
+<Chaos>0.318623</Chaos>
 <Taps>334</Taps>
 <Jumps>155</Jumps>
 <Holds>10</Holds>
@@ -4386,7 +4386,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.660000</Chaos>
+<Chaos>0.660418</Chaos>
 <Taps>435</Taps>
 <Jumps>248</Jumps>
 <Holds>177</Holds>
@@ -4401,11 +4401,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.568000</Stream>
-<Voltage>0.642000</Voltage>
-<Air>0.414000</Air>
+<Stream>0.568036</Stream>
+<Voltage>0.642157</Voltage>
+<Air>0.414359</Air>
 <Freeze>0.000000</Freeze>
-<Chaos>0.215000</Chaos>
+<Chaos>0.215148</Chaos>
 <Taps>446</Taps>
 <Jumps>52</Jumps>
 <Holds>0</Holds>
@@ -4416,11 +4416,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>7</Meter>
 <RadarValues>
-<Stream>0.759000</Stream>
-<Voltage>0.796000</Voltage>
-<Air>0.669000</Air>
-<Freeze>0.191000</Freeze>
-<Chaos>0.394000</Chaos>
+<Stream>0.759279</Stream>
+<Voltage>0.796346</Voltage>
+<Air>0.669349</Air>
+<Freeze>0.191243</Freeze>
+<Chaos>0.394438</Chaos>
 <Taps>556</Taps>
 <Jumps>84</Jumps>
 <Holds>24</Holds>
@@ -4434,7 +4434,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.207000</Freeze>
+<Freeze>0.207180</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>833</Taps>
 <Jumps>269</Jumps>
@@ -4453,7 +4453,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.909000</Freeze>
+<Freeze>0.908540</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>1058</Taps>
 <Jumps>388</Jumps>
@@ -4465,11 +4465,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>7</Meter>
 <RadarValues>
-<Stream>0.938000</Stream>
+<Stream>0.937773</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.753000</Freeze>
-<Chaos>0.495000</Chaos>
+<Freeze>0.753024</Freeze>
+<Chaos>0.495195</Chaos>
 <Taps>587</Taps>
 <Jumps>123</Jumps>
 <Holds>92</Holds>
@@ -4483,7 +4483,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.900000</Freeze>
+<Freeze>0.900355</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>810</Taps>
 <Jumps>221</Jumps>
@@ -4498,7 +4498,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.786000</Freeze>
+<Freeze>0.785765</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>1019</Taps>
 <Jumps>308</Jumps>
@@ -4514,11 +4514,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>2</Meter>
 <RadarValues>
-<Stream>0.314000</Stream>
-<Voltage>0.376000</Voltage>
-<Air>0.111000</Air>
-<Freeze>0.145000</Freeze>
-<Chaos>0.145000</Chaos>
+<Stream>0.314499</Stream>
+<Voltage>0.375810</Voltage>
+<Air>0.111186</Air>
+<Freeze>0.144542</Freeze>
+<Chaos>0.144542</Chaos>
 <Taps>175</Taps>
 <Jumps>10</Jumps>
 <Holds>13</Holds>
@@ -4531,8 +4531,8 @@
 <RadarValues>
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.667000</Air>
-<Freeze>0.011000</Freeze>
+<Air>0.667119</Air>
+<Freeze>0.011119</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>560</Taps>
 <Jumps>60</Jumps>
@@ -4547,7 +4547,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.011000</Freeze>
+<Freeze>0.011119</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>614</Taps>
 <Jumps>233</Jumps>
@@ -4563,11 +4563,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.544000</Stream>
-<Voltage>0.807000</Voltage>
-<Air>0.451000</Air>
-<Freeze>0.372000</Freeze>
-<Chaos>0.183000</Chaos>
+<Stream>0.544077</Stream>
+<Voltage>0.807396</Voltage>
+<Air>0.450754</Air>
+<Freeze>0.372362</Freeze>
+<Chaos>0.182914</Chaos>
 <Taps>457</Taps>
 <Jumps>69</Jumps>
 <Holds>57</Holds>
@@ -4581,7 +4581,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.314000</Freeze>
+<Freeze>0.313568</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>966</Taps>
 <Jumps>190</Jumps>
@@ -4596,7 +4596,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.189000</Freeze>
+<Freeze>0.189447</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>1146</Taps>
 <Jumps>317</Jumps>
@@ -4612,11 +4612,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.431000</Stream>
-<Voltage>0.695000</Voltage>
-<Air>0.278000</Air>
-<Freeze>0.056000</Freeze>
-<Chaos>0.097000</Chaos>
+<Stream>0.431353</Stream>
+<Voltage>0.694825</Voltage>
+<Air>0.277652</Air>
+<Freeze>0.055530</Freeze>
+<Chaos>0.097178</Chaos>
 <Taps>386</Taps>
 <Jumps>40</Jumps>
 <Holds>8</Holds>
@@ -4627,11 +4627,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>8</Meter>
 <RadarValues>
-<Stream>0.877000</Stream>
-<Voltage>0.901000</Voltage>
+<Stream>0.876588</Stream>
+<Voltage>0.901329</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.097000</Freeze>
-<Chaos>0.406000</Chaos>
+<Freeze>0.097178</Freeze>
+<Chaos>0.406067</Chaos>
 <Taps>701</Taps>
 <Jumps>164</Jumps>
 <Holds>14</Holds>
@@ -4645,8 +4645,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.056000</Freeze>
-<Chaos>0.541000</Chaos>
+<Freeze>0.055530</Freeze>
+<Chaos>0.541422</Chaos>
 <Taps>786</Taps>
 <Jumps>288</Jumps>
 <Holds>8</Holds>
@@ -4661,10 +4661,10 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.520000</Stream>
-<Voltage>0.833000</Voltage>
-<Air>0.666000</Air>
-<Freeze>0.271000</Freeze>
+<Stream>0.519678</Stream>
+<Voltage>0.833295</Voltage>
+<Air>0.665630</Air>
+<Freeze>0.270896</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>349</Taps>
 <Jumps>86</Jumps>
@@ -4676,11 +4676,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>7</Meter>
 <RadarValues>
-<Stream>0.831000</Stream>
-<Voltage>0.909000</Voltage>
+<Stream>0.831484</Stream>
+<Voltage>0.909049</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.271000</Freeze>
-<Chaos>0.062000</Chaos>
+<Freeze>0.270896</Freeze>
+<Chaos>0.061919</Chaos>
 <Taps>515</Taps>
 <Jumps>201</Jumps>
 <Holds>35</Holds>
@@ -4694,8 +4694,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.279000</Freeze>
-<Chaos>0.128000</Chaos>
+<Freeze>0.278636</Freeze>
+<Chaos>0.127708</Chaos>
 <Taps>583</Taps>
 <Jumps>307</Jumps>
 <Holds>36</Holds>
@@ -4710,10 +4710,10 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.411000</Stream>
-<Voltage>0.550000</Voltage>
-<Air>0.152000</Air>
-<Freeze>0.706000</Freeze>
+<Stream>0.411161</Stream>
+<Voltage>0.549615</Voltage>
+<Air>0.151880</Air>
+<Freeze>0.706241</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>266</Taps>
 <Jumps>20</Jumps>
@@ -4725,11 +4725,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.674000</Stream>
-<Voltage>0.769000</Voltage>
-<Air>0.721000</Air>
-<Freeze>0.980000</Freeze>
-<Chaos>0.004000</Chaos>
+<Stream>0.673696</Stream>
+<Voltage>0.769462</Voltage>
+<Air>0.721430</Air>
+<Freeze>0.979625</Freeze>
+<Chaos>0.003797</Chaos>
 <Taps>397</Taps>
 <Jumps>95</Jumps>
 <Holds>129</Holds>
@@ -4740,11 +4740,11 @@
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.797000</Stream>
-<Voltage>0.962000</Voltage>
+<Stream>0.797369</Stream>
+<Voltage>0.961827</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.987000</Freeze>
-<Chaos>0.004000</Chaos>
+<Freeze>0.987219</Freeze>
+<Chaos>0.003797</Chaos>
 <Taps>452</Taps>
 <Jumps>153</Jumps>
 <Holds>130</Holds>
@@ -4759,11 +4759,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.542000</Stream>
-<Voltage>0.788000</Voltage>
-<Air>0.541000</Air>
-<Freeze>0.605000</Freeze>
-<Chaos>0.315000</Chaos>
+<Stream>0.541807</Stream>
+<Voltage>0.787983</Voltage>
+<Air>0.540654</Air>
+<Freeze>0.605210</Freeze>
+<Chaos>0.314709</Chaos>
 <Taps>328</Taps>
 <Jumps>67</Jumps>
 <Holds>75</Holds>
@@ -4774,11 +4774,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>8</Meter>
 <RadarValues>
-<Stream>0.901000</Stream>
+<Stream>0.901474</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.508000</Freeze>
-<Chaos>0.662000</Chaos>
+<Freeze>0.508376</Freeze>
+<Chaos>0.661696</Chaos>
 <Taps>563</Taps>
 <Jumps>156</Jumps>
 <Holds>63</Holds>
@@ -4792,7 +4792,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.597000</Freeze>
+<Freeze>0.597140</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>830</Taps>
 <Jumps>286</Jumps>
@@ -4808,10 +4808,10 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>2</Meter>
 <RadarValues>
-<Stream>0.366000</Stream>
-<Voltage>0.451000</Voltage>
-<Air>0.129000</Air>
-<Freeze>0.646000</Freeze>
+<Stream>0.365888</Stream>
+<Voltage>0.451443</Voltage>
+<Air>0.129201</Air>
+<Freeze>0.646005</Freeze>
 <Chaos>0.019000</Chaos>
 <Taps>235</Taps>
 <Jumps>17</Jumps>
@@ -4823,11 +4823,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.587000</Stream>
-<Voltage>0.734000</Voltage>
-<Air>0.836000</Air>
-<Freeze>0.699000</Freeze>
-<Chaos>0.030000</Chaos>
+<Stream>0.587376</Stream>
+<Voltage>0.733595</Voltage>
+<Air>0.836006</Air>
+<Freeze>0.699205</Freeze>
+<Chaos>0.030400</Chaos>
 <Taps>338</Taps>
 <Jumps>110</Jumps>
 <Holds>92</Holds>
@@ -4838,11 +4838,11 @@
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.827000</Stream>
+<Stream>0.827320</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.163000</Chaos>
+<Chaos>0.163401</Chaos>
 <Taps>447</Taps>
 <Jumps>163</Jumps>
 <Holds>147</Holds>
@@ -4857,11 +4857,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.703000</Stream>
-<Voltage>0.846000</Voltage>
-<Air>0.692000</Air>
-<Freeze>0.126000</Freeze>
-<Chaos>0.770000</Chaos>
+<Stream>0.703384</Stream>
+<Voltage>0.846492</Voltage>
+<Air>0.691697</Air>
+<Freeze>0.126439</Freeze>
+<Chaos>0.769791</Chaos>
 <Taps>552</Taps>
 <Jumps>93</Jumps>
 <Holds>17</Holds>
@@ -4875,7 +4875,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.082000</Freeze>
+<Freeze>0.081814</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>849</Taps>
 <Jumps>195</Jumps>
@@ -4909,7 +4909,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.764000</Freeze>
+<Freeze>0.763681</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>905</Taps>
 <Jumps>328</Jumps>
@@ -4921,11 +4921,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.646000</Stream>
-<Voltage>0.774000</Voltage>
-<Air>0.577000</Air>
-<Freeze>0.536000</Freeze>
-<Chaos>0.329000</Chaos>
+<Stream>0.646460</Stream>
+<Voltage>0.774294</Voltage>
+<Air>0.576823</Air>
+<Freeze>0.536202</Freeze>
+<Chaos>0.329033</Chaos>
 <Taps>419</Taps>
 <Jumps>71</Jumps>
 <Holds>66</Holds>
@@ -4939,7 +4939,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.504000</Freeze>
+<Freeze>0.503705</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>674</Taps>
 <Jumps>165</Jumps>
@@ -4954,7 +4954,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.796000</Freeze>
+<Freeze>0.796178</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>838</Taps>
 <Jumps>294</Jumps>
@@ -4970,11 +4970,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.477000</Stream>
-<Voltage>0.592000</Voltage>
-<Air>0.144000</Air>
-<Freeze>0.194000</Freeze>
-<Chaos>0.085000</Chaos>
+<Stream>0.476558</Stream>
+<Voltage>0.592327</Voltage>
+<Air>0.144221</Air>
+<Freeze>0.194385</Freeze>
+<Chaos>0.084652</Chaos>
 <Taps>478</Taps>
 <Jumps>23</Jumps>
 <Holds>31</Holds>
@@ -4985,11 +4985,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>7</Meter>
 <RadarValues>
-<Stream>0.777000</Stream>
-<Voltage>0.835000</Voltage>
-<Air>0.997000</Air>
-<Freeze>0.314000</Freeze>
-<Chaos>0.364000</Chaos>
+<Stream>0.776646</Stream>
+<Voltage>0.834642</Voltage>
+<Air>0.997009</Air>
+<Freeze>0.313525</Freeze>
+<Chaos>0.363689</Chaos>
 <Taps>658</Taps>
 <Jumps>159</Jumps>
 <Holds>50</Holds>
@@ -5003,8 +5003,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.426000</Freeze>
-<Chaos>0.683000</Chaos>
+<Freeze>0.426394</Freeze>
+<Chaos>0.683484</Chaos>
 <Taps>839</Taps>
 <Jumps>404</Jumps>
 <Holds>68</Holds>
@@ -5019,9 +5019,9 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>4</Meter>
 <RadarValues>
-<Stream>0.566000</Stream>
-<Voltage>0.785000</Voltage>
-<Air>0.571000</Air>
+<Stream>0.565994</Stream>
+<Voltage>0.784592</Voltage>
+<Air>0.571364</Air>
 <Freeze>1.000000</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>316</Taps>
@@ -5034,11 +5034,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>7</Meter>
 <RadarValues>
-<Stream>0.970000</Stream>
+<Stream>0.969815</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.211000</Chaos>
+<Chaos>0.210503</Chaos>
 <Taps>539</Taps>
 <Jumps>192</Jumps>
 <Holds>155</Holds>
@@ -5053,7 +5053,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.432000</Chaos>
+<Chaos>0.432282</Chaos>
 <Taps>710</Taps>
 <Jumps>336</Jumps>
 <Holds>165</Holds>
@@ -5068,11 +5068,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.399000</Stream>
-<Voltage>0.370000</Voltage>
-<Air>0.665000</Air>
+<Stream>0.399113</Stream>
+<Voltage>0.370011</Voltage>
+<Air>0.665188</Air>
 <Freeze>0.000000</Freeze>
-<Chaos>0.083000</Chaos>
+<Chaos>0.083149</Chaos>
 <Taps>192</Taps>
 <Jumps>60</Jumps>
 <Holds>0</Holds>
@@ -5083,11 +5083,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.729000</Stream>
-<Voltage>0.691000</Voltage>
-<Air>0.488000</Air>
-<Freeze>0.765000</Freeze>
-<Chaos>0.671000</Chaos>
+<Stream>0.728540</Stream>
+<Voltage>0.690687</Voltage>
+<Air>0.487805</Air>
+<Freeze>0.764967</Freeze>
+<Chaos>0.670732</Chaos>
 <Taps>346</Taps>
 <Jumps>44</Jumps>
 <Holds>69</Holds>
@@ -5098,11 +5098,11 @@
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.871000</Stream>
-<Voltage>0.962000</Voltage>
+<Stream>0.871080</Stream>
+<Voltage>0.962029</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.920000</Freeze>
-<Chaos>0.671000</Chaos>
+<Freeze>0.920177</Freeze>
+<Chaos>0.670732</Chaos>
 <Taps>355</Taps>
 <Jumps>108</Jumps>
 <Holds>83</Holds>
@@ -5117,10 +5117,10 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.436000</Stream>
-<Voltage>0.678000</Voltage>
-<Air>0.425000</Air>
-<Freeze>0.172000</Freeze>
+<Stream>0.436162</Stream>
+<Voltage>0.677922</Voltage>
+<Air>0.424548</Air>
+<Freeze>0.171626</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>272</Taps>
 <Jumps>47</Jumps>
@@ -5132,11 +5132,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.927000</Stream>
+<Stream>0.926521</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.298000</Freeze>
-<Chaos>0.063000</Chaos>
+<Freeze>0.298087</Freeze>
+<Chaos>0.063231</Chaos>
 <Taps>492</Taps>
 <Jumps>185</Jumps>
 <Holds>33</Holds>
@@ -5150,8 +5150,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.298000</Freeze>
-<Chaos>0.063000</Chaos>
+<Freeze>0.298087</Freeze>
+<Chaos>0.063231</Chaos>
 <Taps>526</Taps>
 <Jumps>334</Jumps>
 <Holds>33</Holds>
@@ -5166,10 +5166,10 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>2</Meter>
 <RadarValues>
-<Stream>0.311000</Stream>
-<Voltage>0.385000</Voltage>
+<Stream>0.311451</Stream>
+<Voltage>0.385421</Voltage>
 <Air>0.000000</Air>
-<Freeze>0.476000</Freeze>
+<Freeze>0.475828</Freeze>
 <Chaos>0.000000</Chaos>
 <Taps>197</Taps>
 <Jumps>0</Jumps>
@@ -5181,11 +5181,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.837000</Stream>
-<Voltage>0.806000</Voltage>
+<Stream>0.836716</Stream>
+<Voltage>0.805879</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.017000</Chaos>
+<Chaos>0.017303</Chaos>
 <Taps>405</Taps>
 <Jumps>133</Jumps>
 <Holds>139</Holds>
@@ -5200,7 +5200,7 @@
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
 <Freeze>1.000000</Freeze>
-<Chaos>0.017000</Chaos>
+<Chaos>0.017303</Chaos>
 <Taps>492</Taps>
 <Jumps>253</Jumps>
 <Holds>140</Holds>
@@ -5215,11 +5215,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>3</Meter>
 <RadarValues>
-<Stream>0.445000</Stream>
-<Voltage>0.762000</Voltage>
-<Air>0.305000</Air>
-<Freeze>0.352000</Freeze>
-<Chaos>0.105000</Chaos>
+<Stream>0.445406</Stream>
+<Voltage>0.761879</Voltage>
+<Air>0.304752</Air>
+<Freeze>0.351637</Freeze>
+<Chaos>0.105491</Chaos>
 <Taps>315</Taps>
 <Jumps>39</Jumps>
 <Holds>45</Holds>
@@ -5230,11 +5230,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>6</Meter>
 <RadarValues>
-<Stream>0.808000</Stream>
+<Stream>0.808206</Stream>
 <Voltage>1.000000</Voltage>
-<Air>0.938000</Air>
-<Freeze>0.547000</Freeze>
-<Chaos>0.547000</Chaos>
+<Air>0.937698</Air>
+<Freeze>0.546990</Freeze>
+<Chaos>0.546990</Chaos>
 <Taps>534</Taps>
 <Jumps>120</Jumps>
 <Holds>70</Holds>
@@ -5248,7 +5248,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.563000</Freeze>
+<Freeze>0.562619</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>758</Taps>
 <Jumps>241</Jumps>
@@ -5264,11 +5264,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.625000</Stream>
-<Voltage>0.861000</Voltage>
-<Air>0.623000</Air>
-<Freeze>0.165000</Freeze>
-<Chaos>0.064000</Chaos>
+<Stream>0.624668</Stream>
+<Voltage>0.861269</Voltage>
+<Air>0.622525</Air>
+<Freeze>0.165007</Freeze>
+<Chaos>0.063753</Chaos>
 <Taps>478</Taps>
 <Jumps>83</Jumps>
 <Holds>22</Holds>
@@ -5279,11 +5279,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>8</Meter>
 <RadarValues>
-<Stream>0.987000</Stream>
+<Stream>0.986825</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.090000</Freeze>
-<Chaos>0.158000</Chaos>
+<Freeze>0.090004</Freeze>
+<Chaos>0.157506</Chaos>
 <Taps>684</Taps>
 <Jumps>224</Jumps>
 <Holds>12</Holds>
@@ -5297,8 +5297,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.630000</Freeze>
-<Chaos>0.229000</Chaos>
+<Freeze>0.630025</Freeze>
+<Chaos>0.228759</Chaos>
 <Taps>712</Taps>
 <Jumps>402</Jumps>
 <Holds>84</Holds>
@@ -5313,11 +5313,11 @@
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <Meter>5</Meter>
 <RadarValues>
-<Stream>0.581000</Stream>
-<Voltage>0.599000</Voltage>
-<Air>0.158000</Air>
-<Freeze>0.079000</Freeze>
-<Chaos>0.321000</Chaos>
+<Stream>0.581359</Stream>
+<Voltage>0.598947</Voltage>
+<Air>0.158347</Air>
+<Freeze>0.079173</Freeze>
+<Chaos>0.320652</Chaos>
 <Taps>484</Taps>
 <Jumps>20</Jumps>
 <Holds>10</Holds>
@@ -5328,11 +5328,11 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>8</Meter>
 <RadarValues>
-<Stream>0.983000</Stream>
+<Stream>0.982882</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.095000</Freeze>
-<Chaos>0.720000</Chaos>
+<Freeze>0.095008</Freeze>
+<Chaos>0.720478</Chaos>
 <Taps>727</Taps>
 <Jumps>129</Jumps>
 <Holds>12</Holds>
@@ -5346,7 +5346,7 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.032000</Freeze>
+<Freeze>0.031669</Freeze>
 <Chaos>1.000000</Chaos>
 <Taps>991</Taps>
 <Jumps>461</Jumps>
@@ -5365,8 +5365,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.222000</Freeze>
-<Chaos>0.962000</Chaos>
+<Freeze>0.222092</Freeze>
+<Chaos>0.962400</Chaos>
 <Taps>908</Taps>
 <Jumps>312</Jumps>
 <Holds>30</Holds>
@@ -5380,8 +5380,8 @@
 <Stream>1.000000</Stream>
 <Voltage>1.000000</Voltage>
 <Air>1.000000</Air>
-<Freeze>0.089000</Freeze>
-<Chaos>0.907000</Chaos>
+<Freeze>0.088837</Freeze>
+<Chaos>0.906877</Chaos>
 <Taps>914</Taps>
 <Jumps>276</Jumps>
 <Holds>12</Holds>

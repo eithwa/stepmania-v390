@@ -1,43 +1,22 @@
-# Function modification 功能
-+ Resolved player rename errors
-+ Solve the problem that cs6 connection mode cannot display the name
-+ Solve the problem of song group jummping to [ALL SONGS] in connection mode
-+ Solve the difficulty of ordering songs in connection mode
-+ Add homeowner replacement usage: /host player_name
-+ Add ddrtime's editor(but missing the last version) [link](https://forum.gamer.com.tw/C.php?bsn=16862&snA=1184)
+# 編輯器增進功能
+[STEPMANIA 3.9 編輯器我流版](https://forum.gamer.com.tw/C.php?bsn=16862&snA=1184)  
+1. BPM與STOP顯示最小可到小數點第三位  
+2. 右上方BEAT與時間顯示可到小數點第六位(特殊用)  
+3. 箭頭間距拉伸變更成以0.5倍為單位，範圍可到0.25x~8x  
+   若想整數拉伸可用ctrl+pageup與ctrl+pagedown鍵控制  
+4. STEP停拍可以變負數  
+5. 增加N鍵直接轉換負數功能，直接按N鍵會建立一個BPM標籤  
+   CTRL+N會直接轉換BPM為負數，ALT+N會直接轉換STOP為負數  
+6. 支援192nd箭頭編輯  
+7. 增加直接編輯BPM與STOP功能  
+//===8以後code缺失需要重寫=====  
+8. 修正使用AUTOPLAY會崩潰的問題  
+9. 可追朔以前的備份  
+   (編輯的歌曲資料夾會多個FileBackup資料夾，並以時間戳記為檔案名稱)  
+10. 自動儲存  
+    (可選擇你要儲存的時間間隔，也可以關閉，預設自動儲存時間是5分鐘)  
+11. Reverse逆流編輯環境下可直覺操作  
+    (PlayerOption的Reverse選項開下去就知道了)  
+12. Reverse逆流編輯直覺操作性可在Preferences下的Reverse Control Intuitive更改  
+13. 增加DisplayBPM編輯，可在Edit Song Info下找到
 
-+ 解決玩家重新命名錯誤
-+ 解決cs6連線模式無法顯示名稱問題
-+ 解決連線模式歌包跳動問題
-+ 解決連線模式歌曲難度排序問題
-+ 加入更換房主功能 用法: /host 玩家名稱
-+ 加入小時的我流版編輯器(非最終版,已遺失)[link](https://forum.gamer.com.tw/C.php?bsn=16862&snA=1184)
-
-# StepMania 3.9 compile
-+ windows10
-+ Visual Studio 2005
-+ [dxsdk + Microsoft Platform SDK + Microsoft SDKs](https://drive.google.com/open?id=17gCXiIvhJP_w4druciA0DQPqaPKpw6cX)
-	- 其他相依性  
-	gdi32.lib  
-	Ws2_32.lib  
-	user32.lib  
-	shell32.lib  
-	strmiids.lib  
-	Winmm.lib  
-	strmbase.lib  
-	d3dx8.lib 
-	
-![depend](img/6.PNG)  
-![include](img/3.PNG)  
-![lib](img/4.PNG)  
-![wchar](img/5.PNG)  
-
-# Compile Problem
-+ error LNK2005: _jpeg_read_scanlines already defined in D3dx8.lib(
-jdapistd.obj)[link](https://sourceforge.net/p/stepmania/mailman/message/11726793/)
-  - difficulty d3dx8.lib[link](https://realmike.org/blog/projects/directx-8-borland-libs-download-page/)
-
-# Reference
-+ [stepmania v390release](https://github.com/stepmania/stepmania/releases/tag/v390release)
-+ [How to Make Stepmania 3.9 Compile in Visual C++ 2005 Express Edition](https://cspotcode.wordpress.com/how-to-make-stepmania-39-compile-in-visual-c-2005-express-edition/)
-+ [What do I need to compile v.3.9+R?](https://www.reddit.com/r/Stepmania/comments/58hv1x/what_do_i_need_to_compile_v39r/)
