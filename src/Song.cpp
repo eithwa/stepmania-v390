@@ -1,4 +1,4 @@
-#include "global.h"
+﻿#include "global.h"
 #include "song.h"
 #include "Steps.h"
 #include "RageUtil.h"
@@ -35,6 +35,7 @@
 #include "LyricsLoader.h"
 
 #include <set>
+#include <time.h>
 
 #define CACHE_DIR "Cache/"
 
@@ -959,7 +960,7 @@ bool Song::HasStepsTypeAndDifficulty( StepsType st, Difficulty dc ) const
 void Song::Save()
 {
 	LOG->Trace( "Song::SaveToSongFile()" );
-
+	
 	ReCalculateRadarValuesAndLastBeat();
 	TranslateTitles();
 
@@ -992,10 +993,18 @@ void Song::Save()
 void Song::SaveToSMFile( CString sPath, bool bSavingCache )
 {
 	LOG->Trace( "Song::SaveToSMFile('%s')", sPath.c_str() );
-
+	
 	/* If the file exists, make a backup. */
-	if( !bSavingCache && IsAFile(sPath) )
-		FileCopy( sPath, sPath + ".old" );
+	if( !bSavingCache && IsAFile(sPath) ){
+		time_t now = time(0);
+		char filename[100];
+		tm *ltm = localtime(&now);
+		strftime(filename,sizeof(filename),"%Y-%m-%d_%H%M%S",ltm);
+		std::string str(filename);
+		CString backup_dir = m_sSongDir + "FileBackup/"+filename+".sm";
+		//LOG->Info("sPath %s",backup_dir.c_str());
+		FileCopy( sPath, backup_dir );
+	}
 
 	NotesWriterSM wr;
 	wr.Write(sPath, *this, bSavingCache);

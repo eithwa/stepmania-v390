@@ -245,6 +245,19 @@ void PlayerMinus::Load( PlayerNumber pn, const NoteData* pNoteData, LifeMeter* p
 
 void PlayerMinus::Update( float fDeltaTime )
 {
+	//================
+	float life = -1;
+	if( m_pLifeMeter )
+		life = m_pLifeMeter->GetLife();
+	else if( m_pCombinedLifeMeter )
+	{
+		life = GAMESTATE->m_fTugLifePercentP1;
+		if( m_PlayerNumber == PLAYER_2 )
+			life = 1.0f - life;
+	}
+	if( life != -1 )//without this function ,if use autoplay or simfiles no note will crash
+		g_CurStageStats.SetLifeRecordAt( m_PlayerNumber, life, g_CurStageStats.fAliveSeconds[m_PlayerNumber] );
+	//================
 	//LOG->Trace( "PlayerMinus::Update(%f)", fDeltaTime );
 
 	if( GAMESTATE->m_pCurSong==NULL )
@@ -397,7 +410,8 @@ void PlayerMinus::Update( float fDeltaTime )
 		{
 			fLife = 1;
 			hns = HNS_OK;
-			m_pNoteField->DidTapNote( StyleI.col, TNS_PERFECT, true );	// bright ghost flash
+			//m_pNoteField->DidTapNote( StyleI.col, TNS_PERFECT, true );	// bright ghost flash
+			m_pNoteField->DidTapNote( StyleI.col, TNS_MARVELOUS, true );	// bright ghost flash
 		}
 
 		if( hns != HNS_NONE )
