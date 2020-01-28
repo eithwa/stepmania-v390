@@ -20,3 +20,6 @@
 12. Reverse逆流編輯直覺操作性可在Preferences下的Reverse Control Intuitive更改  
 13. 增加DisplayBPM編輯，可在Edit Song Info下找到
 
+# 另外增加  
++ hold結尾改為TNS_MARVELOUS(白光)不確定是否影響分數
+
