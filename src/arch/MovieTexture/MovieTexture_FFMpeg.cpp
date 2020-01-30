@@ -818,8 +818,16 @@ float MovieTexture_FFMpeg::CheckFrameTime()
 		m_FrameSkipMode = true;
 	}
 
-	if( m_FrameSkipMode && decoder->m_stream->codec.frame_number % 2 )
+	if( m_FrameSkipMode && decoder->m_stream->codec.frame_number % 100000 ){
+		LOG->Info( "decoder->m_stream->codec.frame_number %d", decoder->m_stream->codec.frame_number% 10000);
+		
+		int totalSec = decoder->m_fctx->duration / AV_TIME_BASE;
+		LOG->Info( "%d m %d s",totalSec / 60,totalSec % 60);
+		//printf("指定的视频文件有 %d分%d秒\n", totalSec / 60, totalSec % 60);
+		//LOG->Info( "skiping offset: %f", Offset);
 		return -1; /* skip */
+	}
+		
 	
 	return 0;
 }
@@ -870,6 +878,7 @@ void MovieTexture_FFMpeg::DecoderThread()
 		{
 			/* This needs to be relatively short so that we wake up quickly 
 			 * from being paused or for changes in m_Rate. */
+			LOG->Info("fTime %f", fTime);
 			usleep( 10000 );
 		}
 		else // fTime == 0
@@ -1008,11 +1017,23 @@ void MovieTexture_FFMpeg::SetPosition( float fSeconds )
 	if( fSeconds != 0 )
 	{
 		LOG->Warn( "MovieTexture_FFMpeg::SetPosition(%f): non-0 seeking unsupported; ignored", fSeconds );
-		return;
-	}
+		LOG->Info("start time ms ithink %f", fSeconds);
 
-	LOG->Trace( "Seek to %f", fSeconds );
-	m_bWantRewind = true;
+		float fDelay = decoder->LastFrameDelay;
+
+		/* Restart. */
+		DestroyDecoder();
+		CreateDecoder();
+
+		decoder->Init();
+		m_Clock = -fDelay + fSeconds;
+		//return;
+	}
+	else
+	{
+		LOG->Trace( "Seek to %f", fSeconds );
+		m_bWantRewind = true;
+	}
 }
 
 /*

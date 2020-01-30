@@ -158,7 +158,14 @@ void ActorFrame::GainFocus( float fRate, bool bRewindMovie, bool bLoop )
 	for( unsigned i=0; i<m_SubActors.size(); i++ )
 		m_SubActors[i]->GainFocus( fRate, bRewindMovie, bLoop );
 }
+void ActorFrame::GainFocus( float fRate, bool bRewindMovie, bool bLoop, float fsecond)
+{
+	Actor::GainFocus( fRate, bRewindMovie, bLoop );
 
+	for( unsigned i=0; i<m_SubActors.size(); i++ ){
+		m_SubActors[i]->GainFocus( fRate, bRewindMovie, bLoop, fsecond);
+	}
+}
 void ActorFrame::LoseFocus()
 {
 	Actor::LoseFocus();

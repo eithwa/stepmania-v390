@@ -3139,6 +3139,21 @@
 <Song Dir='Songs/Blue&apos;s 7th step/(Blue vs YuFaEr)DeCIDE/' >
 <MainTitle>DeCIDE</MainTitle>
 <SubTitle>異世界魔王と召喚少女の奴隷魔術 OP</SubTitle>
+<Steps StepsType='dance-single' Difficulty='Easy' >
+<Meter>1</Meter>
+<RadarValues>
+<Stream>0.000000</Stream>
+<Voltage>0.000000</Voltage>
+<Air>0.000000</Air>
+<Freeze>0.000000</Freeze>
+<Chaos>0.000000</Chaos>
+<Taps>0</Taps>
+<Jumps>0</Jumps>
+<Holds>0</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</Steps>
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>10</Meter>
 <RadarValues>

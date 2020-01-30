@@ -992,7 +992,9 @@ void BGAnimationLayer::GainFocus( float fRate, bool bRewindMovie, bool bLoop )
 	// TODO: Don't special case subActor[0].  The movie layer should be set up with
 	// a LoseFocusCommand that pauses, and a GainFocusCommand that plays.
 	if( bRewindMovie )
+	{
 		m_SubActors[0]->Command( "position,0" );
+	}
 	m_SubActors[0]->Command( ssprintf("loop,%i",bLoop) );
 	m_SubActors[0]->Command( "play" );
 	m_SubActors[0]->Command( ssprintf("rate,%f",fRate) );
@@ -1010,7 +1012,39 @@ void BGAnimationLayer::GainFocus( float fRate, bool bRewindMovie, bool bLoop )
 
 	PlayCommand( "GainFocus" );
 }
+void BGAnimationLayer::GainFocus( float fRate, bool bRewindMovie, bool bLoop, float fsecond)
+{
+	m_fUpdateRate = fRate;
 
+	if( !m_SubActors.size() )
+		return;
+
+	//
+	// The order of these actions is important.
+	// At this point, the movie is probably paused (by LoseFocus()).
+	// Play the movie, then set the playback rate (which can 
+	// potentially pause the movie again).
+	//
+	// TODO: Don't special case subActor[0].  The movie layer should be set up with
+	// a LoseFocusCommand that pauses, and a GainFocusCommand that plays.
+	m_SubActors[0]->Command( ssprintf("position,%f",fsecond) );
+	m_SubActors[0]->Command( ssprintf("loop,%i",bLoop) );
+	m_SubActors[0]->Command( "play" );
+	m_SubActors[0]->Command( ssprintf("rate,%f",fRate) );
+
+	if( m_fRepeatCommandEverySeconds == -1 )	// if not repeating
+	{
+		/* Yuck.  We send OnCommand on load, since that's what's wanted for
+		 * most backgrounds.  However, gameplay backgrounds (loaded from Background)
+		 * should run OnCommand when they're actually displayed, when GainFocus
+		 * gets called.  We've already run OnCommand; abort it so we don't run tweens
+		 * twice. */
+		RunCommandOnChildren( "stoptweening" );
+		PlayCommand( "On" );
+	}
+
+	PlayCommand( "GainFocus" );
+}
 void BGAnimationLayer::LoseFocus()
 {
 	if( !m_SubActors.size() )

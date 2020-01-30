@@ -36,6 +36,7 @@ public:
 	virtual float GetTweenTimeLeft() const;
 
 	virtual void GainFocus( float fRate, bool bRewindMovie, bool bLoop );
+	virtual void GainFocus( float fRate, bool bRewindMovie, bool bLoop, float fsecond);
 	virtual void LoseFocus();
 	virtual void PlayCommand( const CString &sCommandName );
 

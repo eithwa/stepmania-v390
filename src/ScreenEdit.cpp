@@ -24,7 +24,8 @@
 #include "StepsUtil.h"
 #include "Foreach.h"
 #include "ScreenTextEntry.h"
-
+#include "PlayerOptions.h"
+#include <ctime>
 
 const float RECORD_HOLD_SECONDS = 0.3f;
 
@@ -149,8 +150,8 @@ static const MenuRow g_MainMenuItems[] =
 	{ "Add/Edit BG Change",			true, 0, { NULL } },
 	{ "Play preview music",			true, 0, { NULL } },
 	{ "Preferences",				true, 0, { NULL } },
-	{ "Edit BPM Change",				true, 0, { NULL } },
-	{ "Edit Stop",				true, 0, { NULL } },
+	{ "Edit BPM Change",			true, 0, { NULL } },
+	{ "Edit Stop",					true, 0, { NULL } },
 	{ "Exit (discards changes since last save)",	true, 0, { NULL } },
 	{ NULL, true, 0, { NULL } }
 };
@@ -232,7 +233,11 @@ static Menu g_BGChange( "Background Change", g_BGChangeItems );
 
 static const MenuRow g_PrefsItems[] =
 {
-	{ "Show BGChanges during Play/Record",	true, 0, { "NO","YES" } },
+	{ "Show BGChanges during Play/Record",			true, 0, { "NO","YES" } },
+	{ "Reverse Control Intuitive",					true, 1, { "NO","YES" } },
+	{ "AutoSave during time, 0 is Disable(minute)",	true, 5, { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+																	"11","12","13","14","15","16","17","18","19","20",
+																	"21","22","23","24","25","26","27","28","29","30" } },
 	{ NULL, true, 0, { NULL } }
 };
 static Menu g_Prefs( "Preferences", g_PrefsItems );
@@ -430,15 +435,30 @@ void ScreenEdit::PlayPreviewMusic()
 		1.5f );
 }
 
+void ScreenEdit::AutoSave()
+{
+	static time_t start = time(0);
+	time_t now = time(0);
+	int save_time = (PREFSMAN->m_bEditorAutosaveMinute)*60;
+	if((now-start) > save_time){
+		HandleMainMenuChoice( save, NULL );
+		start = now;
+	}
+}
+
 void ScreenEdit::Update( float fDeltaTime )
 {
+	//LOG->Info("m_fScrolls[SCROLL_REVERSE]  %f",GAMESTATE->m_CurrentPlayerOptions[PLAYER_1].m_fScrolls[GAMESTATE->m_CurrentPlayerOptions[PLAYER_1].SCROLL_REVERSE] );
 	if( m_soundMusic.IsPlaying() )
 	{
 		RageTimer tm;
 		const float fSeconds = m_soundMusic.GetPositionSeconds( NULL, &tm );
 		GAMESTATE->UpdateSongPosition( fSeconds, GAMESTATE->m_pCurSong->m_Timing, tm );
 	}
-
+	if( m_EditMode == MODE_EDITING && PREFSMAN->m_bEditorAutosaveMinute>0 )
+	{
+		AutoSave();
+	}
 	if( m_EditMode == MODE_RECORDING  )	
 	{
 		// add or extend holds
@@ -764,7 +784,6 @@ void ScreenEdit::InputEdit( const DeviceInput& DeviceI, const InputEventType typ
 			{
 				float& fScrollSpeed = GAMESTATE->m_PlayerOptions[PLAYER_1].m_fScrollSpeed;
 				float fNewScrollSpeed = fScrollSpeed;
-
 				if( DeviceI.button == KEY_UP )
 				{
 					if( fScrollSpeed >= 1 )
@@ -817,14 +836,34 @@ void ScreenEdit::InputEdit( const DeviceInput& DeviceI, const InputEventType typ
 			case KEY_UP:
 			case KEY_DOWN:
 				fBeatsToMove = NoteTypeToBeat( m_SnapDisplay.GetNoteType() );
-				if( DeviceI.button == KEY_UP )	
+				// LOG->Info("m_fScrolls[SCROLL_REVERSE]  %f",GAMESTATE->m_CurrentPlayerOptions[PLAYER_1].m_fScrolls[GAMESTATE->m_CurrentPlayerOptions[PLAYER_1].SCROLL_REVERSE] );
+				// LOG->Info("PREFSMAN->m_bEditorReverseIntuitive  %d",PREFSMAN->m_bEditorReverseIntuitive );
+				if(GAMESTATE->m_CurrentPlayerOptions[PLAYER_1].m_fScrolls[GAMESTATE->m_CurrentPlayerOptions[PLAYER_1].SCROLL_REVERSE]>0 && 
+				   PREFSMAN->m_bEditorReverseIntuitive == true)
+				{
+					if( DeviceI.button == KEY_DOWN )	
+						fBeatsToMove *= -1;
+				}
+				else
+				{
+					if( DeviceI.button == KEY_UP )	
 					fBeatsToMove *= -1;
+				}
 			break;
 			case KEY_PGUP:
 			case KEY_PGDN:
 				fBeatsToMove = BEATS_PER_MEASURE;
-				if( DeviceI.button == KEY_PGUP )	
-					fBeatsToMove *= -1;
+				if(GAMESTATE->m_CurrentPlayerOptions[PLAYER_1].m_fScrolls[GAMESTATE->m_CurrentPlayerOptions[PLAYER_1].SCROLL_REVERSE]>0 && 
+				   PREFSMAN->m_bEditorReverseIntuitive == true)
+				{
+					if( DeviceI.button == KEY_PGDN )	
+						fBeatsToMove *= -1;
+				}
+				else
+				{
+					if( DeviceI.button == KEY_PGUP )	
+						fBeatsToMove *= -1;
+				}
 			}
 
 			const float fStartBeat = GAMESTATE->m_fSongBeat;
@@ -891,12 +930,30 @@ void ScreenEdit::InputEdit( const DeviceInput& DeviceI, const InputEventType typ
 		}
 		break;
 	case KEY_HOME:
-		GAMESTATE->m_fSongBeat = 0;
-		m_soundChangeLine.Play();
+		if(GAMESTATE->m_CurrentPlayerOptions[PLAYER_1].m_fScrolls[GAMESTATE->m_CurrentPlayerOptions[PLAYER_1].SCROLL_REVERSE]>0 && 
+			PREFSMAN->m_bEditorReverseIntuitive == true)
+		{
+			GAMESTATE->m_fSongBeat = m_NoteFieldEdit.GetLastBeat();
+			m_soundChangeLine.Play();
+		}
+		else
+		{
+			GAMESTATE->m_fSongBeat = 0;
+			m_soundChangeLine.Play();
+		}
 		break;
 	case KEY_END:
-		GAMESTATE->m_fSongBeat = m_NoteFieldEdit.GetLastBeat();
-		m_soundChangeLine.Play();
+		if(GAMESTATE->m_CurrentPlayerOptions[PLAYER_1].m_fScrolls[GAMESTATE->m_CurrentPlayerOptions[PLAYER_1].SCROLL_REVERSE]>0 && 
+			PREFSMAN->m_bEditorReverseIntuitive == true)
+		{
+			GAMESTATE->m_fSongBeat = 0;
+			m_soundChangeLine.Play();
+		}
+		else
+		{
+			GAMESTATE->m_fSongBeat = m_NoteFieldEdit.GetLastBeat();
+			m_soundChangeLine.Play();
+		}
 		break;
 	case KEY_LEFT:
 		if( m_SnapDisplay.PrevSnapMode() )
@@ -1348,6 +1405,7 @@ void ScreenEdit::InputPlay( const DeviceInput& DeviceI, const InputEventType typ
 /* Switch to editing. */
 void ScreenEdit::TransitionToEdit()
 {
+
 	/* Important: people will stop playing, change the BG and start again; make sure we reload */
 	m_Background.Unload();
 	m_Foreground.Unload();
@@ -1424,6 +1482,8 @@ void ScreenEdit::HandleScreenMessage( const ScreenMessage SM )
 		break;
 	case SM_BackFromPrefs:
 		PREFSMAN->m_bEditorShowBGChangesPlay = !!ScreenMiniMenu::s_iLastAnswers[pref_show_bgs_play];
+		PREFSMAN->m_bEditorReverseIntuitive = !!ScreenMiniMenu::s_iLastAnswers[pref_reverse_intuitive];
+		PREFSMAN->m_bEditorAutosaveMinute = ScreenMiniMenu::s_iLastAnswers[pref_autosave_minute];
 		PREFSMAN->SaveGlobalPrefsToDisk();
 		break;
 	case SM_BackFromCourseModeMenu:
@@ -1821,7 +1881,8 @@ void ScreenEdit::HandleMainMenuChoice( MainMenuChoice c, int* iAnswers )
 			break;
 		case preferences:
 			g_Prefs.rows[pref_show_bgs_play].defaultChoice = PREFSMAN->m_bEditorShowBGChangesPlay;
-
+			g_Prefs.rows[pref_reverse_intuitive].defaultChoice = PREFSMAN->m_bEditorReverseIntuitive;
+			g_Prefs.rows[pref_autosave_minute].defaultChoice = PREFSMAN->m_bEditorAutosaveMinute;
 			SCREENMAN->MiniMenu( &g_Prefs, SM_BackFromPrefs );
 			break;
 

@@ -222,6 +222,8 @@ public:
 	
 	/* Editor prefs: */
 	bool			m_bEditorShowBGChangesPlay;
+	bool			m_bEditorReverseIntuitive;
+	int				m_bEditorAutosaveMinute;
 
 	// course ranking
 	enum CourseSortOrders { COURSE_SORT_SONGS, COURSE_SORT_METER, COURSE_SORT_METER_SUM, COURSE_SORT_RANK } m_iCourseSortOrder;

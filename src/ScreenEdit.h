@@ -43,6 +43,7 @@ protected:
 	void OnSnapModeChange();
 	void MenuItemGainFocus( BitmapText* menuitem );
 	void MenuItemLoseFocus( BitmapText* menuitem );
+	void AutoSave();
 
 
 	enum EditMode { MODE_EDITING, MODE_RECORDING, MODE_PLAYING };
@@ -191,6 +192,8 @@ public:
 
 	enum PrefsChoice {
 		pref_show_bgs_play,
+		pref_reverse_intuitive,
+		pref_autosave_minute,
 		NUM_PREFS_CHOICES
 	};
 	void HandleBGChangeChoice( BGChangeChoice c, int* iAnswers );

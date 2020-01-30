@@ -13,13 +13,22 @@
 8. (完成) 修正使用AUTOPLAY會崩潰的問題  
 9. (完成) 可追朔以前的備份  
    (編輯的歌曲資料夾會多個FileBackup資料夾，並以時間戳記為檔案名稱)  
-10. 自動儲存  
+10. (完成) 自動儲存  
     (可選擇你要儲存的時間間隔，也可以關閉，預設自動儲存時間是5分鐘)  
-11. Reverse逆流編輯環境下可直覺操作  
+11. (完成) Reverse逆流編輯環境下可直覺操作  
     (PlayerOption的Reverse選項開下去就知道了)  
-12. Reverse逆流編輯直覺操作性可在Preferences下的Reverse Control Intuitive更改  
+12. (完成) Reverse逆流編輯直覺操作性可在Preferences下的Reverse Control Intuitive更改  
 13. 增加DisplayBPM編輯，可在Edit Song Info下找到
 
 # 另外增加  
 + hold結尾改為TNS_MARVELOUS(白光)不確定是否影響分數
 
+# TODO
++ hold結尾判定
++ 打擊軌道背板
++ editor 變速切換難度 紀錄bug修改
++ 連線模式聊天輸入中文
++ 連線模式檔案傳送
++ option選預設charater
++ editor 影片預覽撥放位置修正
++ (完成) 影片速度根據取速改變

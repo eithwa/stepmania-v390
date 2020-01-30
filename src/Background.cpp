@@ -481,17 +481,31 @@ void Background::UpdateCurBGChange( float fCurrentTime )
 
 		if( pOld )
 			pOld->LoseFocus();
-		if( m_pCurrentBGA )
-			m_pCurrentBGA->GainFocus( change.m_fRate, change.m_bRewindMovie, change.m_bLoop );
-
-		m_fSecsLeftInFade = m_pFadingBGA!=NULL ? FADE_SECONDS : 0;
 
 		/* How much time of this BGA have we skipped?  (This happens with SetSeconds.) */
 		const float fStartSecond = m_pSong->m_Timing.GetElapsedTimeFromBeat( change.m_fStartBeat );
-
 		/* This is affected by the music rate. */
 		float fDeltaTime = fCurrentTime - fStartSecond;
+		float fsecond = fDeltaTime;
 		fDeltaTime /= fRate;
+		
+		if( m_pCurrentBGA )
+		{
+			float speed = change.m_fRate * GAMESTATE->m_SongOptions.m_fMusicRate;
+			LOG->Info( "m_fRate: %f, fsecond: %f, change bga, %f", speed, fsecond, fDeltaTime);
+			//m_pCurrentBGA->GainFocus( change.m_fRate, change.m_bRewindMovie, change.m_bLoop );
+			//m_pCurrentBGA->GainFocus( speed, change.m_bRewindMovie, change.m_bLoop );
+			m_pCurrentBGA->GainFocus( speed, change.m_bRewindMovie, change.m_bLoop, fsecond);
+		}
+
+		m_fSecsLeftInFade = m_pFadingBGA!=NULL ? FADE_SECONDS : 0;
+
+		// /* How much time of this BGA have we skipped?  (This happens with SetSeconds.) */
+		// const float fStartSecond = m_pSong->m_Timing.GetElapsedTimeFromBeat( change.m_fStartBeat );
+
+		// /* This is affected by the music rate. */
+		// float fDeltaTime = fCurrentTime - fStartSecond;
+		// fDeltaTime /= fRate;
 		if( m_pCurrentBGA )
 			m_pCurrentBGA->Update( max( fDeltaTime, 0 ) );
 	}

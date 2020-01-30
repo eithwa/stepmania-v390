@@ -27,6 +27,7 @@ public:
 
 	float GetMaxTweenTimeLeft() const;
 	void GainFocus( float fRate, bool bRewindMovie, bool bLoop );
+	void GainFocus( float fRate, bool bRewindMovie, bool bLoop, float fsecond);
 	void LoseFocus();
 
 	void PlayCommand( const CString &sCommandName );
