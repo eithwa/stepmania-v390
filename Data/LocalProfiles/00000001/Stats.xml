@@ -7,15 +7,15 @@
 <IsMachine>0</IsMachine>
 <Guid>2d7b4ebc42dbf60b</Guid>
 <UsingProfileDefaultModifiers>1</UsingProfileDefaultModifiers>
-<DefaultModifiers>flat</DefaultModifiers>
+<DefaultModifiers>note</DefaultModifiers>
 <SortOrder>GROUP</SortOrder>
-<LastDifficulty>Easy</LastDifficulty>
+<LastDifficulty>Challenge</LastDifficulty>
 <LastCourseDifficulty/>
-<Song Dir='Songs/Blue&apos;s 7th step/(Barry x Blue)MILLION LIVE LIFE LINE!!!/' />
+<Song Dir='Songs/test/Your voice so... feat.Such/' />
 <Course/>
-<TotalPlays>29</TotalPlays>
-<TotalPlaySeconds>3518</TotalPlaySeconds>
-<TotalGameplaySeconds>543</TotalGameplaySeconds>
+<TotalPlays>30</TotalPlays>
+<TotalPlaySeconds>3729</TotalPlaySeconds>
+<TotalGameplaySeconds>622</TotalGameplaySeconds>
 <CurrentCombo>0</CurrentCombo>
 <TotalCaloriesBurned>0.000000</TotalCaloriesBurned>
 <LastPlayedMachineGuid>72349908df7c22e4</LastPlayedMachineGuid>
@@ -24,36 +24,37 @@
 <NumExtraStagesPassed>0</NumExtraStagesPassed>
 <NumExtraStagesFailed>0</NumExtraStagesFailed>
 <NumToasties>0</NumToasties>
-<TotalTapsAndHolds>83</TotalTapsAndHolds>
-<TotalJumps>21</TotalJumps>
-<TotalHolds>32</TotalHolds>
+<TotalTapsAndHolds>698</TotalTapsAndHolds>
+<TotalJumps>322</TotalJumps>
+<TotalHolds>95</TotalHolds>
 <TotalMines>6</TotalMines>
-<TotalHands>4</TotalHands>
+<TotalHands>121</TotalHands>
 <UnlockedSongs/>
 <NumSongsPlayedByPlayMode>
-<Regular>32</Regular>
+<Regular>35</Regular>
 </NumSongsPlayedByPlayMode>
 <NumSongsPlayedByStyle>
-<Style Game='dance' Style='single' >32</Style>
+<Style Game='dance' Style='single' >35</Style>
 </NumSongsPlayedByStyle>
 <NumSongsPlayedByDifficulty>
 <Easy>1</Easy>
-<Medium>1</Medium>
-<Hard>2</Hard>
-<Challenge>28</Challenge>
+<Medium>2</Medium>
+<Hard>3</Hard>
+<Challenge>29</Challenge>
 </NumSongsPlayedByDifficulty>
 <NumSongsPlayedByMeter>
-<Meter1>29</Meter1>
+<Meter1>31</Meter1>
 <Meter10>1</Meter10>
+<Meter11>1</Meter11>
 <Meter13>2</Meter13>
 </NumSongsPlayedByMeter>
 <NumStagesPassedByGrade>
 <Tier01>5</Tier01>
 <Tier03>1</Tier03>
-<Tier07>23</Tier07>
+<Tier07>26</Tier07>
 </NumStagesPassedByGrade>
 <NumStagesPassedByPlayMode>
-<Regular>29</Regular>
+<Regular>32</Regular>
 </NumStagesPassedByPlayMode>
 </GeneralData>
 <SongScores>
@@ -61,6 +62,13 @@
 <Steps StepsType='dance-single' Difficulty='Easy' >
 <HighScoreList>
 <NumTimesPlayed>6</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+</Song>
+<Song Dir='Songs/Blue&apos;s 7th step/(Blue vs YuFaEr)ADAMAS/' >
+<Steps StepsType='dance-single' Difficulty='Hard' >
+<HighScoreList>
+<NumTimesPlayed>2</NumTimesPlayed>
 </HighScoreList>
 </Steps>
 </Song>
@@ -74,12 +82,12 @@
 <Song Dir='Songs/test/Your voice so... feat.Such/' >
 <Steps StepsType='dance-single' Difficulty='Medium' >
 <HighScoreList>
-<NumTimesPlayed>1</NumTimesPlayed>
+<NumTimesPlayed>2</NumTimesPlayed>
 </HighScoreList>
 </Steps>
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <HighScoreList>
-<NumTimesPlayed>28</NumTimesPlayed>
+<NumTimesPlayed>29</NumTimesPlayed>
 <HighScore>
 <Name>EVNT</Name>
 <Grade>Tier03</Grade>
@@ -1384,6 +1392,129 @@
 <Taps>0</Taps>
 <Jumps>0</Jumps>
 <Holds>0</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</HighScore>
+</HighScoreForASongAndSteps>
+<HighScoreForASongAndSteps>
+<Song Dir='Songs/Blue&apos;s 7th step/(Blue vs YuFaEr)ADAMAS/' />
+<Steps StepsType='dance-single' Difficulty='Hard' />
+<HighScore>
+<Name>EVNT</Name>
+<Grade>Tier07</Grade>
+<Score>0</Score>
+<PercentDP>0.000000</PercentDP>
+<SurviveSeconds>96.930023</SurviveSeconds>
+<Modifiers>flat</Modifiers>
+<DateTime>2020-01-31 20:25:34</DateTime>
+<PlayerGuid>2d7b4ebc42dbf60b</PlayerGuid>
+<MachineGuid>72349908df7c22e4</MachineGuid>
+<ProductID>1</ProductID>
+<TapNoteScores>
+<HitMine>0</HitMine>
+<Miss>0</Miss>
+<Boo>0</Boo>
+<Good>0</Good>
+<Great>0</Great>
+<Perfect>0</Perfect>
+<Marvelous>0</Marvelous>
+</TapNoteScores>
+<HoldNoteScores>
+<NG>0</NG>
+<OK>0</OK>
+</HoldNoteScores>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>0.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>1.000000</Freeze>
+<Chaos>0.000000</Chaos>
+<Taps>608</Taps>
+<Jumps>300</Jumps>
+<Holds>59</Holds>
+<Mines>0</Mines>
+<Hands>117</Hands>
+</RadarValues>
+</HighScore>
+</HighScoreForASongAndSteps>
+<HighScoreForASongAndSteps>
+<Song Dir='Songs/test/Your voice so... feat.Such/' />
+<Steps StepsType='dance-single' Difficulty='Medium' />
+<HighScore>
+<Name>EVNT</Name>
+<Grade>Tier07</Grade>
+<Score>0</Score>
+<PercentDP>0.000000</PercentDP>
+<SurviveSeconds>12.919546</SurviveSeconds>
+<Modifiers>flat</Modifiers>
+<DateTime>2020-01-31 20:25:59</DateTime>
+<PlayerGuid>2d7b4ebc42dbf60b</PlayerGuid>
+<MachineGuid>72349908df7c22e4</MachineGuid>
+<ProductID>1</ProductID>
+<TapNoteScores>
+<HitMine>0</HitMine>
+<Miss>0</Miss>
+<Boo>0</Boo>
+<Good>0</Good>
+<Great>0</Great>
+<Perfect>0</Perfect>
+<Marvelous>0</Marvelous>
+</TapNoteScores>
+<HoldNoteScores>
+<NG>0</NG>
+<OK>0</OK>
+</HoldNoteScores>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>0.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>1.000000</Freeze>
+<Chaos>1.000000</Chaos>
+<Taps>0</Taps>
+<Jumps>0</Jumps>
+<Holds>0</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</HighScore>
+</HighScoreForASongAndSteps>
+<HighScoreForASongAndSteps>
+<Song Dir='Songs/test/Your voice so... feat.Such/' />
+<Steps StepsType='dance-single' Difficulty='Challenge' />
+<HighScore>
+<Name>EVNT</Name>
+<Grade>Tier07</Grade>
+<Score>0</Score>
+<PercentDP>0.000000</PercentDP>
+<SurviveSeconds>11.050528</SurviveSeconds>
+<Modifiers>note</Modifiers>
+<DateTime>2020-01-31 20:26:39</DateTime>
+<PlayerGuid>2d7b4ebc42dbf60b</PlayerGuid>
+<MachineGuid>72349908df7c22e4</MachineGuid>
+<ProductID>1</ProductID>
+<TapNoteScores>
+<HitMine>0</HitMine>
+<Miss>0</Miss>
+<Boo>0</Boo>
+<Good>0</Good>
+<Great>0</Great>
+<Perfect>0</Perfect>
+<Marvelous>0</Marvelous>
+</TapNoteScores>
+<HoldNoteScores>
+<NG>0</NG>
+<OK>0</OK>
+</HoldNoteScores>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>0.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>1.000000</Freeze>
+<Chaos>0.000000</Chaos>
+<Taps>7</Taps>
+<Jumps>1</Jumps>
+<Holds>4</Holds>
 <Mines>0</Mines>
 <Hands>0</Hands>
 </RadarValues>

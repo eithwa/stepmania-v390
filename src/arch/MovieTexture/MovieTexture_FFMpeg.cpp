@@ -269,7 +269,6 @@ int FFMpeg_Helper::GetFrame(int ms)
 	}
 	int pts_ = pkt.pts/(AV_TIME_BASE/1000) ;
 	// LOG->Info("pts %d, ms %d",pts_,ms);
-	int test = ms*(AV_TIME_BASE/1000);
 	offset=ms-pts_;
 
 	++FrameNumber;
