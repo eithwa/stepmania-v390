@@ -3018,6 +3018,21 @@
 <Hands>276</Hands>
 </RadarValues>
 </Steps>
+<Steps StepsType='dance-single' Difficulty='Hard' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>1.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>0.608000</Freeze>
+<Chaos>0.110000</Chaos>
+<Taps>2239</Taps>
+<Jumps>1121</Jumps>
+<Holds>295</Holds>
+<Mines>0</Mines>
+<Hands>276</Hands>
+</RadarValues>
+</Steps>
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>11</Meter>
 <RadarValues>
@@ -3037,6 +3052,21 @@
 <Song Dir='Songs/Blue&apos;s 7th step/(Blue vs 320P)The Golden Era/' >
 <MainTitle>The Golden Era</MainTitle>
 <SubTitle>SOUND VOLTEX IV HEAVENLY HAVEN</SubTitle>
+<Steps StepsType='dance-single' Difficulty='Easy' >
+<Meter>1</Meter>
+<RadarValues>
+<Stream>0.000000</Stream>
+<Voltage>0.000000</Voltage>
+<Air>0.000000</Air>
+<Freeze>0.000000</Freeze>
+<Chaos>0.000000</Chaos>
+<Taps>0</Taps>
+<Jumps>0</Jumps>
+<Holds>0</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</Steps>
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>10</Meter>
 <RadarValues>
@@ -3086,6 +3116,21 @@
 <Hands>125</Hands>
 </RadarValues>
 </Steps>
+<Steps StepsType='dance-single' Difficulty='Medium' >
+<Meter>8</Meter>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>1.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>1.000000</Freeze>
+<Chaos>0.438000</Chaos>
+<Taps>656</Taps>
+<Jumps>347</Jumps>
+<Holds>218</Holds>
+<Mines>0</Mines>
+<Hands>125</Hands>
+</RadarValues>
+</Steps>
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>9</Meter>
 <RadarValues>
@@ -3105,6 +3150,21 @@
 <Song Dir='Songs/Blue&apos;s 7th step/(Blue vs YuFaEr)ADAMAS/' >
 <MainTitle>ADAMAS</MainTitle>
 <SubTitle>Sword Art Online Alicization OP1</SubTitle>
+<Steps StepsType='dance-single' Difficulty='Easy' >
+<Meter>1</Meter>
+<RadarValues>
+<Stream>0.000000</Stream>
+<Voltage>0.000000</Voltage>
+<Air>0.000000</Air>
+<Freeze>0.000000</Freeze>
+<Chaos>0.000000</Chaos>
+<Taps>0</Taps>
+<Jumps>0</Jumps>
+<Holds>0</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</Steps>
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <Meter>11</Meter>
 <RadarValues>

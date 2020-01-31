@@ -13,13 +13,13 @@
 <LastCourseDifficulty/>
 <Song Dir='' />
 <Course/>
-<TotalPlays>28</TotalPlays>
-<TotalPlaySeconds>2968</TotalPlaySeconds>
-<TotalGameplaySeconds>302</TotalGameplaySeconds>
+<TotalPlays>29</TotalPlays>
+<TotalPlaySeconds>3518</TotalPlaySeconds>
+<TotalGameplaySeconds>543</TotalGameplaySeconds>
 <CurrentCombo>0</CurrentCombo>
 <TotalCaloriesBurned>0.000000</TotalCaloriesBurned>
 <LastPlayedMachineGuid>72349908df7c22e4</LastPlayedMachineGuid>
-<LastPlayedDate>2020-01-28</LastPlayedDate>
+<LastPlayedDate>2020-01-31</LastPlayedDate>
 <TotalDancePoints>154</TotalDancePoints>
 <NumExtraStagesPassed>0</NumExtraStagesPassed>
 <NumExtraStagesFailed>0</NumExtraStagesFailed>
@@ -31,18 +31,20 @@
 <TotalHands>4</TotalHands>
 <UnlockedSongs/>
 <NumSongsPlayedByPlayMode>
-<Regular>31</Regular>
+<Regular>32</Regular>
 </NumSongsPlayedByPlayMode>
 <NumSongsPlayedByStyle>
-<Style Game='dance' Style='single' >31</Style>
+<Style Game='dance' Style='single' >32</Style>
 </NumSongsPlayedByStyle>
 <NumSongsPlayedByDifficulty>
+<Easy>1</Easy>
 <Medium>1</Medium>
 <Hard>2</Hard>
 <Challenge>28</Challenge>
 </NumSongsPlayedByDifficulty>
 <NumSongsPlayedByMeter>
 <Meter1>29</Meter1>
+<Meter10>1</Meter10>
 <Meter13>2</Meter13>
 </NumSongsPlayedByMeter>
 <NumStagesPassedByGrade>
@@ -55,6 +57,13 @@
 </NumStagesPassedByPlayMode>
 </GeneralData>
 <SongScores>
+<Song Dir='Songs/Blue&apos;s 7th step/(Barry x Blue)MILLION LIVE LIFE LINE!!!/' >
+<Steps StepsType='dance-single' Difficulty='Easy' >
+<HighScoreList>
+<NumTimesPlayed>6</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+</Song>
 <Song Dir='Songs/test/(Blue vs CCC) - LEGNE - kyuu nasu ken kou no senritsu (metal remix)/' >
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <HighScoreList>

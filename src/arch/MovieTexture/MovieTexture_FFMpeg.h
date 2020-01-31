@@ -88,6 +88,7 @@ private:
 
 	void UpdateTimer();
 	bool DecodeFrame();
+	bool DecodeFrame(int ms);
 	float CheckFrameTime();
 	void DiscardFrame();
 };
