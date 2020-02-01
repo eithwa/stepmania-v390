@@ -494,7 +494,6 @@ void Background::UpdateCurBGChange( float fCurrentTime )
 			float speed = change.m_fRate * GAMESTATE->m_SongOptions.m_fMusicRate;
 			// LOG->Info( "m_fRate: %f, fsecond: %f, change bga, %f", speed, fsecond, fDeltaTime);
 			//m_pCurrentBGA->GainFocus( change.m_fRate, change.m_bRewindMovie, change.m_bLoop );
-			//m_pCurrentBGA->GainFocus( speed, change.m_bRewindMovie, change.m_bLoop );
 			m_pCurrentBGA->GainFocus( speed, change.m_bRewindMovie, change.m_bLoop, fsecond);
 		}
 

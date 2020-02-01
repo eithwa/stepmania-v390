@@ -47,8 +47,7 @@ private:
 	bool m_bLoop;
 	bool m_bWantRewind;
 	bool m_bThreaded;
-	bool setPosition_flag;
-	float setPosition_fSeconds;
+	
 	/*
 	 * Only the main thread can change m_State.
 	 *
@@ -89,7 +88,6 @@ private:
 
 	void UpdateTimer();
 	bool DecodeFrame();
-	bool DecodeFrame(int ms);
 	float CheckFrameTime();
 	void DiscardFrame();
 };

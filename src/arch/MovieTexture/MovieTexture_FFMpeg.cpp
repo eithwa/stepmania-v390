@@ -149,7 +149,13 @@ public:
 	float LastFrameDelay;
 
 	float pts;
+	//=========
 	float offset;
+	bool setPosition_flag;
+	float setPosition_fSeconds;
+	float setPosition_mClock_fSeconds;
+	//=========
+
 	avcodec::AVPacket pkt;
 	int current_packet_offset;
 
@@ -158,7 +164,6 @@ public:
 	FFMpeg_Helper();
 	~FFMpeg_Helper();
 	int GetFrame();
-	int GetFrame(int ms);
 	void Init();
 	float GetTimestamp() const;
 
@@ -170,7 +175,6 @@ private:
 
 	int ReadPacket();
 	int DecodePacket();
-	int DecodePacket(int ms);
 	float TimestampOffset;
 };
 
@@ -198,7 +202,12 @@ void FFMpeg_Helper::Init()
 	CurrentTimestamp = 0, Last_IP_Timestamp = 0;
 	LastFrameDelay = 0;
 	pts = -1;
+	//==========
 	offset=0;
+	setPosition_flag=false;
+	setPosition_fSeconds=0;
+	setPosition_mClock_fSeconds=0;
+	//==========
 	FrameNumber = -1; /* decode one frame and you're on the 0th */
 	TimestampOffset = 0;
 
@@ -227,7 +236,16 @@ int FFMpeg_Helper::GetFrame()
 		if( ret < 0 )
 			return ret; /* error */
 	}
-
+	if(setPosition_flag)
+	{
+		int pts_ = pkt.pts/(AV_TIME_BASE/1000) ;
+		// LOG->Info("pts %d, ms %d",pts_,ms);
+		offset=setPosition_mClock_fSeconds-pts_;
+		setPosition_flag=false;
+		setPosition_fSeconds=0;
+		setPosition_mClock_fSeconds=0;
+	}
+	
 	++FrameNumber;
 
 	if( FrameNumber == 1 )
@@ -250,48 +268,7 @@ int FFMpeg_Helper::GetFrame()
 
 	return 1;
 }
-int FFMpeg_Helper::GetFrame(int ms)
-{
-	while( 1 )
-	{
-		int ret = DecodePacket(ms);
-		if( ret == 1 )
-			break;
-		if( ret == -1 )
-			return -1;
-		if( ret == 0 && eof > 0 )
-			return 0; /* eof */
 
-		ASSERT( ret == 0 );
-		ret = ReadPacket();
-		if( ret < 0 )
-			return ret; /* error */
-	}
-	int pts_ = pkt.pts/(AV_TIME_BASE/1000) ;
-	// LOG->Info("pts %d, ms %d",pts_,ms);
-	offset=ms-pts_;
-
-	++FrameNumber;
-	if( FrameNumber == 1 )
-	{
-		/* Some videos start with a timestamp other than 0.  I think this is used
-		 * when audio starts before the video.  We don't want to honor that, since
-		 * the DShow renderer doesn't and we don't want to break sync compatibility.
-		 *
-		 * Look at the second frame.  (If we have B-frames, the first frame will be an
-		 * I-frame with the timestamp of the next P-frame, not its own timestamp, and we
-		 * want to ignore that and look at the next B-frame.) */
-		const float expect = LastFrameDelay;
-		const float actual = CurrentTimestamp;
-		if( actual - expect > 0 )
-		{
-			LOG->Trace("Expect %f, got %f -> %f", expect, actual, actual - expect );
-			TimestampOffset = actual - expect;
-		}
-	}
-
-	return 1;
-}
 float FFMpeg_Helper::GetTimestamp() const
 {
 	/* The first frame always has a timestamp of 0. */
@@ -343,6 +320,13 @@ int FFMpeg_Helper::ReadPacket()
  * and 1 if we have a frame (we may have more data in the packet). */
 int FFMpeg_Helper::DecodePacket()
 {
+	if(setPosition_flag)
+	{
+		//int seek_frame = av_seek_frame(m_fctx, -1, ms/1000*AV_TIME_BASE);
+		int seek_frame = av_seek_frame(m_fctx, -1, setPosition_mClock_fSeconds*(AV_TIME_BASE/1000));
+		// LOG->Info("seek_frame %d", seek_frame);
+	}
+
 	if( eof == 0 && current_packet_offset == -1 )
 		return 0; /* no packet */
 
@@ -412,84 +396,7 @@ int FFMpeg_Helper::DecodePacket()
 
 	return 0; /* packet done */
 }
-int FFMpeg_Helper::DecodePacket(int ms)
-{
-	//int seek_frame = av_seek_frame(m_fctx, -1, ms/1000*AV_TIME_BASE);
-	int seek_frame = av_seek_frame(m_fctx, -1, ms*(AV_TIME_BASE/1000));
-	// LOG->Info("seek_frame %d", seek_frame);
 
-
-	if( eof == 0 && current_packet_offset == -1 )
-		return 0; /* no packet */
-
-	while( eof == 1 || (eof == 0 && current_packet_offset < pkt.size) )
-	{
-		if ( GetNextTimestamp )
-		{
-			
-			if (pkt.dts != int64_t(AV_NOPTS_VALUE))
-				pts = (float)pkt.dts / AV_TIME_BASE;
-			else
-				pts = -1;
-			GetNextTimestamp = false;
-		}
-
-		/* If we have no data on the first frame, just return EOF; passing an empty packet
-		 * to avcodec_decode_video in this case is crashing it.  However, passing an empty
-		 * packet is normal with B-frames, to flush.  This may be unnecessary in newer
-		 * versions of avcodec, but I'm waiting until a new stable release to upgrade. */
-		if( pkt.size == 0 && FrameNumber == -1 )
-			return 0; /* eof */
-
-		int got_frame;
-		CHECKPOINT;
-		/* Hack: we need to send size = 0 to flush frames at the end, but we have
-		 * to give it a buffer to read from since it tries to read anyway. */
-		static uint8_t dummy[FF_INPUT_BUFFER_PADDING_SIZE] = { 0 };
-		int len = avcodec::avcodec_decode_video(
-				&m_stream->codec, 
-				&frame, &got_frame,
-				pkt.size? pkt.data:dummy, pkt.size );
-		CHECKPOINT;
-
-		if (len < 0)
-		{
-			LOG->Warn("avcodec_decode_video: %i", len);
-			return -1; // XXX
-		}
-
-		current_packet_offset += len;
-
-		if (!got_frame)
-		{
-			if( eof == 1 )
-				eof = 2;
-			continue;
-		}
-
-		GetNextTimestamp = true;
-		
-		if (pts != -1)
-		{
-			
-			CurrentTimestamp = pts;
-		}
-		else
-		{
-			/* If the timestamp is zero, this frame is to be played at the
-			 * time of the last frame plus the length of the last frame. */
-			CurrentTimestamp += LastFrameDelay;
-		}
-
-		/* Length of this frame: */
-		LastFrameDelay = (float)m_stream->codec.frame_rate_base / m_stream->codec.frame_rate;
-		LastFrameDelay += frame.repeat_pict * (LastFrameDelay * 0.5f);
-
-		return 1;
-	}
-
-	return 0; /* packet done */
-}
 void MovieTexture_FFMpeg::ConvertFrame()
 {
 	ASSERT_M( m_ImageWaiting == FRAME_DECODED, ssprintf("%i", m_ImageWaiting ) );
@@ -537,7 +444,6 @@ try {
 	m_Clock = 0;
 	m_FrameSkipMode = false;
 	m_bThreaded = PREFSMAN->m_bThreadedMovieDecode;
-	setPosition_flag = false;
 
 	CreateDecoder();
 	LOG->Trace("Bitrate: %i", decoder->m_stream->codec.bit_rate );
@@ -885,57 +791,7 @@ bool MovieTexture_FFMpeg::DecodeFrame()
 
 	return true;
 }
-bool MovieTexture_FFMpeg::DecodeFrame(int ms)
-{
-	ASSERT_M( m_ImageWaiting == FRAME_NONE, ssprintf("%i", m_ImageWaiting) );
 
-	// if( m_State != PLAYING ){
-	// 	return false;
-	// }
-	
-	CHECKPOINT;
-	
-	/* Read a frame. */
-	int ret = decoder->GetFrame(ms);
-	
-	if( ret == -1 )
-		return false;
-
-	if( m_bWantRewind && decoder->GetTimestamp() == 0 )
-		m_bWantRewind = false; /* ignore */
-
-	if( ret == 0 )
-	{
-		/* EOF. */
-		if( !m_bLoop )
-			return false;
-
-		LOG->Trace( "File \"%s\" looping", GetID().filename.c_str() );
-		m_bWantRewind = true;
-	}
-
-	if( m_bWantRewind )
-	{
-		m_bWantRewind = false;
-
-		/* When resetting the clock, set it back by the length of the last frame,
-		 * so it has a proper delay. */
-		float fDelay = decoder->LastFrameDelay;
-
-		/* Restart. */
-		DestroyDecoder();
-		CreateDecoder();
-
-		decoder->Init();
-		m_Clock = -fDelay;
-		return false;
-	}
-
-	/* We got a frame. */
-	m_ImageWaiting = FRAME_DECODED;
-
-	return true;
-}
 /*
  * Call when m_ImageWaiting == FRAME_DECODED.
  * Returns:
@@ -1033,11 +889,10 @@ void MovieTexture_FFMpeg::DecoderThread()
 
 		if( m_ImageWaiting == FRAME_NONE )
 		{
-			if(setPosition_flag)
+			if(decoder->setPosition_flag)
 			{
-				setPosition_flag = false;
-				int mSeconds = (m_Clock+setPosition_fSeconds)*1000;
-				DecodeFrame(mSeconds);
+				decoder->setPosition_mClock_fSeconds = (m_Clock+decoder->setPosition_fSeconds)*1000;
+				DecodeFrame();
 				m_Clock +=(float)(decoder->offset)/1000.0;
 			}
 			else
@@ -1094,11 +949,10 @@ void MovieTexture_FFMpeg::Update(float fDeltaTime)
 		/* If we don't have a frame decoded, decode one. */
 		if( m_ImageWaiting == FRAME_NONE )
 		{
-			if(setPosition_flag)
+			if(decoder->setPosition_flag)
 			{
-				setPosition_flag = false;
-				int mSeconds = (m_Clock+setPosition_fSeconds)*1000;
-				DecodeFrame(mSeconds);
+				decoder->setPosition_mClock_fSeconds = (m_Clock+decoder->setPosition_fSeconds)*1000;
+				DecodeFrame();
 				m_Clock +=(float)(decoder->offset)/1000.0;
 			}
 			else
@@ -1211,21 +1065,8 @@ void MovieTexture_FFMpeg::SetPosition( float fSeconds )
 	{
 		// LOG->Warn( "MovieTexture_FFMpeg::SetPosition(%f): non-0 seeking unsupported; ignored", fSeconds );
 		// LOG->Info("start time ms ithink %f", fSeconds);
-		setPosition_flag = true;
-		setPosition_fSeconds = fSeconds;
-		// float fDelay = decoder->LastFrameDelay;
-
-		// /* Restart. */
-		// DestroyDecoder();
-		// CreateDecoder();
-
-		// decoder->Init();
-		// m_Clock = -fDelay;;
-		// // LOG->Info("m_Clock %f", m_Clock);
-		// int mSeconds = (-fDelay+fSeconds)*1000;
-		// DecodeFrame(mSeconds);
-		// m_Clock +=(float)(decoder->offset)/1000.0;
-		// LOG->Info("decoder->offset %f", decoder->offset);
+		decoder->setPosition_flag = true;
+		decoder->setPosition_fSeconds = fSeconds;
 		
 		//return;
 	}
