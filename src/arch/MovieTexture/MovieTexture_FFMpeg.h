@@ -47,7 +47,8 @@ private:
 	bool m_bLoop;
 	bool m_bWantRewind;
 	bool m_bThreaded;
-
+	bool setPosition_flag;
+	float setPosition_fSeconds;
 	/*
 	 * Only the main thread can change m_State.
 	 *

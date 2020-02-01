@@ -1,3 +1,5 @@
+#include <windows.h>
+
 #include "global.h"
 
 #if !defined(WITHOUT_NETWORKING)
@@ -237,7 +239,12 @@ ScreenNetSelectMusic::ScreenNetSelectMusic( const CString& sName ) : ScreenWithM
 
 	return;
 }
-
+// void ScreenNetSelectMusic::Grid_KeyUp(
+//   Platform::Object^ sender,
+//   Windows::UI::Xaml::Input::KeyRoutedEventArgs^ e)
+//   {
+//       //handling code here
+//   }
 void ScreenNetSelectMusic::Input( const DeviceInput& DeviceI, const InputEventType type,
 								  const GameInput& GameI, const MenuInput& MenuI,
 								  const StyleInput& StyleI )
@@ -256,7 +263,7 @@ void ScreenNetSelectMusic::Input( const DeviceInput& DeviceI, const InputEventTy
 		INPUTFILTER->IsBeingPressed(DeviceInput(DEVICE_KEYBOARD, KEY_LCTRL)) ||
 		INPUTFILTER->IsBeingPressed(DeviceInput(DEVICE_KEYBOARD, KEY_RCTRL)) ||
 		(!NSMAN->useSMserver);	//If we are disconnected, assume no chatting
-
+	
 	switch( DeviceI.button )
 	{
 	case KEY_ENTER:
@@ -273,6 +280,20 @@ void ScreenNetSelectMusic::Input( const DeviceInput& DeviceI, const InputEventTy
 	case KEY_BACK:
 		if(!m_sTextInput.empty())
 			m_sTextInput = m_sTextInput.erase( m_sTextInput.size()-1 );
+		UpdateTextInput();
+		break;
+	case KEY_F1:
+		LOG->Info("fuck");
+		// char string[100];
+		// scanf(string);
+		// m_sTextInput+=string;
+
+		// char str[20];
+
+		// puts("請輸入字串：");
+		// gets(str);
+		// m_sTextInput+=str;
+
 		UpdateTextInput();
 		break;
 	default:

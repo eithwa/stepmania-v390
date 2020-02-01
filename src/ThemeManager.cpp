@@ -178,10 +178,17 @@ void ThemeManager::LoadThemeRecursive( deque<Theme> &theme, CString sThemeName )
 
 void ThemeManager::SwitchThemeAndLanguage( CString sThemeName, CString sLanguage )
 {
+	//LOG->Info("sLanguage:%s",sLanguage.c_str());
 	if( !DoesThemeExist(sThemeName) )
 		sThemeName = BASE_THEME_NAME;
 	if( !DoesLanguageExist(sLanguage) )
+	{
 		sLanguage = BASE_LANGUAGE;
+	}else
+	{
+		PREFSMAN->m_sLanguage = sLanguage;
+	}
+	
 	LOG->Trace("ThemeManager::SwitchThemeAndLanguage: \"%s\", \"%s\"",
 		sThemeName.c_str(), m_sCurThemeName.c_str() );
 

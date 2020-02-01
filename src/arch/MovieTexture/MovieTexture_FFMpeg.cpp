@@ -537,6 +537,7 @@ try {
 	m_Clock = 0;
 	m_FrameSkipMode = false;
 	m_bThreaded = PREFSMAN->m_bThreadedMovieDecode;
+	setPosition_flag = false;
 
 	CreateDecoder();
 	LOG->Trace("Bitrate: %i", decoder->m_stream->codec.bit_rate );
@@ -1031,7 +1032,21 @@ void MovieTexture_FFMpeg::DecoderThread()
 		}
 
 		if( m_ImageWaiting == FRAME_NONE )
-			DecodeFrame();
+		{
+			if(setPosition_flag)
+			{
+				setPosition_flag = false;
+				int mSeconds = (m_Clock+setPosition_fSeconds)*1000;
+				DecodeFrame(mSeconds);
+				m_Clock +=(float)(decoder->offset)/1000.0;
+			}
+			else
+			{
+				DecodeFrame();
+			}
+
+		}
+			
 
 		if( m_ImageWaiting != FRAME_DECODED )
 			continue;
@@ -1078,7 +1093,19 @@ void MovieTexture_FFMpeg::Update(float fDeltaTime)
 
 		/* If we don't have a frame decoded, decode one. */
 		if( m_ImageWaiting == FRAME_NONE )
-			DecodeFrame();
+		{
+			if(setPosition_flag)
+			{
+				setPosition_flag = false;
+				int mSeconds = (m_Clock+setPosition_fSeconds)*1000;
+				DecodeFrame(mSeconds);
+				m_Clock +=(float)(decoder->offset)/1000.0;
+			}
+			else
+			{
+				DecodeFrame();
+			}
+		}
 
 		/* If we have a frame decoded, see if it's time to display it. */
 		if( m_ImageWaiting == FRAME_DECODED )
@@ -1184,19 +1211,20 @@ void MovieTexture_FFMpeg::SetPosition( float fSeconds )
 	{
 		// LOG->Warn( "MovieTexture_FFMpeg::SetPosition(%f): non-0 seeking unsupported; ignored", fSeconds );
 		// LOG->Info("start time ms ithink %f", fSeconds);
+		setPosition_flag = true;
+		setPosition_fSeconds = fSeconds;
+		// float fDelay = decoder->LastFrameDelay;
 
-		float fDelay = decoder->LastFrameDelay;
+		// /* Restart. */
+		// DestroyDecoder();
+		// CreateDecoder();
 
-		/* Restart. */
-		DestroyDecoder();
-		CreateDecoder();
-
-		decoder->Init();
-		m_Clock = -fDelay;;
-		// LOG->Info("m_Clock %f", m_Clock);
-		int mSeconds = (-fDelay+fSeconds)*1000;
-		DecodeFrame(mSeconds);
-		m_Clock +=(float)(decoder->offset)/1000.0;
+		// decoder->Init();
+		// m_Clock = -fDelay;;
+		// // LOG->Info("m_Clock %f", m_Clock);
+		// int mSeconds = (-fDelay+fSeconds)*1000;
+		// DecodeFrame(mSeconds);
+		// m_Clock +=(float)(decoder->offset)/1000.0;
 		// LOG->Info("decoder->offset %f", decoder->offset);
 		
 		//return;

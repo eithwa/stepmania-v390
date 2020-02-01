@@ -14,6 +14,7 @@
 #include "Difficulty.h"
 #include "DifficultyMeter.h"
 
+
 class ScreenNetSelectMusic : public ScreenWithMenuElements
 {
 public:
@@ -32,6 +33,7 @@ public:
 	void UpdateTextInput();
 
 	void StartSelectedSong();
+	//void Grid_KeyUp(Platform::Object^ sender,Windows::UI::Xaml::Input::KeyRoutedEventArgs^ e);
 
 private:
 	int	m_iSongNum;
