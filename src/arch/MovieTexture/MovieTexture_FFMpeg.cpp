@@ -184,6 +184,13 @@ FFMpeg_Helper::FFMpeg_Helper()
 	m_stream=NULL;
 	current_packet_offset = -1;
 	Init();
+
+	//==========
+	offset=0;
+	setPosition_flag=false;
+	setPosition_fSeconds=0;
+	setPosition_mClock_fSeconds=0;
+	//==========
 }
 
 FFMpeg_Helper::~FFMpeg_Helper()
@@ -202,12 +209,7 @@ void FFMpeg_Helper::Init()
 	CurrentTimestamp = 0, Last_IP_Timestamp = 0;
 	LastFrameDelay = 0;
 	pts = -1;
-	//==========
-	offset=0;
-	setPosition_flag=false;
-	setPosition_fSeconds=0;
-	setPosition_mClock_fSeconds=0;
-	//==========
+	
 	FrameNumber = -1; /* decode one frame and you're on the 0th */
 	TimestampOffset = 0;
 
@@ -753,6 +755,7 @@ bool MovieTexture_FFMpeg::DecodeFrame()
 
 	/* Read a frame. */
 	int ret = decoder->GetFrame();
+
 	if( ret == -1 )
 		return false;
 
@@ -1065,6 +1068,7 @@ void MovieTexture_FFMpeg::SetPosition( float fSeconds )
 	{
 		// LOG->Warn( "MovieTexture_FFMpeg::SetPosition(%f): non-0 seeking unsupported; ignored", fSeconds );
 		// LOG->Info("start time ms ithink %f", fSeconds);
+		m_bWantRewind = true;
 		decoder->setPosition_flag = true;
 		decoder->setPosition_fSeconds = fSeconds;
 		

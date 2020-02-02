@@ -2092,9 +2092,11 @@ void ScreenEdit::HandleAreaMenuChoice( AreaMenuChoice c, int* iAnswers )
 				m_NoteFieldEdit.m_fEndMarker = fNewClipboardEndBeat;
 
 				float fOldBPM = m_pSong->GetBPMAtBeat( m_NoteFieldEdit.m_fBeginMarker );
+				float fOldEndBpm = m_pSong->GetBPMAtBeat( m_NoteFieldEdit.m_fEndMarker );
 				float fNewBPM = fOldBPM * fScale;
 				m_pSong->SetBPMAtBeat( m_NoteFieldEdit.m_fBeginMarker, fNewBPM );
-				m_pSong->SetBPMAtBeat( fNewClipboardEndBeat, fOldBPM );
+				// m_pSong->SetBPMAtBeat( fNewClipboardEndBeat, fOldBPM );
+				m_pSong->SetBPMAtBeat( fNewClipboardEndBeat, fOldEndBpm );
 			}
 			break;
 		case play:

@@ -971,6 +971,27 @@ Path=Cache/Banners/2343587523
 Rotated=0
 Width=512
 
+[Songs/test/(Blue vs YuFaEr)DeCIDE/Bn.jpg]
+FullHash=3599288138
+Height=160
+Path=Cache/Banners/3326342187
+Rotated=0
+Width=512
+
+[Songs/test/Bon Appetit S[Blue]/banner.jpg]
+FullHash=1163290507
+Height=160
+Path=Cache/Banners/3028192458
+Rotated=0
+Width=512
+
+[Songs/test/Sakura/sakura.png]
+FullHash=452467698
+Height=80
+Path=Cache/Banners/2911492569
+Rotated=0
+Width=256
+
 [Songs/zeth/Air v2 (by Zeth)/air-bn.png]
 FullHash=76159931
 Height=80

@@ -1,5 +1,3 @@
-#include <windows.h>
-
 #include "global.h"
 
 #if !defined(WITHOUT_NETWORKING)
@@ -239,12 +237,7 @@ ScreenNetSelectMusic::ScreenNetSelectMusic( const CString& sName ) : ScreenWithM
 
 	return;
 }
-// void ScreenNetSelectMusic::Grid_KeyUp(
-//   Platform::Object^ sender,
-//   Windows::UI::Xaml::Input::KeyRoutedEventArgs^ e)
-//   {
-//       //handling code here
-//   }
+
 void ScreenNetSelectMusic::Input( const DeviceInput& DeviceI, const InputEventType type,
 								  const GameInput& GameI, const MenuInput& MenuI,
 								  const StyleInput& StyleI )
@@ -282,20 +275,13 @@ void ScreenNetSelectMusic::Input( const DeviceInput& DeviceI, const InputEventTy
 			m_sTextInput = m_sTextInput.erase( m_sTextInput.size()-1 );
 		UpdateTextInput();
 		break;
-	case KEY_F1:
-		LOG->Info("fuck");
-		// char string[100];
-		// scanf(string);
-		// m_sTextInput+=string;
-
-		// char str[20];
-
-		// puts("請輸入字串：");
-		// gets(str);
-		// m_sTextInput+=str;
-
-		UpdateTextInput();
-		break;
+	// case KEY_F1:
+	// 	LOG->Info("fuck");
+	// 	char string[100];
+	// 	scanf(string);
+	// 	m_sTextInput+=string;
+	// 	UpdateTextInput();
+	// 	break;
 	default:
 		char c;
 		c = DeviceI.ToChar();

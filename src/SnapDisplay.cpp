@@ -11,7 +11,7 @@ SnapDisplay::SnapDisplay()
 	int i;
 	for( i=0; i<2; i++ )
 	{
-		m_sprIndicators[i].Load( THEME->GetPathToG("SnapDisplay icon 8x1") );
+		m_sprIndicators[i].Load( THEME->GetPathToG("SnapDisplay icon 9x1") );
 		// MD 11/12/03 - this assert doesn't allow us to set the editor's maximum
 		// resolution to less than the maximum one we have available.  Meh.
 		// ASSERT( m_sprIndicators[i].GetNumStates() == NUM_NOTE_TYPES );
@@ -44,7 +44,7 @@ bool SnapDisplay::PrevSnapMode()
 
 bool SnapDisplay::NextSnapMode()
 {
-	if( m_NoteType == NOTE_TYPE_64TH )	// this is the smallest snap we should allow
+	if( m_NoteType == NOTE_TYPE_192ND )	// this is the smallest snap we should allow
 		return false;
 	m_NoteType = NoteType(m_NoteType+1);
 

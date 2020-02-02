@@ -26,7 +26,10 @@
 # TODO
 + hold結尾判定
 + 打擊軌道背板
-+ editor 變速切換難度 紀錄bug修改
++ editor 變速長條截斷修正
++ (完成)editor變速結尾bpm錯誤修正
++ editor 變速切換難度 紀錄bug修改([song_rate0.8->stream_rate0.5->play->song_rate1.0]=behind level skewed)
++ editor 多難度停拍位置修正
 + 連線模式聊天輸入中文
 + 連線模式檔案傳送
 + option選預設charater
