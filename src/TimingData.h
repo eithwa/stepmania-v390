@@ -26,6 +26,7 @@ public:
 
 	void GetActualBPM( float &fMinBPMOut, float &fMaxBPMOut ) const;
 	float GetBPMAtBeat( float fBeat ) const;
+	vector<BPMSegment> GetBPMSegment();
 	void SetBPMAtBeat( float fBeat, float fBPM );
 	void AddBPMSegment( const BPMSegment &seg );
 	void AddStopSegment( const StopSegment &seg );

@@ -503,8 +503,11 @@ Screen* ScreenManager::MakeNewScreen( CString sClassName )
 
 	/* Cleanup song data.  This can free up a fair bit of memory, so do it before
 	 * creating the new screen, to lower peak memory usage slightly. */
-	SONGMAN->Cleanup();
-
+	if(sClassName!="ScreenPlayerOptions" && sClassName!="ScreenSongOptions")
+	{
+		SONGMAN->Cleanup();
+	}
+	
 	RageTimer t;
 	LOG->Trace( "Loading screen %s", sClassName.c_str() );
 	Screen *ret = Screen::Create( sClassName );

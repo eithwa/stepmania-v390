@@ -22,14 +22,25 @@
 
 # 另外增加  
 + hold結尾改為TNS_MARVELOUS(白光)不確定是否影響分數
++ 影片速度根據取速改變
++ editor 影片預覽撥放位置修正
++ option 語言ini紀錄儲存
++ editor 變速結尾bpm錯誤修正
++ editor 變速長條截斷修正
++ 0203editor 變速切換難度 紀錄bug修改
++ 0203editor 多段變速bpm修正
++ 0203editor 多難度停拍位置修正
++ 0203editor 測試前緩衝調整選項(Preferences->play mode beats buffer)
 
 # TODO
 + hold結尾判定
 + 打擊軌道背板
-+ editor 變速長條截斷修正
-+ (完成)editor變速結尾bpm錯誤修正
-+ editor 變速切換難度 紀錄bug修改([song_rate0.8->stream_rate0.5->play->song_rate1.0]=behind level skewed)
-+ editor 多難度停拍位置修正
++ (完成) editor 測試前緩衝調整選項(Preferences->play mode beats buffer)
++ (完成) editor 變速長條截斷修正
++ (完成) editor 變速結尾bpm錯誤修正
++ (完成) editor 多段變速bpm修正
++ (完成) editor 變速切換難度 紀錄bug修改([stream_rate0.5->back from song_option or player_option]=behind level note skewed)SONGMAN->Cleanup(); ignore
++ (完成) editor 多難度停拍位置修正
 + 連線模式聊天輸入中文
 + 連線模式檔案傳送
 + option選預設charater

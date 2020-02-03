@@ -84,7 +84,10 @@ float TimingData::GetBPMAtBeat( float fBeat ) const
 			break;
 	return m_BPMSegments[i].m_fBPM;
 }
-
+vector<BPMSegment> TimingData::GetBPMSegment()
+{
+	return m_BPMSegments;
+}
 BPMSegment& TimingData::GetBPMSegmentAtBeat( float fBeat )
 {
 	unsigned i;

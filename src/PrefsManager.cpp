@@ -256,6 +256,7 @@ void PrefsManager::Init()
 	m_bEditorShowBGChangesPlay = true;
 	m_bEditorReverseIntuitive = true;
 	m_bEditorAutosaveMinute = 5;
+	m_bEditorPlayModeBeatsBuffer = 4;
 	/* XXX: Set these defaults for individual consoles using VideoCardDefaults.ini. */
 	m_bPAL = false;
 #ifndef _XBOX
@@ -568,6 +569,7 @@ void PrefsManager::ReadPrefsFromFile( CString sIni )
 	ini.GetValue( "Editor", "ShowBGChangesPlay",				m_bEditorShowBGChangesPlay );
 	ini.GetValue( "Editor", "ReverseIntuitive",				    m_bEditorReverseIntuitive );
 	ini.GetValue( "Editor", "AutosaveMinute",				    m_bEditorAutosaveMinute );
+	ini.GetValue( "Editor", "PlayModeBeatsBuffer",			    m_bEditorPlayModeBeatsBuffer );
 
 	ini.GetValue( "Options", "AdditionalSongFolders",			m_sAdditionalSongFolders );
 	ini.GetValue( "Options", "AdditionalFolders",				m_sAdditionalFolders );
@@ -803,7 +805,7 @@ void PrefsManager::SaveGlobalPrefsToDisk() const
 	ini.SetValue( "Editor", "ShowBGChangesPlay",				m_bEditorShowBGChangesPlay );
 	ini.SetValue( "Editor", "ReverseIntuitive",				    m_bEditorReverseIntuitive );
 	ini.SetValue( "Editor", "AutosaveMinute",				    m_bEditorAutosaveMinute );
-
+	ini.SetValue( "Editor", "PlayModeBeatsBuffer",			    m_bEditorPlayModeBeatsBuffer );
 	/* Only write these if they aren't the default.  This ensures that we can change
 	 * the default and have it take effect for everyone (except people who
 	 * tweaked this value). */

@@ -209,6 +209,9 @@ static const MenuRow g_EditSongInfoItems[] =
 	{ "Main title transliteration",	true, 0, { NULL } },
 	{ "Sub title transliteration",	true, 0, { NULL } },
 	{ "Artist transliteration",		true, 0, { NULL } },
+	{ "Display BPM type",		    true, 0, { "REAL", "FIXED", "CUSTOM", "RANDOM" } },
+	{ "Display BPM MIN(FIXED)",		true, 0, { NULL } },
+	{ "Display BPM MAX",		    true, 0, { NULL } },
 	{ NULL, true, 0, { NULL } }
 };
 static Menu g_EditSongInfo( "Edit Song Info", g_EditSongInfoItems );
@@ -238,6 +241,7 @@ static const MenuRow g_PrefsItems[] =
 	{ "AutoSave during time, 0 is Disable(minute)",	true, 5, { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
 																	"11","12","13","14","15","16","17","18","19","20",
 																	"21","22","23","24","25","26","27","28","29","30" } },
+	{ "Play Mode Beats Buffer",					    true, 4, { "0","1","2","3","4","5","6","7","8" } },
 	{ NULL, true, 0, { NULL } }
 };
 static Menu g_Prefs( "Preferences", g_PrefsItems );
@@ -448,7 +452,6 @@ void ScreenEdit::AutoSave()
 
 void ScreenEdit::Update( float fDeltaTime )
 {
-	//LOG->Info("m_fScrolls[SCROLL_REVERSE]  %f",GAMESTATE->m_CurrentPlayerOptions[PLAYER_1].m_fScrolls[GAMESTATE->m_CurrentPlayerOptions[PLAYER_1].SCROLL_REVERSE] );
 	if( m_soundMusic.IsPlaying() )
 	{
 		RageTimer tm;
@@ -836,8 +839,6 @@ void ScreenEdit::InputEdit( const DeviceInput& DeviceI, const InputEventType typ
 			case KEY_UP:
 			case KEY_DOWN:
 				fBeatsToMove = NoteTypeToBeat( m_SnapDisplay.GetNoteType() );
-				// LOG->Info("m_fScrolls[SCROLL_REVERSE]  %f",GAMESTATE->m_CurrentPlayerOptions[PLAYER_1].m_fScrolls[GAMESTATE->m_CurrentPlayerOptions[PLAYER_1].SCROLL_REVERSE] );
-				// LOG->Info("PREFSMAN->m_bEditorReverseIntuitive  %d",PREFSMAN->m_bEditorReverseIntuitive );
 				if(GAMESTATE->m_CurrentPlayerOptions[PLAYER_1].m_fScrolls[GAMESTATE->m_CurrentPlayerOptions[PLAYER_1].SCROLL_REVERSE]>0 && 
 				   PREFSMAN->m_bEditorReverseIntuitive == true)
 				{
@@ -1484,6 +1485,7 @@ void ScreenEdit::HandleScreenMessage( const ScreenMessage SM )
 		PREFSMAN->m_bEditorShowBGChangesPlay = !!ScreenMiniMenu::s_iLastAnswers[pref_show_bgs_play];
 		PREFSMAN->m_bEditorReverseIntuitive = !!ScreenMiniMenu::s_iLastAnswers[pref_reverse_intuitive];
 		PREFSMAN->m_bEditorAutosaveMinute = ScreenMiniMenu::s_iLastAnswers[pref_autosave_minute];
+		PREFSMAN->m_bEditorPlayModeBeatsBuffer = ScreenMiniMenu::s_iLastAnswers[pref_play_mode_beats_buffer];
 		PREFSMAN->SaveGlobalPrefsToDisk();
 		break;
 	case SM_BackFromCourseModeMenu:
@@ -1784,6 +1786,9 @@ void ScreenEdit::HandleMainMenuChoice( MainMenuChoice c, int* iAnswers )
 				g_EditSongInfo.rows[sub_title_transliteration].choices.resize(1);	g_EditSongInfo.rows[sub_title_transliteration].choices[0] = pSong->m_sSubTitleTranslit;
 				g_EditSongInfo.rows[artist_transliteration].choices.resize(1);		g_EditSongInfo.rows[artist_transliteration].choices[0] = pSong->m_sArtistTranslit;
 
+				// g_EditSongInfo.rows[display_bpm_type].choices.resize(1);		    g_EditSongInfo.rows[display_bpm_type].choices[0] = pSong->m_DisplayBPMType;
+				// g_EditSongInfo.rows[display_bpm_min_fixed].choices.resize(1);		g_EditSongInfo.rows[display_bpm_min_fixed].choices[0] = pSong->m_fSpecifiedBPMMin;
+				// g_EditSongInfo.rows[display_bpm_max].choices.resize(1);		        g_EditSongInfo.rows[display_bpm_max].choices[0] = pSong->m_fSpecifiedBPMMax;
 				SCREENMAN->MiniMenu( &g_EditSongInfo, SM_BackFromEditSongInfo );
 			}
 			break;
@@ -1883,6 +1888,8 @@ void ScreenEdit::HandleMainMenuChoice( MainMenuChoice c, int* iAnswers )
 			g_Prefs.rows[pref_show_bgs_play].defaultChoice = PREFSMAN->m_bEditorShowBGChangesPlay;
 			g_Prefs.rows[pref_reverse_intuitive].defaultChoice = PREFSMAN->m_bEditorReverseIntuitive;
 			g_Prefs.rows[pref_autosave_minute].defaultChoice = PREFSMAN->m_bEditorAutosaveMinute;
+			g_Prefs.rows[pref_play_mode_beats_buffer].defaultChoice = PREFSMAN->m_bEditorPlayModeBeatsBuffer;
+			
 			SCREENMAN->MiniMenu( &g_Prefs, SM_BackFromPrefs );
 			break;
 
@@ -2029,7 +2036,7 @@ void ScreenEdit::HandleAreaMenuChoice( AreaMenuChoice c, int* iAnswers )
 			{
 				// This affects all steps.
 				const NoteData OldClipboard( m_Clipboard );
-				HandleAreaMenuChoice( cut, NULL );
+				// HandleAreaMenuChoice( cut, NULL );
 				
 				AlterType at = (AlterType)iAnswers[c];
 				float fScale = -1;
@@ -2044,30 +2051,34 @@ void ScreenEdit::HandleAreaMenuChoice( AreaMenuChoice c, int* iAnswers )
 				default:		ASSERT(0);
 				}
 
-				m_Clipboard.ConvertHoldNotesTo2sAnd3s();
+				
+				// m_Clipboard.ConvertHoldNotesTo2sAnd3s();
 
-				switch( at )
-				{
-				case compress_2x:	NoteDataUtil::Scale( m_Clipboard, fScale );	break;
-				case compress_3_2:	NoteDataUtil::Scale( m_Clipboard, fScale );	break;
-				case compress_4_3:	NoteDataUtil::Scale( m_Clipboard, fScale );	break;
-				case expand_4_3:	NoteDataUtil::Scale( m_Clipboard, fScale );	break;
-				case expand_3_2:	NoteDataUtil::Scale( m_Clipboard, fScale );	break;
-				case expand_2x:		NoteDataUtil::Scale( m_Clipboard, fScale );	break;
-				default:		ASSERT(0);
-				}
+				// switch( at )
+				// {
+				// case compress_2x:	NoteDataUtil::Scale( m_Clipboard, fScale );	break;
+				// case compress_3_2:	NoteDataUtil::Scale( m_Clipboard, fScale );	break;
+				// case compress_4_3:	NoteDataUtil::Scale( m_Clipboard, fScale );	break;
+				// case expand_4_3:	NoteDataUtil::Scale( m_Clipboard, fScale );	break;
+				// case expand_3_2:	NoteDataUtil::Scale( m_Clipboard, fScale );	break;
+				// case expand_2x:		NoteDataUtil::Scale( m_Clipboard, fScale );	break;
+				// default:		ASSERT(0);
+				// }
 
-				m_Clipboard.Convert2sAnd3sToHoldNotes();
+				// m_Clipboard.Convert2sAnd3sToHoldNotes();
+				// HandleAreaMenuChoice( paste_at_begin_marker, NULL );
+				
+				m_NoteFieldEdit.ConvertHoldNotesTo2sAnd3s();
+				NoteDataUtil::ScaleRegion( m_NoteFieldEdit, fScale, m_NoteFieldEdit.m_fBeginMarker, m_NoteFieldEdit.m_fEndMarker );
+				m_NoteFieldEdit.Convert2sAnd3sToHoldNotes();
 
 //				float fOldClipboardEndBeat = m_NoteFieldEdit.m_fEndMarker;
 				float fOldClipboardBeats = m_NoteFieldEdit.m_fEndMarker - m_NoteFieldEdit.m_fBeginMarker;
 				float fNewClipboardBeats = fOldClipboardBeats * fScale;
 				float fDeltaBeats = fNewClipboardBeats - fOldClipboardBeats;
 				float fNewClipboardEndBeat = m_NoteFieldEdit.m_fBeginMarker + fNewClipboardBeats;
-				NoteDataUtil::ShiftRows( m_NoteFieldEdit, m_NoteFieldEdit.m_fBeginMarker, fDeltaBeats );
+				// NoteDataUtil::ShiftRows( m_NoteFieldEdit, m_NoteFieldEdit.m_fBeginMarker, fDeltaBeats );
 				m_pSong->m_Timing.ScaleRegion( fScale, m_NoteFieldEdit.m_fBeginMarker, m_NoteFieldEdit.m_fEndMarker );
-
-				HandleAreaMenuChoice( paste_at_begin_marker, NULL );
 
 				const vector<Steps*> sIter = m_pSong->GetAllSteps();
 				NoteData ndTemp;
@@ -2087,16 +2098,29 @@ void ScreenEdit::HandleAreaMenuChoice( AreaMenuChoice c, int* iAnswers )
 					NoteDataUtil::ScaleRegion( ndTemp, fScale, m_NoteFieldEdit.m_fBeginMarker, m_NoteFieldEdit.m_fEndMarker );
 					ndTemp.Convert2sAnd3sToHoldNotes();
 					sIter[i]->SetNoteData( &ndTemp );
+
 				}
 
 				m_NoteFieldEdit.m_fEndMarker = fNewClipboardEndBeat;
-
+				
 				float fOldBPM = m_pSong->GetBPMAtBeat( m_NoteFieldEdit.m_fBeginMarker );
 				float fOldEndBpm = m_pSong->GetBPMAtBeat( m_NoteFieldEdit.m_fEndMarker );
 				float fNewBPM = fOldBPM * fScale;
 				m_pSong->SetBPMAtBeat( m_NoteFieldEdit.m_fBeginMarker, fNewBPM );
 				// m_pSong->SetBPMAtBeat( fNewClipboardEndBeat, fOldBPM );
 				m_pSong->SetBPMAtBeat( fNewClipboardEndBeat, fOldEndBpm );
+
+				vector<BPMSegment> bpm_list = m_pSong->GetBPMSegment();
+				for( unsigned i=0; i<bpm_list.size()-1; i++ ){
+					// LOG->Info("bpm_list %f %f",bpm_list[i].m_fStartBeat,bpm_list[i].m_fBPM);
+					if(bpm_list[i].m_fStartBeat>m_NoteFieldEdit.m_fBeginMarker &&
+					   bpm_list[i].m_fStartBeat<fNewClipboardEndBeat)
+					{
+						fOldBPM = m_pSong->GetBPMAtBeat( bpm_list[i].m_fStartBeat );
+						fNewBPM = fOldBPM * fScale;
+						m_pSong->SetBPMAtBeat( bpm_list[i].m_fStartBeat, fNewBPM );
+					}
+				}
 			}
 			break;
 		case play:
@@ -2113,7 +2137,8 @@ void ScreenEdit::HandleAreaMenuChoice( AreaMenuChoice c, int* iAnswers )
 
 				/* Give a 1 measure lead-in.  Set this before loading Player, so it knows
 				 * where we're starting. */
-				float fSeconds = m_pSong->m_Timing.GetElapsedTimeFromBeat( m_NoteFieldEdit.m_fBeginMarker - 4 );
+				// float fSeconds = m_pSong->m_Timing.GetElapsedTimeFromBeat( m_NoteFieldEdit.m_fBeginMarker - 4 );
+				float fSeconds = m_pSong->m_Timing.GetElapsedTimeFromBeat( m_NoteFieldEdit.m_fBeginMarker - PREFSMAN->m_bEditorPlayModeBeatsBuffer );
 				GAMESTATE->UpdateSongPosition( fSeconds, m_pSong->m_Timing );
 
 				SetupCourseAttacks();
@@ -2209,6 +2234,30 @@ void ScreenEdit::HandleAreaMenuChoice( AreaMenuChoice c, int* iAnswers )
 										 m_NoteFieldEdit.m_fBeginMarker + 0.003f,
 										 (-m_NoteFieldEdit.m_fEndMarker+m_NoteFieldEdit.m_fBeginMarker)
 									   );
+				//===============
+				const vector<Steps*> sIter = m_pSong->GetAllSteps();
+				NoteData ndTemp;
+				CString sTempStyle, sTempDiff;
+				for( unsigned i = 0; i < sIter.size(); i++ )
+				{
+					if( sIter[i]->IsAutogen() )
+						continue;
+
+					/* XXX: Edits are distinguished by description.  Compare vs m_pSteps. */
+					if( (sIter[i]->m_StepsType == GAMESTATE->m_pCurSteps[PLAYER_1]->m_StepsType) &&
+						(sIter[i]->GetDifficulty() == GAMESTATE->m_pCurSteps[PLAYER_1]->GetDifficulty()) )
+						continue;
+
+					sIter[i]->GetNoteData( &ndTemp );
+					NoteDataUtil::ShiftRows( ndTemp, 
+											m_NoteFieldEdit.m_fBeginMarker + 0.003f,
+											(-m_NoteFieldEdit.m_fEndMarker+m_NoteFieldEdit.m_fBeginMarker)
+										);
+					sIter[i]->SetNoteData( &ndTemp );
+
+				}
+				//===============
+
 				m_pSong->m_Timing.ShiftRows( m_NoteFieldEdit.m_fBeginMarker + 0.003f,
 										     (-m_NoteFieldEdit.m_fEndMarker+m_NoteFieldEdit.m_fBeginMarker)
 										   );
@@ -2230,6 +2279,7 @@ void ScreenEdit::HandleAreaMenuChoice( AreaMenuChoice c, int* iAnswers )
 				if( i == m_pSong->m_Timing.m_StopSegments.size() )	// there is no BPMSegment at the current beat
 					m_pSong->AddStopSegment( StopSegment(m_NoteFieldEdit.m_fBeginMarker, fStopLength) );
 				m_NoteFieldEdit.m_fEndMarker = -1;
+				
 				break;
 			}
 		// MD 11/02/03 - Converting a pause at the current beat into beats.
@@ -2259,12 +2309,34 @@ void ScreenEdit::HandleAreaMenuChoice( AreaMenuChoice c, int* iAnswers )
 												   m_pSong->m_Timing.m_StopSegments.begin()+i+1);
 					fStopLength *= fBPMatPause;
 					fStopLength /= 60;
+					
 					// don't move the step from where it is, just move everything later
 					m_NoteFieldEdit.ConvertHoldNotesTo2sAnd3s();
 					NoteDataUtil::ShiftRows( m_NoteFieldEdit, GAMESTATE->m_fSongBeat + 0.003f, fStopLength );
-					m_pSong->m_Timing.ShiftRows( GAMESTATE->m_fSongBeat + 0.003f, fStopLength );
 					m_NoteFieldEdit.Convert2sAnd3sToHoldNotes();
+					
+					//===============
+					const vector<Steps*> sIter = m_pSong->GetAllSteps();
+					NoteData ndTemp;
+					CString sTempStyle, sTempDiff;
+					for( unsigned i = 0; i < sIter.size(); i++ )
+					{
+						if( sIter[i]->IsAutogen() )
+							continue;
 
+						/* XXX: Edits are distinguished by description.  Compare vs m_pSteps. */
+						if( (sIter[i]->m_StepsType == GAMESTATE->m_pCurSteps[PLAYER_1]->m_StepsType) &&
+							(sIter[i]->GetDifficulty() == GAMESTATE->m_pCurSteps[PLAYER_1]->GetDifficulty()) )
+							continue;
+
+						sIter[i]->GetNoteData( &ndTemp );
+						ndTemp.ConvertHoldNotesTo2sAnd3s();
+						NoteDataUtil::ShiftRows( ndTemp, GAMESTATE->m_fSongBeat + 0.003f, fStopLength );
+						ndTemp.Convert2sAnd3sToHoldNotes();
+						sIter[i]->SetNoteData( &ndTemp );
+					}
+					//===============
+					m_pSong->m_Timing.ShiftRows( GAMESTATE->m_fSongBeat + 0.003f, fStopLength );
 				}
 			// Hello and welcome to I FEEL STUPID :-)
 			break;
@@ -2317,6 +2389,18 @@ void ScreenEdit::HandleEditSongInfoChoice( EditSongInfoChoice c, int* iAnswers )
 		break;
 	case artist_transliteration:
 		SCREENMAN->TextEntry( SM_None, "Edit artist transliteration.\nPress Enter to confirm,\nEscape to cancel.", pSong->m_sArtistTranslit, ChangeArtistTranslit, NULL );
+		break;
+
+	case display_bpm_type:
+		//SCREENMAN->TextEntry( SM_None, "Edit artist transliteration.\nPress Enter to confirm,\nEscape to cancel.", pSong->m_sArtistTranslit, ChangeArtistTranslit, NULL );
+		break;
+	case display_bpm_min_fixed:
+		// SCREENMAN->TextEntry( SM_None, "Enter New DisplayBPM MIN(FIXED) Value.", pSong->m_fSpecifiedBPMMin, ChangeArtistTranslit, NULL );
+		SCREENMAN->TextEntry( SM_None, "Enter New DisplayBPM MIN(FIXED) Value.", pSong->m_sArtistTranslit, ChangeArtistTranslit, NULL );
+		break;
+	case display_bpm_max:
+		// SCREENMAN->TextEntry( SM_None, "Enter New DisplayBPM MAX Value", pSong->m_fSpecifiedBPMMax, ChangeArtistTranslit, NULL );
+		SCREENMAN->TextEntry( SM_None, "Enter New DisplayBPM MAX Value",  pSong->m_sArtistTranslit, ChangeArtistTranslit, NULL );
 		break;
 	default:
 		ASSERT(0);

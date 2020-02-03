@@ -170,6 +170,9 @@ public:
 		main_title_transliteration,
 		sub_title_transliteration,
 		artist_transliteration,
+		display_bpm_type,
+		display_bpm_min_fixed,
+		display_bpm_max,
 		NUM_EDIT_SONG_INFO_CHOICES
 	};
 	void HandleEditSongInfoChoice( EditSongInfoChoice c, int* iAnswers );
@@ -194,6 +197,7 @@ public:
 		pref_show_bgs_play,
 		pref_reverse_intuitive,
 		pref_autosave_minute,
+		pref_play_mode_beats_buffer,
 		NUM_PREFS_CHOICES
 	};
 	void HandleBGChangeChoice( BGChangeChoice c, int* iAnswers );
