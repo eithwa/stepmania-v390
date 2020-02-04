@@ -185,9 +185,18 @@ void GameState::Reset()
 	FOREACH_PlayerNumber(p)
 	{
 		if( PREFSMAN->m_ShowDancingCharacters == PrefsManager::CO_RANDOM)
+		{
 			m_pCurCharacters[p] = GetRandomCharacter();
+		}
+		else if(PREFSMAN->m_ShowDancingCharacters == PrefsManager::CO_STATIC)
+		{
+			m_pCurCharacters[p] = GetStaticCharacter();
+		}
 		else
+		{
 			m_pCurCharacters[p] = GetDefaultCharacter();
+		}
+
 		ASSERT( m_pCurCharacters[p] );
 	}
 
@@ -1348,13 +1357,25 @@ Character* GameState::GetRandomCharacter()
 	else
 		return GetDefaultCharacter();
 }
-
+Character* GameState::GetStaticCharacter()
+{
+	// LOG->Info("static %s", PREFSMAN->m_pCharacterName.c_str());
+	for( unsigned i=0; i<m_pCharacters.size(); i++ )
+	{
+		if( m_pCharacters[i]->m_sName.CompareNoCase(PREFSMAN->m_pCharacterName)==0 ){
+			return m_pCharacters[i];
+		}
+	}
+	
+	return GetDefaultCharacter();
+}
 Character* GameState::GetDefaultCharacter()
 {
 	for( unsigned i=0; i<m_pCharacters.size(); i++ )
 	{
-		if( m_pCharacters[i]->m_sName.CompareNoCase("default")==0 )
+		if( m_pCharacters[i]->m_sName.CompareNoCase("default")==0 ){
 			return m_pCharacters[i];
+		}
 	}
 
 	/* We always have the default character. */

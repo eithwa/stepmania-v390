@@ -153,6 +153,21 @@
 <Song Dir='Songs/test/Bon Appetit S[Blue]/' >
 <MainTitle>ぼなぺてぃーと♡S</MainTitle>
 <SubTitle>ブレンド・S OP</SubTitle>
+<Steps StepsType='dance-single' Difficulty='Easy' >
+<Meter>1</Meter>
+<RadarValues>
+<Stream>0.000000</Stream>
+<Voltage>0.000000</Voltage>
+<Air>0.000000</Air>
+<Freeze>0.000000</Freeze>
+<Chaos>0.000000</Chaos>
+<Taps>0</Taps>
+<Jumps>0</Jumps>
+<Holds>0</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</Steps>
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <Meter>9</Meter>
 <RadarValues>

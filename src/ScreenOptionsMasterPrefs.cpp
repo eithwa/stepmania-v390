@@ -459,7 +459,7 @@ static const ConfOption g_ConfOptions[] =
 	ConfOption( "Background\nMode",		BackgroundMode,		"OFF","ANIMATIONS","VISUALIZATIONS","RANDOM MOVIES" ),
 	ConfOption( "Brightness",			BGBrightness,		"0%","10%","20%","30%","40%","50%","60%","70%","80%","90%","100%" ),
 	ConfOption( "Danger",				ShowDanger,			"HIDE","SHOW" ),
-	ConfOption( "Dancing\nCharacters",	DancingCharacters,	"DEFAULT TO OFF","DEFAULT TO RANDOM","SELECT" ),
+	ConfOption( "Dancing\nCharacters",	DancingCharacters,	"DEFAULT TO OFF","DEFAULT TO RANDOM","SELECT","STATIC" ),
 	ConfOption( "Beginner\nHelper",		BeginnerHelper,		"OFF","ON" ),
 	ConfOption( "Random\nBackgrounds",	NumBackgrounds,		"5","10","15","20" ),
 

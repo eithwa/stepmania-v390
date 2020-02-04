@@ -196,7 +196,9 @@ void PrefsManager::Init()
 	m_bAutogenGroupCourses = true;
 	m_bBreakComboToGetItem = false;
 	m_bLockCourseDifficulties = true;
-	m_ShowDancingCharacters = CO_RANDOM;
+	m_ShowDancingCharacters = CO_OFF;
+	// m_ShowDancingCharacters = CO_STATIC;
+	m_pCharacterName = "default";
 	m_bUseUnlockSystem = false;
 	m_bFirstRun = true;
 	m_bAutoMapOnJoyChange = true;
@@ -505,6 +507,7 @@ void PrefsManager::ReadPrefsFromFile( CString sIni )
 	ini.GetValue( "Options", "BreakComboToGetItem",				m_bBreakComboToGetItem );
 	ini.GetValue( "Options", "LockCourseDifficulties",			m_bLockCourseDifficulties );
 	ini.GetValue( "Options", "ShowDancingCharacters",			(int&)m_ShowDancingCharacters );
+	ini.GetValue( "Options", "CharacterName",			        m_pCharacterName );
 
 	ini.GetValue( "Options", "CourseSortOrder",					(int&)m_iCourseSortOrder );
 	ini.GetValue( "Options", "MoveRandomToEnd",					m_bMoveRandomToEnd );
@@ -741,6 +744,8 @@ void PrefsManager::SaveGlobalPrefsToDisk() const
 	ini.SetValue( "Options", "BreakComboToGetItem",				m_bBreakComboToGetItem );
 	ini.SetValue( "Options", "LockCourseDifficulties",			m_bLockCourseDifficulties );
 	ini.SetValue( "Options", "ShowDancingCharacters",			m_ShowDancingCharacters );
+    ini.SetValue( "Options", "CharacterName",			        m_pCharacterName );
+
 	ini.SetValue( "Options", "UseUnlockSystem",					m_bUseUnlockSystem );
 	ini.SetValue( "Options", "FirstRun",						m_bFirstRun );
 	ini.SetValue( "Options", "AutoMapJoysticks",				m_bAutoMapOnJoyChange );

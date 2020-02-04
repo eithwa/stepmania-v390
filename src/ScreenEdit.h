@@ -14,6 +14,7 @@
 #include "Background.h"
 #include "Foreground.h"
 #include "Course.h"
+#include <sstream>
 
 
 const int NUM_ACTION_MENU_ITEMS = 23;
@@ -44,6 +45,7 @@ protected:
 	void MenuItemGainFocus( BitmapText* menuitem );
 	void MenuItemLoseFocus( BitmapText* menuitem );
 	void AutoSave();
+	void SetDisplayBPMType(int DisplayBPMType);
 
 
 	enum EditMode { MODE_EDITING, MODE_RECORDING, MODE_PLAYING };
@@ -175,6 +177,7 @@ public:
 		display_bpm_max,
 		NUM_EDIT_SONG_INFO_CHOICES
 	};
+	
 	void HandleEditSongInfoChoice( EditSongInfoChoice c, int* iAnswers );
 
 	enum BGChangeChoice {

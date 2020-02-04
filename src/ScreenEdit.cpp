@@ -91,7 +91,8 @@ const ScreenMessage SM_DoReloadFromDisk			= (ScreenMessage)(SM_User+13);
 const ScreenMessage SM_DoUpdateTextInfo			= (ScreenMessage)(SM_User+14);
 const ScreenMessage SM_BackFromBPMChange		= (ScreenMessage)(SM_User+15);
 const ScreenMessage SM_BackFromStopChange		= (ScreenMessage)(SM_User+16);
-
+const ScreenMessage SM_BackFromDisplayBPMMin		= (ScreenMessage)(SM_User+17);
+const ScreenMessage SM_BackFromDisplayBPMMax		= (ScreenMessage)(SM_User+18);
 const CString HELP_TEXT = 
 	"Up/Down:\n     change beat\n"
 	"Left/Right:\n     change snap\n"
@@ -1632,6 +1633,24 @@ void ScreenEdit::HandleScreenMessage( const ScreenMessage SM )
 
 		}
 		break;
+	case SM_BackFromDisplayBPMMin:
+		{
+			float fBPM = atof( ScreenTextEntry::s_sLastAnswer.c_str() );
+			if ( fBPM <= 0 )
+				break;
+			m_pSong->m_fSpecifiedBPMMin = fBPM;
+			SetDisplayBPMType(ScreenMiniMenu::s_iLastAnswers[display_bpm_type]);
+		}
+		break;
+	case SM_BackFromDisplayBPMMax:
+		{
+			float fBPM = atof( ScreenTextEntry::s_sLastAnswer.c_str() );
+			if ( fBPM <= 0 )
+				break;
+			m_pSong->m_fSpecifiedBPMMax = fBPM;
+			SetDisplayBPMType(ScreenMiniMenu::s_iLastAnswers[display_bpm_type]);
+		}
+		break;	
 	}
 }
 
@@ -1701,7 +1720,99 @@ void ChangeArtistTranslit( CString sNew )
 	pSong->m_sArtistTranslit = sNew;
 }
 
+int GetDisplayBPMType()
+{
+	Song* pSong = GAMESTATE->m_pCurSong;
 
+	int DisplayBPMType;
+	switch( pSong->m_DisplayBPMType )
+	{
+	case Song::DISPLAY_ACTUAL:
+		DisplayBPMType = 0;
+		break;
+	case Song::DISPLAY_SPECIFIED:
+		{
+			if(pSong->m_fSpecifiedBPMMin == pSong->m_fSpecifiedBPMMax)
+			{
+				DisplayBPMType = 1;
+			}
+			else
+			{
+				DisplayBPMType = 2;
+			}
+		}
+		break;
+	case Song::DISPLAY_RANDOM:
+		DisplayBPMType = 3;
+		break;
+	default:
+		DisplayBPMType = 0;
+	}
+
+	return DisplayBPMType;
+}
+
+CString FloatToCString(float input)
+{
+	char str[25];
+	string str_;
+	sprintf(str, "%.4f", input);
+	str_.assign(str);
+	CString floatString;
+	floatString = str_.c_str();
+	return floatString;
+}
+
+CString GetDisplayBPMMin()
+{
+	Song* pSong = GAMESTATE->m_pCurSong;
+	float DisplayBPMMin = 0;
+	if(pSong->m_DisplayBPMType == Song::DISPLAY_SPECIFIED){
+		DisplayBPMMin = pSong->m_fSpecifiedBPMMin;
+	}
+	CString floatString = FloatToCString(DisplayBPMMin);
+
+	return floatString;
+}
+
+CString GetDisplayBPMMax()
+{
+	Song* pSong = GAMESTATE->m_pCurSong;
+	float DisplayBPMMax = 0;
+	if(pSong->m_DisplayBPMType == Song::DISPLAY_SPECIFIED){
+		DisplayBPMMax = pSong->m_fSpecifiedBPMMax;
+	}
+	CString floatString = FloatToCString(DisplayBPMMax);
+	return floatString;
+}
+
+void ScreenEdit::SetDisplayBPMType(int DisplayBPMType)
+{
+	Song* pSong = GAMESTATE->m_pCurSong;
+	switch(DisplayBPMType)
+	{
+	case 0://real
+		pSong->m_DisplayBPMType = Song::DISPLAY_ACTUAL;
+		pSong->m_fSpecifiedBPMMin = 0;
+		pSong->m_fSpecifiedBPMMax = 0;
+		break;
+	case 1://fix
+		pSong->m_DisplayBPMType = Song::DISPLAY_SPECIFIED;
+		// pSong->m_fSpecifiedBPMMin
+		pSong->m_fSpecifiedBPMMax = pSong->m_fSpecifiedBPMMin;
+		break;
+	case 2://costum
+		pSong->m_DisplayBPMType = Song::DISPLAY_SPECIFIED;
+		break;
+	case 3://random
+		pSong->m_DisplayBPMType = Song::DISPLAY_RANDOM;
+		pSong->m_fSpecifiedBPMMin = 0;
+		pSong->m_fSpecifiedBPMMax = 0;
+		break;
+	}
+	g_EditSongInfo.rows[display_bpm_min_fixed].choices.resize(1);		g_EditSongInfo.rows[display_bpm_min_fixed].choices[0] = GetDisplayBPMMin();
+	g_EditSongInfo.rows[display_bpm_max].choices.resize(1);		        g_EditSongInfo.rows[display_bpm_max].choices[0] = GetDisplayBPMMax();
+}
 // End helper functions
 
 void ScreenEdit::HandleMainMenuChoice( MainMenuChoice c, int* iAnswers )
@@ -1786,9 +1897,9 @@ void ScreenEdit::HandleMainMenuChoice( MainMenuChoice c, int* iAnswers )
 				g_EditSongInfo.rows[sub_title_transliteration].choices.resize(1);	g_EditSongInfo.rows[sub_title_transliteration].choices[0] = pSong->m_sSubTitleTranslit;
 				g_EditSongInfo.rows[artist_transliteration].choices.resize(1);		g_EditSongInfo.rows[artist_transliteration].choices[0] = pSong->m_sArtistTranslit;
 
-				// g_EditSongInfo.rows[display_bpm_type].choices.resize(1);		    g_EditSongInfo.rows[display_bpm_type].choices[0] = pSong->m_DisplayBPMType;
-				// g_EditSongInfo.rows[display_bpm_min_fixed].choices.resize(1);		g_EditSongInfo.rows[display_bpm_min_fixed].choices[0] = pSong->m_fSpecifiedBPMMin;
-				// g_EditSongInfo.rows[display_bpm_max].choices.resize(1);		        g_EditSongInfo.rows[display_bpm_max].choices[0] = pSong->m_fSpecifiedBPMMax;
+				g_EditSongInfo.rows[display_bpm_type].defaultChoice=GetDisplayBPMType();
+				g_EditSongInfo.rows[display_bpm_min_fixed].choices.resize(1);		g_EditSongInfo.rows[display_bpm_min_fixed].choices[0] = GetDisplayBPMMin();
+				g_EditSongInfo.rows[display_bpm_max].choices.resize(1);		        g_EditSongInfo.rows[display_bpm_max].choices[0] = GetDisplayBPMMax();
 				SCREENMAN->MiniMenu( &g_EditSongInfo, SM_BackFromEditSongInfo );
 			}
 			break;
@@ -2112,7 +2223,6 @@ void ScreenEdit::HandleAreaMenuChoice( AreaMenuChoice c, int* iAnswers )
 
 				vector<BPMSegment> bpm_list = m_pSong->GetBPMSegment();
 				for( unsigned i=0; i<bpm_list.size()-1; i++ ){
-					// LOG->Info("bpm_list %f %f",bpm_list[i].m_fStartBeat,bpm_list[i].m_fBPM);
 					if(bpm_list[i].m_fStartBeat>m_NoteFieldEdit.m_fBeginMarker &&
 					   bpm_list[i].m_fStartBeat<fNewClipboardEndBeat)
 					{
@@ -2392,15 +2502,13 @@ void ScreenEdit::HandleEditSongInfoChoice( EditSongInfoChoice c, int* iAnswers )
 		break;
 
 	case display_bpm_type:
-		//SCREENMAN->TextEntry( SM_None, "Edit artist transliteration.\nPress Enter to confirm,\nEscape to cancel.", pSong->m_sArtistTranslit, ChangeArtistTranslit, NULL );
+		SetDisplayBPMType(ScreenMiniMenu::s_iLastAnswers[display_bpm_type]);
 		break;
 	case display_bpm_min_fixed:
-		// SCREENMAN->TextEntry( SM_None, "Enter New DisplayBPM MIN(FIXED) Value.", pSong->m_fSpecifiedBPMMin, ChangeArtistTranslit, NULL );
-		SCREENMAN->TextEntry( SM_None, "Enter New DisplayBPM MIN(FIXED) Value.", pSong->m_sArtistTranslit, ChangeArtistTranslit, NULL );
+		SCREENMAN->TextEntry( SM_BackFromDisplayBPMMin, "Enter New DisplayBPM MIN(FIXED) Value.", ssprintf( "%.4f", m_pSong->m_fSpecifiedBPMMin ) );
 		break;
 	case display_bpm_max:
-		// SCREENMAN->TextEntry( SM_None, "Enter New DisplayBPM MAX Value", pSong->m_fSpecifiedBPMMax, ChangeArtistTranslit, NULL );
-		SCREENMAN->TextEntry( SM_None, "Enter New DisplayBPM MAX Value",  pSong->m_sArtistTranslit, ChangeArtistTranslit, NULL );
+		SCREENMAN->TextEntry( SM_BackFromDisplayBPMMax, "Enter New DisplayBPM MAX Value.", ssprintf( "%.4f", m_pSong->m_fSpecifiedBPMMax ) );
 		break;
 	default:
 		ASSERT(0);

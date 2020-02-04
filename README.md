@@ -18,7 +18,7 @@
 11. (完成) Reverse逆流編輯環境下可直覺操作  
     (PlayerOption的Reverse選項開下去就知道了)  
 12. (完成) Reverse逆流編輯直覺操作性可在Preferences下的Reverse Control Intuitive更改  
-13. 增加DisplayBPM編輯，可在Edit Song Info下找到
+13. (完成) 增加DisplayBPM編輯，可在Edit Song Info下找到
 
 # 另外增加  
 + hold結尾改為TNS_MARVELOUS(白光)不確定是否影響分數
@@ -31,6 +31,7 @@
 + 0203editor 多段變速bpm修正
 + 0203editor 多難度停拍位置修正
 + 0203editor 測試前緩衝調整選項(Preferences->play mode beats buffer)
++ 0204option選預設charater
 
 # TODO
 + hold結尾判定
@@ -43,7 +44,7 @@
 + (完成) editor 多難度停拍位置修正
 + 連線模式聊天輸入中文
 + 連線模式檔案傳送
-+ option選預設charater
++ (完成) option選預設charater
 + 連線模式 傳送血條變化圖
 + (完成) option 語言ini紀錄儲存
 + (完成) editor 影片預覽撥放位置修正

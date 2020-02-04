@@ -16,6 +16,7 @@
 #include "song.h"
 #include "Game.h"
 #include "Style.h"
+#include "Character.h"
 
 void ModeChoice::Init()
 {
@@ -469,7 +470,12 @@ void ModeChoice::Apply( PlayerNumber pn ) const
 	if( m_CourseDifficulty != DIFFICULTY_INVALID )
 		GAMESTATE->ChangePreferredCourseDifficulty( pn, m_CourseDifficulty );
 	if( m_pCharacter )
+	{
+		// LOG->Info("m_pCharacter->m_sName %d", GAMESTATE->m_pCharacters.size());
 		GAMESTATE->m_pCurCharacters[pn] = m_pCharacter;
+		PREFSMAN->m_pCharacterName = m_pCharacter->m_sName;
+	}
+
 	for( map<CString,CString>::const_iterator i = m_SetEnv.begin(); i != m_SetEnv.end(); i++ )
 		GAMESTATE->m_mapEnv[ i->first ] = i->second;
 

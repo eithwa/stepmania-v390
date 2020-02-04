@@ -86,6 +86,7 @@ public:
 
 	void GetCharacters( vector<Character*> &apCharactersOut );
 	Character* GameState::GetRandomCharacter();
+	Character* GameState::GetStaticCharacter();
 	Character* GameState::GetDefaultCharacter();
 
 	PlayerController	m_PlayerController[NUM_PLAYERS];
