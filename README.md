@@ -22,7 +22,7 @@
 
 # 另外增加  
 + hold結尾改為TNS_MARVELOUS(白光)不確定是否影響分數
-+ 影片速度根據取速改變
++ 影片速度根據歌曲倍速改變
 + editor 影片預覽撥放位置修正
 + option 語言ini紀錄儲存
 + editor 變速結尾bpm錯誤修正
