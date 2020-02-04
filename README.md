@@ -32,6 +32,7 @@
 + 0203editor 多難度停拍位置修正
 + 0203editor 測試前緩衝調整選項(Preferences->play mode beats buffer)
 + 0204option選預設charater
++ 0204連線模式host功能 增加使用數字搜尋
 
 # TODO
 + hold結尾判定

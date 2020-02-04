@@ -594,10 +594,16 @@ void StepManiaLanServer::ClientSort(int clientNum)
 	if ( clientNum < Client.size() )
 	{
 		vector<GameClient*> Client_tmp;
-		Client_tmp.assign(Client.begin(), Client.end());
-		GameClient *tmp = Client_tmp[0];
-		Client_tmp[0]=Client_tmp[clientNum];
-		Client_tmp[clientNum]=tmp;
+		Client_tmp.push_back(Client.at(clientNum));
+		for(int i=0;i<Client.size();i++)
+		{
+			if(i==clientNum)continue;
+			Client_tmp.push_back(Client.at(i));
+		}
+		// Client_tmp.assign(Client.begin(), Client.end());
+		// GameClient *tmp = Client_tmp[0];
+		// Client_tmp[0]=Client_tmp[clientNum];
+		// Client_tmp[clientNum]=tmp;
 		Client.assign(Client_tmp.begin(), Client_tmp.end());
 	}
 }
@@ -949,17 +955,36 @@ void StepManiaLanServer::Host(CString &name, PacketFunctions& Packet, unsigned i
 {
 	bool rehosted = false;
 	CString message = "";
+	
 	for (unsigned int x = 0; x < Client.size(); ++x)
 	{
 		for (int y = 0; (y < 2)&&(rehosted == false); ++y)
 		{
 			if (name == Client[x]->Player[y].name)
 			{
-				message += "Host changed to " + name + ".";
+				message += "Host changed to " + Client[x]->Player[y].name + ".";
 				ServerChat(message);
 				ClientSort(x);
 				rehosted = true;
 				ChangeHost = true;
+			}
+		}
+	}
+	if(!rehosted)
+	{
+		int clint_index = atof( name.c_str() );
+		if(clint_index>=0 && clint_index<Client.size())
+		{
+			for (int y = 0; (y < 2)&&(rehosted == false); ++y)
+			{
+				if (Client[clint_index]->Player[y].name.length() > 0){
+					CString name_ = Client[clint_index]->Player[y].name;
+					message += "Host changed to " + name_ + ".";
+					ServerChat(message);
+					ClientSort(clint_index);
+					rehosted = true;
+					ChangeHost = true;
+				}
 			}
 		}
 	}
