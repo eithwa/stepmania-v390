@@ -86,7 +86,7 @@ public:
 
 	void GetCharacters( vector<Character*> &apCharactersOut );
 	Character* GameState::GetRandomCharacter();
-	Character* GameState::GetStaticCharacter();
+	Character* GameState::GetStaticCharacter(CString Character_name);
 	Character* GameState::GetDefaultCharacter();
 
 	PlayerController	m_PlayerController[NUM_PLAYERS];
@@ -231,14 +231,15 @@ public:
 	void AdjustFailType();
 
 	// character stuff
-private:
-	vector<Character*> m_pCharacters;
+// private:
+// 	vector<Character*> m_pCharacters;
 
 public:
+	vector<Character*> m_pCharacters;
 	Character* m_pCurCharacters[NUM_PLAYERS];
 
 	void ReloadCharacters();
-
+	bool DoesCharaExist(CString CharaName);
 	
 
 

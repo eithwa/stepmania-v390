@@ -168,7 +168,7 @@ public:
 	bool			m_bLockCourseDifficulties;
 	enum CharacterOption { CO_OFF = 0, CO_RANDOM = 1, CO_SELECT = 2, CO_STATIC = 3};
 	CharacterOption	m_ShowDancingCharacters;
-	CString         m_pCharacterName;
+
 	bool			m_bUseUnlockSystem;
 	bool			m_bFirstRun;
 	bool			m_bAutoMapOnJoyChange;

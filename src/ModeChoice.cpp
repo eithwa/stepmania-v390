@@ -473,7 +473,7 @@ void ModeChoice::Apply( PlayerNumber pn ) const
 	{
 		// LOG->Info("m_pCharacter->m_sName %d", GAMESTATE->m_pCharacters.size());
 		GAMESTATE->m_pCurCharacters[pn] = m_pCharacter;
-		PREFSMAN->m_pCharacterName = m_pCharacter->m_sName;
+		GAMESTATE->m_PlayerOptions[pn].m_sCharacter = m_pCharacter->m_sName;
 	}
 
 	for( map<CString,CString>::const_iterator i = m_SetEnv.begin(); i != m_SetEnv.end(); i++ )

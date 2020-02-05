@@ -11,6 +11,7 @@
 #include "Steps.h"
 #include "ThemeManager.h"
 #include "Foreach.h"
+#include "GameState.h"
 
 #define ONE( arr ) { for( unsigned Z = 0; Z < ARRAYSIZE(arr); ++Z ) arr[Z]=1.0f; }
 
@@ -169,10 +170,12 @@ CString PlayerOptions::GetString() const
 
 	if( !m_sPositioning.empty() )
 		sReturn += m_sPositioning + ", ";
-	if( !m_sNoteSkin.empty()  &&  m_sNoteSkin.CompareNoCase("default")!=0 )
+	if( !m_sNoteSkin.empty()  &&  m_sNoteSkin.CompareNoCase("default")!=0 ){}
 		sReturn += m_sNoteSkin + ", ";
-	// if( !m_sCharacter.empty()  &&  m_sCharacter.CompareNoCase("default")!=0 )
-	// 	sReturn += m_sCharacter + ", ";
+	if( !m_sCharacter.empty()  &&  m_sCharacter.CompareNoCase("default")!=0 )
+	{
+		sReturn += m_sCharacter + ", ";
+	}
 	if( sReturn.GetLength() > 2 )
 		sReturn.erase( sReturn.GetLength()-2 );	// delete the trailing ", "
 	return sReturn;
@@ -184,6 +187,7 @@ void PlayerOptions::FromString( CString sOptions )
 {
 	ASSERT( NOTESKIN );
 //	Init();
+	
 	sOptions.MakeLower();
 	CStringArray asBits;
 	split( sOptions, ",", asBits, true );
@@ -312,7 +316,14 @@ void PlayerOptions::FromString( CString sOptions )
 			m_sNoteSkin = sBit;
 		else if( sBit == "noteskin" && !on ) /* "no noteskin" */
 			m_sNoteSkin = "default";
+		if(GAMESTATE->DoesCharaExist(sBit) )
+		{
+			m_sCharacter = sBit;
+		}
 	}
+	// if(!m_sCharacter){
+	// 	m_sCharacter = "default";
+	// }
 }
 
 void NextFloat( float fValues[], int size )

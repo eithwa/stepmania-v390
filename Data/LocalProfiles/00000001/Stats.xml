@@ -7,15 +7,15 @@
 <IsMachine>0</IsMachine>
 <Guid>2d7b4ebc42dbf60b</Guid>
 <UsingProfileDefaultModifiers>1</UsingProfileDefaultModifiers>
-<DefaultModifiers>note</DefaultModifiers>
+<DefaultModifiers>note, SINGLES[2P]</DefaultModifiers>
 <SortOrder>GROUP</SortOrder>
-<LastDifficulty>Hard</LastDifficulty>
+<LastDifficulty>Challenge</LastDifficulty>
 <LastCourseDifficulty/>
-<Song Dir='Songs/test/(Blue vs YuFaEr)DeCIDE/' />
+<Song Dir='Songs/test/Bon Appetit S[Blue]/' />
 <Course/>
-<TotalPlays>33</TotalPlays>
-<TotalPlaySeconds>4375</TotalPlaySeconds>
-<TotalGameplaySeconds>659</TotalGameplaySeconds>
+<TotalPlays>34</TotalPlays>
+<TotalPlaySeconds>4443</TotalPlaySeconds>
+<TotalGameplaySeconds>672</TotalGameplaySeconds>
 <CurrentCombo>0</CurrentCombo>
 <TotalCaloriesBurned>0.000000</TotalCaloriesBurned>
 <LastPlayedMachineGuid>72349908df7c22e4</LastPlayedMachineGuid>
@@ -31,20 +31,21 @@
 <TotalHands>121</TotalHands>
 <UnlockedSongs/>
 <NumSongsPlayedByPlayMode>
-<Regular>38</Regular>
+<Regular>39</Regular>
 </NumSongsPlayedByPlayMode>
 <NumSongsPlayedByStyle>
 <Style Game='dance' Style='single' >35</Style>
-<Style Game='dance' Style='versus' >3</Style>
+<Style Game='dance' Style='versus' >4</Style>
 </NumSongsPlayedByStyle>
 <NumSongsPlayedByDifficulty>
 <Easy>1</Easy>
 <Medium>2</Medium>
 <Hard>6</Hard>
-<Challenge>29</Challenge>
+<Challenge>30</Challenge>
 </NumSongsPlayedByDifficulty>
 <NumSongsPlayedByMeter>
 <Meter1>31</Meter1>
+<Meter9>1</Meter9>
 <Meter10>4</Meter10>
 <Meter11>1</Meter11>
 <Meter13>2</Meter13>
@@ -89,6 +90,13 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <HighScoreList>
 <NumTimesPlayed>3</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+</Song>
+<Song Dir='Songs/test/Bon Appetit S[Blue]/' >
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<HighScoreList>
+<NumTimesPlayed>2</NumTimesPlayed>
 </HighScoreList>
 </Steps>
 </Song>

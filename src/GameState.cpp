@@ -188,10 +188,7 @@ void GameState::Reset()
 		{
 			m_pCurCharacters[p] = GetRandomCharacter();
 		}
-		else if(PREFSMAN->m_ShowDancingCharacters == PrefsManager::CO_STATIC)
-		{
-			m_pCurCharacters[p] = GetStaticCharacter();
-		}
+		
 		else
 		{
 			m_pCurCharacters[p] = GetDefaultCharacter();
@@ -260,6 +257,10 @@ void GameState::PlayersFinalized()
 		{
 			GAMESTATE->m_PlayerOptions[pn].Init();
 			GAMESTATE->ApplyModifiers( pn, pProfile->m_sDefaultModifiers );
+			PlayerOptions test;
+
+			if(PREFSMAN->m_ShowDancingCharacters == PrefsManager::CO_STATIC)
+				m_pCurCharacters[pn] = GetStaticCharacter(m_PlayerOptions[pn].m_sCharacter);
 		}
 		// Only set the sort order if it wasn't already set by a ModeChoice (or by an earlier profile)
 		if( m_SortOrder == SORT_INVALID && pProfile->m_SortOrder != SORT_INVALID )
@@ -389,6 +390,7 @@ void GameState::SaveCurrentSettingsToProfile( PlayerNumber pn )
 
 	pProfile->m_bUsingProfileDefaultModifiers = true;
 	pProfile->m_sDefaultModifiers = m_PlayerOptions[pn].GetSavedPrefsString();
+
 	if( IsSongSort(m_SortOrder) )
 		pProfile->m_SortOrder = m_SortOrder;
 	if( m_PreferredDifficulty[pn] != DIFFICULTY_INVALID )
@@ -490,7 +492,16 @@ void GameState::ReloadCharacters()
 //	if( m_pCharacters.empty() )
 //		RageException::Throw( "Couldn't find any character definitions" );
 }
-
+bool GameState::DoesCharaExist(CString CharaName)
+{
+	for( unsigned i=0; i<m_pCharacters.size(); i++ )
+	{
+		if( m_pCharacters[i]->m_sName.CompareNoCase(CharaName)==0 ){
+			return true;
+		}
+	}
+	return false;
+}
 const float GameState::MUSIC_SECONDS_INVALID = -5000.0f;
 
 void GameState::ResetMusicStatistics()
@@ -1065,6 +1076,7 @@ void GameState::ApplyModifiers( PlayerNumber pn, CString sModifiers )
 	const SongOptions::FailType ft = this->m_SongOptions.m_FailType;
 
 	m_PlayerOptions[pn].FromString( sModifiers );
+	
 	m_SongOptions.FromString( sModifiers );
 
 	if( ft != this->m_SongOptions.m_FailType )
@@ -1078,7 +1090,6 @@ void GameState::StoreSelectedOptions()
 	FOREACH_PlayerNumber( p )
 		this->m_StoredPlayerOptions[p] = this->m_PlayerOptions[p];
 	m_StoredSongOptions = m_SongOptions;
-	LOG->Info("StoreSelectedOptions fuck");
 }
 
 /* Restore the preferred options.  This is called after a song ends, before
@@ -1088,9 +1099,11 @@ void GameState::StoreSelectedOptions()
 void GameState::RestoreSelectedOptions()
 {
 	FOREACH_PlayerNumber( p )
+	{
 		this->m_PlayerOptions[p] = this->m_StoredPlayerOptions[p];
+		// this->m_PlayerOptions[p].m_sCharacter = m_pCurCharacters[pn];
+	}
 	m_SongOptions = m_StoredSongOptions;
-	LOG->Info("RRRRRRRRRRRestoreSelectedOptions fuck");
 }
 
 bool GameState::IsDisqualified( PlayerNumber pn )
@@ -1359,12 +1372,11 @@ Character* GameState::GetRandomCharacter()
 	else
 		return GetDefaultCharacter();
 }
-Character* GameState::GetStaticCharacter()
+Character* GameState::GetStaticCharacter(CString Character_name)
 {
-	// LOG->Info("static %s", PREFSMAN->m_pCharacterName.c_str());
 	for( unsigned i=0; i<m_pCharacters.size(); i++ )
 	{
-		if( m_pCharacters[i]->m_sName.CompareNoCase(PREFSMAN->m_pCharacterName)==0 ){
+		if( m_pCharacters[i]->m_sName.CompareNoCase(Character_name)==0 ){
 			return m_pCharacters[i];
 		}
 	}

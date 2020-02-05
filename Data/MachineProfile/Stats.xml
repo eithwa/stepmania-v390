@@ -13,49 +13,51 @@
 <LastCourseDifficulty/>
 <Song Dir='' />
 <Course/>
-<TotalPlays>36</TotalPlays>
-<TotalPlaySeconds>5587</TotalPlaySeconds>
-<TotalGameplaySeconds>684</TotalGameplaySeconds>
+<TotalPlays>58</TotalPlays>
+<TotalPlaySeconds>14512</TotalPlaySeconds>
+<TotalGameplaySeconds>1114</TotalGameplaySeconds>
 <CurrentCombo>0</CurrentCombo>
 <TotalCaloriesBurned>0.000000</TotalCaloriesBurned>
 <LastPlayedMachineGuid>72349908df7c22e4</LastPlayedMachineGuid>
 <LastPlayedDate>2020-02-05</LastPlayedDate>
-<TotalDancePoints>154</TotalDancePoints>
+<TotalDancePoints>2908</TotalDancePoints>
 <NumExtraStagesPassed>0</NumExtraStagesPassed>
 <NumExtraStagesFailed>0</NumExtraStagesFailed>
 <NumToasties>0</NumToasties>
-<TotalTapsAndHolds>698</TotalTapsAndHolds>
-<TotalJumps>322</TotalJumps>
-<TotalHolds>95</TotalHolds>
-<TotalMines>6</TotalMines>
-<TotalHands>121</TotalHands>
+<TotalTapsAndHolds>1733</TotalTapsAndHolds>
+<TotalJumps>760</TotalJumps>
+<TotalHolds>205</TotalHolds>
+<TotalMines>8</TotalMines>
+<TotalHands>194</TotalHands>
 <UnlockedSongs/>
 <NumSongsPlayedByPlayMode>
-<Regular>45</Regular>
+<Regular>72</Regular>
 </NumSongsPlayedByPlayMode>
 <NumSongsPlayedByStyle>
-<Style Game='dance' Style='single' >39</Style>
-<Style Game='dance' Style='versus' >6</Style>
+<Style Game='dance' Style='single' >64</Style>
+<Style Game='dance' Style='versus' >8</Style>
 </NumSongsPlayedByStyle>
 <NumSongsPlayedByDifficulty>
 <Easy>1</Easy>
 <Medium>2</Medium>
-<Hard>13</Hard>
-<Challenge>29</Challenge>
+<Hard>29</Hard>
+<Challenge>40</Challenge>
 </NumSongsPlayedByDifficulty>
 <NumSongsPlayedByMeter>
 <Meter1>31</Meter1>
-<Meter10>11</Meter10>
+<Meter9>11</Meter9>
+<Meter10>27</Meter10>
 <Meter11>1</Meter11>
 <Meter13>2</Meter13>
 </NumSongsPlayedByMeter>
 <NumStagesPassedByGrade>
 <Tier01>5</Tier01>
 <Tier03>1</Tier03>
+<Tier04>2</Tier04>
 <Tier07>26</Tier07>
 </NumStagesPassedByGrade>
 <NumStagesPassedByPlayMode>
-<Regular>32</Regular>
+<Regular>34</Regular>
 </NumStagesPassedByPlayMode>
 </GeneralData>
 <SongScores>
@@ -83,12 +85,103 @@
 <Song Dir='Songs/test/(Blue vs YuFaEr)DeCIDE/' >
 <Steps StepsType='dance-single' Difficulty='Easy' >
 <HighScoreList>
-<NumTimesPlayed>14</NumTimesPlayed>
+<NumTimesPlayed>20</NumTimesPlayed>
 </HighScoreList>
 </Steps>
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <HighScoreList>
-<NumTimesPlayed>11</NumTimesPlayed>
+<NumTimesPlayed>27</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<HighScoreList>
+<NumTimesPlayed>3</NumTimesPlayed>
+<HighScore>
+<Name>EVNT</Name>
+<Grade>Tier04</Grade>
+<Score>78399749</Score>
+<PercentDP>0.783751</PercentDP>
+<SurviveSeconds>94.063774</SurviveSeconds>
+<Modifiers>C650, flat</Modifiers>
+<DateTime>2020-02-05 19:28:37</DateTime>
+<PlayerGuid>6fc00fa218b341fa</PlayerGuid>
+<MachineGuid>72349908df7c22e4</MachineGuid>
+<ProductID>1</ProductID>
+<TapNoteScores>
+<HitMine>0</HitMine>
+<Miss>9</Miss>
+<Boo>0</Boo>
+<Good>6</Good>
+<Great>85</Great>
+<Perfect>144</Perfect>
+<Marvelous>263</Marvelous>
+</TapNoteScores>
+<HoldNoteScores>
+<NG>1</NG>
+<OK>50</OK>
+</HoldNoteScores>
+<RadarValues>
+<Stream>0.830579</Stream>
+<Voltage>0.159113</Voltage>
+<Air>0.809524</Air>
+<Freeze>0.980392</Freeze>
+<Chaos>0.783751</Chaos>
+<Taps>498</Taps>
+<Jumps>206</Jumps>
+<Holds>50</Holds>
+<Mines>2</Mines>
+<Hands>19</Hands>
+</RadarValues>
+</HighScore>
+</HighScoreList>
+</Steps>
+</Song>
+<Song Dir='Songs/test/Bon Appetit S[Blue]/' >
+<Steps StepsType='dance-single' Difficulty='Easy' >
+<HighScoreList>
+<NumTimesPlayed>1</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<HighScoreList>
+<NumTimesPlayed>14</NumTimesPlayed>
+<HighScore>
+<Name>EVNT</Name>
+<Grade>Tier04</Grade>
+<Score>75870857</Score>
+<PercentDP>0.789272</PercentDP>
+<SurviveSeconds>95.696915</SurviveSeconds>
+<Modifiers>C650, flat, SINGLES[L]</Modifiers>
+<DateTime>2020-02-05 19:25:37</DateTime>
+<PlayerGuid>6fc00fa218b341fa</PlayerGuid>
+<MachineGuid>72349908df7c22e4</MachineGuid>
+<ProductID>1</ProductID>
+<TapNoteScores>
+<HitMine>0</HitMine>
+<Miss>8</Miss>
+<Boo>2</Boo>
+<Good>11</Good>
+<Great>87</Great>
+<Perfect>148</Perfect>
+<Marvelous>293</Marvelous>
+</TapNoteScores>
+<HoldNoteScores>
+<NG>0</NG>
+<OK>60</OK>
+</HoldNoteScores>
+<RadarValues>
+<Stream>0.825930</Stream>
+<Voltage>0.272737</Voltage>
+<Air>0.797468</Air>
+<Freeze>1.000000</Freeze>
+<Chaos>0.789272</Chaos>
+<Taps>537</Taps>
+<Jumps>232</Jumps>
+<Holds>60</Holds>
+<Mines>0</Mines>
+<Hands>54</Hands>
+</RadarValues>
+</HighScore>
 </HighScoreList>
 </Steps>
 </Song>
@@ -1641,6 +1734,88 @@
 <Holds>4</Holds>
 <Mines>0</Mines>
 <Hands>0</Hands>
+</RadarValues>
+</HighScore>
+</HighScoreForASongAndSteps>
+<HighScoreForASongAndSteps>
+<Song Dir='Songs/test/Bon Appetit S[Blue]/' />
+<Steps StepsType='dance-single' Difficulty='Challenge' />
+<HighScore>
+<Name>EVNT</Name>
+<Grade>Tier04</Grade>
+<Score>75870857</Score>
+<PercentDP>0.789272</PercentDP>
+<SurviveSeconds>95.696915</SurviveSeconds>
+<Modifiers>C650, flat, SINGLES[L]</Modifiers>
+<DateTime>2020-02-05 19:25:37</DateTime>
+<PlayerGuid>6fc00fa218b341fa</PlayerGuid>
+<MachineGuid>72349908df7c22e4</MachineGuid>
+<ProductID>1</ProductID>
+<TapNoteScores>
+<HitMine>0</HitMine>
+<Miss>8</Miss>
+<Boo>2</Boo>
+<Good>11</Good>
+<Great>87</Great>
+<Perfect>148</Perfect>
+<Marvelous>293</Marvelous>
+</TapNoteScores>
+<HoldNoteScores>
+<NG>0</NG>
+<OK>60</OK>
+</HoldNoteScores>
+<RadarValues>
+<Stream>0.825930</Stream>
+<Voltage>0.272737</Voltage>
+<Air>0.797468</Air>
+<Freeze>1.000000</Freeze>
+<Chaos>0.789272</Chaos>
+<Taps>537</Taps>
+<Jumps>232</Jumps>
+<Holds>60</Holds>
+<Mines>0</Mines>
+<Hands>54</Hands>
+</RadarValues>
+</HighScore>
+</HighScoreForASongAndSteps>
+<HighScoreForASongAndSteps>
+<Song Dir='Songs/test/(Blue vs YuFaEr)DeCIDE/' />
+<Steps StepsType='dance-single' Difficulty='Challenge' />
+<HighScore>
+<Name>EVNT</Name>
+<Grade>Tier04</Grade>
+<Score>78399749</Score>
+<PercentDP>0.783751</PercentDP>
+<SurviveSeconds>94.063774</SurviveSeconds>
+<Modifiers>C650, flat</Modifiers>
+<DateTime>2020-02-05 19:28:37</DateTime>
+<PlayerGuid>6fc00fa218b341fa</PlayerGuid>
+<MachineGuid>72349908df7c22e4</MachineGuid>
+<ProductID>1</ProductID>
+<TapNoteScores>
+<HitMine>0</HitMine>
+<Miss>9</Miss>
+<Boo>0</Boo>
+<Good>6</Good>
+<Great>85</Great>
+<Perfect>144</Perfect>
+<Marvelous>263</Marvelous>
+</TapNoteScores>
+<HoldNoteScores>
+<NG>1</NG>
+<OK>50</OK>
+</HoldNoteScores>
+<RadarValues>
+<Stream>0.830579</Stream>
+<Voltage>0.159113</Voltage>
+<Air>0.809524</Air>
+<Freeze>0.980392</Freeze>
+<Chaos>0.783751</Chaos>
+<Taps>498</Taps>
+<Jumps>206</Jumps>
+<Holds>50</Holds>
+<Mines>2</Mines>
+<Hands>19</Hands>
 </RadarValues>
 </HighScore>
 </HighScoreForASongAndSteps>
