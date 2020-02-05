@@ -1078,6 +1078,7 @@ void GameState::StoreSelectedOptions()
 	FOREACH_PlayerNumber( p )
 		this->m_StoredPlayerOptions[p] = this->m_PlayerOptions[p];
 	m_StoredSongOptions = m_SongOptions;
+	LOG->Info("StoreSelectedOptions fuck");
 }
 
 /* Restore the preferred options.  This is called after a song ends, before
@@ -1089,6 +1090,7 @@ void GameState::RestoreSelectedOptions()
 	FOREACH_PlayerNumber( p )
 		this->m_PlayerOptions[p] = this->m_StoredPlayerOptions[p];
 	m_SongOptions = m_StoredSongOptions;
+	LOG->Info("RRRRRRRRRRRestoreSelectedOptions fuck");
 }
 
 bool GameState::IsDisqualified( PlayerNumber pn )

@@ -243,9 +243,9 @@ int FFMpeg_Helper::GetFrame()
 		int pts_ = pkt.pts/(AV_TIME_BASE/1000) ;
 		// LOG->Info("pts %d, ms %d",pts_,ms);
 		offset=setPosition_mClock_fSeconds-pts_;
-		setPosition_flag=false;
-		setPosition_fSeconds=0;
-		setPosition_mClock_fSeconds=0;
+		// setPosition_flag=false;
+		// setPosition_fSeconds=0;
+		// setPosition_mClock_fSeconds=0;
 	}
 	
 	++FrameNumber;
@@ -755,6 +755,13 @@ bool MovieTexture_FFMpeg::DecodeFrame()
 
 	/* Read a frame. */
 	int ret = decoder->GetFrame();
+	if(m_bWantRewind==false && decoder->setPosition_flag==true)
+	{
+		decoder->setPosition_flag=false;
+		m_Clock +=(float)(decoder->offset)/1000.0;
+		// decoder->setPosition_fSeconds=0;
+		// decoder->setPosition_mClock_fSeconds=0;
+	}
 
 	if( ret == -1 )
 		return false;
@@ -895,14 +902,8 @@ void MovieTexture_FFMpeg::DecoderThread()
 			if(decoder->setPosition_flag)
 			{
 				decoder->setPosition_mClock_fSeconds = (m_Clock+decoder->setPosition_fSeconds)*1000;
-				DecodeFrame();
-				m_Clock +=(float)(decoder->offset)/1000.0;
 			}
-			else
-			{
-				DecodeFrame();
-			}
-
+			DecodeFrame();
 		}
 			
 
@@ -955,13 +956,8 @@ void MovieTexture_FFMpeg::Update(float fDeltaTime)
 			if(decoder->setPosition_flag)
 			{
 				decoder->setPosition_mClock_fSeconds = (m_Clock+decoder->setPosition_fSeconds)*1000;
-				DecodeFrame();
-				m_Clock +=(float)(decoder->offset)/1000.0;
 			}
-			else
-			{
-				DecodeFrame();
-			}
+			DecodeFrame();
 		}
 
 		/* If we have a frame decoded, see if it's time to display it. */

@@ -34,6 +34,7 @@ void PlayerOptions::Init()
 	m_bProTiming = false;
 	m_sPositioning = "";	// "null"
 	m_sNoteSkin = "default";
+	m_sCharacter = "default";
 }
 
 void PlayerOptions::Approach( const PlayerOptions& other, float fDeltaSeconds )
@@ -170,7 +171,8 @@ CString PlayerOptions::GetString() const
 		sReturn += m_sPositioning + ", ";
 	if( !m_sNoteSkin.empty()  &&  m_sNoteSkin.CompareNoCase("default")!=0 )
 		sReturn += m_sNoteSkin + ", ";
-
+	// if( !m_sCharacter.empty()  &&  m_sCharacter.CompareNoCase("default")!=0 )
+	// 	sReturn += m_sCharacter + ", ";
 	if( sReturn.GetLength() > 2 )
 		sReturn.erase( sReturn.GetLength()-2 );	// delete the trailing ", "
 	return sReturn;
@@ -520,6 +522,7 @@ bool PlayerOptions::operator==( const PlayerOptions &other ) const
 	COMPARE(m_fSkew);
 	COMPARE(m_sPositioning);
 	COMPARE(m_sNoteSkin);
+	COMPARE(m_sCharacter);
 	int i;
 	for( i = 0; i < PlayerOptions::NUM_ACCELS; ++i )
 		COMPARE(m_fAccels[i]);
@@ -654,6 +657,7 @@ CString PlayerOptions::GetSavedPrefsString() const
 	SAVE( m_bTransforms[TRANSFORM_NOHANDS] );
 	SAVE( m_bTransforms[TRANSFORM_NOQUADS] );
 	SAVE( m_sNoteSkin );
+	SAVE( m_sCharacter );
 #undef SAVE
 	return po_prefs.GetString();
 }

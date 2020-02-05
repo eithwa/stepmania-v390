@@ -13,13 +13,13 @@
 <LastCourseDifficulty/>
 <Song Dir='' />
 <Course/>
-<TotalPlays>30</TotalPlays>
-<TotalPlaySeconds>3729</TotalPlaySeconds>
-<TotalGameplaySeconds>622</TotalGameplaySeconds>
+<TotalPlays>36</TotalPlays>
+<TotalPlaySeconds>5587</TotalPlaySeconds>
+<TotalGameplaySeconds>684</TotalGameplaySeconds>
 <CurrentCombo>0</CurrentCombo>
 <TotalCaloriesBurned>0.000000</TotalCaloriesBurned>
 <LastPlayedMachineGuid>72349908df7c22e4</LastPlayedMachineGuid>
-<LastPlayedDate>2020-01-31</LastPlayedDate>
+<LastPlayedDate>2020-02-05</LastPlayedDate>
 <TotalDancePoints>154</TotalDancePoints>
 <NumExtraStagesPassed>0</NumExtraStagesPassed>
 <NumExtraStagesFailed>0</NumExtraStagesFailed>
@@ -31,20 +31,21 @@
 <TotalHands>121</TotalHands>
 <UnlockedSongs/>
 <NumSongsPlayedByPlayMode>
-<Regular>35</Regular>
+<Regular>45</Regular>
 </NumSongsPlayedByPlayMode>
 <NumSongsPlayedByStyle>
-<Style Game='dance' Style='single' >35</Style>
+<Style Game='dance' Style='single' >39</Style>
+<Style Game='dance' Style='versus' >6</Style>
 </NumSongsPlayedByStyle>
 <NumSongsPlayedByDifficulty>
 <Easy>1</Easy>
 <Medium>2</Medium>
-<Hard>3</Hard>
+<Hard>13</Hard>
 <Challenge>29</Challenge>
 </NumSongsPlayedByDifficulty>
 <NumSongsPlayedByMeter>
 <Meter1>31</Meter1>
-<Meter10>1</Meter10>
+<Meter10>11</Meter10>
 <Meter11>1</Meter11>
 <Meter13>2</Meter13>
 </NumSongsPlayedByMeter>
@@ -76,6 +77,18 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <HighScoreList>
 <NumTimesPlayed>2</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+</Song>
+<Song Dir='Songs/test/(Blue vs YuFaEr)DeCIDE/' >
+<Steps StepsType='dance-single' Difficulty='Easy' >
+<HighScoreList>
+<NumTimesPlayed>14</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Hard' >
+<HighScoreList>
+<NumTimesPlayed>11</NumTimesPlayed>
 </HighScoreList>
 </Steps>
 </Song>
@@ -1639,13 +1652,13 @@
 <Yesterday>0</Yesterday>
 <Day2Ago>0</Day2Ago>
 <Day3Ago>0</Day3Ago>
-<Day4Ago>0</Day4Ago>
+<Day4Ago>16</Day4Ago>
 <Day5Ago>0</Day5Ago>
 <Day6Ago>0</Day6Ago>
 </LastDays>
 <LastWeeks>
 <ThisWeek>0</ThisWeek>
-<LastWeek>0</LastWeek>
+<LastWeek>16</LastWeek>
 <Week02Ago>0</Week02Ago>
 <Week03Ago>0</Week03Ago>
 <Week04Ago>0</Week04Ago>
@@ -1704,7 +1717,7 @@
 <Wednesday>0</Wednesday>
 <Thursday>0</Thursday>
 <Friday>0</Friday>
-<Saturday>0</Saturday>
+<Saturday>16</Saturday>
 </DayOfWeek>
 <Hour>
 <Hour00>0</Hour00>
@@ -1718,7 +1731,7 @@
 <Hour08>0</Hour08>
 <Hour09>0</Hour09>
 <Hour10>0</Hour10>
-<Hour11>0</Hour11>
+<Hour11>4</Hour11>
 <Hour12>0</Hour12>
 <Hour13>0</Hour13>
 <Hour14>0</Hour14>
@@ -1726,7 +1739,7 @@
 <Hour16>0</Hour16>
 <Hour17>0</Hour17>
 <Hour18>0</Hour18>
-<Hour19>0</Hour19>
+<Hour19>12</Hour19>
 <Hour20>0</Hour20>
 <Hour21>0</Hour21>
 <Hour22>0</Hour22>

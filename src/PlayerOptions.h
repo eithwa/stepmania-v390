@@ -117,6 +117,7 @@ struct PlayerOptions
 	bool		m_bProTiming;
 	CString		m_sPositioning;	/* The current positioning mode, or empty to use the normal positions. */
 	CString		m_sNoteSkin;
+	CString     m_sCharacter;
 
 	void NextAccel();
 	void NextEffect();

@@ -6,20 +6,20 @@
 <DisplayName>eeddfuck</DisplayName>
 <IsMachine>0</IsMachine>
 <Guid>6fc00fa218b341fa</Guid>
-<UsingProfileDefaultModifiers>0</UsingProfileDefaultModifiers>
-<DefaultModifiers/>
-<SortOrder/>
-<LastDifficulty/>
+<UsingProfileDefaultModifiers>1</UsingProfileDefaultModifiers>
+<DefaultModifiers>C650, NoHolds, NoMines, NoJumps, flat</DefaultModifiers>
+<SortOrder>GROUP</SortOrder>
+<LastDifficulty>Hard</LastDifficulty>
 <LastCourseDifficulty/>
-<Song Dir='' />
+<Song Dir='Songs/test/(Blue vs YuFaEr)DeCIDE/' />
 <Course/>
-<TotalPlays>0</TotalPlays>
-<TotalPlaySeconds>0</TotalPlaySeconds>
-<TotalGameplaySeconds>0</TotalGameplaySeconds>
+<TotalPlays>6</TotalPlays>
+<TotalPlaySeconds>1858</TotalPlaySeconds>
+<TotalGameplaySeconds>62</TotalGameplaySeconds>
 <CurrentCombo>0</CurrentCombo>
 <TotalCaloriesBurned>0.000000</TotalCaloriesBurned>
-<LastPlayedMachineGuid>9c7fed239f442e26</LastPlayedMachineGuid>
-<LastPlayedDate>2020-01-22</LastPlayedDate>
+<LastPlayedMachineGuid>72349908df7c22e4</LastPlayedMachineGuid>
+<LastPlayedDate>2020-02-05</LastPlayedDate>
 <TotalDancePoints>0</TotalDancePoints>
 <NumExtraStagesPassed>0</NumExtraStagesPassed>
 <NumExtraStagesFailed>0</NumExtraStagesFailed>
@@ -30,14 +30,36 @@
 <TotalMines>0</TotalMines>
 <TotalHands>0</TotalHands>
 <UnlockedSongs/>
-<NumSongsPlayedByPlayMode/>
-<NumSongsPlayedByStyle/>
-<NumSongsPlayedByDifficulty/>
-<NumSongsPlayedByMeter/>
+<NumSongsPlayedByPlayMode>
+<Regular>7</Regular>
+</NumSongsPlayedByPlayMode>
+<NumSongsPlayedByStyle>
+<Style Game='dance' Style='single' >4</Style>
+<Style Game='dance' Style='versus' >3</Style>
+</NumSongsPlayedByStyle>
+<NumSongsPlayedByDifficulty>
+<Hard>7</Hard>
+</NumSongsPlayedByDifficulty>
+<NumSongsPlayedByMeter>
+<Meter10>7</Meter10>
+</NumSongsPlayedByMeter>
 <NumStagesPassedByGrade/>
 <NumStagesPassedByPlayMode/>
 </GeneralData>
-<SongScores/>
+<SongScores>
+<Song Dir='Songs/test/(Blue vs YuFaEr)DeCIDE/' >
+<Steps StepsType='dance-single' Difficulty='Easy' >
+<HighScoreList>
+<NumTimesPlayed>5</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Hard' >
+<HighScoreList>
+<NumTimesPlayed>8</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+</Song>
+</SongScores>
 <CourseScores/>
 <CategoryScores/>
 <ScreenshotData/>

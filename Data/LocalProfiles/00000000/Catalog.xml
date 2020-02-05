@@ -2,22 +2,2552 @@
 <?xml-stylesheet type="text/xsl" href="Catalog.xsl"?>
 
 <Catalog>
-<Songs/>
+<Songs>
+<Song Dir='Songs/test/(Barry x Blue)MILLION LIVE LIFE LINE!!!/' >
+<MainTitle>MILLION LIVE×LIFE×LINE</MainTitle>
+<SubTitle>ミリオンライブ！6th st@ge Fantastic Festiv@l!?</SubTitle>
+<Steps StepsType='dance-single' Difficulty='Easy' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>1.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>0.608000</Freeze>
+<Chaos>0.110000</Chaos>
+<Taps>2239</Taps>
+<Jumps>1121</Jumps>
+<Holds>295</Holds>
+<Mines>0</Mines>
+<Hands>276</Hands>
+</RadarValues>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Hard' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>1.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>0.608000</Freeze>
+<Chaos>0.110000</Chaos>
+<Taps>2239</Taps>
+<Jumps>1121</Jumps>
+<Holds>295</Holds>
+<Mines>0</Mines>
+<Hands>276</Hands>
+</RadarValues>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<Meter>11</Meter>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>1.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>0.841000</Freeze>
+<Chaos>0.244000</Chaos>
+<Taps>2854</Taps>
+<Jumps>1168</Jumps>
+<Holds>408</Holds>
+<Mines>0</Mines>
+<Hands>341</Hands>
+</RadarValues>
+</Steps>
+</Song>
+<Song Dir='Songs/test/(Blue vs CCC) - LEGNE - kyuu nasu ken kou no senritsu (metal remix)/' >
+<MainTitle>-LEGNE- 仇なす剣 光の旋律</MainTitle>
+<SubTitle>THE IDOLM@STER CINDERELLA GIRLS ANIMATION PROJECT</SubTitle>
+<Steps StepsType='dance-single' Difficulty='Easy' >
+<Meter>1</Meter>
+<RadarValues>
+<Stream>0.000000</Stream>
+<Voltage>0.000000</Voltage>
+<Air>0.000000</Air>
+<Freeze>0.000000</Freeze>
+<Chaos>0.000000</Chaos>
+<Taps>0</Taps>
+<Jumps>0</Jumps>
+<Holds>0</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Hard' >
+<Meter>30</Meter>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>1.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>0.222000</Freeze>
+<Chaos>0.962000</Chaos>
+<Taps>908</Taps>
+<Jumps>312</Jumps>
+<Holds>30</Holds>
+<Mines>3</Mines>
+<Hands>69</Hands>
+</RadarValues>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<Meter>30</Meter>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>1.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>0.089000</Freeze>
+<Chaos>0.907000</Chaos>
+<Taps>914</Taps>
+<Jumps>276</Jumps>
+<Holds>12</Holds>
+<Mines>0</Mines>
+<Hands>22</Hands>
+</RadarValues>
+</Steps>
+</Song>
+<Song Dir='Songs/test/(Blue vs YuFaEr)DeCIDE/' >
+<MainTitle>DeCIDE</MainTitle>
+<SubTitle>異世界魔王と召喚少女の奴隷魔術 OP</SubTitle>
+<Steps StepsType='dance-single' Difficulty='Easy' >
+<Meter>1</Meter>
+<RadarValues>
+<Stream>0.000000</Stream>
+<Voltage>0.000000</Voltage>
+<Air>0.000000</Air>
+<Freeze>0.000000</Freeze>
+<Chaos>0.000000</Chaos>
+<Taps>0</Taps>
+<Jumps>0</Jumps>
+<Holds>0</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Hard' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>1.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>0.833000</Freeze>
+<Chaos>0.350000</Chaos>
+<Taps>535</Taps>
+<Jumps>234</Jumps>
+<Holds>75</Holds>
+<Mines>0</Mines>
+<Hands>113</Hands>
+</RadarValues>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>1.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>0.567000</Freeze>
+<Chaos>0.372000</Chaos>
+<Taps>507</Taps>
+<Jumps>210</Jumps>
+<Holds>51</Holds>
+<Mines>2</Mines>
+<Hands>26</Hands>
+</RadarValues>
+</Steps>
+</Song>
+<Song Dir='Songs/test/Bon Appetit S[Blue]/' >
+<MainTitle>ぼなぺてぃーと♡S</MainTitle>
+<SubTitle>ブレンド・S OP</SubTitle>
+<Steps StepsType='dance-single' Difficulty='Easy' >
+<Meter>1</Meter>
+<RadarValues>
+<Stream>0.000000</Stream>
+<Voltage>0.000000</Voltage>
+<Air>0.000000</Air>
+<Freeze>0.000000</Freeze>
+<Chaos>0.000000</Chaos>
+<Taps>0</Taps>
+<Jumps>0</Jumps>
+<Holds>0</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>1.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>0.660000</Freeze>
+<Chaos>0.885000</Chaos>
+<Taps>549</Taps>
+<Jumps>237</Jumps>
+<Holds>60</Holds>
+<Mines>0</Mines>
+<Hands>65</Hands>
+</RadarValues>
+</Steps>
+</Song>
+<Song Dir='Songs/test/Sakura/' >
+<MainTitle>桜</MainTitle>
+<SubTitle/>
+<Steps StepsType='dance-single' Difficulty='Easy' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>0.533000</Stream>
+<Voltage>0.683000</Voltage>
+<Air>0.291000</Air>
+<Freeze>0.191000</Freeze>
+<Chaos>0.020000</Chaos>
+<Taps>324</Taps>
+<Jumps>29</Jumps>
+<Holds>19</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Medium' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>0.630000</Stream>
+<Voltage>0.840000</Voltage>
+<Air>0.261000</Air>
+<Freeze>0.120000</Freeze>
+<Chaos>0.045000</Chaos>
+<Taps>402</Taps>
+<Jumps>26</Jumps>
+<Holds>12</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Hard' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>0.867000</Stream>
+<Voltage>1.000000</Voltage>
+<Air>0.461000</Air>
+<Freeze>0.110000</Freeze>
+<Chaos>0.181000</Chaos>
+<Taps>548</Taps>
+<Jumps>46</Jumps>
+<Holds>11</Holds>
+<Mines>0</Mines>
+<Hands>2</Hands>
+</RadarValues>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>1.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>0.170000</Freeze>
+<Chaos>0.211000</Chaos>
+<Taps>587</Taps>
+<Jumps>151</Jumps>
+<Holds>17</Holds>
+<Mines>0</Mines>
+<Hands>3</Hands>
+</RadarValues>
+</Steps>
+<Steps StepsType='dance-double' Difficulty='Easy' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>0.351000</Stream>
+<Voltage>0.520000</Voltage>
+<Air>0.100000</Air>
+<Freeze>0.090000</Freeze>
+<Chaos>0.000000</Chaos>
+<Taps>226</Taps>
+<Jumps>10</Jumps>
+<Holds>9</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</Steps>
+<Steps StepsType='dance-double' Difficulty='Medium' >
+<Meter>8</Meter>
+<RadarValues>
+<Stream>0.484000</Stream>
+<Voltage>0.676000</Voltage>
+<Air>0.150000</Air>
+<Freeze>0.060000</Freeze>
+<Chaos>0.000000</Chaos>
+<Taps>317</Taps>
+<Jumps>15</Jumps>
+<Holds>6</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</Steps>
+<Steps StepsType='dance-double' Difficulty='Hard' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>0.653000</Stream>
+<Voltage>0.884000</Voltage>
+<Air>0.170000</Air>
+<Freeze>0.010000</Freeze>
+<Chaos>0.095000</Chaos>
+<Taps>438</Taps>
+<Jumps>17</Jumps>
+<Holds>1</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</Steps>
+<Steps StepsType='dance-double' Difficulty='Challenge' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>0.519000</Stream>
+<Voltage>0.676000</Voltage>
+<Air>0.090000</Air>
+<Freeze>0.010000</Freeze>
+<Chaos>0.000000</Chaos>
+<Taps>352</Taps>
+<Jumps>9</Jumps>
+<Holds>1</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</Steps>
+</Song>
+<Song Dir='Songs/test/Your voice so... feat.Such/' >
+<MainTitle>Your voice so... feat.Such</MainTitle>
+<SubTitle/>
+<Steps StepsType='dance-single' Difficulty='Easy' >
+<Meter>1</Meter>
+<RadarValues>
+<Stream>0.016000</Stream>
+<Voltage>0.013000</Voltage>
+<Air>0.007000</Air>
+<Freeze>0.020000</Freeze>
+<Chaos>0.000000</Chaos>
+<Taps>13</Taps>
+<Jumps>1</Jumps>
+<Holds>3</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Medium' >
+<Meter>1</Meter>
+<RadarValues>
+<Stream>0.011000</Stream>
+<Voltage>0.008000</Voltage>
+<Air>0.007000</Air>
+<Freeze>0.027000</Freeze>
+<Chaos>0.000000</Chaos>
+<Taps>6</Taps>
+<Jumps>1</Jumps>
+<Holds>4</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<Meter>1</Meter>
+<RadarValues>
+<Stream>0.129000</Stream>
+<Voltage>0.194000</Voltage>
+<Air>0.242000</Air>
+<Freeze>0.027000</Freeze>
+<Chaos>0.027000</Chaos>
+<Taps>94</Taps>
+<Jumps>36</Jumps>
+<Holds>4</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</Steps>
+</Song>
+</Songs>
 <Courses>
 <Course Path='Courses/Samples/AllChallenge.crs' >
 <MainTitle>All Challenge</MainTitle>
 <SubTitle/>
 <HasMods>0</HasMods>
+<Trail StepsType='dance-single' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-double' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-couple' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-solo' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-single' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-halfdouble' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-double' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-couple' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-single' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-double' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-real' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-single' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-versus' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ds3ddx-single' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-single' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-double' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single7' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double7' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single5' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double5' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-single' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-double' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single4' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single5' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single8' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double4' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double5' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-five' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-nine' CourseDifficulty='Regular' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='Courses/Samples/AllMusicRandom.crs' >
 <MainTitle>All Music Random</MainTitle>
 <SubTitle/>
 <HasMods>0</HasMods>
+<Trail StepsType='dance-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-couple' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-couple' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-solo' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-solo' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-halfdouble' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-halfdouble' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-couple' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-couple' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-real' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-real' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-versus' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-versus' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ds3ddx-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ds3ddx-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single7' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single7' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double7' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double7' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single5' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single5' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double5' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double5' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single4' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single4' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single5' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single5' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single8' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single8' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double4' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double4' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double5' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double5' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-five' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-five' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-nine' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-nine' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='Courses/Samples/EndOfTheRoad.crs' >
 <MainTitle>End of the Road</MainTitle>
 <SubTitle/>
 <HasMods>1</HasMods>
+<Trail StepsType='dance-single' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-single' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-double' CourseDifficulty='Regular' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-double' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-couple' CourseDifficulty='Regular' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-couple' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-solo' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-solo' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-single' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-single' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-halfdouble' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-halfdouble' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-double' CourseDifficulty='Regular' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-double' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-couple' CourseDifficulty='Regular' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-couple' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-single' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-single' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-double' CourseDifficulty='Regular' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-double' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-real' CourseDifficulty='Regular' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-real' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-single' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-single' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-versus' CourseDifficulty='Regular' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-versus' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ds3ddx-single' CourseDifficulty='Regular' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ds3ddx-single' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-single' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-single' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-double' CourseDifficulty='Regular' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-double' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single7' CourseDifficulty='Regular' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single7' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double7' CourseDifficulty='Regular' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double7' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single5' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single5' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double5' CourseDifficulty='Regular' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double5' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-single' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-single' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-double' CourseDifficulty='Regular' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-double' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single4' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single4' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single5' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single5' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single8' CourseDifficulty='Regular' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single8' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double4' CourseDifficulty='Regular' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double4' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double5' CourseDifficulty='Regular' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double5' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-five' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-five' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-nine' CourseDifficulty='Regular' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-nine' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='Courses/Samples/PlayersBest1-4.crs' >
 <MainTitle>Players Best  1-4</MainTitle>
@@ -48,16 +2578,2626 @@
 <MainTitle>Random Caprice</MainTitle>
 <SubTitle/>
 <HasMods>0</HasMods>
+<Trail StepsType='dance-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-couple' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-couple' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-solo' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-solo' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-halfdouble' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-halfdouble' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-couple' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-couple' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-real' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-real' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-versus' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-versus' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ds3ddx-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ds3ddx-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single7' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single7' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double7' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double7' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single5' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single5' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double5' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double5' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single4' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single4' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single5' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single5' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single8' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single8' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double4' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double4' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double5' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double5' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-five' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-five' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-nine' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-nine' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='Courses/Samples/StaminaTester.crs' >
 <MainTitle>Stamina Tester Random</MainTitle>
 <SubTitle/>
 <HasMods>0</HasMods>
+<Trail StepsType='dance-single' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-single' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-double' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-double' CourseDifficulty='Difficult' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-couple' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-couple' CourseDifficulty='Difficult' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-solo' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-solo' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-single' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-single' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-halfdouble' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-halfdouble' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-double' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-double' CourseDifficulty='Difficult' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-couple' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-couple' CourseDifficulty='Difficult' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-single' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-single' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-double' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-double' CourseDifficulty='Difficult' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-real' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-real' CourseDifficulty='Difficult' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-single' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-single' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-versus' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-versus' CourseDifficulty='Difficult' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ds3ddx-single' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ds3ddx-single' CourseDifficulty='Difficult' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-single' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-single' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-double' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-double' CourseDifficulty='Difficult' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single7' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single7' CourseDifficulty='Difficult' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double7' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double7' CourseDifficulty='Difficult' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single5' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single5' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double5' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double5' CourseDifficulty='Difficult' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-single' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-single' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-double' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-double' CourseDifficulty='Difficult' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single4' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single4' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single5' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single5' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single8' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single8' CourseDifficulty='Difficult' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double4' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double4' CourseDifficulty='Difficult' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double5' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double5' CourseDifficulty='Difficult' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-five' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-five' CourseDifficulty='Difficult' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-nine' CourseDifficulty='Regular' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-nine' CourseDifficulty='Difficult' >
+<Meter>9</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='Courses/Samples/Tortoise and the Hare.crs' >
 <MainTitle>Tortoise and the Hare</MainTitle>
 <SubTitle/>
 <HasMods>1</HasMods>
+<Trail StepsType='dance-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-couple' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-couple' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-solo' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-solo' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-halfdouble' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-halfdouble' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-couple' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-couple' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-real' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-real' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-versus' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-versus' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ds3ddx-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ds3ddx-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single7' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single7' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double7' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double7' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single5' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single5' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double5' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double5' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single4' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single4' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single5' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single5' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single8' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single8' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double4' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double4' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double5' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double5' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-five' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-five' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-nine' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-nine' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
 </Course>
 <Course Path='Courses/Samples/Tournamix 4 Sample.crs' >
 <MainTitle>ワーーーーイ!</MainTitle>
@@ -68,6 +5208,876 @@
 <MainTitle>Tricky Random</MainTitle>
 <SubTitle/>
 <HasMods>1</HasMods>
+<Trail StepsType='dance-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-couple' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-couple' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-solo' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='dance-solo' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-halfdouble' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-halfdouble' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-couple' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pump-couple' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-real' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ez2-real' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-versus' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='para-versus' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ds3ddx-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='ds3ddx-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='bm-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single7' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single7' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double7' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double7' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single5' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-single5' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double5' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='iidx-double5' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-single' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-single' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-double' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='maniax-double' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single4' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single4' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single5' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single5' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single8' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-single8' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double4' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double4' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double5' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='techno-double5' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-five' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-five' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-nine' CourseDifficulty='Regular' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
+<Trail StepsType='pnm-nine' CourseDifficulty='Difficult' >
+<Meter>6</Meter>
+<RadarValues>
+<Stream>-1.000000</Stream>
+<Voltage>-1.000000</Voltage>
+<Air>-1.000000</Air>
+<Freeze>-1.000000</Freeze>
+<Chaos>-1.000000</Chaos>
+<Taps>-1</Taps>
+<Jumps>-1</Jumps>
+<Holds>-1</Holds>
+<Mines>-1</Mines>
+<Hands>-1</Hands>
+</RadarValues>
+</Trail>
 </Course>
 </Courses>
 <Types>
@@ -76,7 +6086,6 @@
 <Difficulty DisplayAs='STANDARD' >Medium</Difficulty>
 <Difficulty DisplayAs='HEAVY' >Hard</Difficulty>
 <Difficulty DisplayAs='CHALLENGE' >Challenge</Difficulty>
-<CourseDifficulty DisplayAs='EASY' >Easy</CourseDifficulty>
 <CourseDifficulty DisplayAs='REGULAR' >Regular</CourseDifficulty>
 <CourseDifficulty DisplayAs='DIFFICULT' >Difficult</CourseDifficulty>
 <StepsType DisplayAs='single' >dance-single</StepsType>
@@ -107,10 +6116,10 @@
 <Meter DisplayAs='11' >Meter11</Meter>
 <Meter DisplayAs='12' >Meter12</Meter>
 <Meter DisplayAs='13' >Meter13</Meter>
-<Grade DisplayAs='AAAA' >Tier01</Grade>
-<Grade DisplayAs='AAA' >Tier02</Grade>
-<Grade DisplayAs='AA' >Tier03</Grade>
-<Grade DisplayAs='A' >Tier04</Grade>
+<Grade DisplayAs='AAA' >Tier01</Grade>
+<Grade DisplayAs='AA' >Tier02</Grade>
+<Grade DisplayAs='A+' >Tier03</Grade>
+<Grade DisplayAs='A-' >Tier04</Grade>
 <Grade DisplayAs='B' >Tier05</Grade>
 <Grade DisplayAs='C' >Tier06</Grade>
 <Grade DisplayAs='D' >Tier07</Grade>
@@ -128,47 +6137,66 @@
 <RadarValue DisplayAs='Stream' >Stream</RadarValue>
 <RadarValue DisplayAs='Voltage' >Voltage</RadarValue>
 <RadarValue DisplayAs='Air' >Air</RadarValue>
-<RadarValue DisplayAs='Freeze' >Freeze</RadarValue>
+<RadarValue DisplayAs='Hold' >Freeze</RadarValue>
 <RadarValue DisplayAs='Chaos' >Chaos</RadarValue>
 <RadarValue DisplayAs='Taps' >Taps</RadarValue>
 <RadarValue DisplayAs='Jumps' >Jumps</RadarValue>
 <RadarValue DisplayAs='Holds' >Holds</RadarValue>
 <RadarValue DisplayAs='Mines' >Mines</RadarValue>
 <RadarValue DisplayAs='Hands' >Hands</RadarValue>
-<Modifier DisplayAs='0.3x' >0.3x</Modifier>
-<Modifier DisplayAs='0.4x' >0.4x</Modifier>
-<Modifier DisplayAs='0.5x' >0.5x</Modifier>
-<Modifier DisplayAs='0.6x' >0.6x</Modifier>
-<Modifier DisplayAs='0.7x' >0.7x</Modifier>
-<Modifier DisplayAs='0.8x' >0.8x</Modifier>
-<Modifier DisplayAs='0.9x' >0.9x</Modifier>
+<Modifier DisplayAs='x0.3' >0.3x</Modifier>
+<Modifier DisplayAs='x0.4' >0.4x</Modifier>
+<Modifier DisplayAs='x0.5' >0.5x</Modifier>
+<Modifier DisplayAs='x0.6' >0.6x</Modifier>
+<Modifier DisplayAs='x0.7' >0.7x</Modifier>
+<Modifier DisplayAs='x0.8' >0.8x</Modifier>
+<Modifier DisplayAs='x0.9' >0.9x</Modifier>
 <Modifier DisplayAs='1' >1</Modifier>
-<Modifier DisplayAs='1.0x' >1.0x</Modifier>
-<Modifier DisplayAs='1.1x' >1.1x</Modifier>
-<Modifier DisplayAs='1.2x' >1.2x</Modifier>
-<Modifier DisplayAs='1.3x' >1.3x</Modifier>
-<Modifier DisplayAs='1.4x' >1.4x</Modifier>
-<Modifier DisplayAs='1.5x' >1.5x</Modifier>
-<Modifier DisplayAs='1.6x' >1.6x</Modifier>
-<Modifier DisplayAs='1.7x' >1.7x</Modifier>
-<Modifier DisplayAs='1.8x' >1.8x</Modifier>
-<Modifier DisplayAs='1.9x' >1.9x</Modifier>
+<Modifier DisplayAs='x1.0' >1.0x</Modifier>
+<Modifier DisplayAs='x1.1' >1.1x</Modifier>
+<Modifier DisplayAs='x1.2' >1.2x</Modifier>
+<Modifier DisplayAs='x1.3' >1.3x</Modifier>
+<Modifier DisplayAs='x1.4' >1.4x</Modifier>
+<Modifier DisplayAs='x1.5' >1.5x</Modifier>
+<Modifier DisplayAs='x1.6' >1.6x</Modifier>
+<Modifier DisplayAs='x1.7' >1.7x</Modifier>
+<Modifier DisplayAs='x1.8' >1.8x</Modifier>
+<Modifier DisplayAs='x1.9' >1.9x</Modifier>
 <Modifier DisplayAs='10' >10</Modifier>
+<Modifier DisplayAs='11' >11</Modifier>
+<Modifier DisplayAs='12' >12</Modifier>
+<Modifier DisplayAs='13' >13</Modifier>
+<Modifier DisplayAs='14' >14</Modifier>
+<Modifier DisplayAs='15' >15</Modifier>
+<Modifier DisplayAs='16' >16</Modifier>
+<Modifier DisplayAs='17' >17</Modifier>
+<Modifier DisplayAs='18' >18</Modifier>
+<Modifier DisplayAs='19' >19</Modifier>
 <Modifier DisplayAs='2' >2</Modifier>
-<Modifier DisplayAs='2.0x' >2.0x</Modifier>
+<Modifier DisplayAs='x2.0' >2.0x</Modifier>
+<Modifier DisplayAs='20' >20</Modifier>
 <Modifier DisplayAs='3' >3</Modifier>
+<Modifier DisplayAs='COMBO OF 30 MISSES' >30Misses</Modifier>
 <Modifier DisplayAs='4' >4</Modifier>
 <Modifier DisplayAs='5' >5</Modifier>
+<Modifier DisplayAs='COMBO OF 50 MISSES' >50Misses</Modifier>
 <Modifier DisplayAs='6' >6</Modifier>
 <Modifier DisplayAs='7' >7</Modifier>
 <Modifier DisplayAs='8' >8</Modifier>
 <Modifier DisplayAs='9' >9</Modifier>
 <Modifier DisplayAs='ADD' >Add</Modifier>
+<Modifier DisplayAs='ADD LIFTS' >AddLifts</Modifier>
+<Modifier DisplayAs='ADD MINES' >AddMines</Modifier>
 <Modifier DisplayAs='ALTERNATE' >Alternate</Modifier>
-<Modifier DisplayAs='Appearance Options' >AppearanceOptions</Modifier>
+<Modifier DisplayAs='ANIMATIONS' >Animations</Modifier>
+<Modifier DisplayAs='System Options' >AppearanceOptions</Modifier>
+<Modifier DisplayAs='ARCADE' >Arcade</Modifier>
+<Modifier DisplayAs='ATTACK MINES' >AttackMines</Modifier>
+<Modifier DisplayAs='AUTOPLAY' >AutoPlay</Modifier>
 <Modifier DisplayAs='Background Options' >BackgroundOptions</Modifier>
 <Modifier DisplayAs='BAR' >Bar</Modifier>
 <Modifier DisplayAs='BATTERY' >Battery</Modifier>
+<Modifier DisplayAs='BEAT' >Beat</Modifier>
 <Modifier DisplayAs='BIG' >Big</Modifier>
 <Modifier DisplayAs='BLIND' >Blind</Modifier>
 <Modifier DisplayAs='BLINK' >Blink</Modifier>
@@ -176,17 +6204,55 @@
 <Modifier DisplayAs='BOOMERANG' >Boomerang</Modifier>
 <Modifier DisplayAs='BOOST' >Boost</Modifier>
 <Modifier DisplayAs='BRAKE' >Brake</Modifier>
+<Modifier DisplayAs='BUMPY' >Bumpy</Modifier>
+<Modifier DisplayAs='C100' >C100</Modifier>
+<Modifier DisplayAs='C1000' >C1000</Modifier>
+<Modifier DisplayAs='C1050' >C1050</Modifier>
+<Modifier DisplayAs='C1100' >C1100</Modifier>
+<Modifier DisplayAs='C1150' >C1150</Modifier>
+<Modifier DisplayAs='C1200' >C1200</Modifier>
+<Modifier DisplayAs='C150' >C150</Modifier>
 <Modifier DisplayAs='C200' >C200</Modifier>
+<Modifier DisplayAs='C225' >C225</Modifier>
+<Modifier DisplayAs='C250' >C250</Modifier>
+<Modifier DisplayAs='C275' >C275</Modifier>
+<Modifier DisplayAs='C300' >C300</Modifier>
+<Modifier DisplayAs='C325' >C325</Modifier>
+<Modifier DisplayAs='C350' >C350</Modifier>
+<Modifier DisplayAs='C375' >C375</Modifier>
 <Modifier DisplayAs='C400' >C400</Modifier>
+<Modifier DisplayAs='C425' >C425</Modifier>
+<Modifier DisplayAs='C450' >C450</Modifier>
+<Modifier DisplayAs='C475' >C475</Modifier>
+<Modifier DisplayAs='C50' >C50</Modifier>
+<Modifier DisplayAs='C500' >C500</Modifier>
+<Modifier DisplayAs='C525' >C525</Modifier>
+<Modifier DisplayAs='C550' >C550</Modifier>
+<Modifier DisplayAs='C575' >C575</Modifier>
+<Modifier DisplayAs='C600' >C600</Modifier>
+<Modifier DisplayAs='C625' >C625</Modifier>
+<Modifier DisplayAs='C650' >C650</Modifier>
+<Modifier DisplayAs='C675' >C675</Modifier>
+<Modifier DisplayAs='C700' >C700</Modifier>
+<Modifier DisplayAs='C725' >C725</Modifier>
 <Modifier DisplayAs='C750' >C750</Modifier>
-<Modifier DisplayAs='Center Image' >CenterImage</Modifier>
+<Modifier DisplayAs='C775' >C775</Modifier>
+<Modifier DisplayAs='C800' >C800</Modifier>
+<Modifier DisplayAs='C850' >C850</Modifier>
+<Modifier DisplayAs='C900' >C900</Modifier>
+<Modifier DisplayAs='C950' >C950</Modifier>
+<Modifier DisplayAs='Screen Adjust' >CenterImage</Modifier>
 <Modifier DisplayAs='CENTERED' >Centered</Modifier>
 <Modifier DisplayAs='Clear Bookkeeping Data' >ClearBookkeepingData</Modifier>
 <Modifier DisplayAs='Clear Machine Stats and High Scores' >ClearMachineStats</Modifier>
 <Modifier DisplayAs='Coin Options' >CoinOptions</Modifier>
+<Modifier DisplayAs='CONFUSION' >Confusion</Modifier>
+<Modifier DisplayAs='CONVERGE' >Converge</Modifier>
+<Modifier DisplayAs='COVER' >Cover</Modifier>
 <Modifier DisplayAs='CROSS' >Cross</Modifier>
 <Modifier DisplayAs='DARK' >Dark</Modifier>
 <Modifier DisplayAs='DIFFICULT' >DifficultCourses</Modifier>
+<Modifier DisplayAs='DirectX' >DirectX</Modifier>
 <Modifier DisplayAs='DISTANT' >Distant</Modifier>
 <Modifier DisplayAs='DIZZY' >Dizzy</Modifier>
 <Modifier DisplayAs='DON&apos;T SAVE' >Don&apos;tSave</Modifier>
@@ -194,50 +6260,70 @@
 <Modifier DisplayAs='DRUNK' >Drunk</Modifier>
 <Modifier DisplayAs='ECHO' >Echo</Modifier>
 <Modifier DisplayAs='END OF SONG' >EndOfSong</Modifier>
-<Modifier DisplayAs='EXIT' >Exit</Modifier>
+<Modifier DisplayAs='          ' >Exit</Modifier>
 <Modifier DisplayAs='EXPAND' >Expand</Modifier>
 <Modifier DisplayAs='FLAT' >Flat</Modifier>
 <Modifier DisplayAs='FLIP' >Flip</Modifier>
 <Modifier DisplayAs='Gameplay Options' >GameplayOptions</Modifier>
-<Modifier DisplayAs='Graphic Options' >GraphicOptions</Modifier>
+<Modifier DisplayAs='Display Options' >GraphicOptions</Modifier>
+<Modifier DisplayAs='HALF MINES' >HalfMines</Modifier>
 <Modifier DisplayAs='HALLWAY' >Hallway</Modifier>
 <Modifier DisplayAs='HIDDEN' >Hidden</Modifier>
+<Modifier DisplayAs='HIDDENS' >Hiddens</Modifier>
+<Modifier DisplayAs='HOLD ROLLS' >HoldRolls</Modifier>
+<Modifier DisplayAs='IIDX' >IIDX</Modifier>
 <Modifier DisplayAs='IMMEDIATE' >Immediate</Modifier>
 <Modifier DisplayAs='INCOMING' >Incoming</Modifier>
 <Modifier DisplayAs='Input Options' >InputOptions</Modifier>
+<Modifier DisplayAs='INVERT' >Invert</Modifier>
 <Modifier DisplayAs='Config Key/Joy Mappings' >KeyJoyMappings</Modifier>
 <Modifier DisplayAs='LEFT' >Left</Modifier>
 <Modifier DisplayAs='LITTLE' >Little</Modifier>
-<Modifier DisplayAs='Machine Options' >MachineOptions</Modifier>
+<Modifier DisplayAs='MACHINE DEFAULT' >MachineDefault</Modifier>
+<Modifier DisplayAs='Life/Judge Options' >MachineOptions</Modifier>
+<Modifier DisplayAs='ADD ATTACK MINES' >MinesAttackMines</Modifier>
 <Modifier DisplayAs='MINI' >Mini</Modifier>
 <Modifier DisplayAs='MIRROR' >Mirror</Modifier>
 <Modifier DisplayAs='N/A' >N/A</Modifier>
 <Modifier DisplayAs='Network Options' >NetworkOptions</Modifier>
+<Modifier DisplayAs='▼' >NextRow</Modifier>
 <Modifier DisplayAs='NO HANDS' >NoHands</Modifier>
+<Modifier DisplayAs='NO HIDDENS' >NoHiddens</Modifier>
+<Modifier DisplayAs='NO HOLDS' >NoHolds</Modifier>
 <Modifier DisplayAs='NO JUMPS' >NoJumps</Modifier>
+<Modifier DisplayAs='NO LIFTS' >NoLifts</Modifier>
+<Modifier DisplayAs='NO MINES' >NoMines</Modifier>
 <Modifier DisplayAs='NO RECOVER' >NoRecover</Modifier>
+<Modifier DisplayAs='NO ROLLS' >NoRolls</Modifier>
 <Modifier DisplayAs='NORMAL' >Normal</Modifier>
 <Modifier DisplayAs='OFF' >Off</Modifier>
 <Modifier DisplayAs='ON' >On</Modifier>
-<Modifier DisplayAs='Other Options' >OtherOptions</Modifier>
+<Modifier DisplayAs='OpenGL' >OpenGL</Modifier>
+<Modifier DisplayAs='Other Options/Select Game' >OtherOptions</Modifier>
 <Modifier DisplayAs='OVERHEAD' >Overhead</Modifier>
 <Modifier DisplayAs='PLANTED' >Planted</Modifier>
 <Modifier DisplayAs='Profile Options' >ProfileOptions</Modifier>
 <Modifier DisplayAs='QUICK' >Quick</Modifier>
 <Modifier DisplayAs='R.VANISH' >R.Vanish</Modifier>
+<Modifier DisplayAs='RANDOM BG' >RandomBG</Modifier>
+<Modifier DisplayAs='MOVIES' >RandomMovies</Modifier>
 <Modifier DisplayAs='REGULAR' >RegularCourses</Modifier>
 <Modifier DisplayAs='Reload Songs/Courses' >ReloadSongs</Modifier>
 <Modifier DisplayAs='REMOVE' >Remove</Modifier>
 <Modifier DisplayAs='Reset To Factory Defaults' >ResetToDefaults</Modifier>
 <Modifier DisplayAs='REVERSE' >Reverse</Modifier>
 <Modifier DisplayAs='RIGHT' >Right</Modifier>
+<Modifier DisplayAs='SMOnline' >SMOnlineLogin</Modifier>
+<Modifier DisplayAs='SAVE TO PROFILE' >SaveToProfile</Modifier>
+<Modifier DisplayAs='Section/Unlock Options' >SectionOptions</Modifier>
 <Modifier DisplayAs='Set Machine Time' >SetMachineTime</Modifier>
 <Modifier DisplayAs='SHUFFLE' >Shuffle</Modifier>
 <Modifier DisplayAs='SKIPPY' >Skippy</Modifier>
-<Modifier DisplayAs='Sound Options' >SoundOptions</Modifier>
+<Modifier DisplayAs='Input/Sound Options' >SoundOptions</Modifier>
 <Modifier DisplayAs='SPACE' >Space</Modifier>
 <Modifier DisplayAs='SPLIT' >Split</Modifier>
 <Modifier DisplayAs='STANDARD' >Standard</Modifier>
+<Modifier DisplayAs='OFF' >StaticBG</Modifier>
 <Modifier DisplayAs='STEALTH' >Stealth</Modifier>
 <Modifier DisplayAs='STOMP' >Stomp</Modifier>
 <Modifier DisplayAs='SUDDEN' >Sudden</Modifier>
@@ -245,22 +6331,51 @@
 <Modifier DisplayAs='S.SHUFFLE' >SuperShuffle</Modifier>
 <Modifier DisplayAs='Test Input' >TestInput</Modifier>
 <Modifier DisplayAs='Test Lights' >TestLights</Modifier>
+<Modifier DisplayAs='TINY' >Tiny</Modifier>
 <Modifier DisplayAs='TIPSY' >Tipsy</Modifier>
 <Modifier DisplayAs='TORNADO' >Tornado</Modifier>
 <Modifier DisplayAs='TWISTER' >Twister</Modifier>
 <Modifier DisplayAs='VISIBLE' >Visible</Modifier>
+<Modifier DisplayAs='VISUALIZATIONS' >Visualizations</Modifier>
 <Modifier DisplayAs='WAVE' >Wave</Modifier>
 <Modifier DisplayAs='WIDE' >Wide</Modifier>
 <Modifier DisplayAs='X0.25' >x0.25</Modifier>
+<Modifier DisplayAs='X0.5' >x0.5</Modifier>
 <Modifier DisplayAs='X0.50' >x0.50</Modifier>
 <Modifier DisplayAs='X0.75' >x0.75</Modifier>
 <Modifier DisplayAs='X1' >x1</Modifier>
+<Modifier DisplayAs='X1.25' >x1.25</Modifier>
 <Modifier DisplayAs='X1.5' >x1.5</Modifier>
+<Modifier DisplayAs='X1.75' >x1.75</Modifier>
+<Modifier DisplayAs='X10' >x10</Modifier>
 <Modifier DisplayAs='X2' >x2</Modifier>
+<Modifier DisplayAs='X2.25' >x2.25</Modifier>
+<Modifier DisplayAs='X2.5' >x2.5</Modifier>
+<Modifier DisplayAs='X2.75' >x2.75</Modifier>
 <Modifier DisplayAs='X3' >x3</Modifier>
+<Modifier DisplayAs='X3.25' >x3.25</Modifier>
+<Modifier DisplayAs='X3.5' >x3.5</Modifier>
+<Modifier DisplayAs='X3.75' >x3.75</Modifier>
 <Modifier DisplayAs='X4' >x4</Modifier>
+<Modifier DisplayAs='X4.25' >x4.25</Modifier>
+<Modifier DisplayAs='X4.5' >x4.5</Modifier>
+<Modifier DisplayAs='X4.75' >x4.75</Modifier>
 <Modifier DisplayAs='X5' >x5</Modifier>
+<Modifier DisplayAs='X5.25' >x5.25</Modifier>
+<Modifier DisplayAs='X5.5' >x5.5</Modifier>
+<Modifier DisplayAs='X5.75' >x5.75</Modifier>
+<Modifier DisplayAs='X6' >x6</Modifier>
+<Modifier DisplayAs='X6.25' >x6.25</Modifier>
+<Modifier DisplayAs='X6.5' >x6.5</Modifier>
+<Modifier DisplayAs='X6.75' >x6.75</Modifier>
+<Modifier DisplayAs='X7' >x7</Modifier>
+<Modifier DisplayAs='X7.25' >x7.25</Modifier>
+<Modifier DisplayAs='X7.5' >x7.5</Modifier>
+<Modifier DisplayAs='X7.75' >x7.75</Modifier>
 <Modifier DisplayAs='X8' >x8</Modifier>
+<Modifier DisplayAs='X8.5' >x8.5</Modifier>
+<Modifier DisplayAs='X9' >x9</Modifier>
+<Modifier DisplayAs='X9.5' >x9.5</Modifier>
 </Types>
 <InternetRankingHomeUrl/>
 <InternetRankingUploadUrl/>
