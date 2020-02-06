@@ -27,6 +27,7 @@
 #include "StepMania.h"
 #include "CryptManager.h"
 #include "Style.h"
+#include "NetworkSyncManager.h"
 
 const int NUM_SCORE_DIGITS	=	9;
 
@@ -446,7 +447,9 @@ void ScreenEvaluation::Init()
 
 			m_Graph[p].SetName( ssprintf("GraphP%i",p+1) );
 			m_Graph[p].Load( THEME->GetPathToG(ssprintf("%s graph p%i",m_sName.c_str(), p+1)), GRAPH_START_HEIGHT );
+			//=========
 			m_Graph[p].LoadFromStageStats( stageStats, (PlayerNumber)p );
+			//=========
 			SET_XY_AND_ON_COMMAND( m_Graph[p] );
 			this->AddChild( &m_Graph[p] );
 		}
@@ -514,8 +517,11 @@ void ScreenEvaluation::Init()
 			m_Percent[p].SetXY( THEME->GetMetricF(m_sName, ssprintf("PercentP%dX",p+1)),
 				THEME->GetMetricF(m_sName,ssprintf("PercentP%dY",p+1)) );
 			m_Percent[p].Command( THEME->GetMetric(m_sName,ssprintf("PercentP%dOnCommand",p+1)) );
+			// m_Percent[p].m_textPercent_sNumToDisplay;
+			GAMESTATE->m_PlayerPercentage[p] = m_Percent[p].m_textPercent_sNumToDisplay;
 			this->AddChild( &m_Percent[p] );
 		}
+		NSMAN->ReportPercentage();
 	}
 
 	//

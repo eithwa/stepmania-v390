@@ -24,6 +24,7 @@ public:
 	int PlayerID;
 	int diff;
 	CString options;
+	CString percentage;
 	LanPlayer();
 };
 

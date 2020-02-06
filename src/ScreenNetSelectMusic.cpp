@@ -275,13 +275,7 @@ void ScreenNetSelectMusic::Input( const DeviceInput& DeviceI, const InputEventTy
 			m_sTextInput = m_sTextInput.erase( m_sTextInput.size()-1 );
 		UpdateTextInput();
 		break;
-	// case KEY_F1:
-	// 	LOG->Info("fuck");
-	// 	char string[100];
-	// 	scanf(string);
-	// 	m_sTextInput+=string;
-	// 	UpdateTextInput();
-	// 	break;
+
 	default:
 		char c;
 		c = DeviceI.ToChar();
@@ -734,6 +728,25 @@ void ScreenNetSelectMusic::UpdateSongsListPos()
 		StepsType st = GAMESTATE->GetCurrentStyle()->m_StepsType;
 		vector <Steps *> MultiSteps;
 		MultiSteps = m_vSongs[j]->GetAllSteps( st );
+		
+		//=================
+		vector <Steps *> sort;
+		sort.assign(MultiSteps.begin(), MultiSteps.end());
+		for ( i=(int)sort.size()-1; i>0; --i )
+		{
+			for(int j=0; j<i; ++j)
+			{
+				if(sort[j]->GetDifficulty() > sort[j+1]->GetDifficulty())
+				{
+					Steps *tmp = sort[j];
+					sort[j] = sort[j+1];
+					sort[j+1] = tmp;
+				}
+			}
+		}
+		MultiSteps.assign(sort.begin(), sort.end());
+		//=================
+
 		if (MultiSteps.size() == 0)
 			m_DC[pn] = NUM_DIFFICULTIES;
 		else

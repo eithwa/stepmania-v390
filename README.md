@@ -33,6 +33,8 @@
 + 0203editor 測試前緩衝調整選項(Preferences->play mode beats buffer)
 + 0204option選預設charater
 + 0204連線模式host功能 增加使用玩家數字順位搜尋
++ 0206連線模式難度選擇問題修正 
++ 0206連線模式結算成績畫面傳送百分比
 
 # TODO
 + hold結尾判定

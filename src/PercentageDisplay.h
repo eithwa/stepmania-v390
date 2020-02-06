@@ -13,6 +13,8 @@ public:
 	void Load( PlayerNumber pn, StageStats *pSource, bool bAutoRefresh );
 	void Update( float fDeltaTime );
 	void TweenOffScreen();
+	void SetPercent(CString percent);
+	CString m_textPercent_sNumToDisplay;
 
 private:
 	void Refresh();

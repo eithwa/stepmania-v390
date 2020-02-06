@@ -27,6 +27,7 @@ enum NSCommand
 	NSCUUL,			//9
 	NSCSMS,			//10
 	NSCUPOpts,		//11
+	NSCUPPer,       //12
 	NUM_NS_COMMANDS
 };
 
@@ -40,6 +41,7 @@ struct EndOfGame_PlayerData
 	Difficulty difficulty;
 	int tapScores[NETNUMTAPSCORES];	//This will be a const soon enough
 	CString playerOptions;
+	CString percentage;
 };
 
 enum NSScoreBoardColumn
@@ -82,7 +84,8 @@ public:
 
     //If "useSMserver" then send score to server
 	void ReportTiming(float offset, int PlayerNumber);
-	void ReportScore(int playerID, int step, int score, int combo);	
+	void ReportScore(int playerID, int step, int score, int combo);
+		
 	void ReportSongOver();	//Report to server that song is over
 	void ReportStyle();		//Report to server the style, players, and names
 	void ReportNSSOnOff(int i);	//Report song selection screen on/off
@@ -119,6 +122,7 @@ public:
 
 	//Used for options
 	void ReportPlayerOptions();
+	void ReportPercentage();
 
 	//Used for song checking/changing
 	CString m_sMainTitle;

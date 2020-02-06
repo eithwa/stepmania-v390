@@ -24,6 +24,7 @@ LanPlayer::LanPlayer()
 	Grade = 0;
 	offset = 0;
 	options = "";
+	percentage = "";
 }
 
 StepManiaLanServer::StepManiaLanServer()
@@ -196,6 +197,10 @@ void StepManiaLanServer::ParseData(PacketFunctions& Packet, const unsigned int c
 	case NSCUPOpts:
 		Client[clientNum]->Player[0].options = Packet.ReadNT();		
 		Client[clientNum]->Player[1].options = Packet.ReadNT();		
+		break;
+	case NSCUPPer:
+		Client[clientNum]->Player[0].percentage = Packet.ReadNT();
+		Client[clientNum]->Player[1].percentage = Packet.ReadNT();
 		break;
 	default:
 		break;
@@ -403,8 +408,14 @@ void StepManiaLanServer::GameOver(PacketFunctions& Packet, const unsigned int cl
 		for (x = 0; x < numPlayers; ++x) 
 			Reply.Write2( (uint16_t) playersPtr[x]->maxCombo );
 		for (x = 0; x < numPlayers; ++x)
+		{
 			Reply.WriteNT( playersPtr[x]->options );
-
+			// Reply.WriteNT( playersPtr[x]->percentage );
+		}
+		for (x = 0; x < numPlayers; ++x)
+		{
+			Reply.WriteNT( playersPtr[x]->percentage );
+		}
 		for (x = 0; x < Client.size(); ++x)
 			if(Client[x]->wasIngame)
 			{

@@ -98,8 +98,12 @@ void PercentageDisplay::Refresh()
 		sNumToDisplay = ssprintf( "%*d", DANCE_POINT_DIGITS, max( 0, iActualDancePoints ) );
 
 	m_textPercent.SetText( sNumToDisplay );
+	m_textPercent_sNumToDisplay = sNumToDisplay;
 }
-
+void PercentageDisplay::SetPercent(CString percent)
+{
+	m_textPercent.SetText( percent );
+}
 /*
  * (c) 2001-2003 Chris Danford
  * All rights reserved.

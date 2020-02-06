@@ -219,6 +219,7 @@ public:
 	PlayerOptions	m_CurrentPlayerOptions[NUM_PLAYERS];    // current approaches destination
 	PlayerOptions	m_PlayerOptions[NUM_PLAYERS];			// change this, and current will move gradually toward it
 	PlayerOptions   m_StoredPlayerOptions[NUM_PLAYERS];	// user's choices on the PlayerOptions screen
+	CString 		m_PlayerPercentage[NUM_PLAYERS];
 	SongOptions		m_SongOptions;
 	SongOptions		m_StoredSongOptions;
 

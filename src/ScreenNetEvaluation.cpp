@@ -146,6 +146,7 @@ void ScreenNetEvaluation::UpdateStats()
 	}
 
 	m_textPlayerOptions[m_pActivePlayer].SetText( NSMAN->m_EvalPlayerData[m_iCurrentPlayer].playerOptions );
+	m_Percent[m_pActivePlayer].SetPercent(NSMAN->m_EvalPlayerData[m_iCurrentPlayer].percentage);
 }
 
 #endif

@@ -985,6 +985,13 @@ Path=Cache/Banners/3028192458
 Rotated=0
 Width=512
 
+[Songs/test/Dragon Blade[Blue]/banner.jpg]
+FullHash=901483416
+Height=160
+Path=Cache/Banners/3255206183
+Rotated=0
+Width=512
+
 [Songs/test/Sakura/sakura.png]
 FullHash=452467698
 Height=80

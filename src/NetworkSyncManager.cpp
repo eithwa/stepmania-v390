@@ -14,6 +14,7 @@ bool NetworkSyncManager::Connect(const CString& addy, unsigned short port) { ret
 void NetworkSyncManager::ReportNSSOnOff(int i) { }
 void NetworkSyncManager::ReportTiming(float offset, int PlayerNumber) { }
 void NetworkSyncManager::ReportScore(int playerID, int step, int score, int combo) { }
+void NetworkSyncManager::ReportPercentage() { }
 void NetworkSyncManager::ReportSongOver() { }
 void NetworkSyncManager::ReportStyle() {}
 void NetworkSyncManager::StartRequest(short position) { }
@@ -305,7 +306,6 @@ void NetworkSyncManager::ReportScore(int playerID, int step, int score, int comb
 	NetPlayerClient->SendPack((char*)m_packet.Data, m_packet.Position); 
 
 }
-	
 
 void NetworkSyncManager::ReportSongOver() 
 {
@@ -545,7 +545,10 @@ void NetworkSyncManager::ProcessInput()
 					for (int i=0; i<PlayersInPack; ++i)
 						m_EvalPlayerData[i].tapScores[j] = m_packet.Read2();
 				for (int i=0; i<PlayersInPack; ++i)
+					// m_EvalPlayerData[i].percentage = m_packet.ReadNT();
 					m_EvalPlayerData[i].playerOptions = m_packet.ReadNT();
+				for (int i=0; i<PlayersInPack; ++i)
+					m_EvalPlayerData[i].percentage = m_packet.ReadNT();
 				SCREENMAN->SendMessageToTopScreen( SM_GotEval );
 			}
 			break;
@@ -683,7 +686,18 @@ void NetworkSyncManager::ReportPlayerOptions()
 		m_packet.WriteNT( GAMESTATE->m_PlayerOptions[pn].GetString() );
 	NetPlayerClient->SendPack((char*)&m_packet.Data, m_packet.Position); 
 }
-
+void NetworkSyncManager::ReportPercentage()
+{
+	m_packet.ClearPacket();
+	// m_packet.Write1( NSCUPOpts );
+	m_packet.Write1( NSCUPPer );
+	FOREACH_PlayerNumber (pn)
+	{
+		m_packet.WriteNT( GAMESTATE->m_PlayerPercentage[pn] );
+	}
+		
+	NetPlayerClient->SendPack((char*)&m_packet.Data, m_packet.Position); 
+}
 void NetworkSyncManager::SelectUserSong()
 {
 	m_packet.ClearPacket();
