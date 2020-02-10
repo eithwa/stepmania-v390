@@ -9,56 +9,56 @@
 <UsingProfileDefaultModifiers>1</UsingProfileDefaultModifiers>
 <DefaultModifiers>note, singles[2p]</DefaultModifiers>
 <SortOrder>GROUP</SortOrder>
-<LastDifficulty>Easy</LastDifficulty>
+<LastDifficulty>Challenge</LastDifficulty>
 <LastCourseDifficulty/>
 <Song Dir='Songs/test/Bon Appetit S[Blue]/' />
 <Course/>
-<TotalPlays>50</TotalPlays>
-<TotalPlaySeconds>10183</TotalPlaySeconds>
-<TotalGameplaySeconds>1738</TotalGameplaySeconds>
+<TotalPlays>51</TotalPlays>
+<TotalPlaySeconds>10375</TotalPlaySeconds>
+<TotalGameplaySeconds>1833</TotalGameplaySeconds>
 <CurrentCombo>0</CurrentCombo>
 <TotalCaloriesBurned>0.000000</TotalCaloriesBurned>
 <LastPlayedMachineGuid>72349908df7c22e4</LastPlayedMachineGuid>
-<LastPlayedDate>2020-02-06</LastPlayedDate>
-<TotalDancePoints>13474</TotalDancePoints>
+<LastPlayedDate>2020-02-07</LastPlayedDate>
+<TotalDancePoints>15031</TotalDancePoints>
 <NumExtraStagesPassed>0</NumExtraStagesPassed>
 <NumExtraStagesFailed>0</NumExtraStagesFailed>
 <NumToasties>0</NumToasties>
-<TotalTapsAndHolds>6143</TotalTapsAndHolds>
-<TotalJumps>2428</TotalJumps>
-<TotalHolds>629</TotalHolds>
+<TotalTapsAndHolds>6682</TotalTapsAndHolds>
+<TotalJumps>2657</TotalJumps>
+<TotalHolds>689</TotalHolds>
 <TotalMines>6</TotalMines>
-<TotalHands>600</TotalHands>
+<TotalHands>654</TotalHands>
 <UnlockedSongs/>
 <NumSongsPlayedByPlayMode>
-<Regular>57</Regular>
+<Regular>58</Regular>
 </NumSongsPlayedByPlayMode>
 <NumSongsPlayedByStyle>
 <Style Game='dance' Style='single' >53</Style>
-<Style Game='dance' Style='versus' >4</Style>
+<Style Game='dance' Style='versus' >5</Style>
 </NumSongsPlayedByStyle>
 <NumSongsPlayedByDifficulty>
 <Easy>2</Easy>
 <Medium>2</Medium>
 <Hard>8</Hard>
-<Challenge>45</Challenge>
+<Challenge>46</Challenge>
 </NumSongsPlayedByDifficulty>
 <NumSongsPlayedByMeter>
 <Meter1>40</Meter1>
-<Meter9>8</Meter9>
+<Meter9>9</Meter9>
 <Meter10>6</Meter10>
 <Meter11>1</Meter11>
 <Meter13>2</Meter13>
 </NumSongsPlayedByMeter>
 <NumStagesPassedByGrade>
 <Tier01>5</Tier01>
-<Tier03>9</Tier03>
+<Tier03>10</Tier03>
 <Tier04>2</Tier04>
 <Tier06>2</Tier06>
 <Tier07>31</Tier07>
 </NumStagesPassedByGrade>
 <NumStagesPassedByPlayMode>
-<Regular>49</Regular>
+<Regular>50</Regular>
 </NumStagesPassedByPlayMode>
 </GeneralData>
 <SongScores>
@@ -142,7 +142,7 @@
 <Song Dir='Songs/test/Bon Appetit S[Blue]/' >
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <HighScoreList>
-<NumTimesPlayed>9</NumTimesPlayed>
+<NumTimesPlayed>10</NumTimesPlayed>
 <HighScore>
 <Name>EVNT</Name>
 <Grade>Tier03</Grade>
@@ -2409,6 +2409,47 @@
 <Holds>3</Holds>
 <Mines>0</Mines>
 <Hands>0</Hands>
+</RadarValues>
+</HighScore>
+</HighScoreForASongAndSteps>
+<HighScoreForASongAndSteps>
+<Song Dir='Songs/test/Bon Appetit S[Blue]/' />
+<Steps StepsType='dance-single' Difficulty='Challenge' />
+<HighScore>
+<Name>EVNT</Name>
+<Grade>Tier03</Grade>
+<Score>83567849</Score>
+<PercentDP>0.852217</PercentDP>
+<SurviveSeconds>95.830879</SurviveSeconds>
+<Modifiers>note, singles[2p]</Modifiers>
+<DateTime>2020-02-07 13:31:19</DateTime>
+<PlayerGuid>2d7b4ebc42dbf60b</PlayerGuid>
+<MachineGuid>72349908df7c22e4</MachineGuid>
+<ProductID>1</ProductID>
+<TapNoteScores>
+<HitMine>0</HitMine>
+<Miss>0</Miss>
+<Boo>6</Boo>
+<Good>4</Good>
+<Great>35</Great>
+<Perfect>170</Perfect>
+<Marvelous>334</Marvelous>
+</TapNoteScores>
+<HoldNoteScores>
+<NG>0</NG>
+<OK>60</OK>
+</HoldNoteScores>
+<RadarValues>
+<Stream>0.920768</Stream>
+<Voltage>0.138065</Voltage>
+<Air>0.856540</Air>
+<Freeze>1.000000</Freeze>
+<Chaos>0.852217</Chaos>
+<Taps>539</Taps>
+<Jumps>229</Jumps>
+<Holds>60</Holds>
+<Mines>0</Mines>
+<Hands>54</Hands>
 </RadarValues>
 </HighScore>
 </HighScoreForASongAndSteps>

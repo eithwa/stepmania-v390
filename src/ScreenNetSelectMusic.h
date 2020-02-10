@@ -104,6 +104,7 @@ private:
 
 	RageSound m_soundChangeOpt;
 	RageSound m_soundChangeSel;
+	vector <Steps *> SortStep(vector <Steps *> MultiSteps);
 
 };
 

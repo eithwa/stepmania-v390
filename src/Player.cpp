@@ -509,11 +509,11 @@ void PlayerMinus::DrawPrimitives()
 
 
 	// Draw these below everything else.
-	m_ArrowBackdrop.Draw();
-	if( GAMESTATE->m_PlayerOptions[m_PlayerNumber].m_fBlind == 0 )
-		m_Combo.Draw();
+	// m_ArrowBackdrop.Draw();
+	// if( GAMESTATE->m_PlayerOptions[m_PlayerNumber].m_fBlind == 0 )
+	// 	m_Combo.Draw();
 
-	m_AttackDisplay.Draw();
+	// m_AttackDisplay.Draw();
 
 	if( TAP_JUDGMENTS_UNDER_FIELD )
 		DrawTapJudgments();
@@ -567,6 +567,12 @@ void PlayerMinus::DrawPrimitives()
 
 	if( !TAP_JUDGMENTS_UNDER_FIELD )
 		DrawHoldJudgments();
+	
+	m_ArrowBackdrop.Draw();
+	if( GAMESTATE->m_PlayerOptions[m_PlayerNumber].m_fBlind == 0 )
+		m_Combo.Draw();
+
+	m_AttackDisplay.Draw();
 }
 
 void PlayerMinus::DrawTapJudgments()
