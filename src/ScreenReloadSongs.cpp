@@ -76,6 +76,7 @@ void ScreenReloadSongs::Update( float fDeltaTime )
 		SONGMAN->InitSongsFromDisk( m_LoadingWindow );
 		UNLOCKMAN->UpdateSongs();
 		SCREENMAN->PopTopScreen();
+		GAMESTATE->m_bLoadPackConnect=false;
 		// SCREENMAN->SetNewScreen( "ScreenNetSelectMusic" );
 	}else
 	{

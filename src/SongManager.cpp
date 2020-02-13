@@ -202,6 +202,10 @@ void SongManager::LoadStepManiaSongDir( CString sDir, LoadingWindow *ld )
 	{
 		CString sGroupDirName = arrayGroupDirs[i];
 
+		if(GAMESTATE->m_bLoadPackConnect&&0 != stricmp( sGroupDirName, "connect" ))//only read connect package 
+		{
+			continue;
+		}
 		if( 0 == stricmp( sGroupDirName, "cvs" ) )	// the directory called "CVS"
 			continue;		// ignore it
 

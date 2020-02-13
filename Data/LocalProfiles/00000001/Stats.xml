@@ -9,17 +9,17 @@
 <UsingProfileDefaultModifiers>1</UsingProfileDefaultModifiers>
 <DefaultModifiers>note, singles[2p]</DefaultModifiers>
 <SortOrder>GROUP</SortOrder>
-<LastDifficulty>Challenge</LastDifficulty>
+<LastDifficulty>Medium</LastDifficulty>
 <LastCourseDifficulty/>
 <Song Dir='Songs/test/Bon Appetit S[Blue]/' />
 <Course/>
-<TotalPlays>51</TotalPlays>
-<TotalPlaySeconds>10375</TotalPlaySeconds>
-<TotalGameplaySeconds>1833</TotalGameplaySeconds>
+<TotalPlays>52</TotalPlays>
+<TotalPlaySeconds>10836</TotalPlaySeconds>
+<TotalGameplaySeconds>1847</TotalGameplaySeconds>
 <CurrentCombo>0</CurrentCombo>
 <TotalCaloriesBurned>0.000000</TotalCaloriesBurned>
 <LastPlayedMachineGuid>72349908df7c22e4</LastPlayedMachineGuid>
-<LastPlayedDate>2020-02-07</LastPlayedDate>
+<LastPlayedDate>2020-02-13</LastPlayedDate>
 <TotalDancePoints>15031</TotalDancePoints>
 <NumExtraStagesPassed>0</NumExtraStagesPassed>
 <NumExtraStagesFailed>0</NumExtraStagesFailed>
@@ -31,20 +31,21 @@
 <TotalHands>654</TotalHands>
 <UnlockedSongs/>
 <NumSongsPlayedByPlayMode>
-<Regular>58</Regular>
+<Regular>59</Regular>
 </NumSongsPlayedByPlayMode>
 <NumSongsPlayedByStyle>
-<Style Game='dance' Style='single' >53</Style>
+<Style Game='dance' Style='single' >54</Style>
 <Style Game='dance' Style='versus' >5</Style>
 </NumSongsPlayedByStyle>
 <NumSongsPlayedByDifficulty>
 <Easy>2</Easy>
-<Medium>2</Medium>
+<Medium>3</Medium>
 <Hard>8</Hard>
 <Challenge>46</Challenge>
 </NumSongsPlayedByDifficulty>
 <NumSongsPlayedByMeter>
 <Meter1>40</Meter1>
+<Meter2>1</Meter2>
 <Meter9>9</Meter9>
 <Meter10>6</Meter10>
 <Meter11>1</Meter11>
@@ -62,6 +63,13 @@
 </NumStagesPassedByPlayMode>
 </GeneralData>
 <SongScores>
+<Song Dir='Songs/7mai1/from Y to Y/' >
+<Steps StepsType='dance-single' Difficulty='Medium' >
+<HighScoreList>
+<NumTimesPlayed>1</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+</Song>
 <Song Dir='Songs/Blue&apos;s 7th step/(Barry x Blue)MILLION LIVE LIFE LINE!!!/' >
 <Steps StepsType='dance-single' Difficulty='Easy' >
 <HighScoreList>

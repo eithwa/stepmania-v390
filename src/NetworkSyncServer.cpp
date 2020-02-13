@@ -217,6 +217,10 @@ void StepManiaLanServer::ParseData(PacketFunctions& Packet, const unsigned int c
 			Reply.WriteNT(file_size);
 			// Reply.WriteNT(ListPlayers());
 			SendNetPacket(client_index, Reply);
+
+			LastSongInfo.title="NULL";
+			LastSongInfo.artist="NULL";
+			LastSongInfo.subtitle="NULL";//if sent file success, ask play? again
 		}
 		break;
 	default:
@@ -957,6 +961,12 @@ CString StepManiaLanServer::ListPlayers()
 				if (Client[x]->Player[y].name.length() > 0){
 					if(x==0){
 						list += "[Host] ";
+					}else{
+						list +="[";
+						CString x_;
+						x_.Format("%d", x);
+						list +=x_;
+						list +=".] ";
 					}
 					list += Client[x]->Player[y].name + "\n";
 				}

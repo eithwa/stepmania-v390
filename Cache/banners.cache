@@ -964,10 +964,38 @@ Path=Cache/Banners/890461913
 Rotated=0
 Width=512
 
+[Songs/connect/(RARS)TIME LIMIT(bms edit)/LIMIT.png]
+FullHash=2065283459
+Height=80
+Path=Cache/Banners/243707655
+Rotated=0
+Width=256
+
 [Songs/connect/(SPY)Interstellar Travel (Extended mix)/banner.png]
 FullHash=3166235273
 Height=160
 Path=Cache/Banners/1090289199
+Rotated=0
+Width=512
+
+[Songs/connect/(ShokuN)Connect/bn.png]
+FullHash=3975765926
+Height=160
+Path=Cache/Banners/2852104304
+Rotated=0
+Width=512
+
+[Songs/connect/(ShokuN)This game/bn.png]
+FullHash=473020925
+Height=160
+Path=Cache/Banners/769083187
+Rotated=0
+Width=512
+
+[Songs/connect/(ShokuN)theater D/bn.png]
+FullHash=1900452525
+Height=160
+Path=Cache/Banners/1976556083
 Rotated=0
 Width=512
 
@@ -984,6 +1012,13 @@ Height=160
 Path=Cache/Banners/3936444440
 Rotated=0
 Width=512
+
+[Songs/connect/(janne)TIME/bn.jpg]
+FullHash=3351047797
+Height=80
+Path=Cache/Banners/1387790527
+Rotated=0
+Width=256
 
 [Songs/connect/A Whole New World God Only Knows/banner.png]
 FullHash=188952532
@@ -1012,6 +1047,13 @@ Height=160
 Path=Cache/Banners/3809454639
 Rotated=0
 Width=512
+
+[Songs/connect/Nebula/banner.jpg.jpg]
+FullHash=1134029976
+Height=80
+Path=Cache/Banners/1394888927
+Rotated=0
+Width=256
 
 [Songs/connect/SEED/SEED.png]
 FullHash=4133183302

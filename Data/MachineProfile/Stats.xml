@@ -13,9 +13,9 @@
 <LastCourseDifficulty/>
 <Song Dir='' />
 <Course/>
-<TotalPlays>97</TotalPlays>
-<TotalPlaySeconds>27554</TotalPlaySeconds>
-<TotalGameplaySeconds>3022</TotalGameplaySeconds>
+<TotalPlays>99</TotalPlays>
+<TotalPlaySeconds>28094</TotalPlaySeconds>
+<TotalGameplaySeconds>3041</TotalGameplaySeconds>
 <CurrentCombo>0</CurrentCombo>
 <TotalCaloriesBurned>0.000000</TotalCaloriesBurned>
 <LastPlayedMachineGuid>72349908df7c22e4</LastPlayedMachineGuid>
@@ -31,23 +31,25 @@
 <TotalHands>1014</TotalHands>
 <UnlockedSongs/>
 <NumSongsPlayedByPlayMode>
-<Regular>115</Regular>
+<Regular>117</Regular>
 </NumSongsPlayedByPlayMode>
 <NumSongsPlayedByStyle>
-<Style Game='dance' Style='single' >105</Style>
+<Style Game='dance' Style='single' >107</Style>
 <Style Game='dance' Style='versus' >10</Style>
 </NumSongsPlayedByStyle>
 <NumSongsPlayedByDifficulty>
 <Easy>2</Easy>
-<Medium>2</Medium>
+<Medium>3</Medium>
 <Hard>32</Hard>
-<Challenge>79</Challenge>
+<Challenge>80</Challenge>
 </NumSongsPlayedByDifficulty>
 <NumSongsPlayedByMeter>
 <Meter1>40</Meter1>
+<Meter2>1</Meter2>
 <Meter9>38</Meter9>
 <Meter10>30</Meter10>
 <Meter11>2</Meter11>
+<Meter12>1</Meter12>
 <Meter13>5</Meter13>
 </NumSongsPlayedByMeter>
 <NumStagesPassedByGrade>
@@ -63,6 +65,20 @@
 </NumStagesPassedByPlayMode>
 </GeneralData>
 <SongScores>
+<Song Dir='Songs/7mai1/Seeker/' >
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<HighScoreList>
+<NumTimesPlayed>1</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+</Song>
+<Song Dir='Songs/7mai1/from Y to Y/' >
+<Steps StepsType='dance-single' Difficulty='Medium' >
+<HighScoreList>
+<NumTimesPlayed>1</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+</Song>
 <Song Dir='Songs/Blue&apos;s 5th step/FLugeL[ArpEggyO][Blue]/' >
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <HighScoreList>
@@ -92,6 +108,13 @@
 </Steps>
 </Song>
 <Song Dir='Songs/connect/(SPY)Interstellar Travel (Extended mix)/' >
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<HighScoreList>
+<NumTimesPlayed>1</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+</Song>
+<Song Dir='Songs/connect/(ShokuN)Connect/' >
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <HighScoreList>
 <NumTimesPlayed>1</NumTimesPlayed>
@@ -3458,7 +3481,7 @@
 <RecentCourseScores/>
 <CoinData>
 <LastDays>
-<Today>0</Today>
+<Today>3</Today>
 <Yesterday>28</Yesterday>
 <Day2Ago>0</Day2Ago>
 <Day3Ago>72</Day3Ago>
@@ -3467,7 +3490,7 @@
 <Day6Ago>6</Day6Ago>
 </LastDays>
 <LastWeeks>
-<ThisWeek>100</ThisWeek>
+<ThisWeek>103</ThisWeek>
 <LastWeek>13</LastWeek>
 <Week02Ago>16</Week02Ago>
 <Week03Ago>0</Week03Ago>
@@ -3524,8 +3547,8 @@
 <Sunday>0</Sunday>
 <Monday>72</Monday>
 <Tuesday>0</Tuesday>
-<Wednesday>28</Wednesday>
-<Thursday>0</Thursday>
+<Wednesday>31</Wednesday>
+<Thursday>3</Thursday>
 <Friday>6</Friday>
 <Saturday>23</Saturday>
 </DayOfWeek>
@@ -3544,7 +3567,7 @@
 <Hour11>5</Hour11>
 <Hour12>2</Hour12>
 <Hour13>1</Hour13>
-<Hour14>7</Hour14>
+<Hour14>10</Hour14>
 <Hour15>4</Hour15>
 <Hour16>9</Hour16>
 <Hour17>24</Hour17>

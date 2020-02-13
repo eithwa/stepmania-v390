@@ -43,7 +43,8 @@ void NetworkSyncManager::SelectUserSong() { }
 const ScreenMessage	SM_AddToChat	= ScreenMessage(SM_User+4);
 const ScreenMessage SM_ChangeSong	= ScreenMessage(SM_User+5);
 const ScreenMessage SM_GotEval		= ScreenMessage(SM_User+6);
-
+const ScreenMessage SM_ReloadConnectPack	        = ScreenMessage(SM_User+9);
+// const ScreenMessage SM_BackFromReloadSongs			= ScreenMessage(SM_User+7);
 unsigned long GetFileLength ( FILE * fileName)
 {
     unsigned long pos = ftell(fileName);
@@ -694,11 +695,11 @@ void NetworkSyncManager::ProcessInput()
 				// LOG->Info("GAMESTATE->m_pCurSong.m_sSongDir %s",tmp.c_str());
 				string connet_dir = path;
 					   connet_dir +="\\Songs\\connect";
-				string connect_dir_cmd="mkdir -p ";
+				string connect_dir_cmd="mkdir ";
 					   connect_dir_cmd+="\"";
 					   connect_dir_cmd+=connet_dir;
 					   connect_dir_cmd+="\"";
-				system(connect_dir_cmd.c_str());//mkdir -p "C:\\StepMania\\Songs\\connect"
+				system(connect_dir_cmd.c_str());//mkdir "C:\\StepMania\\Songs\\connect"
 				string zip_name = "temp.zip";
 				string init_cmd = "7za.exe d ";
 					   init_cmd+="\"";
@@ -770,11 +771,11 @@ void NetworkSyncManager::ProcessInput()
 
 				string connet_dir = path;
 					   connet_dir +="\\Songs\\connect";
-				string connect_dir_cmd="mkdir -p ";
+				string connect_dir_cmd="mkdir ";
 					   connect_dir_cmd+="\"";
 					   connect_dir_cmd+=connet_dir;
 					   connect_dir_cmd+="\"";
-				system(connect_dir_cmd.c_str());//mkdir -p "C:\\StepMania\\Songs\\connect"
+				system(connect_dir_cmd.c_str());//mkdir "C:\\StepMania\\Songs\\connect"
 				string zip_name = "temp.zip";
 				CString client_cmd = "winsocket_client.exe ";
 						client_cmd+=server_ip.c_str();
@@ -798,6 +799,8 @@ void NetworkSyncManager::ProcessInput()
 						zip_cmd+="\"";
 				LOG->Info("zip_cmd %s",zip_cmd.c_str());
 				system(zip_cmd.c_str());//7za.exe x "C:\\StepMania\\Songs\\connect\\temp.zip" -y -aos -o"C:\\StepMania\\Songs\\connect"
+			
+				SCREENMAN->SendMessageToTopScreen( SM_ReloadConnectPack );
 			}
 			break;
 		}

@@ -66,6 +66,8 @@ const ScreenMessage	SM_AddToChat	= ScreenMessage(SM_User+4);
 const ScreenMessage SM_ChangeSong	= ScreenMessage(SM_User+5);
 const ScreenMessage SM_BackFromOpts	= ScreenMessage(SM_User+6);
 const ScreenMessage SM_BackFromReloadSongs			= ScreenMessage(SM_User+7);
+const ScreenMessage SM_BackFromSelectSongs			= ScreenMessage(SM_User+8);
+const ScreenMessage SM_ReloadConnectPack	        = ScreenMessage(SM_User+9);
 const CString AllGroups			= "[ALL MUSIC]";
 
 ScreenNetSelectMusic::ScreenNetSelectMusic( const CString& sName ) : ScreenWithMenuElements( sName )
@@ -255,6 +257,45 @@ void ScreenNetSelectMusic::Input( const DeviceInput& DeviceI, const InputEventTy
 	if( (type != IET_FIRST_PRESS) && (type != IET_SLOW_REPEAT) && (type != IET_FAST_REPEAT ) )
 		return;
 
+	if( DeviceI.button == KEY_RIGHT || DeviceI.button == KEY_LEFT )
+	{
+		// TRICKY:  There's lots of weirdness that can happen here when tapping 
+		// Left and Right quickly, like when changing sort.
+		bool bLeftAndRightPressed = 
+			INPUTFILTER->IsBeingPressed(DeviceInput(DEVICE_KEYBOARD, KEY_LEFT)) &&
+			INPUTFILTER->IsBeingPressed(DeviceInput(DEVICE_KEYBOARD, KEY_RIGHT));
+
+		if(bLeftAndRightPressed)
+		{
+			if(m_SelectMode==SelectGroup || m_SelectMode==SelectSong)
+			{
+				NSMAN->ReportNSSOnOff(2);
+				GAMESTATE->m_bEditing = true;
+				SCREENMAN->AddNewScreenToTop( "ScreenSelectMusic", SM_BackFromSelectSongs );
+				return;
+			}
+		}
+	}
+	if(DeviceI.button==KEY_LEFT)
+	{
+		MenuLeft(MenuI.player, type );
+		return;
+	}
+	else if(DeviceI.button==KEY_RIGHT)
+	{
+		MenuRight(MenuI.player, type );
+		return;
+	}
+	else if(DeviceI.button==KEY_UP)
+	{
+		MenuUp(MenuI.player, type );
+		return;
+	}
+	else if(DeviceI.button==KEY_DOWN)
+	{
+		MenuDown(MenuI.player, type );
+		return;
+	}
 	bool bHoldingShift = 
 		INPUTFILTER->IsBeingPressed(DeviceInput(DEVICE_KEYBOARD, KEY_LSHIFT)) ||
 		INPUTFILTER->IsBeingPressed(DeviceInput(DEVICE_KEYBOARD, KEY_RSHIFT));
@@ -263,7 +304,7 @@ void ScreenNetSelectMusic::Input( const DeviceInput& DeviceI, const InputEventTy
 		INPUTFILTER->IsBeingPressed(DeviceInput(DEVICE_KEYBOARD, KEY_LCTRL)) ||
 		INPUTFILTER->IsBeingPressed(DeviceInput(DEVICE_KEYBOARD, KEY_RCTRL)) ||
 		(!NSMAN->useSMserver);	//If we are disconnected, assume no chatting
-	
+	bool input_check = false;
 	switch( DeviceI.button )
 	{
 	case KEY_ENTER:
@@ -282,19 +323,31 @@ void ScreenNetSelectMusic::Input( const DeviceInput& DeviceI, const InputEventTy
 			m_sTextInput = m_sTextInput.erase( m_sTextInput.size()-1 );
 		UpdateTextInput();
 		break;
+		
+	case KEY_F1:
+		{
+			GAMESTATE->m_bLoadPackConnect=true;
+		    NSMAN->ReportNSSOnOff(2);
+			GAMESTATE->m_bEditing = true;
+			// SCREENMAN->PopTopScreen();
+			SCREENMAN->AddNewScreenToTop( "ScreenReloadSongs", SM_BackFromReloadSongs );
+		}
+		break;
 	case KEY_F5:
 		{
 		    NSMAN->ReportNSSOnOff(2);
 			GAMESTATE->m_bEditing = true;
 			// SCREENMAN->PopTopScreen();
-			// SCREENMAN->AddNewScreenToTop( "ScreenReloadSongs", SM_BackFromReloadSongs );
-			SCREENMAN->AddNewScreenToTop( "ScreenSelectMusic", SM_BackFromReloadSongs );
+			SCREENMAN->AddNewScreenToTop( "ScreenReloadSongs", SM_BackFromReloadSongs );
 		}
 		break;
 	default:
 		char c;
 		c = DeviceI.ToChar();
-
+		if((int)c>0 && (int)c<127 )
+		{
+			input_check=true;
+		}
 		if( bHoldingShift && !bHoldingCtrl )
 		{
 			c = (char)toupper(c);
@@ -344,12 +397,48 @@ void ScreenNetSelectMusic::Input( const DeviceInput& DeviceI, const InputEventTy
 			UpdateTextInput();
 		}
 		break;
-
-
 	}
-	Screen::Input( DeviceI, type, GameI, MenuI, StyleI );	// default input handler
+	if(!input_check)
+	{
+		Screen::Input( DeviceI, type, GameI, MenuI, StyleI );	// default input handler
+	}
 }
-
+void ScreenNetSelectMusic::CheckChangeSong()
+{
+	unsigned i;
+	unsigned j;
+	bool find_song_flag = false;
+	if(GAMESTATE->m_pCurSong==NULL){
+		//LOG->Info("GAMESTATE->m_pCurSong NULL");
+		return;
+	}
+	//LOG->Info("GAMESTATE->m_pCurSong %s", GAMESTATE->m_pCurSong->GetTranslitMainTitle().c_str());
+	for(j=0; j < m_vGroups.size(); j++){
+		if(find_song_flag)
+			break;
+		m_iGroupNum = j;
+		UpdateSongsList();
+		for ( i = 0; i < m_vSongs.size(); ++i)
+		{
+			// if ( ( !m_vSongs[i]->GetTranslitArtist().CompareNoCase( GAMESTATE->m_pCurSong->GetTranslitArtist() ) ) &&
+			// 	( !m_vSongs[i]->GetTranslitMainTitle().CompareNoCase( GAMESTATE->m_pCurSong->GetTranslitMainTitle() ) ) &&
+			// 	( !m_vSongs[i]->GetTranslitSubTitle().CompareNoCase( GAMESTATE->m_pCurSong->GetTranslitSubTitle() ) ) )
+			// {
+			if ( ( !m_vSongs[i]->GetTranslitArtist().CompareNoCase( NSMAN->m_sArtist ) ) &&
+				( !m_vSongs[i]->GetTranslitMainTitle().CompareNoCase( NSMAN->m_sMainTitle ) ) &&
+				( !m_vSongs[i]->GetTranslitSubTitle().CompareNoCase( NSMAN->m_sSubTitle ) ) )
+			{
+				find_song_flag = true;
+				break;
+			}
+		}
+	}
+	bool haveSong = j != m_vGroups.size();
+	if(haveSong)
+		UpdateGroupsListPos();
+		m_iSongNum = i + m_vSongs.size();
+		UpdateSongsListPos();
+}
 void ScreenNetSelectMusic::HandleScreenMessage( const ScreenMessage SM )
 {
 	Screen::HandleScreenMessage( SM );
@@ -489,9 +578,27 @@ void ScreenNetSelectMusic::HandleScreenMessage( const ScreenMessage SM )
 			}
 		}
 		
-		HandleScreenMessage(SM_ChangeSong);
+		//HandleScreenMessage(SM_ChangeSong);
+		CheckChangeSong();
 		//==================
 
+		break;
+	case SM_BackFromSelectSongs:
+	
+		NSMAN->ReportNSSOnOff(3);
+		GAMESTATE->m_bEditing == false;
+		NSMAN->ReportPlayerOptions();
+		LOG->Info("Choose song in ScreenSelectMusic");
+		// CheckChangeSong();
+
+		NSMAN->SelectUserSong ();
+	case SM_ReloadConnectPack:
+		GAMESTATE->m_bLoadPackConnect=true;
+		NSMAN->ReportNSSOnOff(2);
+		GAMESTATE->m_bEditing = true;
+		// SCREENMAN->PopTopScreen();
+		SCREENMAN->AddNewScreenToTop( "ScreenReloadSongs", SM_BackFromReloadSongs );
+		
 		break;
 	}
 

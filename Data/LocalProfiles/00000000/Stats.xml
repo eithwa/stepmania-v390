@@ -13,9 +13,9 @@
 <LastCourseDifficulty/>
 <Song Dir='Songs/test/Bon Appetit S[Blue]/' />
 <Course/>
-<TotalPlays>60</TotalPlays>
-<TotalPlaySeconds>22306</TotalPlaySeconds>
-<TotalGameplaySeconds>2212</TotalGameplaySeconds>
+<TotalPlays>61</TotalPlays>
+<TotalPlaySeconds>22385</TotalPlaySeconds>
+<TotalGameplaySeconds>2217</TotalGameplaySeconds>
 <CurrentCombo>0</CurrentCombo>
 <TotalCaloriesBurned>0.000000</TotalCaloriesBurned>
 <LastPlayedMachineGuid>72349908df7c22e4</LastPlayedMachineGuid>
@@ -31,17 +31,17 @@
 <TotalHands>833</TotalHands>
 <UnlockedSongs/>
 <NumSongsPlayedByPlayMode>
-<Regular>67</Regular>
+<Regular>68</Regular>
 </NumSongsPlayedByPlayMode>
 <NumSongsPlayedByStyle>
-<Style Game='dance' Style='single' >62</Style>
+<Style Game='dance' Style='single' >63</Style>
 <Style Game='dance' Style='versus' >5</Style>
 </NumSongsPlayedByStyle>
 <NumSongsPlayedByDifficulty>
 <Easy>1</Easy>
 <Medium>1</Medium>
 <Hard>25</Hard>
-<Challenge>40</Challenge>
+<Challenge>41</Challenge>
 </NumSongsPlayedByDifficulty>
 <NumSongsPlayedByMeter>
 <Meter1>1</Meter1>
@@ -49,6 +49,7 @@
 <Meter9>36</Meter9>
 <Meter10>25</Meter10>
 <Meter11>1</Meter11>
+<Meter12>1</Meter12>
 <Meter13>3</Meter13>
 </NumSongsPlayedByMeter>
 <NumStagesPassedByGrade>
@@ -63,6 +64,13 @@
 </NumStagesPassedByPlayMode>
 </GeneralData>
 <SongScores>
+<Song Dir='Songs/7mai1/Seeker/' >
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<HighScoreList>
+<NumTimesPlayed>1</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+</Song>
 <Song Dir='Songs/Blue&apos;s 5th step/FLugeL[ArpEggyO][Blue]/' >
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <HighScoreList>

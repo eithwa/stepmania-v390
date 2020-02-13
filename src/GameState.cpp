@@ -122,6 +122,7 @@ void GameState::Reset()
 	m_SortOrder = SORT_INVALID;
 	m_PlayMode = PLAY_MODE_INVALID;
 	m_bEditing = false;
+	m_bLoadPackConnect=false;
 	m_bDemonstrationOrJukebox = false;
 	m_bJukeboxUsesModifiers = false;
 	m_iCurrentStageIndex = 0;

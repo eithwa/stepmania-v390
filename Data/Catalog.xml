@@ -5431,6 +5431,101 @@
 </RadarValues>
 </Steps>
 </Song>
+<Song Dir='Songs/connect/(janne)TIME/' >
+<MainTitle>TIME</MainTitle>
+<SubTitle>明日の君と逢うために/Gocha Pack2</SubTitle>
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>1.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>0.105000</Freeze>
+<Chaos>0.987000</Chaos>
+<Taps>622</Taps>
+<Jumps>441</Jumps>
+<Holds>12</Holds>
+<Mines>0</Mines>
+<Hands>121</Hands>
+</RadarValues>
+</Steps>
+</Song>
+<Song Dir='Songs/connect/(RARS)TIME LIMIT(bms edit)/' >
+<MainTitle>TIME LIMIT(bms edit)</MainTitle>
+<SubTitle>BOF2009/Gocha Pack2</SubTitle>
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<Meter>13</Meter>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>1.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>0.015000</Freeze>
+<Chaos>1.000000</Chaos>
+<Taps>1003</Taps>
+<Jumps>726</Jumps>
+<Holds>2</Holds>
+<Mines>13</Mines>
+<Hands>192</Hands>
+</RadarValues>
+</Steps>
+</Song>
+<Song Dir='Songs/connect/(ShokuN)Connect/' >
+<MainTitle>コネクト</MainTitle>
+<SubTitle>魔法少女まどか☆マギカ/Gocha Pack2</SubTitle>
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<Meter>8</Meter>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>1.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>0.301000</Freeze>
+<Chaos>0.162000</Chaos>
+<Taps>490</Taps>
+<Jumps>195</Jumps>
+<Holds>27</Holds>
+<Mines>0</Mines>
+<Hands>29</Hands>
+</RadarValues>
+</Steps>
+</Song>
+<Song Dir='Songs/connect/(ShokuN)theater D/' >
+<MainTitle>theater D</MainTitle>
+<SubTitle>Re：ゼロから始める異世界生活/Gocha Pack2</SubTitle>
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<Meter>10</Meter>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>1.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>0.548000</Freeze>
+<Chaos>0.369000</Chaos>
+<Taps>305</Taps>
+<Jumps>217</Jumps>
+<Holds>46</Holds>
+<Mines>0</Mines>
+<Hands>128</Hands>
+</RadarValues>
+</Steps>
+</Song>
+<Song Dir='Songs/connect/(ShokuN)This game/' >
+<MainTitle>This game</MainTitle>
+<SubTitle>ノーゲーム・ノーライフ/Gocha Pack2</SubTitle>
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<Meter>11</Meter>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>1.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>0.267000</Freeze>
+<Chaos>1.000000</Chaos>
+<Taps>539</Taps>
+<Jumps>335</Jumps>
+<Holds>24</Holds>
+<Mines>0</Mines>
+<Hands>198</Hands>
+</RadarValues>
+</Steps>
+</Song>
 <Song Dir='Songs/connect/(SPY)Interstellar Travel (Extended mix)/' >
 <MainTitle>Interstellar Travel (Extended mix)</MainTitle>
 <SubTitle>Welcome To My World</SubTitle>
@@ -5685,6 +5780,55 @@
 <Holds>31</Holds>
 <Mines>0</Mines>
 <Hands>54</Hands>
+</RadarValues>
+</Steps>
+</Song>
+<Song Dir='Songs/connect/Nebula/' >
+<MainTitle>Nebula</MainTitle>
+<SubTitle/>
+<Steps StepsType='dance-single' Difficulty='Medium' >
+<Meter>5</Meter>
+<RadarValues>
+<Stream>0.626000</Stream>
+<Voltage>0.810000</Voltage>
+<Air>0.020000</Air>
+<Freeze>0.374000</Freeze>
+<Chaos>0.000000</Chaos>
+<Taps>597</Taps>
+<Jumps>3</Jumps>
+<Holds>56</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Hard' >
+<Meter>8</Meter>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>1.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>0.508000</Freeze>
+<Chaos>0.010000</Chaos>
+<Taps>847</Taps>
+<Jumps>250</Jumps>
+<Holds>76</Holds>
+<Mines>0</Mines>
+<Hands>0</Hands>
+</RadarValues>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<Meter>12</Meter>
+<RadarValues>
+<Stream>1.000000</Stream>
+<Voltage>1.000000</Voltage>
+<Air>1.000000</Air>
+<Freeze>0.561000</Freeze>
+<Chaos>0.010000</Chaos>
+<Taps>949</Taps>
+<Jumps>582</Jumps>
+<Holds>84</Holds>
+<Mines>0</Mines>
+<Hands>252</Hands>
 </RadarValues>
 </Steps>
 </Song>
@@ -6152,25 +6296,6 @@
 <Holds>4</Holds>
 <Mines>0</Mines>
 <Hands>0</Hands>
-</RadarValues>
-</Steps>
-</Song>
-<Song Dir='Songs/zeth/Air v2 (by Zeth)/' >
-<MainTitle>Air</MainTitle>
-<SubTitle>from Cristears</SubTitle>
-<Steps StepsType='dance-single' Difficulty='Challenge' >
-<Meter>13</Meter>
-<RadarValues>
-<Stream>1.000000</Stream>
-<Voltage>1.000000</Voltage>
-<Air>0.960000</Air>
-<Freeze>0.244000</Freeze>
-<Chaos>1.000000</Chaos>
-<Taps>1933</Taps>
-<Jumps>291</Jumps>
-<Holds>74</Holds>
-<Mines>0</Mines>
-<Hands>29</Hands>
 </RadarValues>
 </Steps>
 </Song>
@@ -8686,7 +8811,7 @@
 <SubTitle/>
 <HasMods>0</HasMods>
 <Trail StepsType='dance-single' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8701,7 +8826,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='dance-single' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8716,7 +8841,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='dance-double' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8731,7 +8856,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='dance-double' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8746,7 +8871,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='dance-couple' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8761,7 +8886,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='dance-couple' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8776,7 +8901,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='dance-solo' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8791,7 +8916,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='dance-solo' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8806,7 +8931,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pump-single' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8821,7 +8946,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pump-single' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8836,7 +8961,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pump-halfdouble' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8851,7 +8976,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pump-halfdouble' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8866,7 +8991,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pump-double' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8881,7 +9006,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pump-double' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8896,7 +9021,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pump-couple' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8911,7 +9036,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pump-couple' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8926,7 +9051,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='ez2-single' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8941,7 +9066,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='ez2-single' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8956,7 +9081,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='ez2-double' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8971,7 +9096,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='ez2-double' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -8986,7 +9111,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='ez2-real' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9001,7 +9126,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='ez2-real' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9016,7 +9141,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='para-single' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9031,7 +9156,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='para-single' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9046,7 +9171,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='para-versus' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9061,7 +9186,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='para-versus' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9076,7 +9201,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='ds3ddx-single' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9091,7 +9216,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='ds3ddx-single' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9106,7 +9231,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='bm-single' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9121,7 +9246,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='bm-single' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9136,7 +9261,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='bm-double' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9151,7 +9276,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='bm-double' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9166,7 +9291,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='iidx-single7' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9181,7 +9306,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='iidx-single7' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9196,7 +9321,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='iidx-double7' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9211,7 +9336,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='iidx-double7' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9226,7 +9351,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='iidx-single5' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9241,7 +9366,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='iidx-single5' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9256,7 +9381,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='iidx-double5' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9271,7 +9396,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='iidx-double5' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9286,7 +9411,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='maniax-single' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9301,7 +9426,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='maniax-single' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9316,7 +9441,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='maniax-double' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9331,7 +9456,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='maniax-double' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9346,7 +9471,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-single4' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9361,7 +9486,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-single4' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9376,7 +9501,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-single5' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9391,7 +9516,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-single5' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9406,7 +9531,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-single8' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9421,7 +9546,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-single8' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9436,7 +9561,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-double4' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9451,7 +9576,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-double4' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9466,7 +9591,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-double5' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9481,7 +9606,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-double5' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9496,7 +9621,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pnm-five' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9511,7 +9636,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pnm-five' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9526,7 +9651,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pnm-nine' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9541,7 +9666,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pnm-nine' CourseDifficulty='Difficult' >
-<Meter>5</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9606,7 +9731,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='dance-double' CourseDifficulty='Difficult' >
-<Meter>10</Meter>
+<Meter>9</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9636,7 +9761,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='dance-couple' CourseDifficulty='Difficult' >
-<Meter>10</Meter>
+<Meter>9</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9756,7 +9881,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pump-double' CourseDifficulty='Difficult' >
-<Meter>10</Meter>
+<Meter>9</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9786,7 +9911,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pump-couple' CourseDifficulty='Difficult' >
-<Meter>10</Meter>
+<Meter>9</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9846,7 +9971,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='ez2-double' CourseDifficulty='Difficult' >
-<Meter>10</Meter>
+<Meter>9</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9876,7 +10001,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='ez2-real' CourseDifficulty='Difficult' >
-<Meter>10</Meter>
+<Meter>9</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9936,7 +10061,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='para-versus' CourseDifficulty='Difficult' >
-<Meter>10</Meter>
+<Meter>9</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -9966,7 +10091,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='ds3ddx-single' CourseDifficulty='Difficult' >
-<Meter>10</Meter>
+<Meter>9</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10026,7 +10151,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='bm-double' CourseDifficulty='Difficult' >
-<Meter>10</Meter>
+<Meter>9</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10056,7 +10181,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='iidx-single7' CourseDifficulty='Difficult' >
-<Meter>10</Meter>
+<Meter>9</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10086,7 +10211,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='iidx-double7' CourseDifficulty='Difficult' >
-<Meter>10</Meter>
+<Meter>9</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10146,7 +10271,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='iidx-double5' CourseDifficulty='Difficult' >
-<Meter>10</Meter>
+<Meter>9</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10206,7 +10331,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='maniax-double' CourseDifficulty='Difficult' >
-<Meter>10</Meter>
+<Meter>9</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10296,7 +10421,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-single8' CourseDifficulty='Difficult' >
-<Meter>10</Meter>
+<Meter>9</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10326,7 +10451,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-double4' CourseDifficulty='Difficult' >
-<Meter>10</Meter>
+<Meter>9</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10356,7 +10481,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-double5' CourseDifficulty='Difficult' >
-<Meter>10</Meter>
+<Meter>9</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10416,7 +10541,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pnm-nine' CourseDifficulty='Difficult' >
-<Meter>10</Meter>
+<Meter>9</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10436,7 +10561,7 @@
 <SubTitle/>
 <HasMods>1</HasMods>
 <Trail StepsType='dance-single' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10451,7 +10576,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='dance-single' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10466,7 +10591,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='dance-double' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10481,7 +10606,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='dance-double' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10496,7 +10621,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='dance-couple' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10511,7 +10636,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='dance-couple' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10526,7 +10651,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='dance-solo' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10541,7 +10666,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='dance-solo' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10556,7 +10681,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pump-single' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10571,7 +10696,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pump-single' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10586,7 +10711,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pump-halfdouble' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10601,7 +10726,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pump-halfdouble' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10616,7 +10741,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pump-double' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10631,7 +10756,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pump-double' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10646,7 +10771,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pump-couple' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10661,7 +10786,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pump-couple' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10676,7 +10801,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='ez2-single' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10691,7 +10816,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='ez2-single' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10706,7 +10831,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='ez2-double' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10721,7 +10846,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='ez2-double' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10736,7 +10861,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='ez2-real' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10751,7 +10876,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='ez2-real' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10766,7 +10891,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='para-single' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10781,7 +10906,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='para-single' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10796,7 +10921,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='para-versus' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10811,7 +10936,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='para-versus' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10826,7 +10951,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='ds3ddx-single' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10841,7 +10966,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='ds3ddx-single' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10856,7 +10981,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='bm-single' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10871,7 +10996,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='bm-single' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10886,7 +11011,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='bm-double' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10901,7 +11026,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='bm-double' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10916,7 +11041,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='iidx-single7' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10931,7 +11056,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='iidx-single7' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10946,7 +11071,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='iidx-double7' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10961,7 +11086,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='iidx-double7' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10976,7 +11101,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='iidx-single5' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -10991,7 +11116,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='iidx-single5' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11006,7 +11131,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='iidx-double5' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11021,7 +11146,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='iidx-double5' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11036,7 +11161,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='maniax-single' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11051,7 +11176,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='maniax-single' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11066,7 +11191,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='maniax-double' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11081,7 +11206,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='maniax-double' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11096,7 +11221,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-single4' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11111,7 +11236,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-single4' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11126,7 +11251,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-single5' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11141,7 +11266,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-single5' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11156,7 +11281,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-single8' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11171,7 +11296,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-single8' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11186,7 +11311,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-double4' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11201,7 +11326,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-double4' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11216,7 +11341,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-double5' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11231,7 +11356,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='techno-double5' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11246,7 +11371,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pnm-five' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11261,7 +11386,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pnm-five' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11276,7 +11401,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pnm-nine' CourseDifficulty='Regular' >
-<Meter>3</Meter>
+<Meter>4</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
@@ -11291,7 +11416,7 @@
 </RadarValues>
 </Trail>
 <Trail StepsType='pnm-nine' CourseDifficulty='Difficult' >
-<Meter>6</Meter>
+<Meter>7</Meter>
 <RadarValues>
 <Stream>-1.000000</Stream>
 <Voltage>-1.000000</Voltage>
