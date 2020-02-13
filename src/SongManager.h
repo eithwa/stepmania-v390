@@ -43,6 +43,7 @@ public:
 
 	void InitAll( LoadingWindow *ld );	// songs, courses, groups - everything.
 	void Reload( LoadingWindow *ld=NULL );	// songs, courses, groups - everything.
+	void FastReload( LoadingWindow *ld=NULL );
 	void PreloadSongImages();
 
 

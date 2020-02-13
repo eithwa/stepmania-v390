@@ -9,13 +9,13 @@
 <UsingProfileDefaultModifiers>1</UsingProfileDefaultModifiers>
 <DefaultModifiers>note, singles[2p]</DefaultModifiers>
 <SortOrder>GROUP</SortOrder>
-<LastDifficulty>Medium</LastDifficulty>
+<LastDifficulty>Challenge</LastDifficulty>
 <LastCourseDifficulty/>
-<Song Dir='Songs/test/Bon Appetit S[Blue]/' />
+<Song Dir='Songs/Blue&apos;s 7th step/(LiSA)Catch the Moment/' />
 <Course/>
-<TotalPlays>52</TotalPlays>
-<TotalPlaySeconds>10836</TotalPlaySeconds>
-<TotalGameplaySeconds>1847</TotalGameplaySeconds>
+<TotalPlays>54</TotalPlays>
+<TotalPlaySeconds>10960</TotalPlaySeconds>
+<TotalGameplaySeconds>1870</TotalGameplaySeconds>
 <CurrentCombo>0</CurrentCombo>
 <TotalCaloriesBurned>0.000000</TotalCaloriesBurned>
 <LastPlayedMachineGuid>72349908df7c22e4</LastPlayedMachineGuid>
@@ -31,25 +31,25 @@
 <TotalHands>654</TotalHands>
 <UnlockedSongs/>
 <NumSongsPlayedByPlayMode>
-<Regular>59</Regular>
+<Regular>61</Regular>
 </NumSongsPlayedByPlayMode>
 <NumSongsPlayedByStyle>
-<Style Game='dance' Style='single' >54</Style>
+<Style Game='dance' Style='single' >56</Style>
 <Style Game='dance' Style='versus' >5</Style>
 </NumSongsPlayedByStyle>
 <NumSongsPlayedByDifficulty>
 <Easy>2</Easy>
 <Medium>3</Medium>
 <Hard>8</Hard>
-<Challenge>46</Challenge>
+<Challenge>48</Challenge>
 </NumSongsPlayedByDifficulty>
 <NumSongsPlayedByMeter>
 <Meter1>40</Meter1>
 <Meter2>1</Meter2>
-<Meter9>9</Meter9>
+<Meter9>10</Meter9>
 <Meter10>6</Meter10>
 <Meter11>1</Meter11>
-<Meter13>2</Meter13>
+<Meter13>3</Meter13>
 </NumSongsPlayedByMeter>
 <NumStagesPassedByGrade>
 <Tier01>5</Tier01>
@@ -81,6 +81,13 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <HighScoreList>
 <NumTimesPlayed>2</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+</Song>
+<Song Dir='Songs/Blue&apos;s 7th step/(LiSA)Catch the Moment/' >
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<HighScoreList>
+<NumTimesPlayed>1</NumTimesPlayed>
 </HighScoreList>
 </Steps>
 </Song>
@@ -148,6 +155,11 @@
 </Steps>
 </Song>
 <Song Dir='Songs/test/Bon Appetit S[Blue]/' >
+<Steps StepsType='dance-single' Difficulty='Easy' >
+<HighScoreList>
+<NumTimesPlayed>1</NumTimesPlayed>
+</HighScoreList>
+</Steps>
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <HighScoreList>
 <NumTimesPlayed>10</NumTimesPlayed>
@@ -262,6 +274,18 @@
 <Hands>59</Hands>
 </RadarValues>
 </HighScore>
+</HighScoreList>
+</Steps>
+</Song>
+<Song Dir='Songs/test/Dragon Blade[Blue]/' >
+<Steps StepsType='dance-single' Difficulty='Beginner' >
+<HighScoreList>
+<NumTimesPlayed>1</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<HighScoreList>
+<NumTimesPlayed>1</NumTimesPlayed>
 </HighScoreList>
 </Steps>
 </Song>

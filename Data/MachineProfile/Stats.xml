@@ -13,9 +13,9 @@
 <LastCourseDifficulty/>
 <Song Dir='' />
 <Course/>
-<TotalPlays>99</TotalPlays>
-<TotalPlaySeconds>28094</TotalPlaySeconds>
-<TotalGameplaySeconds>3041</TotalGameplaySeconds>
+<TotalPlays>101</TotalPlays>
+<TotalPlaySeconds>28218</TotalPlaySeconds>
+<TotalGameplaySeconds>3064</TotalGameplaySeconds>
 <CurrentCombo>0</CurrentCombo>
 <TotalCaloriesBurned>0.000000</TotalCaloriesBurned>
 <LastPlayedMachineGuid>72349908df7c22e4</LastPlayedMachineGuid>
@@ -31,26 +31,26 @@
 <TotalHands>1014</TotalHands>
 <UnlockedSongs/>
 <NumSongsPlayedByPlayMode>
-<Regular>117</Regular>
+<Regular>119</Regular>
 </NumSongsPlayedByPlayMode>
 <NumSongsPlayedByStyle>
-<Style Game='dance' Style='single' >107</Style>
+<Style Game='dance' Style='single' >109</Style>
 <Style Game='dance' Style='versus' >10</Style>
 </NumSongsPlayedByStyle>
 <NumSongsPlayedByDifficulty>
 <Easy>2</Easy>
 <Medium>3</Medium>
 <Hard>32</Hard>
-<Challenge>80</Challenge>
+<Challenge>82</Challenge>
 </NumSongsPlayedByDifficulty>
 <NumSongsPlayedByMeter>
 <Meter1>40</Meter1>
 <Meter2>1</Meter2>
-<Meter9>38</Meter9>
+<Meter9>39</Meter9>
 <Meter10>30</Meter10>
 <Meter11>2</Meter11>
 <Meter12>1</Meter12>
-<Meter13>5</Meter13>
+<Meter13>6</Meter13>
 </NumSongsPlayedByMeter>
 <NumStagesPassedByGrade>
 <Tier01>5</Tier01>
@@ -97,6 +97,13 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <HighScoreList>
 <NumTimesPlayed>2</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+</Song>
+<Song Dir='Songs/Blue&apos;s 7th step/(LiSA)Catch the Moment/' >
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<HighScoreList>
+<NumTimesPlayed>1</NumTimesPlayed>
 </HighScoreList>
 </Steps>
 </Song>
@@ -315,7 +322,7 @@
 <Song Dir='Songs/test/Bon Appetit S[Blue]/' >
 <Steps StepsType='dance-single' Difficulty='Easy' >
 <HighScoreList>
-<NumTimesPlayed>2</NumTimesPlayed>
+<NumTimesPlayed>3</NumTimesPlayed>
 </HighScoreList>
 </Steps>
 <Steps StepsType='dance-single' Difficulty='Challenge' >
@@ -691,6 +698,18 @@
 <Hands>48</Hands>
 </RadarValues>
 </HighScore>
+</HighScoreList>
+</Steps>
+</Song>
+<Song Dir='Songs/test/Dragon Blade[Blue]/' >
+<Steps StepsType='dance-single' Difficulty='Beginner' >
+<HighScoreList>
+<NumTimesPlayed>1</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<HighScoreList>
+<NumTimesPlayed>1</NumTimesPlayed>
 </HighScoreList>
 </Steps>
 </Song>

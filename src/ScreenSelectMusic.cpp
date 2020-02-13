@@ -728,6 +728,15 @@ void ScreenSelectMusic::Input( const DeviceInput& DeviceI, InputEventType type, 
 {
 //	LOG->Trace( "ScreenSelectMusic::Input()" );
 
+	if(DeviceI.button==KEY_F5)
+	{
+		GAMESTATE->m_bfastLoadInScreenSelectMusic=true;
+		// SCREENMAN->PopTopScreen();
+		// SCREENMAN->AddNewScreenToTop( "ScreenReloadSongs", SM_BackFromReloadSongs );
+		SCREENMAN->SetNewScreen( "ScreenReloadSongs" );
+		LOG->Info("Reload music");
+		return;
+	}
 	// debugging?
 	// I just like being able to see untransliterated titles occasionally.
 	if( DeviceI.device == DEVICE_KEYBOARD && DeviceI.button == KEY_F9 )
@@ -740,6 +749,7 @@ void ScreenSelectMusic::Input( const DeviceInput& DeviceI, InputEventType type, 
 	}
 
 	if( !GameI.IsValid() )		return;		// don't care
+	
 	//================for ScreenNetSelectMusic===========
 	bool bHoldingCtrl = 
 		INPUTFILTER->IsBeingPressed(DeviceInput(DEVICE_KEYBOARD, KEY_LCTRL)) ||
@@ -1125,7 +1135,7 @@ void ScreenSelectMusic::HandleScreenMessage( const ScreenMessage SM )
 
 void ScreenSelectMusic::MenuStart( PlayerNumber pn )
 {
-	if(!GAMESTATE->m_bEditing || NSMAN->useSMserver )//for net mode dont start
+	if(!GAMESTATE->m_bEditing && !NSMAN->useSMserver )//for net mode dont start
 	{
 		// this needs to check whether valid Steps are selected!
 		bool bResult = m_MusicWheel.Select();

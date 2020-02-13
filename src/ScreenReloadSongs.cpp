@@ -70,13 +70,21 @@ void ScreenReloadSongs::Update( float fDeltaTime )
 	if( m_iUpdates != 2 )
 		return;
 	ASSERT( !IsFirstUpdate() );
-	if(GAMESTATE->m_bEditing)
+	if(GAMESTATE->m_bfastLoadInScreenSelectMusic)
+	{
+		SONGMAN->FastReload(m_LoadingWindow);
+		UNLOCKMAN->UpdateSongs();
+		SCREENMAN->SetNewScreen( "ScreenSelectMusic" );
+		GAMESTATE->m_bfastLoadInScreenSelectMusic=false;
+		return;
+	}
+	else if(GAMESTATE->m_bEditing)
 	{
 		//fast reload
-		SONGMAN->InitSongsFromDisk( m_LoadingWindow );
+		SONGMAN->FastReload(m_LoadingWindow);
 		UNLOCKMAN->UpdateSongs();
 		SCREENMAN->PopTopScreen();
-		GAMESTATE->m_bLoadPackConnect=false;
+		GAMESTATE->m_bLoadPackConnect=false;//GAMESTATE->m_bLoadPackConnect=true; only reload connect package
 		// SCREENMAN->SetNewScreen( "ScreenNetSelectMusic" );
 	}else
 	{

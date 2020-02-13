@@ -123,6 +123,7 @@ void GameState::Reset()
 	m_PlayMode = PLAY_MODE_INVALID;
 	m_bEditing = false;
 	m_bLoadPackConnect=false;
+	m_bfastLoadInScreenSelectMusic=false;
 	m_bDemonstrationOrJukebox = false;
 	m_bJukeboxUsesModifiers = false;
 	m_iCurrentStageIndex = 0;

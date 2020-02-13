@@ -109,6 +109,7 @@ public:
 	SortOrder	m_SortOrder;			// used by MusicWheel
 	bool			m_bEditing;			// NoteField does special stuff when this is true
 	bool			m_bLoadPackConnect;
+	bool			m_bfastLoadInScreenSelectMusic;
 	bool			m_bDemonstrationOrJukebox;	// ScreenGameplay does special stuff when this is true
 	bool			m_bJukeboxUsesModifiers;
 	int				m_iNumStagesOfThisSong;

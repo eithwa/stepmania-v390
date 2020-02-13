@@ -125,7 +125,30 @@ void SongManager::Reload( LoadingWindow *ld )
 
 	PREFSMAN->m_bFastLoad = OldVal;
 }
+void SongManager::FastReload( LoadingWindow *ld )
+{
+	FlushDirCache();
 
+	if( ld )
+		ld->SetText( "Reloading ..." );
+
+	// save scores before unloading songs, of the scores will be lost
+	PROFILEMAN->SaveMachineProfile();
+
+	FreeSongs();
+	FreeCourses();
+
+	// /* Always check songs for changes. */
+	// const bool OldVal = PREFSMAN->m_bFastLoad;
+	// PREFSMAN->m_bFastLoad = false;
+
+	InitAll( ld );
+
+	// reload scores afterward
+	PROFILEMAN->LoadMachineProfile();
+
+	// PREFSMAN->m_bFastLoad = OldVal;
+}
 void SongManager::InitSongsFromDisk( LoadingWindow *ld )
 {
 	RageTimer tm;
@@ -202,9 +225,11 @@ void SongManager::LoadStepManiaSongDir( CString sDir, LoadingWindow *ld )
 	{
 		CString sGroupDirName = arrayGroupDirs[i];
 
-		if(GAMESTATE->m_bLoadPackConnect&&0 != stricmp( sGroupDirName, "connect" ))//only read connect package 
+		if(GAMESTATE->m_bLoadPackConnect==true)//only read connect package 
 		{
-			continue;
+			//LOG->Info("GAMESTATE->m_bLoadPackConnect %d", GAMESTATE->m_bLoadPackConnect);
+			if(0 != stricmp( sGroupDirName, "connect" ))
+				continue;
 		}
 		if( 0 == stricmp( sGroupDirName, "cvs" ) )	// the directory called "CVS"
 			continue;		// ignore it
