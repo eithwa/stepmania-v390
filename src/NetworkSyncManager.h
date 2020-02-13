@@ -28,6 +28,8 @@ enum NSCommand
 	NSCSMS,			//10
 	NSCUPOpts,		//11
 	NSCUPPer,       //12
+	NSSSS,          //13 share song server
+	NSSSC,          //14
 	NUM_NS_COMMANDS
 };
 
@@ -74,6 +76,8 @@ public:
 	void WriteNT(const CString& Data);
 
 	void ClearPacket();
+
+	CString fromIp;
 };
 
 class NetworkSyncManager 

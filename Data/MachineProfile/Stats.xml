@@ -13,41 +13,41 @@
 <LastCourseDifficulty/>
 <Song Dir='' />
 <Course/>
-<TotalPlays>96</TotalPlays>
-<TotalPlaySeconds>27348</TotalPlaySeconds>
-<TotalGameplaySeconds>2894</TotalGameplaySeconds>
+<TotalPlays>97</TotalPlays>
+<TotalPlaySeconds>27554</TotalPlaySeconds>
+<TotalGameplaySeconds>3022</TotalGameplaySeconds>
 <CurrentCombo>0</CurrentCombo>
 <TotalCaloriesBurned>0.000000</TotalCaloriesBurned>
 <LastPlayedMachineGuid>72349908df7c22e4</LastPlayedMachineGuid>
-<LastPlayedDate>2020-02-07</LastPlayedDate>
-<TotalDancePoints>25187</TotalDancePoints>
+<LastPlayedDate>2020-02-13</LastPlayedDate>
+<TotalDancePoints>26005</TotalDancePoints>
 <NumExtraStagesPassed>0</NumExtraStagesPassed>
 <NumExtraStagesFailed>0</NumExtraStagesFailed>
 <NumToasties>0</NumToasties>
-<TotalTapsAndHolds>10691</TotalTapsAndHolds>
-<TotalJumps>4238</TotalJumps>
-<TotalHolds>1051</TotalHolds>
+<TotalTapsAndHolds>11596</TotalTapsAndHolds>
+<TotalJumps>4432</TotalJumps>
+<TotalHolds>1077</TotalHolds>
 <TotalMines>8</TotalMines>
-<TotalHands>970</TotalHands>
+<TotalHands>1014</TotalHands>
 <UnlockedSongs/>
 <NumSongsPlayedByPlayMode>
-<Regular>114</Regular>
+<Regular>115</Regular>
 </NumSongsPlayedByPlayMode>
 <NumSongsPlayedByStyle>
-<Style Game='dance' Style='single' >104</Style>
+<Style Game='dance' Style='single' >105</Style>
 <Style Game='dance' Style='versus' >10</Style>
 </NumSongsPlayedByStyle>
 <NumSongsPlayedByDifficulty>
 <Easy>2</Easy>
 <Medium>2</Medium>
 <Hard>32</Hard>
-<Challenge>78</Challenge>
+<Challenge>79</Challenge>
 </NumSongsPlayedByDifficulty>
 <NumSongsPlayedByMeter>
 <Meter1>40</Meter1>
 <Meter9>38</Meter9>
 <Meter10>30</Meter10>
-<Meter11>1</Meter11>
+<Meter11>2</Meter11>
 <Meter13>5</Meter13>
 </NumSongsPlayedByMeter>
 <NumStagesPassedByGrade>
@@ -56,13 +56,20 @@
 <Tier04>4</Tier04>
 <Tier05>3</Tier05>
 <Tier06>4</Tier06>
-<Tier07>31</Tier07>
+<Tier07>32</Tier07>
 </NumStagesPassedByGrade>
 <NumStagesPassedByPlayMode>
-<Regular>57</Regular>
+<Regular>58</Regular>
 </NumStagesPassedByPlayMode>
 </GeneralData>
 <SongScores>
+<Song Dir='Songs/Blue&apos;s 5th step/FLugeL[ArpEggyO][Blue]/' >
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<HighScoreList>
+<NumTimesPlayed>1</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+</Song>
 <Song Dir='Songs/Blue&apos;s 7th step/(Barry x Blue)MILLION LIVE LIFE LINE!!!/' >
 <Steps StepsType='dance-single' Difficulty='Easy' >
 <HighScoreList>
@@ -74,6 +81,27 @@
 <Steps StepsType='dance-single' Difficulty='Hard' >
 <HighScoreList>
 <NumTimesPlayed>2</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+</Song>
+<Song Dir='Songs/Blue&apos;s 7th step/Dear Doppelganger[Blue]/' >
+<Steps StepsType='dance-single' Difficulty='Medium' >
+<HighScoreList>
+<NumTimesPlayed>1</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+</Song>
+<Song Dir='Songs/connect/(SPY)Interstellar Travel (Extended mix)/' >
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<HighScoreList>
+<NumTimesPlayed>1</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+</Song>
+<Song Dir='Songs/connect/(Zelda-YEH)1 Fire/' >
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<HighScoreList>
+<NumTimesPlayed>1</NumTimesPlayed>
 </HighScoreList>
 </Steps>
 </Song>
@@ -3385,22 +3413,63 @@
 </RadarValues>
 </HighScore>
 </HighScoreForASongAndSteps>
+<HighScoreForASongAndSteps>
+<Song Dir='Songs/Blue&apos;s 5th step/FLugeL[ArpEggyO][Blue]/' />
+<Steps StepsType='dance-single' Difficulty='Challenge' />
+<HighScore>
+<Name>EVNT</Name>
+<Grade>Tier07</Grade>
+<Score>18106804</Score>
+<PercentDP>0.278800</PercentDP>
+<SurviveSeconds>128.692947</SurviveSeconds>
+<Modifiers>C650, note, singles[l]</Modifiers>
+<DateTime>2020-02-13 10:05:51</DateTime>
+<PlayerGuid>6fc00fa218b341fa</PlayerGuid>
+<MachineGuid>72349908df7c22e4</MachineGuid>
+<ProductID>1</ProductID>
+<TapNoteScores>
+<HitMine>0</HitMine>
+<Miss>34</Miss>
+<Boo>4</Boo>
+<Good>27</Good>
+<Great>206</Great>
+<Perfect>132</Perfect>
+<Marvelous>108</Marvelous>
+</TapNoteScores>
+<HoldNoteScores>
+<NG>1</NG>
+<OK>8</OK>
+</HoldNoteScores>
+<RadarValues>
+<Stream>0.719431</Stream>
+<Voltage>0.125613</Voltage>
+<Air>0.630332</Air>
+<Freeze>0.962963</Freeze>
+<Chaos>0.278800</Chaos>
+<Taps>905</Taps>
+<Jumps>194</Jumps>
+<Holds>26</Holds>
+<Mines>0</Mines>
+<Hands>44</Hands>
+</RadarValues>
+</HighScore>
+</HighScoreForASongAndSteps>
 </RecentSongScores>
 <RecentCourseScores/>
 <CoinData>
 <LastDays>
-<Today>6</Today>
-<Yesterday>0</Yesterday>
+<Today>0</Today>
+<Yesterday>28</Yesterday>
 <Day2Ago>0</Day2Ago>
-<Day3Ago>0</Day3Ago>
+<Day3Ago>72</Day3Ago>
 <Day4Ago>0</Day4Ago>
-<Day5Ago>0</Day5Ago>
-<Day6Ago>16</Day6Ago>
+<Day5Ago>7</Day5Ago>
+<Day6Ago>6</Day6Ago>
 </LastDays>
 <LastWeeks>
-<ThisWeek>6</ThisWeek>
-<LastWeek>16</LastWeek>
-<Week02Ago>0</Week02Ago>
+<ThisWeek>100</ThisWeek>
+<LastWeek>13</LastWeek>
+<Week02Ago>16</Week02Ago>
 <Week03Ago>0</Week03Ago>
 <Week04Ago>0</Week04Ago>
 <Week05Ago>0</Week05Ago>
@@ -3453,12 +3522,12 @@
 </LastWeeks>
 <DayOfWeek>
 <Sunday>0</Sunday>
-<Monday>0</Monday>
+<Monday>72</Monday>
 <Tuesday>0</Tuesday>
-<Wednesday>0</Wednesday>
-<Thursday>6</Thursday>
+<Wednesday>28</Wednesday>
+<Thursday>0</Thursday>
 <Friday>6</Friday>
-<Saturday>16</Saturday>
+<Saturday>23</Saturday>
 </DayOfWeek>
 <Hour>
 <Hour00>0</Hour00>
@@ -3472,18 +3541,18 @@
 <Hour08>0</Hour08>
 <Hour09>0</Hour09>
 <Hour10>0</Hour10>
-<Hour11>4</Hour11>
-<Hour12>0</Hour12>
-<Hour13>0</Hour13>
-<Hour14>0</Hour14>
-<Hour15>0</Hour15>
-<Hour16>0</Hour16>
-<Hour17>0</Hour17>
-<Hour18>0</Hour18>
-<Hour19>12</Hour19>
-<Hour20>0</Hour20>
-<Hour21>0</Hour21>
-<Hour22>0</Hour22>
+<Hour11>5</Hour11>
+<Hour12>2</Hour12>
+<Hour13>1</Hour13>
+<Hour14>7</Hour14>
+<Hour15>4</Hour15>
+<Hour16>9</Hour16>
+<Hour17>24</Hour17>
+<Hour18>12</Hour18>
+<Hour19>49</Hour19>
+<Hour20>3</Hour20>
+<Hour21>1</Hour21>
+<Hour22>6</Hour22>
 <Hour23>0</Hour23>
 </Hour>
 </CoinData>

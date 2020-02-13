@@ -496,7 +496,7 @@ void ScreenEdit::Update( float fDeltaTime )
 		if( PREFSMAN->m_bEditorShowBGChangesPlay )
 		{
 			m_Background.Update( fDeltaTime );
-			m_Foreground.Update( fDeltaTime );
+			m_Foreground.Update( fDeltaTime );	
 		}
 
 		// check for end of playback/record
@@ -643,7 +643,11 @@ void ScreenEdit::DrawPrimitives()
 		break;
 	case MODE_RECORDING:
 		if( PREFSMAN->m_bEditorShowBGChangesPlay )
+		{
+			m_Background.SetDiffuse( RageColor(0,0,0,1) );
+			m_Background.SetDiffuseAlpha( 0.5 );
 			m_Background.Draw();
+		}
 		else
 			m_BGAnimation.Draw();
 
@@ -653,7 +657,11 @@ void ScreenEdit::DrawPrimitives()
 		break;
 	case MODE_PLAYING:
 		if( PREFSMAN->m_bEditorShowBGChangesPlay )
+		{
+			m_Background.SetDiffuse( RageColor(0,0,0,1) );
+			m_Background.SetDiffuseAlpha( 0.5 );
 			m_Background.Draw();
+		}
 		else
 			m_BGAnimation.Draw();
 
@@ -2276,6 +2284,7 @@ void ScreenEdit::HandleAreaMenuChoice( AreaMenuChoice c, int* iAnswers )
 
 					m_Foreground.Unload();
 					m_Foreground.LoadFromSong( m_pSong );
+
 				}
 
 				RageSoundParams p;

@@ -202,6 +202,23 @@ void StepManiaLanServer::ParseData(PacketFunctions& Packet, const unsigned int c
 		Client[clientNum]->Player[0].percentage = Packet.ReadNT();
 		Client[clientNum]->Player[1].percentage = Packet.ReadNT();
 		break;
+	case NSSSC:
+		{
+			CString server_ip = Packet.ReadNT();
+			CString player_num = Packet.ReadNT();
+			CString file_size = Packet.ReadNT();
+			LOG->Info("NSSSC server_ip %s",server_ip.c_str());
+			LOG->Info("NSSSC file_size %s",file_size.c_str());
+			int client_index = atof( player_num.c_str() );
+			
+			Reply.ClearPacket();
+			Reply.Write1(NSSSC + NSServerOffset);
+			Reply.WriteNT(server_ip);
+			Reply.WriteNT(file_size);
+			// Reply.WriteNT(ListPlayers());
+			SendNetPacket(client_index, Reply);
+		}
+		break;
 	default:
 		break;
 	}
@@ -583,6 +600,7 @@ void StepManiaLanServer::NewClientCheck()
 	GameClient *tmp = new GameClient;
 
 	if (server.accept(tmp->clientSocket) == 1)
+	{
 		if (!IsBanned(tmp->clientSocket.address))
 		{
 			Client.push_back(tmp);
@@ -593,6 +611,7 @@ void StepManiaLanServer::NewClientCheck()
 			delete tmp;
 			tmp = NULL;
 		}
+	}
 	else
 	{
 		delete tmp;
@@ -631,7 +650,24 @@ void StepManiaLanServer::AnalizeChat(PacketFunctions &Packet, const unsigned int
 	if (message.at(0) == '/')
 	{
 		CString command = message.substr(1, message.find(" ")-1);
-		if ((command.compare("list") == 0)||(command.compare("have") == 0))
+		if((command.compare("share") == 0))
+		{
+			CString name = message.substr(message.find(" ")+1);
+			int client_index = atof( name.c_str() );
+			if(Client[clientNum]->hasSong == true &&clientNum!=client_index)//the player have song and another doesnt
+			{
+				//CString host_ip = Client[clientNum]->clientSocket.getIp();
+				CString host_ip = Packet.fromIp;
+				Reply.ClearPacket();
+				Reply.Write1(NSSSS + NSServerOffset);
+				Reply.WriteNT(host_ip);
+				Reply.WriteNT(name);
+				// Reply.WriteNT(ListPlayers());
+				SendNetPacket(clientNum, Reply);
+				// bannedIPs.push_back(Client[x]->clientSocket.address);
+			}
+		}
+		else if ((command.compare("list") == 0)||(command.compare("have") == 0))
 			if (command.compare("list") == 0)
 			{
 				Reply.ClearPacket();

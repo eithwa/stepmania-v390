@@ -44,7 +44,15 @@ const ScreenMessage	SM_AddToChat	= ScreenMessage(SM_User+4);
 const ScreenMessage SM_ChangeSong	= ScreenMessage(SM_User+5);
 const ScreenMessage SM_GotEval		= ScreenMessage(SM_User+6);
 
-
+unsigned long GetFileLength ( FILE * fileName)
+{
+    unsigned long pos = ftell(fileName);
+    unsigned long len = 0;
+    fseek ( fileName, 0L, SEEK_END );
+    len = ftell ( fileName );
+    fseek ( fileName, pos, SEEK_SET );
+    return len;
+}
 NetworkSyncManager::NetworkSyncManager( LoadingWindow *ld )
 {
 	LANserver = NULL;	//So we know if it has been created yet
@@ -211,6 +219,8 @@ bool NetworkSyncManager::Connect(const CString& addy, unsigned short port)
 
     NetPlayerClient->create(); // Initilize Socket
     useSMserver = NetPlayerClient->connect(addy, port);
+
+	m_packet.fromIp = NetPlayerClient->getIp();
     
 	return useSMserver;
 }
@@ -655,6 +665,139 @@ void NetworkSyncManager::ProcessInput()
 				GAMESTATE->m_pCurStyle = GAMEMAN->GameAndStringToStyle( GAMESTATE->m_pCurGame, StyleName );
 
 				SCREENMAN->SetNewScreen( "ScreenNetSelectMusic" ); //Should this be metric'd out?
+			}
+			break;
+		case NSSSS:
+			{
+				LOG->Info("open the share song server!!");
+				CString server_ip = m_packet.ReadNT();
+				CString player_num = m_packet.ReadNT();
+				CString now_SongDir;
+
+				//============
+				CString ip_address=this->NetPlayerClient->getIp();
+				LOG->Info("IP address %s", ip_address.c_str());
+				//==================
+				// if(now_SongDir==GAMESTATE->m_pCurSong->GetSongDir())return;
+				now_SongDir = GAMESTATE->m_pCurSong->GetSongDir();
+			
+				string tmp = now_SongDir.c_str();
+				tmp = tmp.substr(0, tmp.size()-1);
+
+				string CurrentPath;
+				size_t size;
+				char *path=NULL;
+				path=getcwd(path,size);
+				CurrentPath=path;
+
+				// now_SongDir.left(now_SongDir.GetLength()-1);
+				// LOG->Info("GAMESTATE->m_pCurSong.m_sSongDir %s",tmp.c_str());
+				string connet_dir = path;
+					   connet_dir +="\\Songs\\connect";
+				string connect_dir_cmd="mkdir -p ";
+					   connect_dir_cmd+="\"";
+					   connect_dir_cmd+=connet_dir;
+					   connect_dir_cmd+="\"";
+				system(connect_dir_cmd.c_str());//mkdir -p "C:\\StepMania\\Songs\\connect"
+				string zip_name = "temp.zip";
+				string init_cmd = "7za.exe d ";
+					   init_cmd+="\"";
+					   init_cmd+=connet_dir;
+					   init_cmd+="\\";
+					   init_cmd+=zip_name;
+					   init_cmd+="\"";
+				//system("7za.exe d E:\\f5.zip");
+				system(init_cmd.c_str());//7za.exe d "C:\\StepMania\\Songs\\connect\\temp.zip"
+				CString zip_cmd = "7za.exe a -tzip ";
+				zip_cmd+="\"";
+				zip_cmd+=connet_dir;
+				zip_cmd+="\\";
+				zip_cmd+=zip_name;
+				zip_cmd+="\" ";
+
+				zip_cmd+="\"";
+				zip_cmd+=CurrentPath;
+				zip_cmd+="\\";
+				zip_cmd+=tmp;
+				zip_cmd+="\"";
+				system(zip_cmd.c_str());//7za.exe a -tzip "C:\\StepMania\\Songs\\connect\\temp.zip" "C:\\StepMania\\Songs\\{SongDir}"
+				//==========
+				//open server and sent require to open client
+				CString file_dir;
+						file_dir+=connet_dir;
+						file_dir+="\\";
+						file_dir+=zip_name;
+				
+				FILE *fp = fopen(file_dir, "rb");
+				int file_size = GetFileLength(fp)/1024;//(kbs)
+				CString file_size_;
+				file_size_.Format("%d", file_size);
+				// double file_size =0;
+				fclose(fp);
+
+				LOG->Info("file_size_ %s",file_size_.c_str());
+				m_packet.ClearPacket();
+				m_packet.Write1( NSSSC );
+				m_packet.WriteNT( ip_address );
+				m_packet.WriteNT( player_num );
+				m_packet.WriteNT( file_size_ );
+				NetPlayerClient->SendPack((char*)&m_packet.Data, m_packet.Position); 
+				//==========
+				CString server_cmd = "winsocket_server.exe ";
+						server_cmd+=ip_address.c_str();
+						server_cmd+=" \"";
+						server_cmd+=connet_dir;
+						server_cmd+="\\";
+						server_cmd+=zip_name;
+						server_cmd+="\"";
+				LOG->Info("server_cmd %s",server_cmd.c_str());
+				system(server_cmd.c_str());//winsocket_server.exe "{server_ip}" "C:\\StepMania\\connect\\temp.zip"
+			}
+			break;
+		case NSSSC:
+			{
+				LOG->Info("open the share song client!!");
+				CString server_ip = m_packet.ReadNT();
+				CString file_size = m_packet.ReadNT();
+				LOG->Info("server_ip %s",server_ip.c_str());
+				LOG->Info("file_size %s",file_size.c_str());
+
+				string CurrentPath;
+				size_t size;
+				char *path=NULL;
+				path=getcwd(path,size);
+				CurrentPath=path;
+
+				string connet_dir = path;
+					   connet_dir +="\\Songs\\connect";
+				string connect_dir_cmd="mkdir -p ";
+					   connect_dir_cmd+="\"";
+					   connect_dir_cmd+=connet_dir;
+					   connect_dir_cmd+="\"";
+				system(connect_dir_cmd.c_str());//mkdir -p "C:\\StepMania\\Songs\\connect"
+				string zip_name = "temp.zip";
+				CString client_cmd = "winsocket_client.exe ";
+						client_cmd+=server_ip.c_str();
+						client_cmd+=" \"";
+						client_cmd+=connet_dir;
+						client_cmd+="\\";
+						client_cmd+=zip_name;
+						client_cmd+="\" ";
+						client_cmd+=file_size.c_str();
+				LOG->Info("client_cmd %s",client_cmd.c_str());
+				system(client_cmd.c_str());//winsocket_client.exe {IP} "C:\\StepMania\\Songs\\connect\\temp.zip" {file_size}
+				CString zip_cmd = "7za.exe x ";
+						zip_cmd+=" \"";
+						zip_cmd+=connet_dir;
+						zip_cmd+="\\";
+						zip_cmd+=zip_name;
+						zip_cmd+="\" ";
+						zip_cmd+="-y -aos -o";
+						zip_cmd+="\"";
+						zip_cmd+=connet_dir;
+						zip_cmd+="\"";
+				LOG->Info("zip_cmd %s",zip_cmd.c_str());
+				system(zip_cmd.c_str());//7za.exe x "C:\\StepMania\\Songs\\connect\\temp.zip" -y -aos -o"C:\\StepMania\\Songs\\connect"
 			}
 			break;
 		}

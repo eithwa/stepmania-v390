@@ -126,6 +126,8 @@ public:
 
 	CString address;
 
+	CString getIp();
+
 private:
 
 	//Only necessiary in windows, xbox

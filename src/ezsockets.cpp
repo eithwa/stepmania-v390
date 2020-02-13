@@ -7,9 +7,11 @@
 \*******************************************************************/
 #include "global.h"
 #include "ezsockets.h"
+#include "RageLog.h"
 
 #if defined(_XBOX)
 #elif defined(_WINDOWS) // We need the WinSock32 Library on Windows
+#include"Winsock2.h"
 #pragma comment(lib,"wsock32.lib")
 #else
 #include <sys/types.h>
@@ -43,6 +45,7 @@ EzSockets::~EzSockets()
 	delete scks;
 	delete times;
 }
+
 
 //Check to see if the socket has been created
 bool EzSockets::check()
@@ -81,6 +84,7 @@ bool EzSockets::create(int Protocol, int Type)
 	state = skDISCONNECTED;
 	sock = socket(AF_INET, Type, Protocol);
 	lastCode = sock;
+
 	return sock > 0;
 }
 
@@ -113,24 +117,25 @@ typedef int socklen_t;
 
 bool EzSockets::accept(EzSockets& socket)
 {
-
+	
 	if (!blocking && !CanRead())
 		return false;
-
+		
 	#if defined(HAVE_INET_NTOP)
 		char buf[INET_ADDRSTRLEN];
 
 		inet_ntop(AF_INET, &addr.sin_addr, buf, INET_ADDRSTRLEN);
 		address = buf;
-
 	#elif defined(HAVE_INET_NTOA)
 		address = inet_ntoa(addr.sin_addr);
 	#endif
 	
 	int length = sizeof(socket);
-	
+	// socket.address = address;
 	socket.sock = ::accept(sock,(struct sockaddr*) &socket.addr, 
 						   (socklen_t*) &length);
+
+	CString strstrstr = socket.getIp();
 	
 	lastCode = socket.sock;
 
@@ -468,3 +473,15 @@ int EzSockets::pWriteData(const char* data, int dataSize)
  * OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
  * PERFORMANCE OF THIS SOFTWARE.
  */
+
+
+CString EzSockets::getIp()
+{
+	struct sockaddr_in name;
+    socklen_t namelen = sizeof(name);
+    getsockname(sock, (struct sockaddr*)&name, &namelen);
+	
+	char* str = inet_ntoa(name.sin_addr);
+	CString cstr = str;
+	return cstr;	
+}

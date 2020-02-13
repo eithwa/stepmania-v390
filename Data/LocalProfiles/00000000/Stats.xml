@@ -13,41 +13,42 @@
 <LastCourseDifficulty/>
 <Song Dir='Songs/test/Bon Appetit S[Blue]/' />
 <Course/>
-<TotalPlays>59</TotalPlays>
-<TotalPlaySeconds>22100</TotalPlaySeconds>
-<TotalGameplaySeconds>2084</TotalGameplaySeconds>
+<TotalPlays>60</TotalPlays>
+<TotalPlaySeconds>22306</TotalPlaySeconds>
+<TotalGameplaySeconds>2212</TotalGameplaySeconds>
 <CurrentCombo>0</CurrentCombo>
 <TotalCaloriesBurned>0.000000</TotalCaloriesBurned>
 <LastPlayedMachineGuid>72349908df7c22e4</LastPlayedMachineGuid>
-<LastPlayedDate>2020-02-07</LastPlayedDate>
-<TotalDancePoints>22218</TotalDancePoints>
+<LastPlayedDate>2020-02-13</LastPlayedDate>
+<TotalDancePoints>23036</TotalDancePoints>
 <NumExtraStagesPassed>0</NumExtraStagesPassed>
 <NumExtraStagesFailed>0</NumExtraStagesFailed>
 <NumToasties>0</NumToasties>
-<TotalTapsAndHolds>8623</TotalTapsAndHolds>
-<TotalJumps>3451</TotalJumps>
-<TotalHolds>880</TotalHolds>
+<TotalTapsAndHolds>9528</TotalTapsAndHolds>
+<TotalJumps>3645</TotalJumps>
+<TotalHolds>906</TotalHolds>
 <TotalMines>2</TotalMines>
-<TotalHands>789</TotalHands>
+<TotalHands>833</TotalHands>
 <UnlockedSongs/>
 <NumSongsPlayedByPlayMode>
-<Regular>66</Regular>
+<Regular>67</Regular>
 </NumSongsPlayedByPlayMode>
 <NumSongsPlayedByStyle>
-<Style Game='dance' Style='single' >61</Style>
+<Style Game='dance' Style='single' >62</Style>
 <Style Game='dance' Style='versus' >5</Style>
 </NumSongsPlayedByStyle>
 <NumSongsPlayedByDifficulty>
 <Easy>1</Easy>
 <Medium>1</Medium>
 <Hard>25</Hard>
-<Challenge>39</Challenge>
+<Challenge>40</Challenge>
 </NumSongsPlayedByDifficulty>
 <NumSongsPlayedByMeter>
 <Meter1>1</Meter1>
 <Meter6>1</Meter6>
 <Meter9>36</Meter9>
 <Meter10>25</Meter10>
+<Meter11>1</Meter11>
 <Meter13>3</Meter13>
 </NumSongsPlayedByMeter>
 <NumStagesPassedByGrade>
@@ -55,13 +56,20 @@
 <Tier04>5</Tier04>
 <Tier05>3</Tier05>
 <Tier06>2</Tier06>
-<Tier07>1</Tier07>
+<Tier07>2</Tier07>
 </NumStagesPassedByGrade>
 <NumStagesPassedByPlayMode>
-<Regular>17</Regular>
+<Regular>18</Regular>
 </NumStagesPassedByPlayMode>
 </GeneralData>
 <SongScores>
+<Song Dir='Songs/Blue&apos;s 5th step/FLugeL[ArpEggyO][Blue]/' >
+<Steps StepsType='dance-single' Difficulty='Challenge' >
+<HighScoreList>
+<NumTimesPlayed>1</NumTimesPlayed>
+</HighScoreList>
+</Steps>
+</Song>
 <Song Dir='Songs/test/(Blue vs CCC) - LEGNE - kyuu nasu ken kou no senritsu (metal remix)/' >
 <Steps StepsType='dance-single' Difficulty='Challenge' >
 <HighScoreList>
@@ -1103,6 +1111,47 @@
 <Holds>60</Holds>
 <Mines>0</Mines>
 <Hands>55</Hands>
+</RadarValues>
+</HighScore>
+</HighScoreForASongAndSteps>
+<HighScoreForASongAndSteps>
+<Song Dir='Songs/Blue&apos;s 5th step/FLugeL[ArpEggyO][Blue]/' />
+<Steps StepsType='dance-single' Difficulty='Challenge' />
+<HighScore>
+<Name>EVNT</Name>
+<Grade>Tier07</Grade>
+<Score>18106804</Score>
+<PercentDP>0.278800</PercentDP>
+<SurviveSeconds>128.692947</SurviveSeconds>
+<Modifiers>C650, note, singles[l]</Modifiers>
+<DateTime>2020-02-13 10:05:51</DateTime>
+<PlayerGuid>6fc00fa218b341fa</PlayerGuid>
+<MachineGuid>72349908df7c22e4</MachineGuid>
+<ProductID>1</ProductID>
+<TapNoteScores>
+<HitMine>0</HitMine>
+<Miss>34</Miss>
+<Boo>4</Boo>
+<Good>27</Good>
+<Great>206</Great>
+<Perfect>132</Perfect>
+<Marvelous>108</Marvelous>
+</TapNoteScores>
+<HoldNoteScores>
+<NG>1</NG>
+<OK>8</OK>
+</HoldNoteScores>
+<RadarValues>
+<Stream>0.719431</Stream>
+<Voltage>0.125613</Voltage>
+<Air>0.630332</Air>
+<Freeze>0.962963</Freeze>
+<Chaos>0.278800</Chaos>
+<Taps>905</Taps>
+<Jumps>194</Jumps>
+<Holds>26</Holds>
+<Mines>0</Mines>
+<Hands>44</Hands>
 </RadarValues>
 </HighScore>
 </HighScoreForASongAndSteps>

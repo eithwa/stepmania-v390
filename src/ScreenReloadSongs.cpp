@@ -6,6 +6,8 @@
 #include "RageTimer.h"
 #include "RageLog.h"
 #include "ThemeManager.h"
+#include "GameState.h"
+#include "NetworkSyncManager.h"
 
 #include "arch/LoadingWindow/LoadingWindow.h"
 
@@ -63,16 +65,24 @@ ScreenReloadSongs::~ScreenReloadSongs()
 void ScreenReloadSongs::Update( float fDeltaTime )
 {
 	Screen::Update( fDeltaTime );
-
 	/* Start the reload on the second update.  On the first, 0, SCREENMAN->Draw won't draw. */
 	++m_iUpdates;
 	if( m_iUpdates != 2 )
 		return;
 	ASSERT( !IsFirstUpdate() );
-
-	SONGMAN->Reload( m_LoadingWindow );
-	UNLOCKMAN->UpdateSongs();
-	SCREENMAN->SetNewScreen( "ScreenTitleMenu" );
+	if(GAMESTATE->m_bEditing)
+	{
+		//fast reload
+		SONGMAN->InitSongsFromDisk( m_LoadingWindow );
+		UNLOCKMAN->UpdateSongs();
+		SCREENMAN->PopTopScreen();
+		// SCREENMAN->SetNewScreen( "ScreenNetSelectMusic" );
+	}else
+	{
+		SONGMAN->Reload( m_LoadingWindow );
+		UNLOCKMAN->UpdateSongs();
+		SCREENMAN->SetNewScreen( "ScreenTitleMenu" );
+	}
 }
 
 /*

@@ -18,6 +18,13 @@
 #include "StepsUtil.h"
 #include "RageUtil.h"
 #include "RageLog.h"
+//==========
+#include <iostream>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string>
+using namespace std;
+//===========
 
 #define CHATINPUT_WIDTH				THEME->GetMetricF("ScreenNetSelectMusic","ChatInputBoxWidth")
 #define CHATINPUT_HEIGHT			THEME->GetMetricF("ScreenNetSelectMusic","ChatInputBoxHeight")
@@ -58,7 +65,7 @@ const ScreenMessage SM_NoSongs		= ScreenMessage(SM_User+3);
 const ScreenMessage	SM_AddToChat	= ScreenMessage(SM_User+4);
 const ScreenMessage SM_ChangeSong	= ScreenMessage(SM_User+5);
 const ScreenMessage SM_BackFromOpts	= ScreenMessage(SM_User+6);
-
+const ScreenMessage SM_BackFromReloadSongs			= ScreenMessage(SM_User+7);
 const CString AllGroups			= "[ALL MUSIC]";
 
 ScreenNetSelectMusic::ScreenNetSelectMusic( const CString& sName ) : ScreenWithMenuElements( sName )
@@ -275,9 +282,15 @@ void ScreenNetSelectMusic::Input( const DeviceInput& DeviceI, const InputEventTy
 			m_sTextInput = m_sTextInput.erase( m_sTextInput.size()-1 );
 		UpdateTextInput();
 		break;
-	// case KEY_F1:
-	// 	m_sTextInput = "準備好了";
-	// 	UpdateTextInput();
+	case KEY_F5:
+		{
+		    NSMAN->ReportNSSOnOff(2);
+			GAMESTATE->m_bEditing = true;
+			// SCREENMAN->PopTopScreen();
+			// SCREENMAN->AddNewScreenToTop( "ScreenReloadSongs", SM_BackFromReloadSongs );
+			SCREENMAN->AddNewScreenToTop( "ScreenSelectMusic", SM_BackFromReloadSongs );
+		}
+		break;
 	default:
 		char c;
 		c = DeviceI.ToChar();
@@ -442,6 +455,43 @@ void ScreenNetSelectMusic::HandleScreenMessage( const ScreenMessage SM )
 		NSMAN->ReportNSSOnOff(3);
 		GAMESTATE->m_bEditing = false;
 		NSMAN->ReportPlayerOptions();
+		break;
+	case SM_BackFromReloadSongs:
+		NSMAN->ReportNSSOnOff(3);
+		GAMESTATE->m_bEditing = false;
+		NSMAN->ReportPlayerOptions();
+		//=============
+		m_vGroups.clear();
+		m_vSongs.clear();
+		SONGMAN->GetGroupNames( m_vGroups );
+		//Make the last group the full list group.
+		//Must be last
+		m_vGroups.push_back( AllGroups );
+		m_iShowGroups = NUM_GROUPS_SHOW;
+		m_iShowSongs = NUM_SONGS_SHOW;
+		m_iGroupNum=m_vGroups.size()-1;	//Alphabetical
+
+		UpdateGroupsListPos();
+		UpdateSongsList();
+		UpdateSongsListPos();
+		GAMESTATE->m_pPreferredSong=NULL;
+		GAMESTATE->m_pPreferredCourse=NULL;
+
+		if (GAMESTATE->m_pCurSong != NULL)
+		{
+			GAMESTATE->m_pCurSong->GetFullDisplayTitle();
+			for ( unsigned i = 0 ; i<m_vSongs.size() ; ++i )
+			{
+				if (m_vSongs[i]->GetFullDisplayTitle() == GAMESTATE->m_pCurSong->GetFullDisplayTitle())
+				{
+					m_iSongNum = i;
+				}
+			}
+		}
+		
+		HandleScreenMessage(SM_ChangeSong);
+		//==================
+
 		break;
 	}
 
