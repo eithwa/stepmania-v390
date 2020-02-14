@@ -728,28 +728,6 @@ void ScreenSelectMusic::Input( const DeviceInput& DeviceI, InputEventType type, 
 {
 //	LOG->Trace( "ScreenSelectMusic::Input()" );
 
-	if(DeviceI.button==KEY_F5)
-	{
-		GAMESTATE->m_bfastLoadInScreenSelectMusic=true;
-		// SCREENMAN->PopTopScreen();
-		// SCREENMAN->AddNewScreenToTop( "ScreenReloadSongs", SM_BackFromReloadSongs );
-		SCREENMAN->SetNewScreen( "ScreenReloadSongs" );
-		LOG->Info("Reload music");
-		return;
-	}
-	// debugging?
-	// I just like being able to see untransliterated titles occasionally.
-	if( DeviceI.device == DEVICE_KEYBOARD && DeviceI.button == KEY_F9 )
-	{
-		if( type != IET_FIRST_PRESS ) return;
-		PREFSMAN->m_bShowNative ^= 1;
-		m_MusicWheel.RebuildMusicWheelItems();
-		m_CourseContentsFrame.SetFromGameState();
-		return;
-	}
-
-	if( !GameI.IsValid() )		return;		// don't care
-	
 	//================for ScreenNetSelectMusic===========
 	bool bHoldingCtrl = 
 		INPUTFILTER->IsBeingPressed(DeviceInput(DEVICE_KEYBOARD, KEY_LCTRL)) ||
@@ -773,6 +751,62 @@ void ScreenSelectMusic::Input( const DeviceInput& DeviceI, InputEventType type, 
 		return;
 	}
 	//==================================================
+	bool bHoldingF5 = INPUTFILTER->IsBeingPressed(DeviceInput(DEVICE_KEYBOARD, KEY_F5));
+	if(bHoldingF5
+	   && bHoldingCtrl
+	   )
+	{//reload group without cache
+		if(m_MusicWheel.GetSelectedType()==TYPE_SONG)
+		{
+			Song* pSong = m_MusicWheel.GetSelectedSong();
+			GAMESTATE->m_pCurSong=pSong;
+			GAMESTATE->m_pCurSongGroup=pSong->m_sGroupName;
+		}
+		else
+		{
+			GAMESTATE->m_pCurSongGroup="";
+		}
+		// LOG->Info("GAMESTATE->m_pCurSongGroup %s",GAMESTATE->m_pCurSongGroup.c_str());
+		GAMESTATE->m_bfastLoadInScreenSelectMusic=true;
+		return;
+	}
+	if(DeviceI.button==KEY_F5)
+	{
+		if(m_MusicWheel.GetSelectedType()==TYPE_SONG)
+		{
+			Song* pSong = m_MusicWheel.GetSelectedSong();
+			GAMESTATE->m_pCurSong=pSong;
+		}
+
+		GAMESTATE->m_bfastLoadInScreenSelectMusic=true;
+		// SCREENMAN->PopTopScreen();
+		// SCREENMAN->AddNewScreenToTop( "ScreenReloadSongs", SM_BackFromReloadSongs );
+		SCREENMAN->SetNewScreen( "ScreenReloadSongs" );
+		LOG->Info("Reload music");
+		return;
+	}
+	if(DeviceI.button==KEY_F2 && m_MusicWheel.GetSelectedType()==TYPE_SONG)
+	{
+		Song* pSong = m_MusicWheel.GetSelectedSong();
+		GAMESTATE->m_pCurSong=pSong;
+		SONGMAN->RevertFromDisk( GAMESTATE->m_pCurSong );
+		SCREENMAN->SetNewScreen( "ScreenSelectMusic" );
+		return;
+	}
+	// debugging?
+	// I just like being able to see untransliterated titles occasionally.
+	if( DeviceI.device == DEVICE_KEYBOARD && DeviceI.button == KEY_F9 )
+	{
+		if( type != IET_FIRST_PRESS ) return;
+		PREFSMAN->m_bShowNative ^= 1;
+		m_MusicWheel.RebuildMusicWheelItems();
+		m_CourseContentsFrame.SetFromGameState();
+		return;
+	}
+
+	if( !GameI.IsValid() )		return;		// don't care
+	
+
 	/* XXX: What's the difference between this and StyleI.player? */
 	/* StyleI won't be valid if it's a menu button that's pressed.  
 	 * There's got to be a better way of doing this.  -Chris */

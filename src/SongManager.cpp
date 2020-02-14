@@ -31,7 +31,7 @@
 #include "Foreach.h"
 #include "StageStats.h"
 #include "Style.h"
-
+#include <vector>
 SongManager*	SONGMAN = NULL;	// global and accessable from anywhere in our program
 
 #define SONGS_DIR				"Songs/"
@@ -359,7 +359,17 @@ void SongManager::FreeSongs()
 		m_pBestSongs[i].clear();
 	m_pShuffledSongs.clear();
 }
-
+void SongManager::FreeSongsFromGroup(CString GroupName)
+{
+	vector<Song*>::iterator it;
+	for(it=m_pSongs.begin();it!=m_pSongs.end();)
+	{
+		if((*it)->m_sGroupName==GroupName)
+			it=m_pSongs.erase(it);
+		else
+			it++;
+	}
+}
 CString SongManager::GetGroupBannerPath( CString sGroupName )
 {
 	unsigned i;

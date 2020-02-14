@@ -24,6 +24,7 @@ public:
 
 	void InitSongsFromDisk( LoadingWindow *ld );
 	void FreeSongs();
+	void FreeSongsFromGroup(CString GroupName);
 	void Cleanup();
 
 	void Invalidate( Song *pStaleSong );

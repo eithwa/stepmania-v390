@@ -135,6 +135,7 @@ public:
 
 	// NULL on ScreenSelectMusic if the currently selected wheel item isn't a Song.
 	Song*		m_pCurSong;
+	CString		m_pCurSongGroup;
 	// The last Song that the user manually changed to.
 	Song*		m_pPreferredSong;
 	Steps*		m_pCurSteps[NUM_PLAYERS];

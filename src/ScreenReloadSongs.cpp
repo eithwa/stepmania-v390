@@ -70,21 +70,40 @@ void ScreenReloadSongs::Update( float fDeltaTime )
 	if( m_iUpdates != 2 )
 		return;
 	ASSERT( !IsFirstUpdate() );
-	if(GAMESTATE->m_bfastLoadInScreenSelectMusic)
+	if(GAMESTATE->m_bfastLoadInScreenSelectMusic)//fast load in ScreenSelectMusic
 	{
-		SONGMAN->FastReload(m_LoadingWindow);
+		SONGMAN->Reload( m_LoadingWindow );
 		UNLOCKMAN->UpdateSongs();
+
 		SCREENMAN->SetNewScreen( "ScreenSelectMusic" );
 		GAMESTATE->m_bfastLoadInScreenSelectMusic=false;
 		return;
 	}
-	else if(GAMESTATE->m_bEditing)
+	else if(GAMESTATE->m_bEditing)//fast load
 	{
 		//fast reload
-		SONGMAN->FastReload(m_LoadingWindow);
+		//PREFSMAN->m_bFastLoad=true;
+		if(GAMESTATE->m_pCurSongGroup=="")
+		{
+			SONGMAN->FastReload(m_LoadingWindow);
+		}
+		else
+		{
+			SONGMAN->FreeSongsFromGroup(GAMESTATE->m_pCurSongGroup);
+			SONGMAN->InitSongsFromDisk( m_LoadingWindow );
+		}
+		// SONGMAN->FastReload(m_LoadingWindow);
+		// if(GAMESTATE->m_bLoadPackConnect)
+		// {
+		// 	GAMESTATE->m_pCurSongGroup="connect";
+		// }
+		// SONGMAN->FreeSongsFromGroup(GAMESTATE->m_pCurSongGroup);
+		// SONGMAN->InitSongsFromDisk( m_LoadingWindow );
 		UNLOCKMAN->UpdateSongs();
+
 		SCREENMAN->PopTopScreen();
 		GAMESTATE->m_bLoadPackConnect=false;//GAMESTATE->m_bLoadPackConnect=true; only reload connect package
+		GAMESTATE->m_pCurSongGroup="";
 		// SCREENMAN->SetNewScreen( "ScreenNetSelectMusic" );
 	}else
 	{
