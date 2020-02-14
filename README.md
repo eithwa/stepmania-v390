@@ -1,3 +1,5 @@
+fork from [stepmania](https://github.com/stepmania/stepmania)
+
 # Function modification 功能
 + Resolved player rename errors
 + Solve the problem that cs6 connection mode cannot display the name
