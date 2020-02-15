@@ -271,6 +271,8 @@ void ScreenNetSelectMusic::Input( const DeviceInput& DeviceI, const InputEventTy
 			{
 				NSMAN->ReportNSSOnOff(2);
 				GAMESTATE->m_bEditing = true;
+				int j = m_iSongNum % m_vSongs.size();
+				GAMESTATE->m_pPreferredSong = m_vSongs[j];
 				SCREENMAN->AddNewScreenToTop( "ScreenSelectMusic", SM_BackFromSelectSongs );
 				return;
 			}
@@ -439,6 +441,41 @@ void ScreenNetSelectMusic::CheckChangeSong()
 		m_iSongNum = i + m_vSongs.size();
 		UpdateSongsListPos();
 }
+void ScreenNetSelectMusic::ResetSongList()
+{
+	//=============
+	m_vGroups.clear();
+	m_vSongs.clear();
+	SONGMAN->GetGroupNames( m_vGroups );
+	//Make the last group the full list group.
+	//Must be last
+	m_vGroups.push_back( AllGroups );
+	m_iShowGroups = NUM_GROUPS_SHOW;
+	m_iShowSongs = NUM_SONGS_SHOW;
+	m_iGroupNum=m_vGroups.size()-1;	//Alphabetical
+
+	UpdateGroupsListPos();
+	UpdateSongsList();
+	UpdateSongsListPos();
+	GAMESTATE->m_pPreferredSong=NULL;
+	GAMESTATE->m_pPreferredCourse=NULL;
+
+	if (GAMESTATE->m_pCurSong != NULL)
+	{
+		GAMESTATE->m_pCurSong->GetFullDisplayTitle();
+		for ( unsigned i = 0 ; i<m_vSongs.size() ; ++i )
+		{
+			if (m_vSongs[i]->GetFullDisplayTitle() == GAMESTATE->m_pCurSong->GetFullDisplayTitle())
+			{
+				m_iSongNum = i;
+			}
+		}
+	}
+	
+	//HandleScreenMessage(SM_ChangeSong);
+	CheckChangeSong();
+	//==================
+}
 void ScreenNetSelectMusic::HandleScreenMessage( const ScreenMessage SM )
 {
 	Screen::HandleScreenMessage( SM );
@@ -549,49 +586,27 @@ void ScreenNetSelectMusic::HandleScreenMessage( const ScreenMessage SM )
 		NSMAN->ReportNSSOnOff(3);
 		GAMESTATE->m_bEditing = false;
 		NSMAN->ReportPlayerOptions();
-		//=============
-		m_vGroups.clear();
-		m_vSongs.clear();
-		SONGMAN->GetGroupNames( m_vGroups );
-		//Make the last group the full list group.
-		//Must be last
-		m_vGroups.push_back( AllGroups );
-		m_iShowGroups = NUM_GROUPS_SHOW;
-		m_iShowSongs = NUM_SONGS_SHOW;
-		m_iGroupNum=m_vGroups.size()-1;	//Alphabetical
-
-		UpdateGroupsListPos();
-		UpdateSongsList();
-		UpdateSongsListPos();
-		GAMESTATE->m_pPreferredSong=NULL;
-		GAMESTATE->m_pPreferredCourse=NULL;
-
-		if (GAMESTATE->m_pCurSong != NULL)
-		{
-			GAMESTATE->m_pCurSong->GetFullDisplayTitle();
-			for ( unsigned i = 0 ; i<m_vSongs.size() ; ++i )
-			{
-				if (m_vSongs[i]->GetFullDisplayTitle() == GAMESTATE->m_pCurSong->GetFullDisplayTitle())
-				{
-					m_iSongNum = i;
-				}
-			}
-		}
-		
-		//HandleScreenMessage(SM_ChangeSong);
-		CheckChangeSong();
-		//==================
+		ResetSongList();
 
 		break;
 	case SM_BackFromSelectSongs:
-	
+		LOG->Info("back form ScreenSelectMusic");
 		NSMAN->ReportNSSOnOff(3);
 		GAMESTATE->m_bEditing == false;
 		NSMAN->ReportPlayerOptions();
-		LOG->Info("Choose song in ScreenSelectMusic");
 		// CheckChangeSong();
+		ResetSongList();
+
+		if ((strcmp(GAMESTATE->m_pCurSong->m_sMainTitle, NSMAN->m_sMainTitle) == 0) &&
+			(strcmp(GAMESTATE->m_pCurSong->m_sSubTitle, NSMAN->m_sSubTitle) == 0) &&
+			(strcmp(GAMESTATE->m_pCurSong->m_sArtist, NSMAN->m_sArtist) == 0))
+			{
+				//choose the same song
+				break;
+			}
 
 		NSMAN->SelectUserSong ();
+		break;
 	case SM_ReloadConnectPack:
 		GAMESTATE->m_bLoadPackConnect=true;
 		NSMAN->ReportNSSOnOff(2);

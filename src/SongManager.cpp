@@ -231,6 +231,11 @@ void SongManager::LoadStepManiaSongDir( CString sDir, LoadingWindow *ld )
 			if(0 != stricmp( sGroupDirName, "connect" ))
 				continue;
 		}
+		if(GAMESTATE->m_pCurSongGroup!="")
+		{
+			if(0 != stricmp( sGroupDirName, GAMESTATE->m_pCurSongGroup ))
+				continue;
+		}
 		if( 0 == stricmp( sGroupDirName, "cvs" ) )	// the directory called "CVS"
 			continue;		// ignore it
 

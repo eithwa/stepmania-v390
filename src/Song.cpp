@@ -224,17 +224,17 @@ bool Song::LoadFromSongDir( CString sDir )
 		bUseCache = false;
 	if( !PREFSMAN->m_bFastLoad && GetHashForDirectory(m_sSongDir) != uDirHash )
 		bUseCache = false; // this cache is out of date 
-	if(GAMESTATE->m_pCurSongGroup==m_sGroupName)
-	{
-		bUseCache = false;
-	}
+	// if(GAMESTATE->m_pCurSongGroup==m_sGroupName)
+	// {
+	// 	bUseCache = false;
+	// }
 	
 	if( bUseCache )
 	{
-		if(GAMESTATE->m_pCurSongGroup!="")//fast load only load new songs
-		{
-			return false;
-		}
+		// if(GAMESTATE->m_pCurSongGroup!="")//fast load only load new songs
+		// {
+		// 	return false;
+		// }
 //		LOG->Trace( "Loading '%s' from cache file '%s'.", m_sSongDir.c_str(), GetCacheFilePath().c_str() );
 		SMLoader ld;
 		ld.LoadFromSMFile( GetCacheFilePath(), *this, true );
