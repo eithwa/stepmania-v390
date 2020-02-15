@@ -28,6 +28,7 @@
 
 const int NUM_SCORE_DIGITS	=	9;
 const ScreenMessage SM_BackFromSelectSongs	        = ScreenMessage(SM_User+8);
+const ScreenMessage SM_EscFromSelectSongs	        = ScreenMessage(SM_User+10);
 
 #define FOV									THEME->GetMetricF(m_sName,"FOV")
 #define FOV_CENTER_X						THEME->GetMetricF(m_sName,"FOVCenterX")
@@ -950,7 +951,7 @@ void ScreenSelectMusic::Input( const DeviceInput& DeviceI, InputEventType type, 
 				// SCREENMAN->PopTopScreen();
 				GAMESTATE->m_bEditing=false;
 				SCREENMAN->SetNewScreen( "ScreenNetSelectMusic" );
-				SCREENMAN->SendMessageToTopScreen( SM_BackFromSelectSongs );
+				SCREENMAN->SendMessageToTopScreen( SM_EscFromSelectSongs );
 			}
 			else
 			{

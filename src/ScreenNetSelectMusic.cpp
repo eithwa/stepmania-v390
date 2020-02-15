@@ -68,6 +68,7 @@ const ScreenMessage SM_BackFromOpts	= ScreenMessage(SM_User+6);
 const ScreenMessage SM_BackFromReloadSongs			= ScreenMessage(SM_User+7);
 const ScreenMessage SM_BackFromSelectSongs			= ScreenMessage(SM_User+8);
 const ScreenMessage SM_ReloadConnectPack	        = ScreenMessage(SM_User+9);
+const ScreenMessage SM_EscFromSelectSongs			= ScreenMessage(SM_User+10);
 const CString AllGroups			= "[ALL MUSIC]";
 
 ScreenNetSelectMusic::ScreenNetSelectMusic( const CString& sName ) : ScreenWithMenuElements( sName )
@@ -441,6 +442,12 @@ void ScreenNetSelectMusic::CheckChangeSong()
 		m_iSongNum = i + m_vSongs.size();
 		UpdateSongsListPos();
 	}
+	else if(NSMAN->m_sCurMainTitle=="")
+	{
+		UpdateGroupsListPos();
+		m_iSongNum = i + m_vSongs.size();
+		UpdateSongsListPos();
+	}
 }
 void ScreenNetSelectMusic::ResetSongList()
 {
@@ -601,20 +608,21 @@ void ScreenNetSelectMusic::HandleScreenMessage( const ScreenMessage SM )
 	case SM_BackFromSelectSongs:
 		LOG->Info("back form ScreenSelectMusic");
 		NSMAN->ReportNSSOnOff(3);
-		GAMESTATE->m_bEditing == false;
+		GAMESTATE->m_bEditing = false;
 		NSMAN->ReportPlayerOptions();
-		// CheckChangeSong();
 		ResetSongList();
-		CheckChangeSong();
+			
 		if ((strcmp(NSMAN->m_sCurMainTitle, NSMAN->m_sMainTitle) == 0) &&
 			(strcmp(NSMAN->m_sCurSubTitle, NSMAN->m_sSubTitle) == 0) &&
 			(strcmp(NSMAN->m_sCurArtist, NSMAN->m_sArtist) == 0))
+		{
+			//choose the same song
+			if(NSMAN->m_sCurMainTitle!="")
 			{
-				//choose the same song
-				if(NSMAN->m_sCurMainTitle!="")
-					break;
-			}
-
+				CheckChangeSong();
+				break;
+			}	
+		}
 		NSMAN->SelectUserSong ();
 		break;
 	case SM_ReloadConnectPack:
@@ -623,7 +631,14 @@ void ScreenNetSelectMusic::HandleScreenMessage( const ScreenMessage SM )
 		GAMESTATE->m_bEditing = true;
 		// SCREENMAN->PopTopScreen();
 		SCREENMAN->AddNewScreenToTop( "ScreenReloadSongs", SM_BackFromReloadSongs );
-		
+		break;
+	case SM_EscFromSelectSongs:
+		NSMAN->ReportNSSOnOff(3);
+		GAMESTATE->m_bEditing = false;
+		NSMAN->ReportPlayerOptions();
+		// CheckChangeSong();
+		ResetSongList();
+		CheckChangeSong();
 		break;
 	}
 
