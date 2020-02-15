@@ -426,9 +426,9 @@ void ScreenNetSelectMusic::CheckChangeSong()
 			// 	( !m_vSongs[i]->GetTranslitMainTitle().CompareNoCase( GAMESTATE->m_pCurSong->GetTranslitMainTitle() ) ) &&
 			// 	( !m_vSongs[i]->GetTranslitSubTitle().CompareNoCase( GAMESTATE->m_pCurSong->GetTranslitSubTitle() ) ) )
 			// {
-			if ( ( !m_vSongs[i]->GetTranslitArtist().CompareNoCase( NSMAN->m_sArtist ) ) &&
-				( !m_vSongs[i]->GetTranslitMainTitle().CompareNoCase( NSMAN->m_sMainTitle ) ) &&
-				( !m_vSongs[i]->GetTranslitSubTitle().CompareNoCase( NSMAN->m_sSubTitle ) ) )
+			if ( ( !m_vSongs[i]->GetTranslitArtist().CompareNoCase( NSMAN->m_sCurArtist ) ) &&
+				( !m_vSongs[i]->GetTranslitMainTitle().CompareNoCase( NSMAN->m_sCurMainTitle ) ) &&
+				( !m_vSongs[i]->GetTranslitSubTitle().CompareNoCase( NSMAN->m_sCurSubTitle ) ) )
 			{
 				find_song_flag = true;
 				break;
@@ -437,9 +437,11 @@ void ScreenNetSelectMusic::CheckChangeSong()
 	}
 	bool haveSong = j != m_vGroups.size();
 	if(haveSong)
+	{
 		UpdateGroupsListPos();
 		m_iSongNum = i + m_vSongs.size();
 		UpdateSongsListPos();
+	}
 }
 void ScreenNetSelectMusic::ResetSongList()
 {
@@ -462,12 +464,20 @@ void ScreenNetSelectMusic::ResetSongList()
 
 	if (GAMESTATE->m_pCurSong != NULL)
 	{
-		GAMESTATE->m_pCurSong->GetFullDisplayTitle();
-		for ( unsigned i = 0 ; i<m_vSongs.size() ; ++i )
-		{
-			if (m_vSongs[i]->GetFullDisplayTitle() == GAMESTATE->m_pCurSong->GetFullDisplayTitle())
+		bool find_song_flag=false;
+		for(int j=0; j < m_vGroups.size(); j++){
+			if(find_song_flag)
+				break;
+			m_iGroupNum = j;
+			UpdateSongsList();
+			for (int i = 0; i < m_vSongs.size(); ++i)
 			{
-				m_iSongNum = i;
+				if (m_vSongs[i]->GetFullDisplayTitle() == GAMESTATE->m_pCurSong->GetFullDisplayTitle() )
+				{
+					find_song_flag = true;
+					m_iSongNum = i;
+					break;
+				}
 			}
 		}
 	}
@@ -534,9 +544,9 @@ void ScreenNetSelectMusic::HandleScreenMessage( const ScreenMessage SM )
 				UpdateSongsList();
 				for ( i = 0; i < m_vSongs.size(); ++i)
 				{
-					if ( ( !m_vSongs[i]->GetTranslitArtist().CompareNoCase( NSMAN->m_sArtist ) ) &&
-						( !m_vSongs[i]->GetTranslitMainTitle().CompareNoCase( NSMAN->m_sMainTitle ) ) &&
-						( !m_vSongs[i]->GetTranslitSubTitle().CompareNoCase( NSMAN->m_sSubTitle ) ) )
+					if ( ( !m_vSongs[i]->GetTranslitArtist().CompareNoCase( NSMAN->m_sCurArtist ) ) &&
+						( !m_vSongs[i]->GetTranslitMainTitle().CompareNoCase( NSMAN->m_sCurMainTitle ) ) &&
+						( !m_vSongs[i]->GetTranslitSubTitle().CompareNoCase( NSMAN->m_sCurSubTitle ) ) )
 					{
 						find_song_flag = true;
 						break;
@@ -606,6 +616,7 @@ void ScreenNetSelectMusic::HandleScreenMessage( const ScreenMessage SM )
 			}
 
 		NSMAN->SelectUserSong ();
+		CheckChangeSong();
 		break;
 	case SM_ReloadConnectPack:
 		GAMESTATE->m_bLoadPackConnect=true;
@@ -764,6 +775,7 @@ void ScreenNetSelectMusic::MenuStart( PlayerNumber pn )
 		NSMAN->m_sSubTitle = m_vSongs[j]->GetTranslitSubTitle();
 		NSMAN->m_iSelectMode = 2; //Command for user selecting song
 		NSMAN->SelectUserSong ();
+		CheckChangeSong();
 	}
 	else
 		StartSelectedSong();

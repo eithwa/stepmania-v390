@@ -633,6 +633,10 @@ void NetworkSyncManager::ProcessInput()
 				m_sMainTitle = m_packet.ReadNT();
 				m_sArtist = m_packet.ReadNT();
 				m_sSubTitle = m_packet.ReadNT();
+
+				m_sCurMainTitle=m_sMainTitle;
+				m_sCurArtist=m_sArtist;
+				m_sCurSubTitle=m_sSubTitle;
 				SCREENMAN->SendMessageToTopScreen( SM_ChangeSong );
 			}
 			break;
