@@ -230,13 +230,39 @@ ScreenNetSelectMusic::ScreenNetSelectMusic( const CString& sName ) : ScreenWithM
 	UpdateGroupsListPos();
 	UpdateSongsList();
 	
-	if (GAMESTATE->m_pCurSong != NULL)
-		for ( unsigned i = 0 ; i<m_vSongs.size() ; ++i )
-			if (m_vSongs[i]->GetFullDisplayTitle() == GAMESTATE->m_pCurSong->GetFullDisplayTitle())
-				m_iSongNum = i;
+	// if (GAMESTATE->m_pCurSong != NULL)
+	// 	for ( unsigned i = 0 ; i<m_vSongs.size() ; ++i )
+	// 		if (m_vSongs[i]->GetFullDisplayTitle() == GAMESTATE->m_pCurSong->GetFullDisplayTitle())
+	// 			m_iSongNum = i;
+	// UpdateSongsListPos();
 
-	UpdateSongsListPos();
-
+	unsigned i;
+	unsigned j;
+	bool find_song_flag = false;
+	if(GAMESTATE->m_pCurSong==NULL){
+		for(j=0; j < m_vGroups.size(); j++){
+			if(find_song_flag)
+				break;
+			m_iGroupNum = j;
+			UpdateSongsList();
+			for ( i = 0; i < m_vSongs.size(); ++i)
+			{
+				if (m_vSongs[i]->GetFullDisplayTitle() == GAMESTATE->m_pCurSong->GetFullDisplayTitle())
+				{
+					find_song_flag = true;
+					break;
+				}
+			}
+		}
+		bool haveSong = j != m_vGroups.size();
+		if(haveSong)
+		{
+			UpdateGroupsListPos();
+			m_iSongNum = i + m_vSongs.size();
+			UpdateSongsListPos();
+		}
+	}
+	
 	//Load SFX next
 	m_soundChangeOpt.Load( THEME->GetPathToS("ScreenNetSelectMusic change opt"));
 	m_soundChangeSel.Load( THEME->GetPathToS("ScreenNetSelectMusic change sel"));
