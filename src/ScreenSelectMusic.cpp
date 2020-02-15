@@ -948,6 +948,7 @@ void ScreenSelectMusic::Input( const DeviceInput& DeviceI, InputEventType type, 
 			if(GAMESTATE->m_bEditing)
 			{
 				// SCREENMAN->PopTopScreen();
+				GAMESTATE->m_bEditing=false;
 				SCREENMAN->SetNewScreen( "ScreenNetSelectMusic" );
 				SCREENMAN->SendMessageToTopScreen( SM_BackFromSelectSongs );
 			}

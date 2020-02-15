@@ -264,8 +264,8 @@ void GameState::PlayersFinalized()
 
 			if(PREFSMAN->m_ShowDancingCharacters == PrefsManager::CO_STATIC)
 			{
-				// m_pCurCharacters[pn] = GetStaticCharacter(m_PlayerOptions[pn].m_sCharacter);
-				m_pCurCharacters[pn] = GetDefaultCharacter();
+				m_pCurCharacters[pn] = GetStaticCharacter(m_PlayerOptions[pn].m_sCharacter);
+				// m_pCurCharacters[pn] = GetDefaultCharacter();
 			}	
 		}
 		// Only set the sort order if it wasn't already set by a ModeChoice (or by an earlier profile)

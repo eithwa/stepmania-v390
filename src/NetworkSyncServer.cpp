@@ -798,6 +798,14 @@ void StepManiaLanServer::SelectSong(PacketFunctions& Packet, unsigned int client
 			Reply.Write1(NSCCM + NSServerOffset);
 			Reply.WriteNT(message);
 			SendNetPacket(clientNum, Reply);
+
+			Reply.ClearPacket();
+			Reply.Write1(NSCRSG + NSServerOffset);
+			Reply.Write1(1);
+			Reply.WriteNT(CurrentSongInfo.title);
+			Reply.WriteNT(CurrentSongInfo.artist);
+			Reply.WriteNT(CurrentSongInfo.subtitle);
+			SendNetPacket(clientNum, Reply);
 		}
 	}
 

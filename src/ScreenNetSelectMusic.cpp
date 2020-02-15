@@ -212,7 +212,6 @@ ScreenNetSelectMusic::ScreenNetSelectMusic( const CString& sName ) : ScreenWithM
 	SET_XY_AND_ON_COMMAND( m_rectSelection );
 	this->AddChild( &m_rectSelection );
 
-
 	SONGMAN->GetGroupNames( m_vGroups );
 	if (m_vGroups.size()<1)
 	{
@@ -483,7 +482,7 @@ void ScreenNetSelectMusic::ResetSongList()
 	}
 	
 	//HandleScreenMessage(SM_ChangeSong);
-	CheckChangeSong();
+	// CheckChangeSong();
 	//==================
 }
 void ScreenNetSelectMusic::HandleScreenMessage( const ScreenMessage SM )
@@ -606,17 +605,17 @@ void ScreenNetSelectMusic::HandleScreenMessage( const ScreenMessage SM )
 		NSMAN->ReportPlayerOptions();
 		// CheckChangeSong();
 		ResetSongList();
-
-		if ((strcmp(GAMESTATE->m_pCurSong->m_sMainTitle, NSMAN->m_sMainTitle) == 0) &&
-			(strcmp(GAMESTATE->m_pCurSong->m_sSubTitle, NSMAN->m_sSubTitle) == 0) &&
-			(strcmp(GAMESTATE->m_pCurSong->m_sArtist, NSMAN->m_sArtist) == 0))
+		CheckChangeSong();
+		if ((strcmp(NSMAN->m_sCurMainTitle, NSMAN->m_sMainTitle) == 0) &&
+			(strcmp(NSMAN->m_sCurSubTitle, NSMAN->m_sSubTitle) == 0) &&
+			(strcmp(NSMAN->m_sCurArtist, NSMAN->m_sArtist) == 0))
 			{
 				//choose the same song
-				break;
+				if(NSMAN->m_sCurMainTitle!="")
+					break;
 			}
 
 		NSMAN->SelectUserSong ();
-		CheckChangeSong();
 		break;
 	case SM_ReloadConnectPack:
 		GAMESTATE->m_bLoadPackConnect=true;
@@ -767,6 +766,7 @@ void ScreenNetSelectMusic::MenuDown( PlayerNumber pn, const InputEventType type 
 
 void ScreenNetSelectMusic::MenuStart( PlayerNumber pn )
 {
+	GAMESTATE->m_bEditing=false;
 	if ( NSMAN->useSMserver )
 	{
 		int j = m_iSongNum % m_vSongs.size();
@@ -775,7 +775,7 @@ void ScreenNetSelectMusic::MenuStart( PlayerNumber pn )
 		NSMAN->m_sSubTitle = m_vSongs[j]->GetTranslitSubTitle();
 		NSMAN->m_iSelectMode = 2; //Command for user selecting song
 		NSMAN->SelectUserSong ();
-		CheckChangeSong();
+		// CheckChangeSong();
 	}
 	else
 		StartSelectedSong();
