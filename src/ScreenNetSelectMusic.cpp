@@ -631,7 +631,7 @@ void ScreenNetSelectMusic::HandleScreenMessage( const ScreenMessage SM )
 		GAMESTATE->m_bEditing = false;
 		NSMAN->ReportPlayerOptions();
 		ResetSongList();
-
+		CheckChangeSong();
 		break;
 	case SM_BackFromSelectSongs:
 		LOG->Info("back form ScreenSelectMusic");
