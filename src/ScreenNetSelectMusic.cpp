@@ -335,6 +335,11 @@ void ScreenNetSelectMusic::Input( const DeviceInput& DeviceI, const InputEventTy
 			SCREENMAN->AddNewScreenToTop( "ScreenReloadSongs", SM_BackFromReloadSongs );
 		}
 		break;
+	case KEY_F4:
+		{
+		    CheckChangeSong();
+		}
+		break;
 	case KEY_F5:
 		{
 		    NSMAN->ReportNSSOnOff(2);
