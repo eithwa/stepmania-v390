@@ -236,10 +236,11 @@ ScreenNetSelectMusic::ScreenNetSelectMusic( const CString& sName ) : ScreenWithM
 	// 			m_iSongNum = i;
 	// UpdateSongsListPos();
 
-	unsigned i;
-	unsigned j;
+	
+	unsigned i=0;
+	unsigned j=0;
 	bool find_song_flag = false;
-	if(GAMESTATE->m_pCurSong==NULL){
+	if(GAMESTATE->m_pCurSong!=NULL){
 		for(j=0; j < m_vGroups.size(); j++){
 			if(find_song_flag)
 				break;
@@ -254,14 +255,10 @@ ScreenNetSelectMusic::ScreenNetSelectMusic( const CString& sName ) : ScreenWithM
 				}
 			}
 		}
-		bool haveSong = j != m_vGroups.size();
-		if(haveSong)
-		{
-			UpdateGroupsListPos();
-			m_iSongNum = i + m_vSongs.size();
-			UpdateSongsListPos();
-		}
 	}
+	UpdateGroupsListPos();
+	m_iSongNum = i + m_vSongs.size();
+	UpdateSongsListPos();
 	
 	//Load SFX next
 	m_soundChangeOpt.Load( THEME->GetPathToS("ScreenNetSelectMusic change opt"));
