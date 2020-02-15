@@ -76,11 +76,12 @@ void ScreenReloadSongs::Update( float fDeltaTime )
 	{
 		if(GAMESTATE->m_pCurSongGroup=="")
 		{
+			LOG->Info("Fast reload all group");
 			SONGMAN->FastReload(m_LoadingWindow);
 		}
 		else
 		{
-			// LOG->Info("Fast reload group %s",GAMESTATE->m_pCurSongGroup.c_str());
+			LOG->Info("Fast reload group %s",GAMESTATE->m_pCurSongGroup.c_str());
 			SONGMAN->FreeSongsFromGroup(GAMESTATE->m_pCurSongGroup);
 			SONGMAN->InitSongsFromDisk( m_LoadingWindow );
 		}
@@ -106,6 +107,7 @@ void ScreenReloadSongs::Update( float fDeltaTime )
 				GAMESTATE->m_pPreferredCourse = pProfile->m_lastCourse.ToCourse();
 		}
 		//===========
+		GAMESTATE->m_pCurSongGroup="";
 		GAMESTATE->PlayersFinalized();
 		SCREENMAN->SetNewScreen( "ScreenSelectMusic" );
 		GAMESTATE->m_bfastLoadInScreenSelectMusic=false;
