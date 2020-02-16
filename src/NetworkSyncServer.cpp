@@ -658,8 +658,12 @@ void StepManiaLanServer::AnalizeChat(PacketFunctions &Packet, const unsigned int
 		{
 			CString name = message.substr(message.find(" ")+1);
 			int client_index = atof( name.c_str() );
-			if(Client[clientNum]->hasSong == true &&clientNum!=client_index)//the player have song and another doesnt
+			if(Client[clientNum]->hasSong == true 
+			  && clientNum!=client_index 
+			  && client_index<Client.size())//the player have song and another doesnt
 			{
+				if(Client[client_index]->hasSong == true)// already have song
+					return;
 				//CString host_ip = Client[clientNum]->clientSocket.getIp();
 				CString host_ip = Packet.fromIp;
 				Reply.ClearPacket();
