@@ -766,8 +766,8 @@ void NetworkSyncManager::ProcessInput()
 
 					fp = fopen(file_dir, "rb");
 					file_size = GetFileLength(fp)/1024;//(kbs)
-					CString file_size_;
 					file_size_.Format("%d", file_size);
+					fclose(fp);
 				}
 				LOG->Info("file_size_ %s",file_size_.c_str());
 				m_packet.ClearPacket();
