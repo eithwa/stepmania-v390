@@ -34,8 +34,8 @@ fork from [stepmania](https://github.com/stepmania/stepmania)
 
 # Compile Problem
 + error LNK2005: _jpeg_read_scanlines already defined in D3dx8.lib(
-jdapistd.obj)[link](https://sourceforge.net/p/stepmania/mailman/message/11726793/)
-  - difficulty d3dx8.lib[link](https://realmike.org/blog/projects/directx-8-borland-libs-download-page/)
+jdapistd.obj)[Reference](https://sourceforge.net/p/stepmania/mailman/stepmania-devs/thread/705b0a760510041738p15616559oeb9c46a038aa22be%40mail.gmail.com/#msg11726793)
+  - Solution: Use a specific version of d3dx8.lib[Download link](https://realmike.org/blog/projects/directx-8-borland-libs-download-page/)
 
 # Reference
 + [stepmania v390release](https://github.com/stepmania/stepmania/releases/tag/v390release)
